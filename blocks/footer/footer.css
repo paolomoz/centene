@@ -37,9 +37,11 @@ footer #footer-right {
   position: relative;
 }
 
+footer .f-logo-row,
+footer .f-rich-row { margin: 0 -10px; }
 footer .f-logo-col { width: 50%; padding: 0 10px; }
 footer .f-logo-col p { margin: 0; line-height: 0; }
-footer .f-logo-col img { width: 270px; height: 66px; }
+footer .f-logo-col img { display: block; width: 270px; height: 66px; }
 footer .f-richtext { padding: 0 10px; }
 
 /* the source has an empty spacer paragraph before the second statement link
