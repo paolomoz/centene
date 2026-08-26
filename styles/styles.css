@@ -70,6 +70,12 @@
   src: local('Arial');
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   display: none;
   margin: 0;

@@ -43,6 +43,9 @@
 .feature.members h2 span { font-size: 32px; color: #fff; }
 .feature.members .lede { color: #fff; margin: 0 0 40px; font-size: 18px; }
 
+/* source renders both feature images at 450px wide */
+.feature .f-media img { width: 450px; height: auto; }
+
 /* source keeps the 87px left margin at mobile too (image overflows) */
 .feature.members .f-media img { margin: 30px 0 0 87px; }
 
