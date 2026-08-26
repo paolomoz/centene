@@ -1,0 +1,45 @@
+/* panel — photo band + translucent white box; lifted from centene.com CSS. */
+
+.panel {
+  padding: 25px 10% 20px;
+  display: flow-root;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.panel .row { margin: 0 -10px; }
+.panel .row::after { content: ""; display: table; clear: both; }
+.panel .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
+.panel .colctrl-50 { float: left; width: 50%; padding: 0 10px; }
+.panel .colctrl-60 { float: left; width: 66.66667%; padding: 0 10px; }
+.panel .richtext,
+.panel .richtext-spacer,
+.panel .button { display: flow-root; }
+.panel .richtext-spacer p { min-height: 51.42px; margin: 0 0 20px; font-size: 18px; }
+
+.panel .inner-box {
+  padding: 25px 10% 20px;
+  border-radius: 6px;
+  background-image: url('/img/centene/90whitebox.png');
+  background-size: cover;
+}
+
+.panel h2 {
+  font-size: 32px;
+  line-height: 1.1;
+  color: #333;
+  margin: 40px 0 20px;
+}
+
+.panel h2 .brand-color { color: var(--brand-color); }
+.panel .lede { color: #000; margin: 0 0 40px; font-size: 18px; }
+
+/* the source page's 71.42px white spacer band precedes the investing panel */
+.panel.investing { margin-top: var(--spacer-band); }
+
+@media (width <= 767px) {
+  .panel .colctrl-40,
+  .panel .colctrl-50,
+  .panel .colctrl-60 { width: 100%; float: none; }
+}

@@ -1,0 +1,28 @@
+<svg id="Layer_1" 
+    data-name="Layer 1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 86.76 86.76">
+    <defs>
+        <style>
+      .cls-1 {
+        fill: none;
+        stroke: #6E6E6E;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-2 {
+        fill: #6E6E6E;
+      }
+        </style>
+    </defs>
+    <title>icon-search</title>
+    <circle class="cls-1" 
+        cx="31.98" 
+        cy="31.98" 
+        r="27.23" 
+        transform="translate(-13.5 31.73) rotate(-45)"/>
+    <path class="cls-2" 
+        d="M86.55,78.35a1.54,1.54,0,0,1,0,2.17l-6.06,6.06a1.54,1.54,0,0,1-2.17,0L47.79,56a1.54,1.54,0,0,1,0-2.17l6.06-6.06a1.54,1.54,0,0,1,2.17,0Z" 
+        transform="translate(-0.25 -0.25)"/>
+</svg>

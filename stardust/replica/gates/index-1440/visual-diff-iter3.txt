@@ -1,0 +1,457 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff/
+
+build red flags (advisory): 
+  • STRETCHED IMAGE: doctor-mom-daughter-visit.jpg natural 950x600 → rendered 362x204. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: food-basket-produce.jpg natural 950x600 → rendered 362x204. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: mom-on-laptop-child-nearby.jpg natural 950x600 → rendered 362x204. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 6105,
+  "textLen": 4000,
+  "images": [
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "222x55",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "doctor-mom-daughter-visit.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "food-basket-produce.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "mom-on-laptop-child-nearby.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "serving-our-members-medicare.png",
+    "natural": "1137x1136",
+    "rendered": "450x450",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "investor-relations-handshake-centene.png",
+    "natural": "1160x1158",
+    "rendered": "450x449",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "270x66",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "This is Centene",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Stories",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Community Health Centers Mat",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Food Is Medicine Programs: How C",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meeting Consumers Where They Are",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Serving our Members",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "29px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Investing in Communities",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Careers",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Life at Centene",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Prioritizing Corporate Sustainab",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Centene Investor Relations",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "External Link",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1150,
+    "left": 145
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "equalHeight",
+    "width": 922,
+    "left": 259
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "featured-news-3-col",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "clearfix",
+    "width": 864,
+    "left": 288
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "equalHeight",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 6125,
+  "textLen": 3956,
+  "images": [
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "222x55",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "doctor-mom-daughter-visit.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "food-basket-produce.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "mom-on-laptop-child-nearby.jpg",
+    "natural": "950x600",
+    "rendered": "362x204",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "serving-our-members-medicare.png",
+    "natural": "1137x1136",
+    "rendered": "450x450",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "investor-relations-handshake-centene.png",
+    "natural": "1160x1158",
+    "rendered": "450x449",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "270x66",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "This is Centene",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured Stories",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Community Health Centers Mat",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Food Is Medicine Programs: How C",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Meeting Consumers Where They Are",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "23px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Serving our Members",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "29px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Investing in Communities",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Careers",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Life at Centene",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Prioritizing Corporate Sustainab",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Centene Investor Relations",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "External Link",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero-row",
+    "width": 1150,
+    "left": 145
+   },
+   {
+    "sel": "richtext-spacer",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "equal-height",
+    "width": 922,
+    "left": 259
+   },
+   {
+    "sel": "richtext-spacer",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "richtext",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "news-grid",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "richtext-outside",
+    "width": 864,
+    "left": 288
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "equal-height",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   }
+  ]
+ }
+}

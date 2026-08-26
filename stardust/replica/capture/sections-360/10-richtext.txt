@@ -1,0 +1,5 @@
+div.richtext  [@18,10282,324,71 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px 18px | bor:0px none rgb(88, 89, 91)]
+  div.clearfix  [@18,10282,324,71 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+    div.clearfix  [@18,10282,324,0 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+    p  [@18,10282,324,51 | Roboto 18px/25.7143px w400 | c:rgb(88, 89, 91) | m:0px 0px 20px | bor:0px none rgb(88, 89, 91)]
+      br  [@18,10284,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]

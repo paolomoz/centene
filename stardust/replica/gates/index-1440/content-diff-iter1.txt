@@ -1,0 +1,26 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 102 text nodes — 5 headings, 0 eyebrows, 69 CTAs, 28 body; 9 img
+  build: 104 text nodes — 5 headings, 0 eyebrows, 69 CTAs, 30 body; 7 img
+
+Findings: 20 (2 structural 🔴)
+  🔴 MISSING CTA: source cta "Join our Team External Link" → https://jobs.centene.com/us/en has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Visit Investor Site External Link" → https://investors.centene.com/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build cta "Join our TeamExternal Link" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Visit Investor SiteExternal Link" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY: source body "Toggle navigation"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "let t = new Date().getTime(); function loadJS(FI"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "// Set the options globally // to make LazyLoad "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "centene:homepage"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "true"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "3"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "newest"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Toggle submenu" has no source source — Build copy with no source — invented/placeholder; confirm intended.

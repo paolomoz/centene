@@ -1,0 +1,51 @@
+/* careers — Careers / Life at Centene band; lifted from centene.com CSS. */
+
+.careers {
+  padding: 25px 10% 20px;
+  display: flow-root;
+}
+
+.careers .equal-height { display: flex; }
+.careers .equal-height > .colctrl-50 { width: 50%; padding: 40px 10px; }
+
+.careers .row { margin: 0 -10px; }
+.careers .row::after { content: ""; display: table; clear: both; }
+.careers .pad-col > .colctrl-50 { float: left; width: 50%; padding: 40px 10px; }
+.careers .richtext,
+.careers .richtext-spacer,
+.careers .button { display: flow-root; }
+.careers .richtext-spacer p { min-height: 51.42px; margin: 0 0 20px; font-size: 18px; }
+
+.careers .inner-box { padding: 25px 10% 20px; }
+
+.careers .navy2-box { background-color: var(--navy); color: #fff; }
+.careers .cerise-box { background-color: var(--cerise); color: #fff; }
+
+.careers .navy2-box h2,
+.careers .cerise-box h2 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 40px 0 20px;
+}
+
+.careers .lede { color: #fff; margin: 0 0 40px; font-size: 18px; }
+.careers .lede.short { margin: 0 0 20px; }
+
+.careers .photo-box {
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+/* the source measures a 20px leading line box in these pull divs */
+.careers .pull-up-45 { margin: 0 0 45px; padding-top: 20px; }
+.careers .pull-up-50 { margin: 0 0 50px; padding-top: 20px; }
+.careers .pull-neg-80 { margin: 0 0 -80px; }
+.careers .br-only { font-size: 14px; }
+
+@media (width <= 767px) {
+  .careers .equal-height { display: block; }
+  .careers .equal-height > .colctrl-50,
+  .careers .pad-col > .colctrl-50 { width: 100%; float: none; }
+}

@@ -1,0 +1,6 @@
+{"at":"2026-08-26T15:20:00Z","skill":"stardust:replica","phase":"extract","event":"start"}
+{"at":"2026-08-26T15:35:00Z","skill":"stardust:replica","phase":"extract","event":"end","pages":1}
+{"at":"2026-08-26T16:05:00Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","mode":"bounded-single","register":"empty"}
+{"at":"2026-08-26T16:30:00Z","skill":"stardust:replica","phase":"recreate","event":"start","archetype":"index"}
+{"at":"2026-08-26T17:20:00Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","archetype":"index","result":{"w1440":{"pixelPct":0.69,"heightDelta":0},"w360":{"pixelPct":1.5,"heightDelta":-1},"structuralRed":0,"pass":true}}
+{"at":"2026-08-26T17:45:00Z","skill":"stardust:replica","phase":"approval","event":"end","archetype":"index","approvedBy":"user"}

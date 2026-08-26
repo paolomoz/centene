@@ -1,0 +1,64 @@
+/* feature — 2-col text+image bands; values lifted from centene.com CSS (replica). */
+
+.feature {
+  padding: 25px 10% 20px;
+  display: flow-root;
+}
+
+.feature.members {
+  background-image: url('/img/centene/purple-background-2025.png');
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.feature.investors {
+  background-color: var(--leaf);
+  color: #fff;
+
+  /* source: 71.42px white spacer bands before and after this band */
+  margin-top: var(--spacer-band);
+  margin-bottom: var(--spacer-band);
+}
+
+.feature .row { margin: 0 -10px; }
+.feature .row::after { content: ""; display: table; clear: both; }
+.feature .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
+.feature .colctrl-50 { float: left; width: 50%; padding: 0 10px; }
+.feature .colctrl-60 { float: left; width: 66.66667%; padding: 0 10px; }
+.feature .richtext,
+.feature .richtext-spacer,
+.feature .button { display: flow-root; }
+.feature .richtext-spacer p { min-height: 51.42px; margin: 0 0 20px; font-size: 18px; }
+.feature .spacer-line p { min-height: 26px; margin: 0 0 20px; font-size: 18px; }
+
+/* members (purple) */
+.feature.members h2 {
+  font-size: 29px;
+  line-height: 1.1;
+  color: #333;
+  margin: 20px 0;
+}
+
+.feature.members h2 span { font-size: 32px; color: #fff; }
+.feature.members .lede { color: #fff; margin: 0 0 40px; font-size: 18px; }
+
+/* source keeps the 87px left margin at mobile too (image overflows) */
+.feature.members .f-media img { margin: 30px 0 0 87px; }
+
+/* investors (leaf) */
+.feature.investors h2 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 50px 0 20px;
+}
+
+.feature.investors .lede { color: #fff; margin: 0 54px 20px 0; font-size: 18px; }
+.feature.investors .f-media img { margin: 30px 0 0; }
+
+@media (width <= 767px) {
+  .feature .colctrl-40,
+  .feature .colctrl-50,
+  .feature .colctrl-60 { width: 100%; float: none; }
+}

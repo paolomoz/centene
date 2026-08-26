@@ -1,0 +1,8 @@
+
+Content diff @ 360px (profile "generic", root "main")
+  source: 102 text nodes — 5 headings, 0 eyebrows, 69 CTAs, 28 body; 9 img
+  build: 100 text nodes — 5 headings, 0 eyebrows, 69 CTAs, 26 body; 7 img
+
+Findings: 2 (0 structural 🔴)
+  🟡 MISSING BODY: source body "let t = new Date().getTime(); function loadJS(FI"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "// Set the options globally // to make LazyLoad "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.

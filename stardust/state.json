@@ -1,0 +1,54 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "input": "https://www.centene.com/ --single",
+    "mode": "bounded-single",
+    "at": "2026-08-26T15:35:00Z"
+  },
+  "site": {
+    "originUrl": "https://www.centene.com/",
+    "extractedAt": "2026-08-26T15:33:57.961Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.centene.com/",
+      "type": "landing",
+      "status": "approved",
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "extracted",
+          "at": "2026-08-26T15:33:57.961Z"
+        },
+        {
+          "event": "prototyped",
+          "at": "2026-08-26T17:20:00Z",
+          "gate": {
+            "360": {
+              "pixelPct": 1.5,
+              "heightDelta": -1,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.69,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "regime": "prototype"
+          }
+        },
+        {
+          "event": "approved",
+          "at": "2026-08-26T17:45:00Z",
+          "approvedBy": "user"
+        }
+      ]
+    }
+  ]
+}

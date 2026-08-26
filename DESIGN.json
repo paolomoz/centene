@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "mode": "bounded-single",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/capture/tokens.json"
+    ]
+  },
+  "colors": {
+    "primary": "#00598c",
+    "primaryHover": "#003356",
+    "link": "#006dc1",
+    "text": "#58595b",
+    "textDark": "#333333",
+    "textBlack": "#000000",
+    "surface": "#ffffff",
+    "surfaceAlt": "#dcddde",
+    "accentNavy": "#262768",
+    "accentCerise": "#cb187d",
+    "accentLeaf": "#2c8641",
+    "cardBorder": "#949494",
+    "cardBorderHover": "#4c8fb6"
+  },
+  "typography": {
+    "body": "Roboto 14px/20px 400 (content), Arial 14px/20px 400 (body/footer)",
+    "heading": "Roboto 500 (h1 32/48, h2 32/35.2, h3 23/32)",
+    "paragraph": "Roboto 18px/25.7143px 400",
+    "nav": "Roboto-Italic 16px/22.8571px 700",
+    "button": "1.3em (18.2px/26px) on .btn-default"
+  },
+  "rounded": {
+    "button": "4px",
+    "searchInput": "17px",
+    "newsCard": "12px",
+    "whiteBoxCard": "6px"
+  },
+  "spacing": {
+    "sectionPadding": "25px 10% 20px",
+    "colGutter": "0 10px (row -10px)",
+    "equalHeightColPadding": "40px 10px"
+  },
+  "components": [
+    "site-header (brand bar + centered italic nav + hidden mega-menu)",
+    "homepage hero banner (bg image + absolute text col)",
+    "background-color-box section (solid / image / translucent-white-box variants)",
+    "news card grid (r12 bordered cards, 16:9 image, underlined title, date)",
+    "btn-default variants: medicaid-blue-btn, medicaid-white-btn, white-btn",
+    "site-footer (navy, logo, italic tagline, dual nav, FA social row)"
+  ],
+  "extensions": {
+    "note": "bounded-single replica spec; module catalog and site-wide voice are --prep products and intentionally absent",
+    "tokensFile": "stardust/replica/capture/tokens.json"
+  }
+}

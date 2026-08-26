@@ -1,20 +1,118 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer — centene.com chrome; geometry lifted from the source site's CSS. */
+
+footer .footer > div { max-width: none; margin: 0; padding: 0; }
+
+footer .f-root {
+  background: var(--brand-color);
+  color: #fff;
+  padding: 56px 24.5px;
+  font-family: var(--footer-font-family);
+  font-size: 14px;
+  line-height: var(--line-height);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .f-root a { color: #fff; }
+footer .f-root p { margin: 0 0 10px; }
+
+footer .f-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-footer .footer p {
-  margin: 0;
+footer .f-row::after { content: ""; display: table; clear: both; }
+
+footer #footer-left {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  margin-bottom: 21px;
+  position: relative;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer #footer-right {
+  float: left;
+  width: 41.66667%;
+  margin-left: 8.33333%;
+  padding: 0 10px;
+  position: relative;
+}
+
+footer .f-logo-col { width: 50%; padding: 0 10px; }
+footer .f-logo-col img { width: 270px; height: 66px; }
+footer .f-richtext { padding: 0 10px; }
+
+footer .f-richtext em {
+  font-family: var(--italic-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+footer .f-richtext a {
+  font-family: var(--bold-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer nav.footer-nav { margin: 0 0 21px; padding: 0 10px; display: flow-root; }
+
+footer nav.f-top a {
+  display: inline-block;
+  padding: 0 8px 0 0;
+  margin: 0 8px 16px 0;
+  font-family: var(--regular-font-family);
+  font-size: 16px;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+footer nav.f-top a:last-child { padding: 0; margin: 0 0 16px; }
+
+footer nav.f-list a {
+  display: block;
+  margin: 0 0 16px;
+  font-family: var(--regular-font-family);
+  font-size: 16px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+footer .footer-nav i.link-external {
+  font-size: 16px;
+  margin-left: 0.3em;
+}
+
+footer .socialWrap {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 0 10px;
+}
+
+footer .socialWrap a { display: inline-block; margin-right: 13px; }
+
+footer .socialWrap em {
+  display: inline-block;
+  font-family: 'Font Awesome 6 Brands', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+footer .fa-linkedin::before { content: '\f08c'; }
+footer .fa-facebook-square::before { content: '\f082'; }
+footer .fa-square-x-twitter::before { content: '\e61a'; }
+footer .fa-youtube-square::before { content: '\f431'; }
+
+footer .copyright { padding: 0 10px; }
+
+/* 20px white tail below the footer (mirrors the source document) */
+footer .doc-tail { height: 20px; background: #fff; }
+
+@media (width <= 767px) {
+  footer #footer-left,
+  footer #footer-right { float: none; width: 100%; margin-left: 0; }
+  footer .f-logo-col { width: 100%; }
 }

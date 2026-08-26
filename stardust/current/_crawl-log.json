@@ -1,0 +1,20 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 4
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "Full render verified: hero headline/photo, 7 content sections, footer all present. Cookie-consent bar captured as fixed overlay band mid-screenshot (dismissal selector did not match Decline/Accept bar); gate captures will use --dismiss."
+    }
+  ]
+}

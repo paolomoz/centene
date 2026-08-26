@@ -1,0 +1,54 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "againstInput": "https://www.centene.com/ (bounded-single: home page pilot)",
+    "writtenAt": "2026-08-26T17:20:00Z"
+  },
+  "pageType": "landing",
+  "archetype": "index",
+  "regime": "prototype",
+  "breakpoints": {
+    "1440": {
+      "iterations": 3,
+      "instrumentInvalidatedRuns": [
+        "content-diff run 1 measured a stale localhost:8791 server serving another project's prototype (RWE); server killed, run excluded",
+        "pixel iter1 (32.35%) measured the live consent banner repeated at all 7 chunk seams — stitch-shot's default dismissal does not match centene's cookieconsent widget; fixed with --consent 'a.cc-btn.cc-dismiss', run excluded"
+      ],
+      "result": { "structuralRed": 0, "visualFlags": "3 justified", "pixelPct": 0.69, "heightDelta": 0, "pass": true },
+      "justified": [
+        { "probe": "content", "flag": "🟡 MISSING BODY ×2 (inline script text)", "why": "live page carries analytics/lazyload inline <script> text inside <main>; non-visible tooling code, not content", "permanent": true },
+        { "probe": "visual", "flag": "STRETCHED IMAGE ×3 (news cards)", "why": "mirrors live: the live site cover-crops 950x600 story images into 16:9 card boxes (live renders 362x204 identically)", "permanent": true }
+      ],
+      "residuals": [
+        { "band": "y 4500–5000", "pct": "≈3-5 (was 8.8 pre-hero-fix)", "cause": "anti-aliasing/blend noise on translucent 90whitebox card over lake photo; crops visually identical", "flaggedFor": "none" }
+      ],
+      "captureState": [
+        { "what": "live document carries a 20px blank band below the footer (dismissed consent banner residual container); replicated as .doc-tail", "where": "page tail" },
+        { "what": "YouTube embed (This is Centene) replicated as same-src iframe", "where": "sec1" }
+      ]
+    },
+    "360": {
+      "iterations": 2,
+      "result": { "structuralRed": 0, "visualFlags": "3 justified (same cover-crop mirrors)", "pixelPct": 1.5, "heightDelta": -1, "pass": true },
+      "justified": [
+        { "probe": "content", "flag": "🟡 MISSING BODY ×2 (inline script text)", "why": "same as 1440", "permanent": true }
+      ],
+      "residuals": [
+        { "band": "y 11000–11500", "pct": 7.8, "cause": "footer content sits ~1px lower than live (fractional line-height rounding accumulation); thin 16px white-on-navy text double-prints at 1px offset", "flaggedFor": "none" }
+      ],
+      "captureState": [
+        { "what": "member/serving image keeps live's 87px left margin at 360 and overflows the viewport right edge — replicated as captured", "where": "sec3" }
+      ]
+    }
+  },
+  "interactionParity": [
+    { "surface": "desktop nav", "probed": "hover on first-lvl link: submenu stays display:none on live; link underlines only", "implemented": "canon a:hover underline (no submenu JS at desktop — matches live)" },
+    { "surface": "mobile drawer", "probed": "hamburger click slides #navbar and search wrapper from x:-360 to x:0", "implemented": "bounded JS toggling .drawer-open + CSS transition left .3s" },
+    { "surface": "drawer submenus", "probed": "chevron buttons expand nav-layer-second (bg #00598c) / third (bg #fafafa)", "implemented": "dropdown-btn click toggles .submenu-open" },
+    { "surface": "news cards", "probed": "live CSS: border-color #4c8fb6 on hover/focus-within, transition .2s", "implemented": "same rule lifted verbatim" },
+    { "surface": "buttons", "probed": "live CSS: blue btn hover #003356, white btn hover #f4f4f4 / bordered variant #ececec+#999", "implemented": "same rules lifted verbatim" }
+  ],
+  "fonts": {
+    "note": "all faces self-hosted from captured live files (Roboto woff2 400/500/700 open-licensed; site's own Roboto-Regular/Bold/Italic TTFs; Font Awesome 6 Free/Brands). No commercial-kit substitution needed."
+  }
+}

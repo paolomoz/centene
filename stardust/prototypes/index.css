@@ -1,0 +1,118 @@
+/* Per-archetype layer — centene.com home (index).
+   Values lifted from source CSS / computed styles; see tokens.json. */
+
+/* ---------- hero ---------- */
+.homepagebanner .hero-img-mobile { display: none; }
+.homepagebanner .homepagebanner-body { position: relative; background-color: var(--light-gray); }
+.homepagebanner .hero-img {
+  position: relative; overflow: hidden; height: 540px; margin: 0; padding: 0;
+  background: #fff url('media/2025-centene-homepage-banner-copy-2.jpg') center / cover no-repeat;
+}
+.homepagebanner .hero-text {
+  position: absolute; top: 50%; bottom: -20%; transform: translateY(-50%);
+  width: 100%; margin: 0; background: transparent;
+}
+.homepagebanner .hero-container { width: 1170px; max-width: 100%; margin: 0 auto; padding: 0 25px; }
+.homepagebanner .hero-row { margin: 0 -15px; }
+.homepagebanner .hero-col { position: relative; float: left; width: 25%; padding: 0 10px; }
+.homepagebanner .hero-content { display: flow-root; }
+.homepagebanner .hero-content > div { margin: 0 21px 0 0; }
+.homepagebanner .hero-content p { font-size: 34px; line-height: 1.42857143; color: #fff; margin: 0 0 20px; }
+
+@media (max-width: 779px) {
+  .homepagebanner .hero-img-mobile {
+    display: block; position: relative; overflow: hidden; height: 56.25vw; margin: 0; padding: 0;
+    background: url('media/2025-centene-homepage-banner-copy-2.jpg') 60% -20% / cover no-repeat;
+  }
+  .homepagebanner .hero-img { background: var(--brand-color-global); }
+  .homepagebanner .hero-col { float: none; width: 100%; }
+}
+
+/* ---------- section 1: This is Centene ---------- */
+.sec-gray { background-color: var(--light-gray); color: #000; }
+.sec-gray .content-p, .sec-gray p { color: #000; }
+.navy-box { background-color: var(--brand-color-global); color: #fff; }
+.navy-box h1 { margin: 20px 0 10px 40px; color: #fff; }
+.navy-box .lede { margin: 0 0 20px 40px; color: #fff; }
+.youtube-row { margin: 0 -10px; }
+.youtube-col { position: relative; padding: 0 10px; }
+.youtubeEmbed { position: relative; max-width: 100%; padding-top: 56.25%; }
+.youtubeEmbed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 100%; border: 0; }
+
+/* ---------- section 2: Featured Stories ---------- */
+.sec-news h2 { margin: 20px 0 20px 10px; line-height: 1.1; }
+.news-grid { display: flex; flex-wrap: wrap; }
+.news-col { position: relative; width: 33.33333%; padding: 0 10px; margin: 0 0 30px; }
+.column-box {
+  height: 100%; display: flex; flex-direction: column; overflow: hidden;
+  background: #fff; border-radius: 12px; border: 1px solid var(--card-border);
+  box-shadow: 0 3px 6px 0 rgba(26,26,26,.12), 0 0 1px 0 rgba(26,26,26,.08);
+  padding: 0; margin: 0; transition: border-color .2s;
+}
+.column-box:hover, .column-box:focus-within { border: 1px solid var(--card-border-hover); }
+.column-box > a { display: block; overflow: hidden; }
+.column-box > a:hover, .column-box > a:focus { text-decoration: none; }
+.news-card-image {
+  width: 100%; aspect-ratio: 1.77777778; background: #e0e0e0; padding: 0; margin: 0;
+  border-radius: 12px 12px 0 0; display: flex; align-items: center; justify-content: center;
+}
+.news-card-image img { width: 100%; height: 100%; object-fit: cover; }
+h3.news-card-title {
+  font-size: 23px; line-height: 32px; letter-spacing: 0; color: var(--brand-color-global);
+  vertical-align: middle; text-decoration: underline; padding: 8px 16px 4px; margin: 0;
+}
+.news-card-content {
+  padding: 0 16px 12px; display: flex; flex-direction: column; flex: 1;
+  color: #4d4d4d; font-size: 16px; line-height: 24px;
+}
+.pagination-container { min-height: 1px; }
+.hidden-config { display: none; }
+.sec-news .cta-row .colctrl-40, .sec-news .cta-row .colctrl-60 { padding: 0 10px; }
+@media (max-width: 767px) {
+  .news-col { width: 100%; }
+}
+
+/* ---------- section 3: Serving our Members (purple) ---------- */
+.sec-purple { background-image: url('media/purple-background-2025.png'); }
+.sec-purple h2 { font-size: 29px; line-height: 1.1; color: #333; margin: 20px 0; }
+.sec-purple h2 span { font-size: 32px; color: #fff; }
+.sec-purple .lede { color: #fff; margin: 0 0 40px; }
+/* live keeps the 87px left margin at mobile too (image overflows viewport) */
+.sec-purple .member-img { margin: 30px 0 0 87px; }
+.spacer-line p { min-height: 26px; margin: 0 0 20px; }
+
+/* ---------- outside spacer richtexts ---------- */
+.richtext-outside { margin: 0 20%; }
+
+/* ---------- section 4: Investing in Communities ---------- */
+.sec-truck { background-image: url('media/Ambetter_Truck_2_300k.jpg'); }
+.white-box { background-image: url('media/90whitebox.png'); background-size: cover; }
+.white-box h2 { margin: 40px 0 20px; color: #333; line-height: 1.1; }
+.white-box .lede { color: #000; margin: 0 0 40px; }
+
+/* ---------- section 5: Careers / Life at Centene ---------- */
+.navy2-box { background-color: var(--navy); color: #fff; }
+.navy2-box h2, .cerise-box h2 { color: #fff; margin: 40px 0 20px; line-height: 1.1; }
+.navy2-box .lede, .cerise-box .lede { color: #fff; margin: 0 0 40px; }
+.cerise-box { background-color: var(--cerise); color: #fff; }
+.cerise-box .lede { margin: 0 0 20px; }
+.sec-careers-img { background-image: url('media/careers-centeam.jpg'); }
+.sec-dei-img { background-image: url('media/DEI_option1-1.jpg'); }
+/* live divs measure a 20px leading line box before the spacer <p>
+   (lift: div h71 with p at +20); replicated as padding-top */
+.pull-up-45 { margin: 0 0 45px; padding-top: 20px; }
+.pull-up-50 { margin: 0 0 50px; padding-top: 20px; }
+.pull-neg-80 { margin: 0 0 -80px; }
+.br-only { }
+
+/* ---------- section 6: Sustainability ---------- */
+.sec-sustain { background-image: url('media/Sustainability_banner_5_300k.jpg'); }
+
+/* ---------- section 7: Investor Relations (leaf) ---------- */
+.sec-leaf { background-color: var(--leaf); color: #fff; }
+.sec-leaf h2 { color: #fff; margin: 50px 0 20px; line-height: 1.1; }
+.sec-leaf .lede { color: #fff; margin: 0 54px 20px 0; }
+.sec-leaf .investor-img { margin: 30px 0 0; }
+
+/* ---------- document tail (live: 20px blank band below footer) ---------- */
+.doc-tail { height: 20px; background: #fff; }

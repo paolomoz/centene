@@ -1,0 +1,14 @@
+div.homepagebanner  [@0,145,1440,540 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.hero-img-mobile  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bgi:url("https://www.centene.com/content/dam/centenedotcom/banners/2025-centene-homepage-banner-copy-2.jpg") | bor:0px none rgb(88, 89, 91)]
+  div.homepagebanner-body  [@0,145,1440,540 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bg:rgb(220, 221, 222) | bor:0px none rgb(88, 89, 91)]
+    div.hero-img.white-background  [@0,145,1440,540 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | bgi:url("https://www.centene.com/content/dam/centenedotcom/banners/2025-centene-homepage-banner-copy-2.jpg") | bor:0px none rgb(51, 51, 51)]
+    div.hero-text.bg-navy  [@0,226,1440,378 | absolute | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+      div.container.darktxt  [@135,226,1170,311 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 25px | m:0px 135px | mw:100% | bor:0px none rgb(88, 89, 91)]
+        div.row  [@145,226,1150,311 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px -15px | bor:0px none rgb(88, 89, 91)]
+          div.col-xs-24.col-sm-8.col-md-6  [@145,226,288,311 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 10px | bor:0px none rgb(88, 89, 91)]
+            div.homepagebanner-content  [@155,226,268,311 | flow-root | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              div  [@155,226,247,291 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px 21px 0px 0px | bor:0px none rgb(88, 89, 91)]
+                p  [@155,226,247,291 | Roboto 34px/48.5714px w400 | c:rgb(255, 255, 255) | m:0px 0px 20px | bor:0px none rgb(255, 255, 255)]
+                  «Transforming the health of the communities we serve,»
+                  b  [@155,376,205,137 | inline | Roboto 34px/48.5714px w700 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                    «one person at a time.»
