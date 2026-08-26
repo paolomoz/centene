@@ -122,7 +122,8 @@ footer .copyright { padding: 0 10px; }
 footer .doc-tail { height: 20px; background: #fff; }
 
 @media (width <= 767px) {
+  /* flow-root replaces the float BFC so child margins stay contained */
   footer #footer-left,
-  footer #footer-right { float: none; width: 100%; margin-left: 0; }
+  footer #footer-right { float: none; display: flow-root; width: 100%; margin-left: 0; }
   footer .f-logo-col { width: 100%; }
 }
