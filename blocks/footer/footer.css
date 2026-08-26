@@ -1,7 +1,5 @@
 /* footer — centene.com chrome; geometry lifted from the source site's CSS. */
 
-footer .footer > div { max-width: none; margin: 0; padding: 0; }
-
 footer .f-root {
   background: var(--brand-color);
   color: #fff;
@@ -46,7 +44,7 @@ footer .f-richtext { padding: 0 10px; }
 
 /* the source has an empty spacer paragraph before the second statement link
    (dropped by the pipeline) — modeled as margin on a text-preceded link row */
-footer .f-richtext p:not(:has(a, em)) + p:has(a) { margin-top: 30px; }
+footer .f-richtext p:not(:has(a, em)) + p:has(a) { margin-top: 40px; }
 
 footer .f-richtext em {
   font-family: var(--italic-font-family);
@@ -54,6 +52,10 @@ footer .f-richtext em {
   font-weight: 400;
   font-style: italic;
 }
+
+/* the source tagline carries a trailing 35.7px line box (br + nbsp inside
+   the 25px span) which the pipeline strips from authored content */
+footer .f-richtext p:first-child { padding-bottom: 35.71px; }
 
 footer .f-richtext a {
   font-family: var(--bold-font-family);
