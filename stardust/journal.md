@@ -53,3 +53,15 @@ Boilerplate content seeded + published; both aem.page and aem.live live.
 archetype → EDS blocks + DA content; published-origin gate re-run against
 main--centene--paolomoz.aem.page. Inline analytics script text (2 🟡) and
 the 20px doc tail are documented capture-state items.
+
+## 2026-08-26 (later) — deploy phase (stardust:deploy)
+
+Prototype approved by user; converted to vanilla-EDS blocks (hero, intro,
+cards, feature x2 variants, panel x2 variants, careers + centene chrome),
+content authored as DA body fragments, 12 editorial images uploaded to DA
+media, published to main--centene--paolomoz.aem.page + .aem.live.
+
+Published-origin gate (vs live centene.com): 1440 → 3.63%/Δ1px, 360 →
+2.97%/Δ0px, CLS 0.0009, all delivered checks green. Fix rounds: global
+border-box, picture-wrapper descender, footer specificity/whitespace/BFC
+class (5 lessons in eds-conversion-log.md).

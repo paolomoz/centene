@@ -17,10 +17,10 @@
       "slug": "index",
       "url": "https://www.centene.com/",
       "type": "landing",
-      "status": "approved",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/index.json",
       "prototypePath": "stardust/prototypes/index-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "content/index.html",
       "history": [
         {
           "event": "extracted",
@@ -47,6 +47,23 @@
           "event": "approved",
           "at": "2026-08-26T17:45:00Z",
           "approvedBy": "user"
+        },
+        {
+          "event": "migrated",
+          "at": "2026-08-26T22:30:00Z",
+          "origin": "https://main--centene--paolomoz.aem.page/",
+          "gate": {
+            "360": {
+              "pixelPct": 2.97,
+              "heightDelta": 0
+            },
+            "1440": {
+              "pixelPct": 3.63,
+              "heightDelta": 1
+            },
+            "regime": "published-origin",
+            "cls": 0.0009
+          }
         }
       ]
     }

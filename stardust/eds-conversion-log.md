@@ -63,3 +63,35 @@ breakpoint). Content: prototype ↔ published (`content-diff --profile eds`)
 — live-main includes chrome while EDS main does not, so the
 live-vs-published content scope is asymmetric by construction; the
 prototype↔live equivalence was proven in the prototype gate.
+
+## Deploy outcome (2026-08-26)
+
+Published: `/` `/nav` `/footer` on main--centene--paolomoz.aem.page (+ .aem.live).
+
+Gates: davids-model-lint 0 red (3 justified 🟡: hero + intro are bespoke
+compositions, not default-content candidates; the cards link-only trailing
+row is the deliberate View-All CTA band). block-roundtrip closed on every
+block. qa-gate PASS (schema repeat expectations for the 4 template-slotted
+sections cleared — the clusterer had misread layout columns as authorable
+units; their compositions are fixed and verified by roundtrip).
+
+Published-origin gate: 1440 → 3.63% pixel / Δ1px; 360 → 2.97% / Δ0px;
+CLS 0.0009. Content CTAs 8/8; chrome verified by direct link-count probe
+(the prototype↔published content-diff's 62 reds are pure scope asymmetry:
+the live site nests chrome inside <main>, EDS does not).
+
+Pipeline lessons this run:
+1. The EDS boilerplate ships NO global border-box — a bootstrap-style
+   %-width + padding grid silently wraps every column (cards 2+1, features
+   stacked, footer wrapped) while typography still looks right. One
+   foundation rule fixed +1731px of document height.
+2. The pipeline strips authored dimensions and wraps imgs in <picture>:
+   pin editorial image sizes in block CSS and zero the picture wrapper's
+   inline baseline descender (line-height: 0 on the image paragraph).
+3. The pipeline drops whitespace-only content (<p>&nbsp;</p>, trailing
+   <br>&nbsp;): model those live line boxes as block CSS (padding-bottom /
+   margins), never as authored whitespace.
+4. Own-goal to avoid: a `footer .footer > div` reset out-specifies
+   `footer .f-root` — don't ship a wrapper reset you then have to beat.
+5. Floats create BFCs that contain child margins; when a media query
+   un-floats columns, add display: flow-root to keep the containment.
