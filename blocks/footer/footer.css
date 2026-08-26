@@ -20,6 +20,7 @@ footer .f-container {
   padding: 0 10px;
 }
 
+footer .f-row { margin: 0 -10px; }
 footer .f-row::after { content: ""; display: table; clear: both; }
 
 footer #footer-left {
@@ -39,8 +40,13 @@ footer #footer-right {
 }
 
 footer .f-logo-col { width: 50%; padding: 0 10px; }
+footer .f-logo-col p { margin: 0; line-height: 0; }
 footer .f-logo-col img { width: 270px; height: 66px; }
 footer .f-richtext { padding: 0 10px; }
+
+/* the source has an empty spacer paragraph before the second statement link
+   (dropped by the pipeline) — modeled as margin on a text-preceded link row */
+footer .f-richtext p:not(:has(a, em)) + p:has(a) { margin-top: 30px; }
 
 footer .f-richtext em {
   font-family: var(--italic-font-family);
@@ -56,7 +62,7 @@ footer .f-richtext a {
   text-transform: uppercase;
 }
 
-footer nav.footer-nav { margin: 0 0 21px; padding: 0 10px; display: flow-root; }
+footer nav.footer-nav { margin: 0 0 21px; padding: 0 10px; }
 
 footer nav.f-top a {
   display: inline-block;
