@@ -1,0 +1,33 @@
+div  [@0,193,1440,1057 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.news-container  [@202,193,1037,1057 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px 201.609px 0px 201.594px | mw:72% | bor:0px none rgb(88, 89, 91)]
+    div.news-header  [@202,193,1037,120 | flex:column | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:48px 0px | bor:0px none rgb(88, 89, 91) | gap:16px]
+      h1.news-title  [@202,193,1037,80 | Roboto 32px/40px w500 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+        «Achieving Whole Health through Behavioral and Physical Health Integration»
+      p.date  [@202,289,1037,24 | Roboto 18px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+        «07/28/2021»
+    img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/doctor-patient-information.jpg alt="doctor reviewing medical information with patient"  [@202,361,700,470 | inline | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | mw:100% | bor:0px none rgb(88, 89, 91)]
+    div.news-desc  [@202,879,1037,371 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:48px 0px | bor:0px none rgb(88, 89, 91)]
+      p  [@202,879,1037,96 | Roboto-Regular 18px/24px w400 | c:rgb(77, 77, 77) | m:0px 0px 20px | bor:0px none rgb(77, 77, 77)]
+        «The likelihood of co-occurrences of physical and mental health conditions increases, as does the adverse effect on the individual’s quality of life if not treated concurrently. To address the whole he»
+      p  [@202,995,1037,48 | Roboto-Regular 18px/24px w400 | c:rgb(77, 77, 77) | m:0px 0px 20px | bor:0px none rgb(77, 77, 77)]
+        «A recent white paper from Centene Advanced Behavioral Health outlines current initiatives and recommendations for integrating care in order to help individuals achieve whole health. Recommendations fo»
+      ul  [@202,1063,1037,60 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 0px 0px 40px | m:0px 0px 10px | bor:0px none rgb(88, 89, 91)]
+        li  [@242,1063,997,20 | list-item | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+          «Addressing condition-specific coordination through innovative programs»
+        li  [@242,1083,997,20 | list-item | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+          «Collaborating with providers for better patient care coordination»
+        li  [@242,1103,997,20 | list-item | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+          «Advocating for Federal and state policy that supports whole health»
+      p  [@202,1133,1037,25 | Roboto-Regular 18px/24px w400 | c:rgb(77, 77, 77) | m:0px 0px 20px | bor:0px none rgb(77, 77, 77)]
+        a href=/content/dam/centenedotcom/documents/CABH_Integrated_Care_Whitepaper_508.pdf  [@202,1134,1013,21 | inline | Roboto-Regular 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+          «Open a PDF of the full white paper, titled "Achieving Whole Health Through Behavioral and Physical Health Integration" (PDF)»
+          img src=https://www.centene.com/content/dam/centenedotcom/icons/PDF_24.png alt="pdf icon"  [@202,1134,24,24 | inline | Roboto-Regular 18px/24px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+      p  [@202,1178,1037,72 | Roboto-Regular 18px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+        «Centene's commitment to integrated care aligns with our holistic health and wellness focus as we continue to advance our clinical programs that address both behavioral and physical health conditions. »
+        a href=/news/creating-young-women-choosing-action-program-with-ywca-usa.html  [@202,1203,1000,45 | inline | Roboto-Regular 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+          «community partnerships focused on whole-person care»
+        a href=https://investors.centene.com/2021-05-18-Centene-Addresses-Behavioral-Health-Challenges-Amid-National-Mental-Health-Month  [@442,1227,281,21 | inline | Roboto-Regular 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+          «investments in behavioral health»
+          i.link-external.fa.fa-external-link  [@705,1228,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+          span.sr-only  [@722,1225,1,1 | absolute | Roboto-Regular 18px/24px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+            «External Link»

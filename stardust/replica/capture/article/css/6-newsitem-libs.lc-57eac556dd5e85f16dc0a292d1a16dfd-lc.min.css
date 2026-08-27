@@ -1,0 +1,15 @@
+.centenedotcomnewsitem .news-container{margin:auto;max-width:72%}
+.centenedotcomnewsitem .news-container .richtext{width:auto}
+.centenedotcomnewsitem .news-item-container{max-width:800px;margin:0 auto}
+.centenedotcomnewsitem .news-item-container .richtext{width:auto}
+.centenedotcomnewsitem .news-header{display:flex;flex-direction:column;gap:16px;margin:48px 0}
+.centenedotcomnewsitem .news-header .news-title{line-height:40px;margin-top:0;margin-bottom:0;text-transform:none}
+.centenedotcomnewsitem .news-header p.news-tag{font-family:"Roboto-Bold",sans-serif;text-transform:none;font-size:18px;line-height:24px;margin:0;letter-spacing:normal}
+.centenedotcomnewsitem .news-header p.date{color:#4d4d4d;font-size:18px;line-height:24px;text-transform:none;margin:0}
+.centenedotcomnewsitem .news-desc{margin:48px auto}
+.centenedotcomnewsitem .news-desc p{word-wrap:break-word;font-family:"Roboto-Regular",sans-serif;font-size:18px;line-height:24px;color:#4d4d4d;text-transform:none}
+.centenedotcomnewsitem .news-desc p:last-child{margin-bottom:0}
+.centenedotcomnewsitem .news-desc p a{text-decoration:underline}
+.centenedotcomnewsitem .news-desc p a:hover{text-shadow:-0.1px -0.1px 0 #005986,0.1px .1px #005986}
+@media(max-width:1199px){.centenedotcomnewsitem .news-container{max-width:95%}
+}

@@ -52,8 +52,19 @@ const header = mainKids.find(c => c.tag === 'header');
 if (header) fs.writeFileSync(path.join(outDir, 'header.txt'), render(header));
 const footer = mainKids.find(c => c.tag === 'footer');
 if (footer) fs.writeFileSync(path.join(outDir, 'footer.txt'), render(footer));
-const content = mainKids.find(c => (c.cls || '').includes('rd-ambetter-content'));
-const grid = content.children[0].children[1].children[0]; // section > rd-content(tall) > aem-Grid
+const content = mainKids.find(c => (c.cls || '').includes('rd-ambetter-content')) || mainKids.find(c => c.tag === 'div' && c.children);
+// walk for the widest aem-Grid whose children are the section blocks
+let grid = null;
+const walk = (n) => {
+  if (!grid && (n.cls || '').includes('aem-Grid') && (n.children || []).length > 1) { grid = n; return; }
+  (n.children || []).forEach(walk);
+};
+walk(content);
+if (!grid) { // fallback: deepest single-chain descent to a multi-child node
+  let n = content;
+  while (n.children && n.children.length === 1) n = n.children[0];
+  grid = n;
+}
 grid.children.forEach((sec, i) => {
   const name = (sec.cls || '').split(/\s+/)[0] || sec.tag;
   fs.writeFileSync(path.join(outDir, `${String(i).padStart(2, '0')}-${name}.txt`), render(sec));

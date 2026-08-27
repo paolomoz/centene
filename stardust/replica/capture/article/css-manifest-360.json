@@ -1,0 +1,57 @@
+[
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-site.lc-8adac9cc17e95ed7bf00940577fd38ce-lc.min.css",
+  "file": "stardust/replica/capture/article/css/0-clientlibs-site.lc-8adac9cc17e95ed7bf00940577fd38ce-lc.min.css",
+  "bytes": 370366
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/shared/components/content/universal-banner/clientlibs-universal-banner.lc-cb165bff7606799918efa65f374f220e-lc.min.css",
+  "file": "stardust/replica/capture/article/css/1-clientlibs-universal-banner.lc-cb165bff7606799918efa65f374f220e-lc.min.css",
+  "bytes": 125
+ },
+ {
+  "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto&display=swap",
+  "file": "stardust/replica/capture/article/css/2-css",
+  "bytes": 8478
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main.lc-14b4de86b379d9847ce17a6edb2b5c0f-lc.min.css",
+  "file": "stardust/replica/capture/article/css/3-clientlibs-main.lc-14b4de86b379d9847ce17a6edb2b5c0f-lc.min.css",
+  "bytes": 610254
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/topcookiebanner/topcookiebanner-libs.lc-f692ef399b454cc223bcca7825cc5f06-lc.min.css",
+  "file": "stardust/replica/capture/article/css/4-topcookiebanner-libs.lc-f692ef399b454cc223bcca7825cc5f06-lc.min.css",
+  "bytes": 751
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/structure/product/centenedotcom/mainnavigation/mainnavigation-libs.lc-a34a006bfe831c5f2129618d14213b4c-lc.min.css",
+  "file": "stardust/replica/capture/article/css/5-mainnavigation-libs.lc-a34a006bfe831c5f2129618d14213b4c-lc.min.css",
+  "bytes": 10876
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/centenedotcom/newsitem/newsitem-libs.lc-57eac556dd5e85f16dc0a292d1a16dfd-lc.min.css",
+  "file": "stardust/replica/capture/article/css/6-newsitem-libs.lc-57eac556dd5e85f16dc0a292d1a16dfd-lc.min.css",
+  "bytes": 1290
+ },
+ {
+  "url": "https://interceptor.cnc-interceptor.com/static/css/main.css",
+  "file": "stardust/replica/capture/article/css/7-main.css",
+  "bytes": 31
+ },
+ {
+  "url": "https://interceptor.cnc-interceptor.com/static/css/index-C6CIGGfX.css",
+  "file": "stardust/replica/capture/article/css/8-index-C6CIGGfX.css",
+  "bytes": 24814
+ },
+ {
+  "url": "https://cdn-prod.securiti.ai/consent/cookie-consent-latest.css",
+  "file": "stardust/replica/capture/article/css/9-cookie-consent-latest.css",
+  "bytes": 81236
+ },
+ {
+  "url": "https://www.gstatic.com/recaptcha/releases/GY0lZUzQQgeA0wDxVI-SQEZw/styles__ltr.css",
+  "file": "stardust/replica/capture/article/css/10-styles__ltr.css",
+  "bytes": 82980
+ }
+]

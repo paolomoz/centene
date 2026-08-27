@@ -1,0 +1,62 @@
+/* Per-archetype layer — article (/news/<slug>). Values lifted from live CSS. */
+
+[data-section="article"] { background: #fff; }
+
+.news-container {
+  max-width: 72%;
+  margin: 0 auto;
+}
+
+.news-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 48px 0;
+}
+
+h1.news-title {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--brand-color-global);
+  margin: 0;
+}
+
+.news-header .date {
+  font-size: 18px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin: 0;
+}
+
+.news-container > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.news-desc { margin: 48px 0; }
+
+.news-desc p {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4d4d4d;
+  margin: 0 0 20px;
+}
+
+.news-desc p:last-child { margin: 0; }
+
+.news-desc ul {
+  padding: 0 0 0 40px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.news-desc a { color: var(--brand-color-global); }
+.news-desc a img { vertical-align: middle; }
+.news-desc i.link-external { font-size: 18px; line-height: 18px; }
+
+@media (max-width: 767px) {
+  .news-container { max-width: 95%; }
+}

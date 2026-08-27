@@ -1,7 +1,7 @@
 /* Interior-archetype shared layer (subnav, breadcrumb, sky hero, type spans).
    Extracted from the gated content archetype; consumed by state/article/etc. */
 
-#navbar { position: relative; }
+@media (min-width: 768px) { #navbar { position: relative; } }
 .nav-l1 > li.current { position: static; }
 .nav-l1 > li.current > .control-wrapper { position: static; }
 .nav-l1 > li.current ul.nav-l2 {

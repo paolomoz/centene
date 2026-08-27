@@ -154,9 +154,9 @@
       "slug": "news-achieving-whole-health-through-behavioral-and-physical-health-html",
       "url": "https://www.centene.com/news/achieving-whole-health-through-behavioral-and-physical-health.html",
       "type": "article",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/news-achieving-whole-health-through-behavioral-and-physical-health-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/article-proposed.html",
       "migratedPath": null
     },
     {

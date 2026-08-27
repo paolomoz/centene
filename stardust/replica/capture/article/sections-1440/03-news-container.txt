@@ -1,0 +1,1 @@
+div.news-container  [@202,1298,1037,0 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px 201.609px 0px 201.594px | mw:72% | bor:0px none rgb(88, 89, 91)]
