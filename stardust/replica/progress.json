@@ -245,6 +245,47 @@
         "prototype body strings injected mechanically from the captured page JSON (importer-equivalent transport)",
         "interior.css #navbar position rule must be desktop-scoped or it defeats canon mobile off-canvas (header 415 vs 92)"
       ]
+    },
+    "listing": {
+      "prototype": "stardust/prototypes/listing-proposed.html",
+      "against": "https://www.centene.com/news.html",
+      "regime": "prototype",
+      "siblings": 2,
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "pixelPct": 3.78,
+          "heightDelta": -1,
+          "structuralRed": 0,
+          "pass": true
+        },
+        "1440": {
+          "iterations": 2,
+          "pixelPct": 1.28,
+          "heightDelta": 1,
+          "structuralRed": 0,
+          "pass": true
+        }
+      },
+      "newModules": [
+        "featured-story hero (748px img + linked h2 + teaser)",
+        "news card grid 9-up wrapping",
+        "press-release rail (IR live-data embed FROZEN at capture — permanent residual class)",
+        "site-btn (Roboto-Medium pill, #005986)",
+        "image-link tiles (colored, 142px @360, no tile margins @360)"
+      ],
+      "residuals": [
+        {
+          "where": "press-release rail",
+          "cause": "external IR feed — nondeterministic live data frozen at capture time",
+          "flaggedFor": "delivery (Tier-3 static per dynamic-blocks-map)"
+        }
+      ],
+      "notes": [
+        "breadcrumb clearance: live float layout prevents sibling margin collapse before featurednews (40px gap, not 20)",
+        "lift text fields truncate at 200 chars — always pull long strings from the page JSON body",
+        "Press Releases heading uses the br-BEFORE-text idiom like h1s"
+      ]
     }
   }
 }

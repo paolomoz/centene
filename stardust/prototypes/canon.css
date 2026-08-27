@@ -8,6 +8,7 @@
 @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700; font-display: swap; src: url('fonts/roboto-700.woff2') format('woff2'); }
 @font-face { font-family: 'Roboto-Regular'; src: url('fonts/Roboto-Regular.ttf') format('truetype'); font-display: swap; }
 @font-face { font-family: 'Roboto-Bold'; src: url('fonts/Roboto-Bold.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Roboto-Medium'; src: url('fonts/roboto-500.woff2') format('woff2'); font-weight: 400 500; font-display: swap; }
 @font-face { font-family: 'Roboto-Italic'; src: url('fonts/Roboto-RegularItalic.ttf') format('truetype'); font-display: swap; }
 @font-face { font-family: 'Font Awesome 6 Free'; font-style: normal; font-weight: 900; font-display: block; src: url('fonts/fa-solid-900.woff2') format('woff2'); }
 @font-face { font-family: 'Font Awesome 6 Brands'; font-style: normal; font-weight: 400; font-display: block; src: url('fonts/fa-brands-400.woff2') format('woff2'); }

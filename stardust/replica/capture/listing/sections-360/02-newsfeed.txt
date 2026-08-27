@@ -1,0 +1,14 @@
+div.newsfeed  [@36,5972,288,1 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+  div#news-results.featured-news-3-col.row-eq-height  [@36,5972,288,0 | flex | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+  div.pagination-container  [@36,5972,288,1 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+    div.row  [@26,5972,308,1 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | m:0px -10px | bor:0px none rgb(51, 51, 51)]
+      div.col-sm-24.col-md-24  [@26,5972,308,1 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | bor:0px none rgb(51, 51, 51)]
+        nav  [@36,5972,288,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          ul.search-pagination.pagination  [@0,0,0,0 | HIDDEN | none | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:20px 0px 50px | r:4px | bor:0px none rgb(51, 51, 51)]
+  div#news-tags.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+  div#hide-tags.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+    «false»
+  div#page-size.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+    «10»
+  div#order-by.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+    «newest»

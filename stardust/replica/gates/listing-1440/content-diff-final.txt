@@ -1,0 +1,8 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 106 text nodes — 0 headings, 0 eyebrows, 73 CTAs, 33 body; 14 img
+  build: 106 text nodes — 0 headings, 0 eyebrows, 73 CTAs, 33 body; 12 img
+
+Findings: 2 (1 structural 🔴)
+  🔴 MISSING CTA: source cta "Search Press ReleasesExternal Link" → https://investors.centene.com/press-releases has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build cta "Search Press Releases External Link" has no source source — Unexpected node with no source.

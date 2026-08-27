@@ -1,0 +1,19 @@
+A 360x7131  B 360x7624  → compare 360x7131, height delta -493px
+  ⚠ height delta -493px — overlap-crop hides the tail; fix heights before trusting the %
+differing pixels: 346622 / 2567160 = 13.50%  (threshold 10%) → FAIL
+diff image: stardust/replica/gates/listing-360/diff-iter1.png
+  y      0–500: 0.0%
+  y    500–1000: 0.7%
+  y   1000–1500: 0.0%
+  y   1500–2000: 1.1%
+  y   2000–2500: 0.0%
+  y   2500–3000: 0.8%
+  y   3000–3500: 0.0%
+  y   3500–4000: 3.0%
+  y   4000–4500: 11.0%
+  y   4500–5000: 4.4%
+  y   5000–5500: 4.4%
+  y   5500–6000: 62.5%  ◄◄ hot band
+  y   6000–6500: 88.0%  ◄◄ hot band
+  y   6500–7000: 11.4%
+  y   7000–7131: 19.9%  ◄◄ hot band

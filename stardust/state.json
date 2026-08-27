@@ -388,9 +388,9 @@
       "slug": "news-html",
       "url": "https://www.centene.com/news.html",
       "type": "listing",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/news-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/listing-proposed.html",
       "migratedPath": null
     },
     {

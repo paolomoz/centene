@@ -1,0 +1,93 @@
+/* Per-archetype layer — listing (/news.html). Values lifted from live CSS. */
+
+.listing .l-cols { margin: 0; }
+.listing .colctrl-60, .listing .colctrl-40 { padding: 0 10px; }
+
+.listing h1 { color: #333; }
+.listing h1 .brand-color { color: var(--brand-color-global); }
+
+/* featured story */
+/* live floats give the breadcrumb clearance, so its 20px bottom margin does
+   not collapse with this 20px top margin — replicated as 40px */
+.featurednews { margin: 40px 0 0; display: flow-root; }
+.featurednews img { width: 100%; height: auto; border-radius: 8px; }
+.featurednews h2 { font-size: 29px; line-height: 1.1; margin: 20px 0 10px; color: #00aeef; }
+.featurednews h2 a { color: var(--brand-color-global); }
+.featurednews p { font-size: 18px; margin: 0 0 20px; color: #333; }
+
+.listing .sec-heading h2 { margin: 20px 0; }
+
+/* card grid (shared news-card pattern, 3-up, wrapping) */
+.listing .news-grid { display: flex; flex-wrap: wrap; }
+.listing .news-col { position: relative; width: 33.33333%; padding: 0 10px; margin: 0 0 30px; }
+.listing .column-box {
+  height: 100%; display: flex; flex-direction: column; overflow: hidden;
+  background: #fff; border-radius: 12px; border: 1px solid var(--card-border);
+  box-shadow: 0 3px 6px 0 rgb(26 26 26 / 12%), 0 0 1px 0 rgb(26 26 26 / 8%);
+  transition: border-color .2s;
+}
+.listing .column-box:hover, .listing .column-box:focus-within { border: 1px solid var(--card-border-hover); }
+.listing .column-box > a { display: block; overflow: hidden; }
+.listing .column-box > a:hover { text-decoration: none; }
+.listing .news-card-image {
+  width: 100%; aspect-ratio: 1.77777778; background: #e0e0e0;
+  border-radius: 12px 12px 0 0; display: flex; align-items: center; justify-content: center;
+}
+.listing .news-card-image img { width: 100%; height: 100%; object-fit: cover; }
+.listing h3.news-card-title {
+  font-size: 23px; line-height: 32px; color: var(--brand-color-global);
+  text-decoration: underline; padding: 8px 16px 4px; margin: 0;
+}
+.listing .news-card-content {
+  padding: 0 16px 12px; display: flex; flex-direction: column; flex: 1;
+  color: #4d4d4d; font-size: 16px; line-height: 24px;
+}
+.listing .pagination-container { min-height: 1px; }
+.listing .hidden-config { display: none; }
+
+/* press-release rail */
+.pressreleases { display: flow-root; }
+#news-list p { font-size: 18px; line-height: 24px; margin: 18px 0; color: #333; }
+#news-list p.event { margin: 10px 0 20px; }
+#news-list p.event a { font-family: 'Roboto-Bold', sans-serif; font-weight: 400; color: var(--brand-color-global); }
+
+a.site-btn {
+  display: inline-block; font-family: 'Roboto-Medium', sans-serif; font-weight: 400;
+  font-size: 18.2px; line-height: 26px; color: #005986; background: #fff;
+  padding: 5px 15px; margin: 0 0 10px; border: 2px solid #005986; border-radius: 20px;
+  text-align: center; white-space: normal;
+}
+a.site-btn i.link-external { font-size: 18.2px; line-height: 18.2px; }
+
+/* image link tiles */
+.imagelinktiles { padding: 0 20px; }
+.tiles-row { margin: 0 -10px; }
+.image-link-tile { float: left; width: 33.33333%; padding: 0 10px; position: relative; }
+.image-link-tile a { display: block; margin: 0 0 20px; }
+.image-link-tile a:hover { text-decoration: none; }
+.image-link-tile .img-container { position: relative; height: 245px; border-radius: 5px; }
+.centenedotcom-leaf-background { background-color: var(--leaf); }
+.centenedotcom-sky-background { background-color: #00aeef; }
+.centenedotcom-plum-background { background-color: #5c2f92; }
+.centenedotcom-carrot-background { background-color: #cc401d; }
+.centenedotcom-cerise-background { background-color: var(--cerise); }
+.image-link-tile .title {
+  position: absolute; top: 20px; left: 20px; width: 66.66667%;
+  font-size: 30px; line-height: 36px; font-weight: 400; color: #fff; margin: 0 0 20px;
+}
+.image-link-tile .short-button {
+  position: absolute; right: 20px; bottom: 20px; width: 58px; height: 40px;
+  border: 2px solid #fff; border-radius: 20px;
+}
+.image-link-tile .arrow { position: absolute; left: 16px; top: 5px; width: 21px; height: 21px; padding: 5px; }
+.image-link-tile .arrow svg { width: 13px; height: 23px; display: block; margin: 0 auto; }
+
+/* trailing empty feed */
+.tail-feed .news-grid { display: flex; }
+
+@media (max-width: 767px) {
+  .listing .news-col { width: 100%; }
+  .image-link-tile { float: none; width: 100%; }
+  .image-link-tile .img-container { height: 142px; }
+  .image-link-tile a { margin: 0; }
+}

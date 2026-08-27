@@ -1,0 +1,190 @@
+div.columncontrol  [@144,170,1152,2185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+  div.container  [@144,170,1152,2185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | bor:0px none rgb(51, 51, 51)]
+    div.row.shared-column-control  [@144,170,1152,2185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | m:0px -10px | bor:0px none rgb(51, 51, 51)]
+      div  [@144,170,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.colctrl-60  [@144,170,768,2185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | bor:0px none rgb(51, 51, 51)]
+          div  [@154,170,748,2185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+            div.richtext  [@154,170,748,78 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div.clearfix  [@154,170,748,78 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.clearfix  [@154,170,748,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                h1  [@154,190,748,48 | Roboto 32px/48px w500 | c:rgb(51, 51, 51) | m:20px 0px 10px | bor:0px none rgb(51, 51, 51)]
+                  span.rd-t-32  [@154,195,0,38 | inline | Roboto 32px/48px w500 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                  span.brand-color  [@154,195,80,38 | inline | Roboto 32px/48px w500 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                    «News»
+            div.breadcrumb  [@154,248,748,36 | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | p:8px 0px | m:0px 0px 20px | r:4px | bor:0px none rgb(51, 51, 51)]
+              nav#breadcrumb-6df131ca1b.cmp-breadcrumb.dark  [@154,256,748,20 | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                ol.cmp-breadcrumb__list  [@154,256,748,20 | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                  li.cmp-breadcrumb__item  [@154,258,48,16 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    a.cmp-breadcrumb__item-link href=/  [@154,258,41,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      span  [@154,258,38,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+                        «Home»
+                    meta  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                  li.cmp-breadcrumb__item.cmp-breadcrumb__item--active  [@206,258,35,16 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    span  [@206,258,35,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+                      «News»
+                    meta  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+            div.featurednews  [@154,324,748,689 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | m:20px 0px 0px | bor:0px none rgb(51, 51, 51)]
+              a href=/news/how-community-health-centers-expand-access-to-care.html  [@154,551,748,16 | inline | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/doctor-mom-daughter-visit.jpg alt="Doctor at a community health center providing care to a child and parent "  [@154,324,748,472 | inline | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | r:8px | bor:0px none rgb(0, 89, 140)]
+              h2  [@154,816,748,64 | Roboto 29px/31.9px w500 | c:rgb(0, 174, 239) | m:20px 0px 10px | bor:0px none rgb(0, 174, 239)]
+                a href=/news/how-community-health-centers-expand-access-to-care.html  [@154,814,683,66 | inline | Roboto 29px/31.9px w500 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                  «Why Community Health Centers Matter to Millions of Americans»
+              p  [@154,890,748,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                «Community health centers are a vital access point for millions of Americans, including Medicaid beneficiaries and uninsured individuals. During National Health Center Week, learn how Centene is workin»
+            div.richtext  [@154,1013,748,77 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div.clearfix.en  [@154,1013,748,77 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.clearfix  [@154,1013,748,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                h2  [@154,1033,748,37 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+                  span.centene-h3  [@154,1031,247,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+                    span.brand-color  [@154,1031,247,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Featured Stories»
+            div.newsfeed  [@154,1090,748,1265 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div#news-results.featured-news-3-col.row-eq-height  [@154,1090,748,1264 | flex | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@154,1090,249,338 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@164,1090,229,338 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/food-is-medicine-centene-improves-care.html  [@165,1091,227,300 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@165,1091,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/food-basket-produce.jpg alt="Woman carrying two bags of fresh fruits and vegetables"  [@165,1091,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@165,1219,227,172 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Food Is Medicine Programs: How Centene Helps Members Improve Health»
+                    div.news-card-content  [@165,1391,227,36 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@181,1391,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «July 22, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@403,1090,249,338 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@413,1090,229,338 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/what-is-ichra-flexible-healthcare-coverage.html  [@414,1091,227,300 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@414,1091,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/mom-on-laptop-child-nearby.jpg alt="mother typing on laptop with a child in the background"  [@414,1091,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@414,1219,227,172 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Meeting Consumers Where They Are: What We’re Learning from ICHRA»
+                    div.news-card-content  [@414,1391,227,36 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@430,1391,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «July 15, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@653,1090,249,338 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@663,1090,229,338 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/centene-foster-care-centers-of-excellence-support-children.html  [@664,1091,227,300 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@664,1091,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/care-manager-with-child-toys-assessment.jpg alt="Care manager interacting with a child during play with educational toys"  [@664,1091,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@664,1219,227,172 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «How Centene is Putting Kids First with a Better Model for Foster Care Health»
+                    div.news-card-content  [@664,1391,227,36 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@680,1391,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «June 10, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@154,1458,249,402 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@164,1458,229,402 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/mets-program-behavioral-healthcare-coordination.html  [@165,1459,227,300 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@165,1459,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/woman-holding-child.jpg alt="Woman holding her child"  [@165,1459,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@165,1587,227,172 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Centene’s METS Program: Behavioral Healthcare Coordination»
+                    div.news-card-content  [@165,1759,227,100 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@181,1759,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «May 27, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@403,1458,249,402 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@413,1458,229,402 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/policy-recommendation-cms-nutrition-access-medicare-members.html  [@414,1459,227,364 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@414,1459,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/featured-stories/woman-selecting-produce-farmers-market.jpg alt="woman shopping for fresh produce at a farmers market"  [@414,1459,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@414,1587,227,236 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Access to Nutrition for Medicare Advantage Members: A Policy Update CMS Can Make Now»
+                    div.news-card-content  [@414,1823,227,36 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@430,1823,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «May 11, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@653,1458,249,402 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@663,1458,229,402 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/centene-nurse-advice-line-24-7-support-nurses-week.html  [@664,1459,227,236 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@664,1459,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/woman-desktop-small-hirez.jpg alt="Nurse Advice Line team member working at a computer with dual monitors and a headset in a non‑clinical workspace"  [@664,1459,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@664,1587,227,108 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Centene's Nurse Advice Line: 24/7 Nurse‑Led Support»
+                    div.news-card-content  [@664,1695,227,164 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@680,1695,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «May 6, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@154,1890,249,434 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@164,1890,229,434 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/prior-authorization-advancing-standardization-ahip.html  [@165,1891,227,396 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@165,1891,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/priorauth_graphic_v2.jpg alt="Four physicians in scrubs standing together and looking at a tablet"  [@165,1891,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@165,2019,227,268 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Continuing Progress on Prior Authorization: Advancing Standardization Through Provider‑Informed Collaboration»
+                    div.news-card-content  [@165,2287,227,36 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@181,2287,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «April 24, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@403,1890,249,434 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@413,1890,229,434 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/black-maternal-health-week.html  [@414,1891,227,268 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@414,1891,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/black-mother-baby.jpg alt="Mother holding a baby"  [@414,1891,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@414,2019,227,140 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Working Together to Improve Black Maternal Health Outcomes»
+                    div.news-card-content  [@414,2159,227,164 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@430,2159,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «April 13, 2026»
+                div.col-xs-24.col-sm-12.col-md-8.mar-bottom-30  [@653,1890,249,434 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | m:0px 0px 30px | bor:0px none rgb(51, 51, 51)]
+                  div.column-box  [@663,1890,229,434 | flex:column | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:12px | bor:1px solid rgb(148, 148, 148) | sh:rgba(26, 26, 26, 0.12) 0px 3px 6px 0px, rgba(26, 26, 26, 0.08) 0px 0px 1px 0px]
+                    a href=/news/ahip-partnerships-prior-authorization_progress.html  [@664,1891,227,332 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      div.news-card-image  [@664,1891,227,128 | flex | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | bg:rgb(224, 224, 224) | r:12px 12px 0px 0px | bor:0px none rgb(0, 89, 140) | jc:center | ai:center]
+                        img src=https://www.centene.com/content/dam/centenedotcom/images/ahip2.jpg alt="Man in doctor's office during consultation"  [@664,1891,227,128 | Roboto 14px/20px w400 | c:rgb(0, 89, 140) | mw:100% | bor:0px none rgb(0, 89, 140)]
+                      h3.news-card-title  [@664,2019,227,204 | Roboto 23px/32px w500 | c:rgb(0, 89, 140) | p:8px 16px 4px | bor:0px none rgb(0, 89, 140)]
+                        «Modernizing Prior Authorization: Progress on Our Commitments to Members and Providers»
+                    div.news-card-content  [@664,2223,227,100 | flex:column | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | p:0px 16px 12px | bor:0px none rgb(77, 77, 77)]
+                      span  [@680,2223,195,24 | Roboto 16px/24px w400 | c:rgb(77, 77, 77) | bor:0px none rgb(77, 77, 77)]
+                        «April 7, 2026»
+              div.pagination-container  [@154,2354,748,1 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.row  [@144,2354,768,1 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | m:0px -10px | bor:0px none rgb(51, 51, 51)]
+                  div.col-sm-24.col-md-24  [@144,2354,768,1 | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | bor:0px none rgb(51, 51, 51)]
+                    nav  [@154,2354,748,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                      ul.search-pagination.pagination  [@0,0,0,0 | HIDDEN | none | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:20px 0px 50px | r:4px | bor:0px none rgb(51, 51, 51)]
+              div#news-tags.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «centene:featured»
+              div#hide-tags.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «true»
+              div#page-size.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «9»
+              div#order-by.hidden  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «newest»
+        div.colctrl-40  [@912,170,384,901 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 10px | bor:0px none rgb(51, 51, 51)]
+          div  [@922,170,364,901 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+            div.richtext  [@922,170,364,115 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div.clearfix.en  [@922,170,364,115 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.clearfix  [@922,170,364,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                h2  [@922,190,364,75 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+                  span.centene-h3  [@922,225,231,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+                    span.brand-color  [@922,225,231,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Press Releases»
+                      br  [@922,188,0,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+            div.pressreleases  [@922,285,364,736 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div.press-releases  [@922,303,364,698 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div#news-list  [@922,303,364,698 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                  p  [@922,303,364,24 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:18px 0px | bor:0px none rgb(51, 51, 51)]
+                    «August 26, 2026»
+                  p.event  [@922,345,364,96 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:10px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    a href=https://investors.centene.com/2026-08-26-Peach-State-Health-Plan-and-the-Medical-College-of-Georgia-at-Augusta-University-Recognize-Two-New-Cohorts-of-Peach-State-Scholars  [@922,346,355,93 | inline | Roboto-Bold 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Peach State Health Plan and the Medical College of Georgia at Augusta University Recognize Two New Cohorts of Peach State Scholars»
+                  p  [@922,461,364,24 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:18px 0px | bor:0px none rgb(51, 51, 51)]
+                    «August 25, 2026»
+                  p.event  [@922,503,364,96 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:10px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    a href=https://investors.centene.com/2026-08-25-California-Community-Health-Workers-and-Doulas-Can-Spend-More-Time-Helping-Medi-Cal-Members,-Thanks-to-Health-Nets-900,000-Grant-to-Pear-Suite  [@922,504,358,93 | inline | Roboto-Bold 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «California Community Health Workers and Doulas Can Spend More Time Helping Medi-Cal Members, Thanks to Health Net's $900,000 Grant to Pear Suite»
+                  p  [@922,619,364,24 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:18px 0px | bor:0px none rgb(51, 51, 51)]
+                    «August 21, 2026»
+                  p.event  [@922,661,364,72 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:10px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    a href=https://investors.centene.com/2026-08-21-Coordinated-Care-Brings-Free-Health-Screenings-to-Washington-Communities-with-Statewide-Vision-Dental-Van-Tour  [@922,662,362,69 | inline | Roboto-Bold 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Coordinated Care Brings Free Health Screenings to Washington Communities with Statewide Vision & Dental Van Tour»
+                  p  [@922,753,364,24 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:18px 0px | bor:0px none rgb(51, 51, 51)]
+                    «August 20, 2026»
+                  p.event  [@922,795,364,96 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:10px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    a href=https://investors.centene.com/2026-08-20-Superior-HealthPlan-has-supported-more-than-312,000-Texas-pregnancies-since-2022-through-the-Start-Smart-for-Your-Baby-R-program  [@922,796,356,93 | inline | Roboto-Bold 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Superior HealthPlan has supported more than 312,000 Texas pregnancies since 2022 through the Start Smart for Your Baby® program»
+                  p  [@922,911,364,24 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:18px 0px | bor:0px none rgb(51, 51, 51)]
+                    «August 17, 2026»
+                  p.event  [@922,953,364,48 | Roboto 18px/24px w400 | c:rgb(51, 51, 51) | m:10px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    a href=https://investors.centene.com/2026-08-17-Centene-Announces-Planned-Chief-Financial-Officer-Transition  [@922,954,358,45 | inline | Roboto-Bold 18px/24px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                      «Centene Announces Planned Chief Financial Officer Transition»
+            div.button  [@922,1021,364,50 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              div.clearfix  [@922,1021,364,50 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                a.btn.btn-default.centenedotcom-site-btn href=https://investors.centene.com/press-releases  [@922,1021,244,40 | Roboto-Medium 18.2px/26px w400 | c:rgb(0, 89, 134) | bg:rgb(255, 255, 255) | p:5px 15px | m:0px 0px 10px | r:20px | bor:2px solid rgb(0, 89, 134) | ta:center]
+                  «Search Press Releases»
+                  i.link-external.fa.fa-external-link  [@1130,1031,18,18 | inline-block | "Font Awesome 6 Free" 18.2px/18.2px w900 | c:rgb(0, 89, 134) | m:0px 0px 0px 5.46px | bor:0px none rgb(0, 89, 134) | ta:center]
+                  span.sr-only  [@1148,1027,1,1 | absolute | Roboto-Medium 18.2px/26px w400 | c:rgb(0, 89, 134) | m:-1px | bor:0px none rgb(0, 89, 134) | ta:center]
+                    «External Link»

@@ -1,0 +1,20 @@
+.imagelinktiles .tiled-a .container{width:auto}
+.imagelinktiles .tiled-a .container .row>div a{display:block;margin-bottom:20px}
+.imagelinktiles .tiled-a .container .row>div a .img-container{border-radius:5px;height:calc(33.8vw);position:relative}
+.imagelinktiles .tiled-a .container .row>div a .img-container .title{color:#fff;font-size:20px;line-height:24px;padding:0;position:absolute;top:20px;left:20px}
+.imagelinktiles .tiled-a .container .row>div a .img-container .image{background-size:cover;background-position:top center;border-radius:5px;height:inherit;position:relative;width:inherit}
+.imagelinktiles .tiled-a .container .row>div a .img-container .image:after{background:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.43)),to(rgba(125,185,232,0)));background:linear-gradient(to right,rgba(0,0,0,0.85) 0,rgba(125,185,232,0) 100%);content:"";position:absolute;top:0;left:0;right:0;bottom:0;border-radius:5px}
+.imagelinktiles .tiled-a .container .row>div a .img-container .short-button{background-color:transparent;border-radius:20px;border:2px solid #fff;color:#fff;width:58px;height:40px;padding:0;position:absolute;bottom:20px;right:20px}
+.imagelinktiles .tiled-a .container .row>div a .img-container .short-button .arrow{border-bottom:2px solid #fff;border-right:2px solid #fff;height:15px;width:15px;padding:5px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);display:inline-block;position:absolute;right:22px;bottom:10px}
+.imagelinktiles .tiled-a .container .row>div a .img-container .short-button:hover{background-color:#fff}
+.imagelinktiles .tiled-a .container .row>div a .img-container .short-button:hover .arrow{border-bottom:2px solid #00598c;border-right:2px solid #00598c}
+.imagelinktiles .tiled-a .container .row>div a:hover .short-button{background-color:#fff}
+.imagelinktiles .tiled-a .container .row>div a:hover .short-button .arrow{border-bottom:2px solid #00598c;border-right:2px solid #00598c}
+.imagelinktiles .tiled-a .container .row>div a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:3px}
+@media(min-width:768px){.imagelinktiles .tiled-a .container .row>div a .img-container{height:calc(236.6px)}
+.imagelinktiles .tiled-a .container .row>div a .img-container .title{font-size:30px;line-height:36px}
+}
+@media(min-width:992px){.imagelinktiles .tiled-a .container .row>div a .img-container{height:calc(200.096px)}
+}
+@media(min-width:1200px){.imagelinktiles .tiled-a .container .row>div a .img-container{height:calc(245.388px)}
+}
