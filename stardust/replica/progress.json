@@ -127,7 +127,7 @@
         "pass": true
       },
       "1440": {
-        "pixelPct": 3.63,
+        "pixelPct": 2.63,
         "heightDelta": 1,
         "pass": true
       }
@@ -138,7 +138,8 @@
     "fixRounds": [
       "global box-sizing border-box missing (columns wrapped: cards 2+1, features stacked, footer wrapped)",
       "feature imgs pinned 450px (pipeline strips authored dims) + picture baseline descender zeroed",
-      "footer: over-specific wrapper reset dropped; tagline trailing line + spacer gap modeled in CSS (pipeline strips br/nbsp-only content); inner row -10px margins; mobile flow-root margin containment"
+      "footer: over-specific wrapper reset dropped; tagline trailing line + spacer gap modeled in CSS (pipeline strips br/nbsp-only content); inner row -10px margins; mobile flow-root margin containment",
+      "background-layer blocks (hero/panel/careers) copied the pipeline fallback <img src> — the 750px rendition — into their CSS background; rewritten to the 2000px rendition (cards were unaffected: their <picture> already picks the 2000w source)"
     ]
   }
 }

@@ -95,3 +95,8 @@ Pipeline lessons this run:
    `footer .f-root` — don't ship a wrapper reset you then have to beat.
 5. Floats create BFCs that contain child margins; when a media query
    un-floats columns, add display: flow-root to keep the containment.
+6. Background-layer blocks must NOT copy the pipeline's fallback <img src>
+   into CSS backgrounds verbatim — it is the 750px rendition and renders
+   soft at full-bleed widths. Rewrite the width param to 2000 (media_ URLs
+   accept any width). <picture>-rendered images are unaffected (the 2000w
+   source wins on desktop). Post-fix 1440 gate: 3.63% → 2.63%.
