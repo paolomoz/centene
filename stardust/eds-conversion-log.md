@@ -35,8 +35,15 @@ buttonization, `p.button-wrapper`, wrapTextNodes active).
 - **Fixed CSS assets (repo `img/centene/`, root-relative):**
   90whitebox.png (translucent card bg), purple-background-2025.png (brand
   texture), icon-search.svg, icon-dropdown-gray/white.svg.
-- Favicon: bounded extract captured none; boilerplate default retained
-  (noted, not invented).
+- Favicon: fixed 2026-08-27 — the bounded (`--single`) extract skips Phase 3
+  (brand-surface extraction), which owns favicon capture, so nothing landed in
+  `stardust/current/assets/` and deploy's favicon step correctly skipped.
+  Backfilled from the live page's declared icon
+  (`/content/dam/centenedotcom/logos/centene-favicon.ico`) into
+  `stardust/current/assets/favicon.ico` + repo-root `favicon.ico`
+  (`.ico` → auto-served, no head.html edit). PLUGIN GAP: bounded extract /
+  replica bounded branch should capture the favicon (one cheap fetch), or
+  deploy's skip should warn loudly instead of silently.
 
 ## Fonts
 
