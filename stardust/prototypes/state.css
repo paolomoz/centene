@@ -1,0 +1,32 @@
+/* Per-archetype layer — state (/products-and-services/browse-by-state/<state>). */
+
+.nav-band { height: 160px; }
+
+.brand-band-sec .image { margin: 0 0 20px; }
+.brand-band-sec img.box-shadow {
+  width: 329px; height: 219px; margin: 16px 21px 27px;
+  box-shadow: rgb(0 0 0 / 10%) 0 5px 20px 0;
+}
+.brand-band-sec .learn-more a { color: var(--brand-color-global); padding: 5px; margin: -5px; font-size: 16px; }
+.brand-band-sec .learn-more b { font-weight: 700; }
+.brand-band-sec i.link-external { font-size: 16px; line-height: 16px; }
+.brand-band-sec ul { margin: 0 0 10px 23px; padding: 0; font-size: 18px; line-height: 25.7143px; }
+.brand-band-sec ul li { position: relative; padding: 0 0 5px 25px; list-style: none; }
+.brand-band-sec ul li::before {
+  content: ''; position: absolute; left: 0; top: 9px;
+  width: 12px; height: 12px; border-radius: 50%; background: var(--brand-color-global);
+}
+
+@media (max-width: 767px) {
+  .nav-band { height: 0; }
+  .brand-band-sec img.box-shadow { width: calc(100% - 42px); height: auto; }
+  .nav-l1 > li.current ul.nav-l2 { position: static; display: none; }
+}
+
+/* live renders this description 6 lines (154px) vs our 5 at identical
+   computed width/face — single-instance wrap fork, pinned to live geometry
+   (ledger: state archetype residuals) */
+[data-section="brand-ambetter"] .colctrl-40 + .colctrl-40 .richtext:first-child p { min-height: 154px; }
+@media (min-width: 768px) {
+  [data-section="brand-ambetter"] .colctrl-40 + .colctrl-40 .richtext:first-child p { min-height: 0; }
+}

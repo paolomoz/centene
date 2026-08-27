@@ -1,0 +1,12 @@
+div.backgroundcolorbox  [@0,611,360,406 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.background-color-box.white-background  [@0,611,360,406 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:25px 36px 20px | bor:0px none rgb(51, 51, 51)]
+    div  [@36,636,288,361 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@36,636,288,361 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@36,636,288,361 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@36,636,288,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@36,636,288,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          p  [@36,682,288,250 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h4  [@36,685,271,243 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@36,685,271,243 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Centene believes that quality healthcare is best delivered locally. We are committed to our members and the communities they call home.»
+          p  [@36,952,288,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]

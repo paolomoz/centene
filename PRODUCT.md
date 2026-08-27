@@ -1,7 +1,7 @@
 <!--
 _provenance:
   writtenBy: stardust:replica
-  mode: bounded-single
+  mode: prep-promoted (2026-08-27)
   synthesizedFrom:
     - stardust/current/pages/index.json
     - stardust/replica/capture/tokens.json

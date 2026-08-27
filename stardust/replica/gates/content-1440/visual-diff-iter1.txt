@@ -1,0 +1,312 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/content-1440/vdiff/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3549,
+  "textLen": 2330,
+  "images": [
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "222x55",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "FocusOnIndividual_icon.png",
+    "natural": "288x288",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "WholeHealth_icon.png",
+    "natural": "288x288",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Location-Local.png",
+    "natural": "145x145",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "family-mom-father-baby2.jpg",
+    "natural": "700x470",
+    "rendered": "344x231",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "central-iowa-shelter-serrvices2.jpg",
+    "natural": "977x656",
+    "rendered": "344x231",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "270x66",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Our Mission",
+    "color": "rgb(0, 84, 140)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How We Do It",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "29px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related News",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See Also",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "External Link",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "clearfix",
+    "width": 1056,
+    "left": 240
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "clearfix",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1160,
+    "left": 140
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3550,
+  "textLen": 2311,
+  "images": [
+   {
+    "src": "centene_logo_2023.jpg",
+    "natural": "222x55",
+    "rendered": "222x55",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "FocusOnIndividual_icon.png",
+    "natural": "288x288",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "WholeHealth_icon.png",
+    "natural": "288x288",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Location-Local.png",
+    "natural": "145x145",
+    "rendered": "145x145",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "family-mom-father-baby2.jpg",
+    "natural": "700x470",
+    "rendered": "344x231",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "central-iowa-shelter-serrvices2.jpg",
+    "natural": "977x656",
+    "rendered": "344x231",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Centene%20Corp%20Reverse-small.png",
+    "natural": "270x66",
+    "rendered": "270x66",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Our Mission",
+    "color": "rgb(0, 84, 140)",
+    "fontSize": "32px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How We Do It",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "29px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related News",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See Also",
+    "color": "rgb(0, 89, 140)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "External Link",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "h1-wrap",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "richtext",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "richtext",
+    "width": 1056,
+    "left": 240
+   },
+   {
+    "sel": "richtext",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1172,
+    "left": 134
+   },
+   {
+    "sel": "richtext",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "richtext",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "related-row",
+    "width": 1152,
+    "left": 144
+   },
+   {
+    "sel": "row",
+    "width": 1160,
+    "left": 140
+   }
+  ]
+ }
+}

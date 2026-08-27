@@ -6,8 +6,9 @@ import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const WIDTH = parseInt(process.argv[2] || '1440', 10);
-const OUT = process.argv[3] || `stardust/replica/capture`;
+const TARGET = process.argv[2] || 'https://www.centene.com/';
+const WIDTH = parseInt(process.argv[3] || '1440', 10);
+const OUT = process.argv[4] || `stardust/replica/capture`;
 fs.mkdirSync(path.join(OUT, 'css'), { recursive: true });
 fs.mkdirSync(path.join(OUT, 'fonts'), { recursive: true });
 
@@ -42,7 +43,7 @@ page.on('response', async (res) => {
   } catch {}
 });
 
-await page.goto('https://www.centene.com/', { waitUntil: 'domcontentloaded', timeout: 45000 });
+await page.goto(TARGET, { waitUntil: 'domcontentloaded', timeout: 45000 });
 await page.waitForTimeout(2500);
 
 // consent dismissal: click anything matching Accept/Decline in a cookie bar

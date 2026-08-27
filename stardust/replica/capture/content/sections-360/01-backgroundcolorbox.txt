@@ -1,0 +1,21 @@
+div.backgroundcolorbox  [@0,477,360,1286 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.background-color-box.white-background  [@0,477,360,1286 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:25px 36px 20px | bor:0px none rgb(51, 51, 51)]
+    div  [@36,502,288,1241 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@36,502,288,1241 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@36,502,288,1241 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@36,502,288,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@36,502,288,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            span.brand-color  [@36,504,4,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+          p  [@36,548,288,243 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            span.brand-color  [@36,567,266,215 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+              span.centene-h3  [@36,552,266,234 | inline | Roboto-Regular 34px/48.5714px w400 | c:rgb(0, 89, 140) | m:22px 0px | bor:0px none rgb(0, 89, 140)]
+                «Transforming the health of the communities we serve, one person at a time.»
+          p  [@36,811,288,464 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h4  [@36,814,288,457 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@36,814,288,457 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Since our founding as a single local healthcare plan in 1984, Centene’s mission has been focused on helping people live healthier lives. From that day until now, our company has worked tirelessly to i»
+          p  [@36,1295,288,428 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h4  [@36,1298,270,422 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@36,1298,270,422 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                span.second_nav  [@36,1298,270,422 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                  «This long-held commitment to supporting low-income and vulnerable populations for which access to care has historically been a challenge is captured in our mission to transform the health of the commu»

@@ -3,8 +3,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const W = process.argv[2] || '1440';
-const d = JSON.parse(fs.readFileSync(`stardust/replica/capture/lift-${W}.json`, 'utf8'));
-const outDir = `stardust/replica/capture/sections-${W}`;
+const DIR = process.argv[3] || 'stardust/replica/capture';
+const d = JSON.parse(fs.readFileSync(`${DIR}/lift-${W}.json`, 'utf8'));
+const outDir = `${DIR}/sections-${W}`;
 fs.mkdirSync(outDir, { recursive: true });
 
 const line = (n, pre) => {

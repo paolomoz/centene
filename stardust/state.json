@@ -604,9 +604,9 @@
       "slug": "products-and-services-browse-by-state-alabama-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/alabama.html",
       "type": "state",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-alabama-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/state-proposed.html",
       "migratedPath": null
     },
     {
@@ -1639,9 +1639,9 @@
       "slug": "who-we-are-our-mission-html",
       "url": "https://www.centene.com/who-we-are/our-mission.html",
       "type": "content",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/who-we-are-our-mission-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/content-proposed.html",
       "migratedPath": null
     },
     {

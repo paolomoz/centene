@@ -141,5 +141,80 @@
       "footer: over-specific wrapper reset dropped; tagline trailing line + spacer gap modeled in CSS (pipeline strips br/nbsp-only content); inner row -10px margins; mobile flow-root margin containment",
       "background-layer blocks (hero/panel/careers) copied the pipeline fallback <img src> — the 750px rendition — into their CSS background; rewritten to the 2000px rendition (cards were unaffected: their <picture> already picks the 2000w source)"
     ]
+  },
+  "archetypes": {
+    "content": {
+      "prototype": "stardust/prototypes/content-proposed.html",
+      "against": "https://www.centene.com/who-we-are/our-mission.html",
+      "regime": "prototype",
+      "siblings": 84,
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "pixelPct": 2.6,
+          "heightDelta": -1,
+          "structuralRed": 0,
+          "pass": true
+        },
+        "1440": {
+          "iterations": 2,
+          "pixelPct": 0.89,
+          "heightDelta": -1,
+          "structuralRed": 0,
+          "pass": true
+        }
+      },
+      "newModules": [
+        "subnav-band (open nav-layer-second, full-bleed navy, 4-col grid)",
+        "breadcrumb (> separators)",
+        "sky hero band + centene-h1 (Roboto-Light stack renders fallback — live has no @font-face for it, mirrored)",
+        "statement typography (centene-h2/h3/h4 span system)",
+        "icon-cards 3-col",
+        "related-content (news cards + see-also chevron rail)"
+      ],
+      "notes": [
+        "live empty <p><span></span> keeps a 25.7px strut — pinned via min-height",
+        "mobile keeps 24px rt-indent; related cards flex-column at mobile; related-block needs flow-root margin containment"
+      ]
+    },
+    "state": {
+      "prototype": "stardust/prototypes/state-proposed.html",
+      "against": "https://www.centene.com/products-and-services/browse-by-state/alabama.html",
+      "regime": "prototype",
+      "siblings": 51,
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "pixelPct": 2.01,
+          "heightDelta": 0,
+          "structuralRed": 0,
+          "pass": true
+        },
+        "1440": {
+          "iterations": 2,
+          "pixelPct": 0.77,
+          "heightDelta": 0,
+          "structuralRed": 0,
+          "pass": true
+        }
+      },
+      "newModules": [
+        "brand-card band (logo w/ shadow + desc + learn-more + bullet list)",
+        "icon-stat grid (facts)",
+        "products subnav variant (2 rows)"
+      ],
+      "residuals": [
+        {
+          "where": "brand-ambetter description @360",
+          "cause": "live wraps 6 lines vs 5 at identical computed width/face (rendered-width fork, single instance); pinned to live 154px via mobile min-height",
+          "flaggedFor": "none"
+        }
+      ],
+      "notes": [
+        "h1 trailing line = <br>+CRLF+space+NBSP byte pattern (recurring AEM richtext idiom)",
+        "brand logo scales to calc(100% - 42px) at mobile",
+        "breadcrumb separator carries 3px leading space (totals must exceed 288 to wrap at 360 like live)"
+      ]
+    }
   }
 }

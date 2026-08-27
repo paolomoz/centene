@@ -1,0 +1,77 @@
+[
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/topcookiebanner/topcookiebanner-libs.lc-f692ef399b454cc223bcca7825cc5f06-lc.min.css",
+  "file": "stardust/replica/capture/content/css/0-topcookiebanner-libs.lc-f692ef399b454cc223bcca7825cc5f06-lc.min.css",
+  "bytes": 751
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-site.lc-8adac9cc17e95ed7bf00940577fd38ce-lc.min.css",
+  "file": "stardust/replica/capture/content/css/1-clientlibs-site.lc-8adac9cc17e95ed7bf00940577fd38ce-lc.min.css",
+  "bytes": 370366
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main.lc-14b4de86b379d9847ce17a6edb2b5c0f-lc.min.css",
+  "file": "stardust/replica/capture/content/css/2-clientlibs-main.lc-14b4de86b379d9847ce17a6edb2b5c0f-lc.min.css",
+  "bytes": 610254
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/shared/components/content/universal-banner/clientlibs-universal-banner.lc-cb165bff7606799918efa65f374f220e-lc.min.css",
+  "file": "stardust/replica/capture/content/css/3-clientlibs-universal-banner.lc-cb165bff7606799918efa65f374f220e-lc.min.css",
+  "bytes": 125
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/structure/product/centenedotcom/mainnavigation/mainnavigation-libs.lc-a34a006bfe831c5f2129618d14213b4c-lc.min.css",
+  "file": "stardust/replica/capture/content/css/4-mainnavigation-libs.lc-a34a006bfe831c5f2129618d14213b4c-lc.min.css",
+  "bytes": 10876
+ },
+ {
+  "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto&display=swap",
+  "file": "stardust/replica/capture/content/css/5-css",
+  "bytes": 8478
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/breadcrumb/breadcrumb-libs.lc-7fe6a4edae239ea5310fcf4d457df6de-lc.min.css",
+  "file": "stardust/replica/capture/content/css/6-breadcrumb-libs.lc-7fe6a4edae239ea5310fcf4d457df6de-lc.min.css",
+  "bytes": 475
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/youtube/youtube-libs.lc-1358eda611ca24e98a54bb3fb339e07e-lc.min.css",
+  "file": "stardust/replica/capture/content/css/7-youtube-libs.lc-1358eda611ca24e98a54bb3fb339e07e-lc.min.css",
+  "bytes": 153
+ },
+ {
+  "url": "https://www.centene.com/etc.clientlibs/centene/components/content/centenedotcom/relatedcontent/relatedcontent-libs.lc-0f85128e86b72e041ef393be049135fa-lc.min.css",
+  "file": "stardust/replica/capture/content/css/8-relatedcontent-libs.lc-0f85128e86b72e041ef393be049135fa-lc.min.css",
+  "bytes": 2218
+ },
+ {
+  "url": "https://interceptor.cnc-interceptor.com/static/css/main.css",
+  "file": "stardust/replica/capture/content/css/9-main.css",
+  "bytes": 31
+ },
+ {
+  "url": "https://interceptor.cnc-interceptor.com/static/css/index-C6CIGGfX.css",
+  "file": "stardust/replica/capture/content/css/10-index-C6CIGGfX.css",
+  "bytes": 24814
+ },
+ {
+  "url": "https://cdn-prod.securiti.ai/consent/cookie-consent-latest.css",
+  "file": "stardust/replica/capture/content/css/11-cookie-consent-latest.css",
+  "bytes": 81236
+ },
+ {
+  "url": "https://www.gstatic.com/recaptcha/releases/GY0lZUzQQgeA0wDxVI-SQEZw/styles__ltr.css",
+  "file": "stardust/replica/capture/content/css/12-styles__ltr.css",
+  "bytes": 82980
+ },
+ {
+  "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.Od8fNXHgWqw.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywHF5wvFKJKrrGR3puB0tQs1pkMKOw/m=root,base",
+  "file": "stardust/replica/capture/content/css/13-m=root,base",
+  "bytes": 0
+ },
+ {
+  "url": "https://www.youtube.com/s/player/6a0e84d6/www-player.css",
+  "file": "stardust/replica/capture/content/css/14-www-player.css",
+  "bytes": 537543
+ }
+]

@@ -1,11 +1,12 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "mode": "bounded-single",
+    "mode": "prep-promoted",
     "synthesizedFrom": [
       "stardust/current/pages/index.json",
       "stardust/replica/capture/tokens.json"
-    ]
+    ],
+    "note": "2026-08-27: promoted to site scope after the 206-page prep crawl; tokens unchanged (single sitewide clientlib design system, verified on home + sampled interior pages)"
   },
   "colors": {
     "primary": "#00598c",

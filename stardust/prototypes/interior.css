@@ -1,0 +1,56 @@
+/* Interior-archetype shared layer (subnav, breadcrumb, sky hero, type spans).
+   Extracted from the gated content archetype; consumed by state/article/etc. */
+
+#navbar { position: relative; }
+.nav-l1 > li.current { position: static; }
+.nav-l1 > li.current > .control-wrapper { position: static; }
+.nav-l1 > li.current ul.nav-l2 {
+  display: flex; flex-wrap: wrap; position: absolute;
+  left: 0; right: 0; top: 54px;
+  background: var(--brand-color-global); margin: 0; padding: 0; z-index: 5;
+}
+.nav-l1 > li.current ul.nav-l2::before {
+  content: ''; position: absolute; top: 0; bottom: 0; left: 50%;
+  width: 100vw; margin-left: -50vw; background: var(--brand-color-global); z-index: -1;
+}
+.nav-l1 > li.current ul.nav-l2 a.active-page { text-decoration: underline; }
+.nav-l1 > li.current ul.nav-l2 > li { list-style: none; max-width: 25%; flex: 0 0 25%; }
+.nav-l1 > li.current ul.nav-l2 > li > .control-wrapper > a {
+  display: inline-block; position: relative; padding: 15px;
+  font-family: 'Roboto-Italic', sans-serif; font-weight: 700; font-size: 16px; color: #fff;
+}
+.nav-l1 > li.current ul.nav-l2 ul.nav-l3 { display: none; }
+.nav-l1 > li.current ul.nav-l2 .dropdown-btn { display: none; }
+
+.sec-sky-hero {
+  background-color: #00aeef;
+  background-image: url('media/Our Mission Test banner no_copy.png');
+  background-size: cover; background-position: 0 0; background-repeat: no-repeat;
+  color: #000;
+}
+.breadcrumb { padding: 8px 0; margin: 0 0 20px; border-radius: 4px; font-size: 14px; font-weight: 700; }
+.breadcrumb ol { padding: 0; margin: 0; list-style: none; }
+.breadcrumb ol li { display: inline; }
+.breadcrumb ol li::after { content: '>'; color: #000; padding-left: 3px; }
+.breadcrumb ol li.active::after { content: none; }
+.breadcrumb a { color: var(--brand-color-global); }
+.breadcrumb a span, .breadcrumb li.active span { color: #000; }
+.breadcrumb ol li:last-child:not(.active)::after { content: none; }
+
+.h1-wrap { margin: 0 0 150px; }
+.h1-wrap h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: #00548c; }
+.centene-h1 { font-family: 'Roboto-Light', sans-serif; font-size: 60px; line-height: 48px; font-weight: 300; color: #00548c; }
+
+.sec-white { background: #fff; color: #333; }
+.sec-white p { margin: 0 0 20px; font-size: 18px; }
+.brand-color { color: var(--brand-color-global); }
+.centene-h2 { font-family: 'Roboto-Regular', sans-serif; font-size: 45px; line-height: 49.5px; font-weight: 400; }
+.centene-h3 { font-family: 'Roboto-Regular', sans-serif; font-size: 34px; line-height: 48.5714px; font-weight: 400; }
+.centene-h4 { font-family: 'Roboto-Italic', sans-serif; font-size: 25px; line-height: 35.7143px; font-weight: 400; }
+.centene-h5 { font-family: 'Roboto-Bold', sans-serif; font-size: 16px; line-height: 22.8571px; font-weight: 700; text-transform: uppercase; }
+.rd-t-16 { font-size: 16px; line-height: 22.8571px; }
+.sec-white h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+.icon-card p { margin: 0 0 20px; font-size: 18px; }
+.icon-card img { width: 145px; height: 145px; }
+.icon-card b { font-weight: 700; }
+.strut-p { min-height: 25.71px; }

@@ -1,0 +1,145 @@
+/* Per-archetype layer — content (interior page, /who-we-are/our-mission).
+   Values lifted from source CSS / computed styles (capture/content/). */
+
+/* ---------- persistent section sub-nav (open nav-layer-second) ---------- */
+.nav-band { height: 213px; }
+#navbar { position: relative; }
+.nav-l1 > li.current { position: static; }
+.nav-l1 > li.current > .control-wrapper { position: static; }
+.nav-l1 > li.current ul.nav-l2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 54px;
+  background: var(--brand-color-global);
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+}
+
+/* live paints the band full-bleed navy behind the 1170 item grid */
+.nav-l1 > li.current ul.nav-l2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  background: var(--brand-color-global);
+  z-index: -1;
+}
+.nav-l1 > li.current ul.nav-l2 a.active-page { text-decoration: underline; }
+.nav-l1 > li.current ul.nav-l2 > li { list-style: none; max-width: 25%; flex: 0 0 25%; }
+.nav-l1 > li.current ul.nav-l2 > li > .control-wrapper > a {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  font-family: 'Roboto-Italic', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+/* third-level lists stay hidden inside the open band */
+.nav-l1 > li.current ul.nav-l2 ul.nav-l3 { display: none; }
+.nav-l1 > li.current ul.nav-l2 .dropdown-btn { display: none; }
+
+/* ---------- section 0: sky hero band ---------- */
+.sec-sky-hero {
+  background-color: #00aeef;
+  background-image: url('media/Our Mission Test banner no_copy.png');
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.breadcrumb { padding: 8px 0; margin: 0 0 20px; border-radius: 4px; font-size: 14px; font-weight: 700; }
+.breadcrumb ol { padding: 0; margin: 0; list-style: none; }
+.breadcrumb ol li { display: inline; }
+.breadcrumb ol li::after { content: '>'; color: #000; }
+.breadcrumb ol li.active::after { content: none; }
+.breadcrumb a { color: var(--brand-color-global); }
+.breadcrumb a span, .breadcrumb li.active span { color: #000; }
+
+.h1-wrap { margin: 0 0 150px; }
+.h1-wrap h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: #00548c; }
+.centene-h1 { font-family: 'Roboto-Light', sans-serif; font-size: 60px; line-height: 48px; font-weight: 300; color: #00548c; }
+
+/* ---------- section 1: statement band (white) ---------- */
+.sec-white { background: #fff; color: #333; }
+.sec-white p { margin: 0 0 20px; font-size: 18px; }
+.brand-color { color: var(--brand-color-global); }
+.centene-h3 { font-family: 'Roboto-Regular', sans-serif; font-size: 34px; line-height: 48.5714px; font-weight: 400; }
+.centene-h4 { font-family: 'Roboto-Italic', sans-serif; font-size: 25px; line-height: 35.7143px; font-weight: 400; }
+
+/* ---------- section 2: How We Do It ---------- */
+.rt-indent { margin-left: 96px; }
+.sec-how h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+.centene-h2 { font-family: 'Roboto-Regular', sans-serif; font-size: 45px; line-height: 49.5px; font-weight: 400; color: var(--brand-color-global); }
+.sec-how .link-line { margin: 40px 0 20px; }
+.sec-how .link-line a { color: var(--brand-color-global); padding: 5px; margin: -5px; }
+.sec-how i.link-external { font-size: 18px; line-height: 18px; }
+.icon-card p { margin: 0 0 20px; font-size: 18px; }
+.icon-card img { width: 145px; height: 145px; }
+.icon-card b { font-weight: 700; }
+.tail-p p { min-height: 26px; margin: 0 0 20px; font-size: 18px; }
+
+/* ---------- section 3: sky video band ---------- */
+.sec-sky { background-color: #00aeef; color: #000; }
+.br-spacer p { margin: 0 0 20px; font-size: 18px; }
+.video-row { margin: 0 -10px; }
+.video-col { position: relative; padding: 0 10px; }
+.youtubeEmbed { position: relative; max-width: 100%; padding-top: 56.25%; }
+.youtubeEmbed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+/* ---------- section 4: related content ---------- */
+.related-block { padding: 0 10px; margin: 25px 0; display: flow-root; }
+.related-row { margin: 0 -10px; }
+.related-row::after { content: ""; display: table; clear: both; }
+.featured-content { position: relative; float: left; width: 66.66667%; padding: 0 10px; }
+.see-also { position: relative; float: left; width: 33.33333%; padding: 0 10px; }
+.related-block h2 { font-size: 34px; line-height: 38px; font-weight: 500; color: var(--brand-color-global); margin: 10px 0; }
+.rel-cards { display: flex; }
+.rel-card {
+  margin: 15px;
+  max-width: 700px;
+  border-radius: 7px;
+  box-shadow: rgb(0 0 0 / 10%) 0 5px 20px 0;
+  flex: 1;
+}
+.rel-card > a { display: inline; color: var(--brand-color-global); font-size: 14px; font-weight: 700; }
+.rel-card img { width: 100%; height: auto; border-radius: 5px 5px 0 0; }
+.rel-card .text { padding: 20px; }
+.rel-card .text p { margin: 0 0 20px; font-size: 18px; color: #00aeef; }
+.rel-card .text a { color: var(--brand-color-global); font-weight: 700; font-size: 18px; }
+.see-also ul { margin: 20px 0 10px; padding: 0; }
+.see-also li { list-style: none; position: relative; margin: 0 0 30px; font-size: 18px; line-height: 25.7143px; color: #00aeef; }
+.see-also li a { color: var(--brand-color-global); font-weight: 700; padding: 0 120px 0 0; display: block; }
+.see-also .rcb {
+  position: absolute;
+  right: 50px;
+  top: -14px;
+  width: 58px;
+  height: 40px;
+  padding: 1px 6px 5px;
+  background: #fff;
+  border: 2px solid var(--brand-color-global);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.see-also .rcb svg { width: 13px; height: 23px; vertical-align: middle; }
+
+@media (max-width: 767px) {
+  .nav-band { height: 0; }
+  .nav-l1 > li.current ul.nav-l2 { position: static; display: none; }
+  .rt-indent { margin-left: 24px; }
+  .featured-content, .see-also { float: none; width: 100%; }
+  .rel-cards { display: flex; flex-direction: column; }
+}
+
+/* live: <p><span class="brand-color"></span></p> keeps a 25.7px line box */
+[data-section="statement"] .richtext > p:first-child { min-height: 25.71px; }
