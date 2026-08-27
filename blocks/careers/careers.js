@@ -90,7 +90,8 @@ export default async function decorate(block) {
     const box = document.createElement('div');
     box.className = `inner-box photo-box ${cls}`;
     const img = media && (media.tagName === 'IMG' ? media : media.querySelector('img'));
-    if (img) box.style.backgroundImage = `url("${img.currentSrc || img.src}")`;
+    // background layer needs the 2000px rendition, not the 750px fallback src
+    if (img) box.style.backgroundImage = `url("${(img.currentSrc || img.src).replace(/width=\d+/, 'width=2000')}")`;
     box.append(document.createElement('div'));
     return box;
   };

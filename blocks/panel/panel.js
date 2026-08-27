@@ -13,9 +13,15 @@
  * background-color-box background-image); the translucent box is the fixed
  * brand asset /img/centene/90whitebox.png (CSS).
  */
+// full-bleed background layer: request the 2000px rendition, not the
+// pipeline's 750px fallback <img src>
+function hiRes(src) {
+  return src.replace(/width=\d+/, 'width=2000');
+}
+
 export default async function decorate(block) {
   const media = block.querySelector('picture img, img');
-  const src = media ? media.currentSrc || media.src : '';
+  const src = media ? hiRes(media.currentSrc || media.src) : '';
   const heading = block.querySelector('h1, h2, h3');
   const ps = [...block.querySelectorAll('p')];
   const body = ps.find((p) => !p.querySelector('a, img, picture') && p.textContent.trim().length > 40);

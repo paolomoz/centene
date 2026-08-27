@@ -9,9 +9,15 @@
  * The banner renders as a background layer (mirrors the source site's
  * .hero-img background-image treatment); the authored img supplies the URL.
  */
+// the pipeline's fallback <img src> is the 750px rendition; a full-bleed
+// background layer needs the 2000px one (media_ URLs accept any width param)
+function hiRes(src) {
+  return src.replace(/width=\d+/, 'width=2000');
+}
+
 export default async function decorate(block) {
   const img = block.querySelector('picture img, img');
-  const src = img ? img.currentSrc || img.src : '';
+  const src = img ? hiRes(img.currentSrc || img.src) : '';
   // tagline: the last link-free paragraph-ish cell text (query, not index)
   const cells = [...block.querySelectorAll(':scope > div > div')];
   const textCell = cells.find((c) => c.textContent.trim() && !c.querySelector('img, picture'));
