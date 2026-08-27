@@ -1,0 +1,495 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:14:47.566Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "products-and-services-html",
+  "url": "https://www.centene.com/products-and-services.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:14:47.566Z",
+  "finalUrl": "https://www.centene.com/products-and-services.html",
+  "title": "Health Insurance: Healthcare Plans & Services | Centene",
+  "description": " Centene is Committed to Providing Comprehensive Healthcare Plans. Learn About Our Medicaid, Medicare, Marketplace Insurance Plans & More.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Healthcare Plans & Services"
+    },
+    {
+      "tag": "h2",
+      "text": "Browse by State"
+    },
+    {
+      "tag": "h2",
+      "text": "State & National Health Plan Solutions"
+    },
+    {
+      "tag": "h3",
+      "text": "Medicaid"
+    },
+    {
+      "tag": "h3",
+      "text": "Medicare"
+    },
+    {
+      "tag": "h3",
+      "text": "Health Insurance Marketplace"
+    },
+    {
+      "tag": "h2",
+      "text": "Individual Coverage Health Reimbursement Arrangements (ICHRAs)"
+    },
+    {
+      "tag": "h2",
+      "text": "Long-Term Services & Supports (LTSS)"
+    },
+    {
+      "tag": "h2",
+      "text": "Foster Care"
+    },
+    {
+      "tag": "h2",
+      "text": "Centene News & Updates"
+    },
+    {
+      "tag": "h2",
+      "text": "See Also"
+    }
+  ],
+  "body": [
+    "Contact",
+    "Who We Are Our Mission History Board of Directors Capabilities Subsidiaries Corporate Facts & Reports Ethics & Integrity One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent Centene Foundation Impact Becoming a Partner Featured Partnerships Accreditations Awards",
+    "Why We're Different Corporate Sustainability Empowering Health Healthier Communities Healthy Environment Business Accountability Strategic Partnerships Providers & Healthcare Partners Impacting Lives Our Suppliers Economic Impact Improving Outcomes Combating Fraud, Waste and Abuse",
+    "Products & Services Medicaid Long-Term Services & Supports Foster Care Medicare Health Insurance Marketplace ICHRA Whole Health Solutions Browse by State",
+    "Medicaid Long-Term Services & Supports Foster Care",
+    "Medicare",
+    "Health Insurance Marketplace ICHRA",
+    "Whole Health Solutions",
+    "Browse by State",
+    "Careers",
+    "Investors",
+    "News",
+    "Home",
+    "Products & Services",
+    "Transforming the health of the communities we serve, one person at a time.",
+    "Centene’s foundational belief that everyone deserves access to affordable, quality-focused healthcare with dignity drives its determination to expand the range of products we offer in our markets – helping more and more individuals every day.",
+    "EVERY COMMUNITY, AND EVERY PERSON, IS UNIQUE, AND OUR BREADTH OF OFFERINGS GIVES US THE REACH WE NEED TO BRING OUR MEMBERS AFFORDABLE, QUALITY-FOCUSED HEALTHCARE WITH DIGNITY.",
+    "We partner with state governments to provide health coverage to millions of eligible low-income adults, children and pregnant women.",
+    "Our Medicare Advantage and Medicare-Medicaid plans provide access to personal, local care, and promote health and independence.",
+    "We provide affordable, comprehensive plans for individuals and families who may not qualify for Medicaid or other government coverage.",
+    "Centene, through Ambetter Health Solutions, is driving the evolution of employer-sponsored health coverage with health plans designed for Individual Coverage Health Reimbursement Arrangements (ICHRAs).",
+    "Learn More >",
+    "Centene is a national leader in managed long-term services and supports (LTSS). By delivering person-centered care through deep expertise, a local approach, and innovative solutions that improve outcomes, Centene helps members maintain their independence.",
+    "Learn More >",
+    "Centene serves more children involved in the child welfare and foster care system than any Medicaid managed care organization in the nation. We help members and their caregivers get the right care at the right time.",
+    "Learn More >",
+    "Start Smart for Your Baby®, Centene’s Maternity and Child Health Program, Evolves to Meet Community Needs",
+    "Industry Progress on Prior Authorization: A Shared Commitment",
+    "Who We Are",
+    "Why We're Different",
+    "Corporate Sustainability",
+    "Subsidiaries",
+    "Products & Services",
+    "Transforming the health of the communities we serve, one person at a time.",
+    "HEALTHCARE IS BEST DELIVERED LOCALLY",
+    "Our uniquely local approach allows us to help members access quality-focused, culturally sensitive healthcare services.",
+    "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+    "The health of individuals drives our focus on the environment, removing social barriers to health and prioritizing responsible corporate governance.",
+    "© Copyright 2026 Centene Corporation"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "Medicaid",
+      "href": "/products-and-services/medicaid.html"
+    },
+    {
+      "label": "Medicare",
+      "href": "/products-and-services/medicare.html"
+    },
+    {
+      "label": "Health Insurance Marketplace",
+      "href": "/products-and-services/marketplace.html"
+    },
+    {
+      "label": "Whole Health Solutions",
+      "href": "/products-and-services/whole-health-solutions.html"
+    },
+    {
+      "label": "Browse by State",
+      "href": "/products-and-services/browse-by-state.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.centene.com/us/en"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA."
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Medicaid",
+      "href": "/products-and-services/medicaid.html"
+    },
+    {
+      "label": "Medicare",
+      "href": "/products-and-services/medicare.html"
+    },
+    {
+      "label": "Health Insurance Marketplace",
+      "href": "/products-and-services/marketplace.html"
+    },
+    {
+      "label": "Learn More >",
+      "href": "/products-and-services/marketplace/ichra-ambetter-health-solutions.html"
+    },
+    {
+      "label": "Learn More >",
+      "href": "/products-and-services/medicaid/long-term-services-and-supports.html"
+    },
+    {
+      "label": "Learn More >",
+      "href": "/products-and-services/medicaid/foster-care.html"
+    },
+    {
+      "label": "Start Smart for Your Baby®, Centene’s Maternity and Child Health Program, Evolves to Meet Community Needs",
+      "href": "/news/start-smart-maternity-and-child-health-program.html"
+    },
+    {
+      "label": "Industry Progress on Prior Authorization: A Shared Commitment",
+      "href": "/news/ahip-partnerships-transforming-prior-authorization.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Corporate Sustainability",
+      "href": "/why-were-different/corporate-sustainability.html"
+    },
+    {
+      "label": "Subsidiaries",
+      "href": "/who-we-are/subsidiaries.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "HEALTHCARE IS BEST DELIVERED LOCALLY",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+      "href": "/why-were-different/corporate-sustainability.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "CareersExternal Link",
+      "href": "https://jobs.centene.com/us/en/"
+    },
+    {
+      "label": "InvestorsExternal Link",
+      "href": "https://investors.centene.com"
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Equal Opportunity EmployerExternal Link",
+      "href": "https://jobs.centene.com/us/en/life-at-centene/applicant-resources"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms-conditions.html"
+    },
+    {
+      "label": "Purchase Order Terms & Conditions",
+      "href": "/purchase-order-terms-conditions.html"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map.html"
+    }
+  ],
+  "links": [
+    "https://www.centene.com/products-and-services.html#main",
+    "https://www.centene.com/",
+    "https://www.centene.com/contact.html",
+    "https://www.centene.com/who-we-are.html",
+    "https://www.centene.com/who-we-are/our-mission.html",
+    "https://www.centene.com/who-we-are/history.html",
+    "https://www.centene.com/who-we-are/board-of-directors.html",
+    "https://www.centene.com/who-we-are/capabilities.html",
+    "https://www.centene.com/who-we-are/subsidiaries.html",
+    "https://www.centene.com/who-we-are/corporate-facts-reports.html",
+    "https://www.centene.com/who-we-are/ethics-and-integrity.html",
+    "https://www.centene.com/who-we-are/one-centeam.html",
+    "https://www.centene.com/who-we-are/one-centeam/people-with-disabilities.html",
+    "https://www.centene.com/who-we-are/one-centeam/serving-the-military-community.html",
+    "https://www.centene.com/who-we-are/one-centeam/employee-networks.html",
+    "https://www.centene.com/who-we-are/one-centeam/attracting-top-talent.html",
+    "https://www.centene.com/who-we-are/centene-foundation.html",
+    "https://www.centene.com/who-we-are/centene-foundation/impact.html",
+    "https://www.centene.com/who-we-are/centene-foundation/becoming-a-partner.html",
+    "https://www.centene.com/who-we-are/centene-foundation/featured-partnerships.html",
+    "https://www.centene.com/who-we-are/accreditations.html",
+    "https://www.centene.com/who-we-are/awards.html",
+    "https://www.centene.com/why-were-different.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/empowering-health.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthier-communities.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthy-environment.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/business-accountability.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/healthcare-providers-partners.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/impacting-lives.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/centene-suppliers.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/economic-impact.html",
+    "https://www.centene.com/why-were-different/improving-outcomes.html",
+    "https://www.centene.com/why-were-different/healthcare-fraud-waste-abuse-oversight.html",
+    "https://www.centene.com/products-and-services.html",
+    "https://www.centene.com/products-and-services/medicaid.html",
+    "https://www.centene.com/products-and-services/medicaid/long-term-services-and-supports.html",
+    "https://www.centene.com/products-and-services/medicaid/foster-care.html",
+    "https://www.centene.com/products-and-services/medicare.html",
+    "https://www.centene.com/products-and-services/marketplace.html",
+    "https://www.centene.com/products-and-services/marketplace/ichra-ambetter-health-solutions.html",
+    "https://www.centene.com/products-and-services/whole-health-solutions.html",
+    "https://www.centene.com/products-and-services/browse-by-state.html",
+    "https://jobs.centene.com/us/en",
+    "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA.",
+    "https://www.centene.com/news.html",
+    "https://www.centene.com/products-and-services/browse-by-state/alabama.html",
+    "https://www.centene.com/products-and-services/browse-by-state/alaska.html",
+    "https://www.centene.com/products-and-services/browse-by-state/arizona.html",
+    "https://www.centene.com/products-and-services/browse-by-state/arkansas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/california.html",
+    "https://www.centene.com/products-and-services/browse-by-state/colorado.html",
+    "https://www.centene.com/products-and-services/browse-by-state/connecticut.html",
+    "https://www.centene.com/products-and-services/browse-by-state/district-of-columbia.html",
+    "https://www.centene.com/products-and-services/browse-by-state/delaware.html",
+    "https://www.centene.com/products-and-services/browse-by-state/florida.html",
+    "https://www.centene.com/products-and-services/browse-by-state/georgia.html",
+    "https://www.centene.com/products-and-services/browse-by-state/hawaii.html",
+    "https://www.centene.com/products-and-services/browse-by-state/idaho.html",
+    "https://www.centene.com/products-and-services/browse-by-state/illinois.html",
+    "https://www.centene.com/products-and-services/browse-by-state/indiana.html",
+    "https://www.centene.com/products-and-services/browse-by-state/iowa.html",
+    "https://www.centene.com/products-and-services/browse-by-state/kansas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/kentucky.html",
+    "https://www.centene.com/products-and-services/browse-by-state/louisiana.html",
+    "https://www.centene.com/products-and-services/browse-by-state/maine.html",
+    "https://www.centene.com/products-and-services/browse-by-state/maryland.html",
+    "https://www.centene.com/products-and-services/browse-by-state/massachusetts.html",
+    "https://www.centene.com/products-and-services/browse-by-state/michigan.html",
+    "https://www.centene.com/products-and-services/browse-by-state/minnesota.html",
+    "https://www.centene.com/products-and-services/browse-by-state/mississippi.html",
+    "https://www.centene.com/products-and-services/browse-by-state/missouri.html",
+    "https://www.centene.com/products-and-services/browse-by-state/montana.html",
+    "https://www.centene.com/products-and-services/browse-by-state/nebraska.html",
+    "https://www.centene.com/products-and-services/browse-by-state/nevada.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-hampshire.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-jersey.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-mexico.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-york.html",
+    "https://www.centene.com/products-and-services/browse-by-state/north-carolina.html",
+    "https://www.centene.com/products-and-services/browse-by-state/north-dakota.html",
+    "https://www.centene.com/products-and-services/browse-by-state/ohio.html",
+    "https://www.centene.com/products-and-services/browse-by-state/oklahoma.html",
+    "https://www.centene.com/products-and-services/browse-by-state/oregon.html",
+    "https://www.centene.com/products-and-services/browse-by-state/pennsylvania.html",
+    "https://www.centene.com/products-and-services/browse-by-state/rhode-island.html",
+    "https://www.centene.com/products-and-services/browse-by-state/south-carolina.html",
+    "https://www.centene.com/products-and-services/browse-by-state/south-dakota.html",
+    "https://www.centene.com/products-and-services/browse-by-state/tennessee.html",
+    "https://www.centene.com/products-and-services/browse-by-state/texas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/utah.html",
+    "https://www.centene.com/products-and-services/browse-by-state/vermont.html",
+    "https://www.centene.com/products-and-services/browse-by-state/virginia.html",
+    "https://www.centene.com/products-and-services/browse-by-state/washington.html",
+    "https://www.centene.com/products-and-services/browse-by-state/west-virginia.html",
+    "https://www.centene.com/products-and-services/browse-by-state/wisconsin.html",
+    "https://www.centene.com/products-and-services/browse-by-state/wyoming.html",
+    "https://www.centene.com/news/start-smart-maternity-and-child-health-program.html",
+    "https://www.centene.com/news/ahip-partnerships-transforming-prior-authorization.html",
+    "https://jobs.centene.com/us/en/",
+    "https://investors.centene.com/",
+    "https://jobs.centene.com/us/en/life-at-centene/applicant-resources",
+    "https://www.centene.com/privacy-policy.html",
+    "https://www.centene.com/terms-conditions.html",
+    "https://www.centene.com/purchase-order-terms-conditions.html",
+    "https://www.centene.com/accessibility.html",
+    "https://www.centene.com/site-map.html",
+    "https://www.linkedin.com/company/centene-corporation",
+    "https://www.facebook.com/CenteneCorporation",
+    "https://x.com/Centene",
+    "https://www.youtube.com/user/CenteneCorp"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/ambetter-ichra-illustration.jpg",
+        "alt": "graphic illustration of person on crutches and another person standing in front of giant insurance card",
+        "w": 900,
+        "h": 900
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/women-and-girl-square.jpg",
+        "alt": "1152308875",
+        "w": 649,
+        "h": 649
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/foster-care-family-square.jpg",
+        "alt": "2184789178",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/smart-start-maternity-program.jpg",
+        "alt": "mother holding a baby",
+        "w": 700,
+        "h": 470
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/ahip.jpg",
+        "alt": "woman sitting and talking to a physician holding a tablet",
+        "w": 839,
+        "h": 569
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      }
+    ],
+    "allImgCount": 9,
+    "cssBackgrounds": [
+      "https://www.centene.com/content/dam/centenedotcom/banners/pregnant-patient-checkup-with-doctor.jpg",
+      "https://www.centene.com/content/dam/centenedotcom/banners/Wave-Banners-1800x413.png"
+    ],
+    "modals": [
+      "DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zaqdyobgv6lw",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 4950,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/products-and-services-html.png"
+}

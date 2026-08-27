@@ -1,14 +1,22 @@
 {
   "discovery": {
     "fetchTechnique": "headless",
-    "count": 1,
-    "concurrency": 4
+    "count": 207,
+    "concurrency": 6
   },
   "consent": {
     "method": "auto"
   },
   "crawl": {
-    "failures": []
+    "failures": [
+      {
+        "url": "https://www.centene.com/careers.html",
+        "slug": "careers-html",
+        "errorClass": "HTTPError",
+        "message": "HTTP 403",
+        "at": "2026-08-27T13:13:51.189Z"
+      }
+    ]
   },
   "visionCheck": [
     {

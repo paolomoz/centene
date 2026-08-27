@@ -50,6 +50,104 @@
   ],
   "extensions": {
     "note": "bounded-single replica spec; module catalog and site-wide voice are --prep products and intentionally absent",
-    "tokensFile": "stardust/replica/capture/tokens.json"
+    "tokensFile": "stardust/replica/capture/tokens.json",
+    "modules": [
+      {
+        "id": "hero-banner",
+        "status": "candidate",
+        "pages": "all",
+        "note": "photo band + title; interior variant = solid/photo band with h1 (state pages: tall blue band)"
+      },
+      {
+        "id": "breadcrumb",
+        "status": "candidate",
+        "pages": "all interior",
+        "note": "Home > section > page trail under the header"
+      },
+      {
+        "id": "sub-nav",
+        "status": "candidate",
+        "pages": "products-and-services/*",
+        "note": "secondary band: Medicaid | Medicare | Marketplace | Whole Health + Browse by State"
+      },
+      {
+        "id": "richtext-band",
+        "status": "candidate",
+        "pages": "content/utility/article",
+        "note": "background-color-box compositions — pilot blocks intro/feature/panel generalize"
+      },
+      {
+        "id": "cards-news",
+        "status": "confirmed",
+        "pages": "landing, listing",
+        "note": "pilot cards block; listing variant reads the query index (dynamic)"
+      },
+      {
+        "id": "press-release-rail",
+        "status": "candidate",
+        "pages": "news.html",
+        "note": "right rail of dated press-release links + Search Press Releases CTA (external IR feed)"
+      },
+      {
+        "id": "tile-links",
+        "status": "candidate",
+        "pages": "news.html, pillar pages",
+        "note": "full-color tile links (Featured Stories Archive / Videos / Corporate Facts / Media Contact)"
+      },
+      {
+        "id": "brand-card",
+        "status": "candidate",
+        "pages": "state (51)",
+        "note": "per-plan row: brand logo card + description + bullet list + external plan link"
+      },
+      {
+        "id": "people-grid",
+        "status": "candidate",
+        "pages": "board-of-directors",
+        "note": "director portraits/bios"
+      },
+      {
+        "id": "logo-grid",
+        "status": "candidate",
+        "pages": "subsidiaries, accreditations, partnerships",
+        "note": "logo + text rows"
+      },
+      {
+        "id": "timeline",
+        "status": "candidate",
+        "pages": "history",
+        "note": "era bands + YouTube embed"
+      },
+      {
+        "id": "award-list",
+        "status": "candidate",
+        "pages": "awards",
+        "note": "32 h3 award entries grouped by year/category"
+      },
+      {
+        "id": "article-body",
+        "status": "candidate",
+        "pages": "article (47)",
+        "note": "date + photo + prose + PDF links + inline related links"
+      },
+      {
+        "id": "form",
+        "status": "candidate",
+        "pages": "contact, media-contact, foster-care contact",
+        "note": "AEM form + invisible reCAPTCHA; needs submission endpoint decision"
+      },
+      {
+        "id": "embed",
+        "status": "confirmed",
+        "pages": "various",
+        "note": "YouTube auto-block; pilot intro block consumes it; generalize via buildAutoBlocks"
+      },
+      {
+        "id": "search-results",
+        "status": "candidate",
+        "pages": "search.html + header box",
+        "note": "query-index-backed client search"
+      }
+    ]
   }
 }

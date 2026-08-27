@@ -5,3 +5,4 @@
 {"at":"2026-08-26T17:20:00Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","archetype":"index","result":{"w1440":{"pixelPct":0.69,"heightDelta":0},"w360":{"pixelPct":1.5,"heightDelta":-1},"structuralRed":0,"pass":true}}
 {"at":"2026-08-26T17:45:00Z","skill":"stardust:replica","phase":"approval","event":"end","archetype":"index","approvedBy":"user"}
 {"at":"2026-08-26T22:30:00Z","skill":"stardust:deploy","phase":"deploy","event":"end","page":"index","published":["index","nav","footer"],"gate":{"w1440":3.63,"w360":2.97,"cls":0.0009,"pass":true}}
+{"at":"2026-08-27T13:34:50.085Z","skill":"stardust:prepare-migration","phase":"extract-prep+dynamic-blocks","event":"end","pages":206,"types":9,"modules":16,"indexes":["news-index","site-index"]}

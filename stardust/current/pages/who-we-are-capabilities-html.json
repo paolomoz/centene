@@ -1,0 +1,422 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:16:05.196Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "who-we-are-capabilities-html",
+  "url": "https://www.centene.com/who-we-are/capabilities.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:16:05.196Z",
+  "finalUrl": "https://www.centene.com/who-we-are/capabilities.html",
+  "title": "Healthcare Innovation & Technology Strategies | Centene",
+  "description": "Discover how Centene leads the healthcare industry with innovative, evidence-based initiatives, advanced technology, and community partnerships. Learn about our commitment to whole health, local involvement, and transforming lives through integrated healthcare solutions.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Capabilities"
+    },
+    {
+      "tag": "h2",
+      "text": "Innovation in a Rapidly Changing World"
+    },
+    {
+      "tag": "h2",
+      "text": "Technology to Better Serve Individuals"
+    },
+    {
+      "tag": "h2",
+      "text": "Related News"
+    },
+    {
+      "tag": "h2",
+      "text": "See Also"
+    }
+  ],
+  "body": [
+    "Contact",
+    "Who We Are Our Mission History Board of Directors Capabilities Subsidiaries Corporate Facts & Reports Ethics & Integrity One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent Centene Foundation Impact Becoming a Partner Featured Partnerships Accreditations Awards",
+    "Our Mission",
+    "History",
+    "Board of Directors",
+    "Capabilities",
+    "Subsidiaries",
+    "Corporate Facts & Reports",
+    "Ethics & Integrity",
+    "One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent",
+    "Centene Foundation Impact Becoming a Partner Featured Partnerships",
+    "Accreditations",
+    "Awards",
+    "Why We're Different Corporate Sustainability Empowering Health Healthier Communities Healthy Environment Business Accountability Strategic Partnerships Providers & Healthcare Partners Impacting Lives Our Suppliers Economic Impact Improving Outcomes Combating Fraud, Waste and Abuse",
+    "Products & Services Medicaid Long-Term Services & Supports Foster Care Medicare Health Insurance Marketplace ICHRA Whole Health Solutions Browse by State",
+    "Careers",
+    "Investors",
+    "News",
+    "Home",
+    "Who We Are",
+    "Capabilities",
+    "At Centene, we are invested in being proactive leaders. For more than four decades, Centene has embraced evidence-based initiatives, state-of-the-art technology and strong community partnerships to build innovative programs that help members live healthier lives.",
+    "Centene has always emphasized innovation and a technology strategy that prioritizes our members’ healthcare needs. By putting people at the center of all we do, we are able to use our information technology systems to provide insight into the behaviors of our members and providers and the challenges they face.",
+    "Focus on the Individual",
+    "Whole Health",
+    "Active Local Involvement",
+    "Centene’s proactive leadership is fueled by its innovative spirit. Whether developing new ideas or continuously improving core systems and processes, we are constantly seeking solutions for the challenges faced in healthcare today – from more effective clinical intervention methods to better consumer experiences for our members and providers.",
+    "Our experience, organizational scale and local approach allow for fast experimentation and pilot programs that are tailored to state-specific needs. Meanwhile, Centene’s Innovation Labs organization sits apart from the day-to-day operations of our core business and is fully dedicated to rapidly developing and testing concepts to exceed expectations in an ever-changing world.",
+    "A unified view of our members’ medical, social and functional needs is an integral component of our approach to person-centered care. We use our proprietary enterprise platform, Centelligence™, to integrate data from multiple sources and access actionable population and member-level information.",
+    "Information alone is not enough, however. Having a positive effect on people’s health requires a deeper understanding – through advanced analytics – and carefully coordinated efforts. Central to Centene’s clinical management programs is TruCare, a member-centric health management platform for care collaboration. TruCare integrates data from case management, behavioral health, disease management and utilization management processes so our staff can look at the whole health of the individuals we serve. Our integrated approach allows us to connect traditionally fragmented services while linking members to medical and nonmedical community resources.",
+    "Increasing Visibility, Transparency, and Access through the Provider Accessibility Initiative",
+    "Celebrating Centene's 40 Years of Impact & Innovation",
+    "Who We Are",
+    "Why We're Different",
+    "Products & Services",
+    "News",
+    "Transforming the health of the communities we serve, one person at a time.",
+    "HEALTHCARE IS BEST DELIVERED LOCALLY",
+    "Our uniquely local approach allows us to help members access quality-focused, culturally sensitive healthcare services.",
+    "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+    "The health of individuals drives our focus on the environment, removing social barriers to health and prioritizing responsible corporate governance.",
+    "© Copyright 2026 Centene Corporation"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Our Mission",
+      "href": "/who-we-are/our-mission.html"
+    },
+    {
+      "label": "History",
+      "href": "/who-we-are/history.html"
+    },
+    {
+      "label": "Board of Directors",
+      "href": "/who-we-are/board-of-directors.html"
+    },
+    {
+      "label": "Capabilities",
+      "href": "/who-we-are/capabilities.html"
+    },
+    {
+      "label": "Subsidiaries",
+      "href": "/who-we-are/subsidiaries.html"
+    },
+    {
+      "label": "Corporate Facts & Reports",
+      "href": "/who-we-are/corporate-facts-reports.html"
+    },
+    {
+      "label": "Ethics & Integrity",
+      "href": "/who-we-are/ethics-and-integrity.html"
+    },
+    {
+      "label": "One CenTeam",
+      "href": "/who-we-are/one-centeam.html"
+    },
+    {
+      "label": "Centene Foundation",
+      "href": "/who-we-are/centene-foundation.html"
+    },
+    {
+      "label": "Accreditations",
+      "href": "/who-we-are/accreditations.html"
+    },
+    {
+      "label": "Awards",
+      "href": "/who-we-are/awards.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.centene.com/us/en"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA."
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Increasing Visibility, Transparency, and Access through the Provider Accessibility Initiative",
+      "href": "/news/provider-accessibility-initiative.html"
+    },
+    {
+      "label": "Celebrating Centene's 40 Years of Impact & Innovation",
+      "href": "/news/celebrating-centene--forty-years-of-impact-innovation.html.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "HEALTHCARE IS BEST DELIVERED LOCALLY",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+      "href": "/why-were-different/corporate-sustainability.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "CareersExternal Link",
+      "href": "https://jobs.centene.com/us/en/"
+    },
+    {
+      "label": "InvestorsExternal Link",
+      "href": "https://investors.centene.com"
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Equal Opportunity EmployerExternal Link",
+      "href": "https://jobs.centene.com/us/en/life-at-centene/applicant-resources"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms-conditions.html"
+    },
+    {
+      "label": "Purchase Order Terms & Conditions",
+      "href": "/purchase-order-terms-conditions.html"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map.html"
+    }
+  ],
+  "links": [
+    "https://www.centene.com/who-we-are/capabilities.html#main",
+    "https://www.centene.com/",
+    "https://www.centene.com/contact.html",
+    "https://www.centene.com/who-we-are.html",
+    "https://www.centene.com/who-we-are/our-mission.html",
+    "https://www.centene.com/who-we-are/history.html",
+    "https://www.centene.com/who-we-are/board-of-directors.html",
+    "https://www.centene.com/who-we-are/capabilities.html",
+    "https://www.centene.com/who-we-are/subsidiaries.html",
+    "https://www.centene.com/who-we-are/corporate-facts-reports.html",
+    "https://www.centene.com/who-we-are/ethics-and-integrity.html",
+    "https://www.centene.com/who-we-are/one-centeam.html",
+    "https://www.centene.com/who-we-are/one-centeam/people-with-disabilities.html",
+    "https://www.centene.com/who-we-are/one-centeam/serving-the-military-community.html",
+    "https://www.centene.com/who-we-are/one-centeam/employee-networks.html",
+    "https://www.centene.com/who-we-are/one-centeam/attracting-top-talent.html",
+    "https://www.centene.com/who-we-are/centene-foundation.html",
+    "https://www.centene.com/who-we-are/centene-foundation/impact.html",
+    "https://www.centene.com/who-we-are/centene-foundation/becoming-a-partner.html",
+    "https://www.centene.com/who-we-are/centene-foundation/featured-partnerships.html",
+    "https://www.centene.com/who-we-are/accreditations.html",
+    "https://www.centene.com/who-we-are/awards.html",
+    "https://www.centene.com/why-were-different.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/empowering-health.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthier-communities.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthy-environment.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/business-accountability.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/healthcare-providers-partners.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/impacting-lives.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/centene-suppliers.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/economic-impact.html",
+    "https://www.centene.com/why-were-different/improving-outcomes.html",
+    "https://www.centene.com/why-were-different/healthcare-fraud-waste-abuse-oversight.html",
+    "https://www.centene.com/products-and-services.html",
+    "https://www.centene.com/products-and-services/medicaid.html",
+    "https://www.centene.com/products-and-services/medicaid/long-term-services-and-supports.html",
+    "https://www.centene.com/products-and-services/medicaid/foster-care.html",
+    "https://www.centene.com/products-and-services/medicare.html",
+    "https://www.centene.com/products-and-services/marketplace.html",
+    "https://www.centene.com/products-and-services/marketplace/ichra-ambetter-health-solutions.html",
+    "https://www.centene.com/products-and-services/whole-health-solutions.html",
+    "https://www.centene.com/products-and-services/browse-by-state.html",
+    "https://jobs.centene.com/us/en",
+    "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA.",
+    "https://www.centene.com/news.html",
+    "https://www.centene.com/news/provider-accessibility-initiative.html",
+    "https://www.centene.com/news/celebrating-centene--forty-years-of-impact-innovation.html.html",
+    "https://jobs.centene.com/us/en/",
+    "https://investors.centene.com/",
+    "https://jobs.centene.com/us/en/life-at-centene/applicant-resources",
+    "https://www.centene.com/privacy-policy.html",
+    "https://www.centene.com/terms-conditions.html",
+    "https://www.centene.com/purchase-order-terms-conditions.html",
+    "https://www.centene.com/accessibility.html",
+    "https://www.centene.com/site-map.html",
+    "https://www.linkedin.com/company/centene-corporation",
+    "https://www.facebook.com/CenteneCorporation",
+    "https://x.com/Centene",
+    "https://www.youtube.com/user/CenteneCorp"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/icons/FocusOnIndividual_icon.png",
+        "alt": "",
+        "w": 288,
+        "h": 288
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/icons/WholeHealth_icon.png",
+        "alt": "",
+        "w": 288,
+        "h": 288
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/icons/ActiveLocalInvolvement_icon.png",
+        "alt": "",
+        "w": 288,
+        "h": 288
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/physician-walking-member-down-hospital-hall.jpg",
+        "alt": "provider accessibility",
+        "w": 700,
+        "h": 470
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/40th-anniversary-centene.jpg",
+        "alt": "logo of Centene's 40th anniversary",
+        "w": 839,
+        "h": 569
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      }
+    ],
+    "allImgCount": 9,
+    "cssBackgrounds": [
+      "https://www.centene.com/content/dam/centenedotcom/images/Our%20Mission%20Test%20banner%20no_copy.png"
+    ],
+    "modals": [
+      "DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=yl7bh2dw33ee",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 5,
+    "mainTextLen": 4212,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/who-we-are-capabilities-html.png"
+}

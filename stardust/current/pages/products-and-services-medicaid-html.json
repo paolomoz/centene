@@ -1,0 +1,695 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:15:41.541Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "products-and-services-medicaid-html",
+  "url": "https://www.centene.com/products-and-services/medicaid.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:15:41.541Z",
+  "finalUrl": "https://www.centene.com/products-and-services/medicaid.html",
+  "title": "Medicaid Insurance Plans: Medicaid Plans by State | Centene",
+  "description": "Centene offers Medicaid plans in over 30 states. Learn about the available Medicaid insurance plans and healthcare solutions in your state today.\n",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Medicaid Health Plans: Quality Coverage in 30 States"
+    },
+    {
+      "tag": "h2",
+      "text": "Leading Medicaid Innovation and Eligibility Access"
+    },
+    {
+      "tag": "h3",
+      "text": "Medicaid Programs at Centene"
+    },
+    {
+      "tag": "h2",
+      "text": "More Than Medicaid: A Leading Provider of Government Sponsored Healthcare"
+    },
+    {
+      "tag": "h2",
+      "text": "Long-Term Services & Supports (LTSS)"
+    },
+    {
+      "tag": "h2",
+      "text": "Foster Care"
+    },
+    {
+      "tag": "h2",
+      "text": "FAQs"
+    },
+    {
+      "tag": "h3",
+      "text": "1. Is Centene a Medicaid health plan?"
+    },
+    {
+      "tag": "h3",
+      "text": "2. What's the difference between Medicaid and Medicare?"
+    },
+    {
+      "tag": "h3",
+      "text": "3. How does an individual know if they are eligible for Medicaid coverage?"
+    },
+    {
+      "tag": "h3",
+      "text": "4. What does Medicaid health coverage include?"
+    },
+    {
+      "tag": "h3",
+      "text": "5. Does Centene offer Medicaid plans in every state?"
+    },
+    {
+      "tag": "h3",
+      "text": "6. Is Ambetter Health the same as Medicaid?"
+    },
+    {
+      "tag": "h3",
+      "text": "7. Is Wellcare the same as Medicaid?"
+    },
+    {
+      "tag": "h3",
+      "text": "8. What Medicaid plans does Centene operate?"
+    },
+    {
+      "tag": "h2",
+      "text": "Centene Coordinated Care – Sinai’s Story"
+    },
+    {
+      "tag": "h2",
+      "text": "Centene News & Updates"
+    },
+    {
+      "tag": "h2",
+      "text": "See Also"
+    }
+  ],
+  "body": [
+    "Contact",
+    "Who We Are Our Mission History Board of Directors Capabilities Subsidiaries Corporate Facts & Reports Ethics & Integrity One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent Centene Foundation Impact Becoming a Partner Featured Partnerships Accreditations Awards",
+    "Why We're Different Corporate Sustainability Empowering Health Healthier Communities Healthy Environment Business Accountability Strategic Partnerships Providers & Healthcare Partners Impacting Lives Our Suppliers Economic Impact Improving Outcomes Combating Fraud, Waste and Abuse",
+    "Products & Services Medicaid Long-Term Services & Supports Foster Care Medicare Health Insurance Marketplace ICHRA Whole Health Solutions Browse by State",
+    "Medicaid Long-Term Services & Supports Foster Care",
+    "Long-Term Services & Supports",
+    "Foster Care",
+    "Medicare",
+    "Health Insurance Marketplace ICHRA",
+    "Whole Health Solutions",
+    "Browse by State",
+    "Careers",
+    "Investors",
+    "News",
+    "Home",
+    "Products & Services",
+    "Medicaid",
+    "Founded in 1984 as a single nonprofit Medicaid health plan in Milwaukee, Wisconsin, Centene Corporation has grown into the largest Medicaid managed care organization in the United States. Today, it serves approximately 12.1 million Medicaid members across 30 states.",
+    "Centene is a national leader in Medicaid innovation and access. Our Medicaid programs are designed to meet the diverse needs of individuals and families.",
+    "Temporary Assistance for Needy Families (TANF)",
+    "Medicaid Expansion",
+    "Aged, Blind, Disabled (ABD)",
+    "Children’s Health Insurance Program (CHIP)",
+    "Long-Term Services and Supports (LTSS)",
+    "Foster Care",
+    "Dual Eligible Special Needs Plan (D-SNP)",
+    "Other state-based programs",
+    "Centene provides access to affordable, quality-focused healthcare not only to Medicaid members, but also to Medicare members through WellcareExternal Link, and to individuals and families served by the Health Insurance Marketplace through Ambetter HealthExternal Link. Wellcare offers a variety of Medicare options – including Medicare Advantage and Prescription Drug Plans – that go beyond Original Medicare (Parts A and B) to provide affordable, comprehensive coverage. Ambetter Health provides comprehensive coverage, including preventive and wellness services, maternity and newborn care, pediatric services, mental health and substance misuse treatment, prescription drug coverage, and more.",
+    "We serve Medicaid members in:",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Delaware",
+    "Florida",
+    "Georgia",
+    "Hawaii",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Michigan",
+    "Mississippi",
+    "Missouri",
+    "Nebraska",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New York",
+    "North Carolina",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "South Carolina",
+    "Texas",
+    "Washington",
+    "Wisconsin",
+    "Centene is a national leader in managed long-term services and supports (LTSS). By delivering person-centered care through deep expertise, a local approach, and innovative solutions that improve outcomes, Centene helps members maintain their independence.",
+    "Learn More >",
+    "Centene serves more children involved in the child welfare and foster care system than any Medicaid managed care organization in the nation. We help members and their caregivers get the right care at the right time.",
+    "Learn More >",
+    "Diagnosed with cancer at a young age, Sinai, a Coordinated Care member, faced complex medical challenges. With the guidance and support of her Senior Care Manager Dawn, she was able to complete high school while navigating her healthcare.",
+    "Superior HealthPlan and Centene Foundation Make $400,000 Investment to Help Tackle Food Insecurity in TexasExternal Link",
+    "Meridian Health Plan of Illinois and Centene Foundation Give $300,000 to Food Pantries to Help Tackle Food Insecurity in IllinoisExternal Link",
+    "Our Mission",
+    "Centene Foundation",
+    "Medicare",
+    "Health Insurance Marketplace",
+    "Accreditations",
+    "Transforming the health of the communities we serve, one person at a time.",
+    "HEALTHCARE IS BEST DELIVERED LOCALLY",
+    "Our uniquely local approach allows us to help members access quality-focused, culturally sensitive healthcare services.",
+    "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+    "The health of individuals drives our focus on the environment, removing social barriers to health and prioritizing responsible corporate governance.",
+    "© Copyright 2026 Centene Corporation"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "Medicaid",
+      "href": "/products-and-services/medicaid.html"
+    },
+    {
+      "label": "Long-Term Services & Supports",
+      "href": "/products-and-services/medicaid/long-term-services-and-supports.html"
+    },
+    {
+      "label": "Foster Care",
+      "href": "/products-and-services/medicaid/foster-care.html"
+    },
+    {
+      "label": "Medicare",
+      "href": "/products-and-services/medicare.html"
+    },
+    {
+      "label": "Health Insurance Marketplace",
+      "href": "/products-and-services/marketplace.html"
+    },
+    {
+      "label": "Whole Health Solutions",
+      "href": "/products-and-services/whole-health-solutions.html"
+    },
+    {
+      "label": "Browse by State",
+      "href": "/products-and-services/browse-by-state.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.centene.com/us/en"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA."
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "WellcareExternal Link",
+      "href": "https://www.wellcarenow.com/b/"
+    },
+    {
+      "label": "Ambetter HealthExternal Link",
+      "href": "https://www.ambetterhealth.com/"
+    },
+    {
+      "label": "Arizona",
+      "href": "/products-and-services/browse-by-state/arizona.html"
+    },
+    {
+      "label": "Arkansas",
+      "href": "/products-and-services/browse-by-state/arkansas.html"
+    },
+    {
+      "label": "California",
+      "href": "/products-and-services/browse-by-state/california.html"
+    },
+    {
+      "label": "Delaware",
+      "href": "/products-and-services/browse-by-state/delaware.html"
+    },
+    {
+      "label": "Florida",
+      "href": "/products-and-services/browse-by-state/florida.html"
+    },
+    {
+      "label": "Georgia",
+      "href": "/products-and-services/browse-by-state/georgia.html"
+    },
+    {
+      "label": "Hawaii",
+      "href": "/products-and-services/browse-by-state/hawaii.html"
+    },
+    {
+      "label": "Illinois",
+      "href": "/products-and-services/browse-by-state/illinois.html"
+    },
+    {
+      "label": "Indiana",
+      "href": "/products-and-services/browse-by-state/indiana.html"
+    },
+    {
+      "label": "Iowa",
+      "href": "/products-and-services/browse-by-state/iowa.html"
+    },
+    {
+      "label": "Kansas",
+      "href": "/products-and-services/browse-by-state/kansas.html"
+    },
+    {
+      "label": "Kentucky",
+      "href": "/products-and-services/browse-by-state/kentucky.html"
+    },
+    {
+      "label": "Louisiana",
+      "href": "/products-and-services/browse-by-state/louisiana.html"
+    },
+    {
+      "label": "Michigan",
+      "href": "/products-and-services/browse-by-state/michigan.html"
+    },
+    {
+      "label": "Mississippi",
+      "href": "/products-and-services/browse-by-state/mississippi.html"
+    },
+    {
+      "label": "Missouri",
+      "href": "/products-and-services/browse-by-state/missouri.html"
+    },
+    {
+      "label": "Nebraska",
+      "href": "/products-and-services/browse-by-state/nebraska.html"
+    },
+    {
+      "label": "Nevada",
+      "href": "/products-and-services/browse-by-state/nevada.html"
+    },
+    {
+      "label": "New Hampshire",
+      "href": "/products-and-services/browse-by-state/new-hampshire.html"
+    },
+    {
+      "label": "New Jersey",
+      "href": "/products-and-services/browse-by-state/new-jersey.html"
+    },
+    {
+      "label": "New York",
+      "href": "/products-and-services/browse-by-state/new-york.html"
+    },
+    {
+      "label": "North Carolina",
+      "href": "/products-and-services/browse-by-state/north-carolina.html"
+    },
+    {
+      "label": "Ohio",
+      "href": "/products-and-services/browse-by-state/ohio.html"
+    },
+    {
+      "label": "Oklahoma",
+      "href": "/products-and-services/browse-by-state/oklahoma.html"
+    },
+    {
+      "label": "Oregon",
+      "href": "/products-and-services/browse-by-state/oregon.html"
+    },
+    {
+      "label": "Pennsylvania",
+      "href": "/products-and-services/browse-by-state/pennsylvania.html"
+    },
+    {
+      "label": "South Carolina",
+      "href": "/products-and-services/browse-by-state/south-carolina.html"
+    },
+    {
+      "label": "Texas",
+      "href": "/products-and-services/browse-by-state/texas.html"
+    },
+    {
+      "label": "Washington",
+      "href": "/products-and-services/browse-by-state/washington.html"
+    },
+    {
+      "label": "Wisconsin",
+      "href": "/products-and-services/browse-by-state/wisconsin.html"
+    },
+    {
+      "label": "Learn More >",
+      "href": "/products-and-services/medicaid/long-term-services-and-supports.html"
+    },
+    {
+      "label": "Learn More >",
+      "href": "/products-and-services/medicaid/foster-care.html"
+    },
+    {
+      "label": "1. Is Centene a Medicaid health plan?",
+      "href": null
+    },
+    {
+      "label": "2. What's the difference between Medicaid and Medicare?",
+      "href": null
+    },
+    {
+      "label": "3. How does an individual know if they are eligible for Medicaid coverage?",
+      "href": null
+    },
+    {
+      "label": "4. What does Medicaid health coverage include?",
+      "href": null
+    },
+    {
+      "label": "5. Does Centene offer Medicaid plans in every state?",
+      "href": null
+    },
+    {
+      "label": "6. Is Ambetter Health the same as Medicaid?",
+      "href": null
+    },
+    {
+      "label": "7. Is Wellcare the same as Medicaid?",
+      "href": null
+    },
+    {
+      "label": "8. What Medicaid plans does Centene operate?",
+      "href": null
+    },
+    {
+      "label": "Superior HealthPlan and Centene Foundation Make $400,000 Investment to Help Tackle Food Insecurity in TexasExternal Link",
+      "href": "https://www.superiorhealthplan.com/newsroom/superior-healthplan-and-centene-foundation-investment-to-help-tackle-food-insecurity-in-texas.html"
+    },
+    {
+      "label": "Meridian Health Plan of Illinois and Centene Foundation Give $300,000 to Food Pantries to Help Tackle Food Insecurity in IllinoisExternal Link",
+      "href": "https://www.ilmeridian.com/newsroom/meridian-health-plan-of-illinois-and-centene-foundation-give--30.html"
+    },
+    {
+      "label": "Our Mission",
+      "href": "/who-we-are/our-mission.html"
+    },
+    {
+      "label": "Centene Foundation",
+      "href": "/who-we-are/centene-foundation.html"
+    },
+    {
+      "label": "Medicare",
+      "href": "/products-and-services/medicare.html"
+    },
+    {
+      "label": "Health Insurance Marketplace",
+      "href": "/products-and-services/marketplace.html"
+    },
+    {
+      "label": "Accreditations",
+      "href": "/who-we-are/accreditations.html"
+    },
+    {
+      "label": "HEALTHCARE IS BEST DELIVERED LOCALLY",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+      "href": "/why-were-different/corporate-sustainability.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "CareersExternal Link",
+      "href": "https://jobs.centene.com/us/en/"
+    },
+    {
+      "label": "InvestorsExternal Link",
+      "href": "https://investors.centene.com"
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Equal Opportunity EmployerExternal Link",
+      "href": "https://jobs.centene.com/us/en/life-at-centene/applicant-resources"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms-conditions.html"
+    },
+    {
+      "label": "Purchase Order Terms & Conditions",
+      "href": "/purchase-order-terms-conditions.html"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map.html"
+    }
+  ],
+  "links": [
+    "https://www.centene.com/products-and-services/medicaid.html#main",
+    "https://www.centene.com/",
+    "https://www.centene.com/contact.html",
+    "https://www.centene.com/who-we-are.html",
+    "https://www.centene.com/who-we-are/our-mission.html",
+    "https://www.centene.com/who-we-are/history.html",
+    "https://www.centene.com/who-we-are/board-of-directors.html",
+    "https://www.centene.com/who-we-are/capabilities.html",
+    "https://www.centene.com/who-we-are/subsidiaries.html",
+    "https://www.centene.com/who-we-are/corporate-facts-reports.html",
+    "https://www.centene.com/who-we-are/ethics-and-integrity.html",
+    "https://www.centene.com/who-we-are/one-centeam.html",
+    "https://www.centene.com/who-we-are/one-centeam/people-with-disabilities.html",
+    "https://www.centene.com/who-we-are/one-centeam/serving-the-military-community.html",
+    "https://www.centene.com/who-we-are/one-centeam/employee-networks.html",
+    "https://www.centene.com/who-we-are/one-centeam/attracting-top-talent.html",
+    "https://www.centene.com/who-we-are/centene-foundation.html",
+    "https://www.centene.com/who-we-are/centene-foundation/impact.html",
+    "https://www.centene.com/who-we-are/centene-foundation/becoming-a-partner.html",
+    "https://www.centene.com/who-we-are/centene-foundation/featured-partnerships.html",
+    "https://www.centene.com/who-we-are/accreditations.html",
+    "https://www.centene.com/who-we-are/awards.html",
+    "https://www.centene.com/why-were-different.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/empowering-health.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthier-communities.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthy-environment.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/business-accountability.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/healthcare-providers-partners.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/impacting-lives.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/centene-suppliers.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/economic-impact.html",
+    "https://www.centene.com/why-were-different/improving-outcomes.html",
+    "https://www.centene.com/why-were-different/healthcare-fraud-waste-abuse-oversight.html",
+    "https://www.centene.com/products-and-services.html",
+    "https://www.centene.com/products-and-services/medicaid.html",
+    "https://www.centene.com/products-and-services/medicaid/long-term-services-and-supports.html",
+    "https://www.centene.com/products-and-services/medicaid/foster-care.html",
+    "https://www.centene.com/products-and-services/medicare.html",
+    "https://www.centene.com/products-and-services/marketplace.html",
+    "https://www.centene.com/products-and-services/marketplace/ichra-ambetter-health-solutions.html",
+    "https://www.centene.com/products-and-services/whole-health-solutions.html",
+    "https://www.centene.com/products-and-services/browse-by-state.html",
+    "https://jobs.centene.com/us/en",
+    "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA.",
+    "https://www.centene.com/news.html",
+    "https://www.wellcarenow.com/b/",
+    "https://www.ambetterhealth.com/",
+    "https://www.centene.com/products-and-services/browse-by-state/arizona.html",
+    "https://www.centene.com/products-and-services/browse-by-state/arkansas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/california.html",
+    "https://www.centene.com/products-and-services/browse-by-state/delaware.html",
+    "https://www.centene.com/products-and-services/browse-by-state/florida.html",
+    "https://www.centene.com/products-and-services/browse-by-state/georgia.html",
+    "https://www.centene.com/products-and-services/browse-by-state/hawaii.html",
+    "https://www.centene.com/products-and-services/browse-by-state/illinois.html",
+    "https://www.centene.com/products-and-services/browse-by-state/indiana.html",
+    "https://www.centene.com/products-and-services/browse-by-state/iowa.html",
+    "https://www.centene.com/products-and-services/browse-by-state/kansas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/kentucky.html",
+    "https://www.centene.com/products-and-services/browse-by-state/louisiana.html",
+    "https://www.centene.com/products-and-services/browse-by-state/michigan.html",
+    "https://www.centene.com/products-and-services/browse-by-state/mississippi.html",
+    "https://www.centene.com/products-and-services/browse-by-state/missouri.html",
+    "https://www.centene.com/products-and-services/browse-by-state/nebraska.html",
+    "https://www.centene.com/products-and-services/browse-by-state/nevada.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-hampshire.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-jersey.html",
+    "https://www.centene.com/products-and-services/browse-by-state/new-york.html",
+    "https://www.centene.com/products-and-services/browse-by-state/north-carolina.html",
+    "https://www.centene.com/products-and-services/browse-by-state/ohio.html",
+    "https://www.centene.com/products-and-services/browse-by-state/oklahoma.html",
+    "https://www.centene.com/products-and-services/browse-by-state/oregon.html",
+    "https://www.centene.com/products-and-services/browse-by-state/pennsylvania.html",
+    "https://www.centene.com/products-and-services/browse-by-state/south-carolina.html",
+    "https://www.centene.com/products-and-services/browse-by-state/texas.html",
+    "https://www.centene.com/products-and-services/browse-by-state/washington.html",
+    "https://www.centene.com/products-and-services/browse-by-state/wisconsin.html",
+    "https://www.superiorhealthplan.com/newsroom/superior-healthplan-and-centene-foundation-investment-to-help-tackle-food-insecurity-in-texas.html",
+    "https://www.ilmeridian.com/newsroom/meridian-health-plan-of-illinois-and-centene-foundation-give--30.html",
+    "https://jobs.centene.com/us/en/",
+    "https://investors.centene.com/",
+    "https://jobs.centene.com/us/en/life-at-centene/applicant-resources",
+    "https://www.centene.com/privacy-policy.html",
+    "https://www.centene.com/terms-conditions.html",
+    "https://www.centene.com/purchase-order-terms-conditions.html",
+    "https://www.centene.com/accessibility.html",
+    "https://www.centene.com/site-map.html",
+    "https://www.linkedin.com/company/centene-corporation",
+    "https://www.facebook.com/CenteneCorporation",
+    "https://x.com/Centene",
+    "https://www.youtube.com/user/CenteneCorp"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/women-and-girl-square.jpg",
+        "alt": "1152308875",
+        "w": 649,
+        "h": 649
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/foster-care-family-square.jpg",
+        "alt": "2184789178",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/investor_images/man-baby-groceries.jpg",
+        "alt": "Person with baby unloading groceries",
+        "w": 854,
+        "h": 687
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/investor_images/food-pickup.jpg",
+        "alt": "A person kneeling at a doorway holding a cardboard box filled with fresh groceries",
+        "w": 854,
+        "h": 687
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [
+      "https://www.centene.com/content/dam/centenedotcom/images/Our%20Mission%20Test%20banner%20no_copy.png"
+    ],
+    "modals": [
+      "This website uses cookies to ensure you get the best experience on our website. DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube.com/embed/msXDO38t4ts?rel=0",
+        "title": "Youtube Video: Sinai's story"
+      },
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ebmfy1y1sg53",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 18,
+    "mainTextLen": 9097,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/products-and-services-medicaid-html.png"
+}

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "renderedBy": "playwright",
-    "fetchedAt": "2026-08-26T15:33:57.961Z",
+    "fetchedAt": "2026-08-27T13:13:46.651Z",
     "waitMode": "medium",
     "waitMs": 2500,
     "httpStatus": 200
@@ -9,7 +9,7 @@
   "slug": "index",
   "url": "https://www.centene.com/",
   "renderedBy": "playwright",
-  "fetchedAt": "2026-08-26T15:33:57.961Z",
+  "fetchedAt": "2026-08-27T13:13:46.651Z",
   "finalUrl": "https://www.centene.com/",
   "title": "Managed Care & Healthcare Solutions | Centene Corporation",
   "description": "As a managed care organization, we provide access to high-quality healthcare solutions that help families & individuals. Learn more about Centene.",
@@ -324,18 +324,6 @@
         "h": 600
       },
       {
-        "src": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/food-basket-produce.jpg",
-        "alt": "Woman carrying two bags of fresh fruits and vegetables",
-        "w": 950,
-        "h": 600
-      },
-      {
-        "src": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/mom-on-laptop-child-nearby.jpg",
-        "alt": "mother typing on laptop with a child in the background",
-        "w": 950,
-        "h": 600
-      },
-      {
         "src": "https://www.centene.com/content/dam/centenedotcom/images/serving-our-members-medicare.png",
         "alt": "happy senior african american couple",
         "w": 1137,
@@ -380,7 +368,7 @@
         "title": "This is Centene"
       },
       {
-        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=xg_pWYS8-HRESiV6Rdg4aY_R&size=invisible&anchor-ms=20000&execute-ms=30000&cb=8z9bfptmcogv",
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ymfh8zw7em8y",
         "title": "reCAPTCHA"
       }
     ]
@@ -395,7 +383,7 @@
     "filteredInterstitials": 0,
     "distinctHeadings": 11,
     "mainTextLen": 5318,
-    "realImageCount": 9,
+    "realImageCount": 7,
     "trackingOnlyMedia": false,
     "spaShellSuspect": false,
     "screenshotMode": "fullPage"

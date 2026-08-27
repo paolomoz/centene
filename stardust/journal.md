@@ -65,3 +65,18 @@ Published-origin gate (vs live centene.com): 1440 → 3.63%/Δ1px, 360 →
 2.97%/Δ0px, CLS 0.0009, all delivered checks green. Fix rounds: global
 border-box, picture-wrapper descender, footer specificity/whitespace/BFC
 class (5 lessons in eds-conversion-log.md).
+
+## 2026-08-27 — prepare-migration Phase 1 + 4.5 (full-site plan)
+
+Sitemap discovered via robots (`/.sitemap.xml`, 212 URLs). Full prep crawl:
+206/207 live-rendered (1 DUP folded, /careers.html 403 = external-jobs stub).
+All pages typed into state.json (9 types; provenance OK on 206/206).
+Vision spot-checks surfaced three template facts the pilot didn't show:
+interior breadcrumb, products sub-nav band, news listing's press-release
+rail (external IR feed → Tier-3 static decision).
+
+Artifacts: stardust/migration-plan.md (the plan), dynamic-blocks-map.md
+(2 dynamic listings + search on 2 indexes; metadata contract for articles),
+helix-query.yaml (news-index, site-index), DESIGN.json modules[] (16).
+Next: confirm plan → archetype prototypes (content, state, article,
+listing, pillar, utility, form, search) via replica recreation + gate.

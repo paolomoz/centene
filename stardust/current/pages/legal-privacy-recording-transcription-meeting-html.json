@@ -1,0 +1,124 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:13:51.620Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "legal-privacy-recording-transcription-meeting-html",
+  "url": "https://www.centene.com/legal/privacy-recording-transcription-meeting.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:13:51.620Z",
+  "finalUrl": "https://www.centene.com/legal/privacy-recording-transcription-meeting.html",
+  "title": "Privacy Notice - Recording and Transcription of Microsoft Teams Meeting",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Recording and Transcription of Microsoft Teams Meeting"
+    },
+    {
+      "tag": "h3",
+      "text": "Whose personal data do we process?"
+    },
+    {
+      "tag": "h3",
+      "text": "What type of personal data do we process?"
+    },
+    {
+      "tag": "h3",
+      "text": "Why do we process personal data?"
+    },
+    {
+      "tag": "h3",
+      "text": "Where do we get your personal data from?"
+    },
+    {
+      "tag": "h3",
+      "text": "Who do we share your personal data with?"
+    },
+    {
+      "tag": "h3",
+      "text": "How are the recordings and transcripts held and for how long?"
+    }
+  ],
+  "body": [
+    "When a Microsoft Teams meeting is recorded and transcribed, we will process the personal data of the individuals in attendance that have consent to the transcription or recording function during that meeting. This may include:",
+    "Employees",
+    "External participants",
+    "When you attend a Microsoft Teams meeting that is recorded or transcribed, the personal data we process may include:",
+    "Your name / username",
+    "Your photograph (if you have one associated with your MS Teams profile)",
+    "Your email address",
+    "Your participation in the meeting, including video/background images/audio/chat/reactions",
+    "The meeting organizer will initiate a consent option for participants to accept or decline prior to starting the transcription or recording function for the meeting. Participants must provide their consent before they are able to unmute themselves or enable their video, thereby ensuring adherence to two-party consent laws. Attendees who do not provide consent will be limited to listen-only mode during transcription, and their camera functionality will be disabled.",
+    "Centene may require the recording or transcription of a Microsoft Teams meeting to ensure proper documentation for minutes or future reference and distribution.",
+    "Personal data processed during a Microsoft Teams meeting recording or transcription pertains to attendees, reflecting their participation and attendance, provided they have given consent.",
+    "Microsoft Teams recordings or transcriptions may only be shared with Centene employees or business partners for legitimate business purposes.",
+    "Microsoft Teams recording and transcripts will be stored in accordance with Centene’s data retention policies:",
+    "Default Retention: Transcripts are retained for 90 days unless subject to a legal hold.",
+    "Storage Location: Transcripts are stored securely within Centene’s managed Microsoft 365 tenant under Centene’s enterprise data protection controls.",
+    "Deletion: After the retention period, transcripts are permanently deleted unless otherwise required by law."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    }
+  ],
+  "links": [],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "centene logo",
+        "w": 222,
+        "h": 55
+      }
+    ],
+    "allImgCount": 1,
+    "cssBackgrounds": [],
+    "modals": [
+      "DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=6ueb07adeh5w",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 2,
+    "distinctHeadings": 7,
+    "mainTextLen": 2876,
+    "realImageCount": 1,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/legal-privacy-recording-transcription-meeting-html.png"
+}

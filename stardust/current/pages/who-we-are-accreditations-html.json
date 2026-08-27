@@ -1,0 +1,518 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:16:04.640Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "who-we-are-accreditations-html",
+  "url": "https://www.centene.com/who-we-are/accreditations.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:16:04.640Z",
+  "finalUrl": "https://www.centene.com/who-we-are/accreditations.html",
+  "title": "Accreditations | Centene",
+  "description": "Centene and our subsidiaries have been recognized for exceeding healthcare industry standards through NCQA & URAC accreditations.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Healthcare Accreditations"
+    },
+    {
+      "tag": "h2",
+      "text": "Centene’s NCQA Health Plan Accreditations"
+    },
+    {
+      "tag": "h3",
+      "text": "NCQA Accredited Markets"
+    },
+    {
+      "tag": "h2",
+      "text": "Centene’s Specialty Healthcare Organization NCQA and URAC Accreditations"
+    },
+    {
+      "tag": "h3",
+      "text": "NCQA"
+    },
+    {
+      "tag": "h3",
+      "text": "URAC"
+    },
+    {
+      "tag": "h2",
+      "text": "Core Certification"
+    },
+    {
+      "tag": "h3",
+      "text": "Related News"
+    },
+    {
+      "tag": "h3",
+      "text": "See Also"
+    }
+  ],
+  "body": [
+    "Contact",
+    "Who We Are Our Mission History Board of Directors Capabilities Subsidiaries Corporate Facts & Reports Ethics & Integrity One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent Centene Foundation Impact Becoming a Partner Featured Partnerships Accreditations Awards",
+    "Our Mission",
+    "History",
+    "Board of Directors",
+    "Capabilities",
+    "Subsidiaries",
+    "Corporate Facts & Reports",
+    "Ethics & Integrity",
+    "One CenTeam People with Disabilities Serving the Military Community Employee Networks Attracting Top Talent",
+    "Centene Foundation Impact Becoming a Partner Featured Partnerships",
+    "Accreditations",
+    "Awards",
+    "Why We're Different Corporate Sustainability Empowering Health Healthier Communities Healthy Environment Business Accountability Strategic Partnerships Providers & Healthcare Partners Impacting Lives Our Suppliers Economic Impact Improving Outcomes Combating Fraud, Waste and Abuse",
+    "Products & Services Medicaid Long-Term Services & Supports Foster Care Medicare Health Insurance Marketplace ICHRA Whole Health Solutions Browse by State",
+    "Careers",
+    "Investors",
+    "News",
+    "Home",
+    "Who We Are",
+    "Accreditations",
+    "Centene Corporation strives to meet rigorous standards that reflect our commitment to providing quality care to all members. These efforts are recognized through various certifications and accreditations from top healthcare quality organizations, covering both health plans and specialty healthcare organizations.",
+    "The National Committee for Quality Assurance (NCQA) helps improve health care quality. NCQA evaluates health plans in meeting standards and guidelines through an accreditation process which evaluates operational policies, data used to monitor operations, care and services outcomes, implementation of quality improvement process, and verification of processes related to health care management.",
+    "Centene Corporation's health plans have several NCQA accreditations and distinctions:",
+    "Health Plan Accreditation (HPA) measures health plan performance related to quality improvement, population health, network management, utilization management, credentialing, and member experience.",
+    "Health Outcomes Accreditation (HOA) provides a data-driven understanding of the health plan’s population and their unique needs and experiences, identifying and addressing gaps and disparities in care.",
+    "Community-Focused Care Accreditation (CFCA) assists health plans to cultivate community-based partnerships to connect members to non-medical or social needs resources.",
+    "Long-Term Services & Supports (LTSS) Distinction provides a framework for organizations to deliver person-centered care that meets individual’s needs and state requirements.",
+    "National Committee for Quality Assurance evaluates specialty programs for patient-centered care, aiming to improve patient outcomes, and demonstrating a commitment to quality. Specialty NCQA accreditations focus on areas of patient programs, operations, and quality improvement, aligning organizations with contracting partners, and highlighting best practices.",
+    "Specialty Company NCQA Accreditations:",
+    "Centene Corporation – Credentials Verification Organization",
+    "Diamond Designation Program – Physician Quality",
+    "Centene Pharmacy Services – Utilization Management",
+    "Centene Management Company – Utilization Management",
+    "Envolve Dental dba Centene Dental Services – Utilization Management",
+    "Envolve Vision Benefits dba Centene Vision Services – Utilization Management",
+    "'Ohana Health Plan (Community Care Services [CCS] program) - Managed Behavioral Healthcare Organization",
+    "Utilization Review Accreditation Commission provides accreditation standards to validate high quality healthcare to improve outcomes with continuous quality improvement and regulatory requirements. Specialty URAC accreditations focus on areas of pharmacy services, digital/telehealth, patient care management, and administrative management.",
+    "Specialty Company URAC Accreditations:",
+    "Centene Pharmacy Services – Drug Therapy Management",
+    "AcariaHealth – Specialty Pharmacy",
+    "Centene standardizes the information given to healthcare providers. The Committee on Operating Rules for Information Exchange (CORE) is an initiative by a nonprofit alliance of health plans, networks and trade associations to simplify healthcare administration. With CORE certification, Centene joins others in standardizing the information sent to providers, so they receive consistent, uniform information from each insurer. CORE certification helps providers offer the best possible care consistently to each member, which in turn helps members maintain better health. It also improves interactions between health insurers and providers, reduces costs and administrative hassles, meets HIPAA requirements, and increases accuracy and speed in paying claims. Centene has received the CAQH CORE® health plan certification seal and is exchanging electronic administrative data in compliance with the CORE rules. For more information about CORE, please visit CAQHExternal Link.",
+    "PA Health & Wellness Recognized Among Top 14 Medicaid Health Plans in the Nation by NCQAExternal Link",
+    "Health Net Only Health Plan in United States to Receive \"Health Equity Accreditation Plus\" Across All Lines of Business for 2024External Link",
+    "Healthcare Quality",
+    "Empowering Health",
+    "Our Mission",
+    "Awards",
+    "Transforming the health of the communities we serve, one person at a time.",
+    "HEALTHCARE IS BEST DELIVERED LOCALLY",
+    "Our uniquely local approach allows us to help members access quality-focused, culturally sensitive healthcare services.",
+    "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+    "The health of individuals drives our focus on the environment, removing social barriers to health and prioritizing responsible corporate governance.",
+    "© Copyright 2026 Centene Corporation"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Our Mission",
+      "href": "/who-we-are/our-mission.html"
+    },
+    {
+      "label": "History",
+      "href": "/who-we-are/history.html"
+    },
+    {
+      "label": "Board of Directors",
+      "href": "/who-we-are/board-of-directors.html"
+    },
+    {
+      "label": "Capabilities",
+      "href": "/who-we-are/capabilities.html"
+    },
+    {
+      "label": "Subsidiaries",
+      "href": "/who-we-are/subsidiaries.html"
+    },
+    {
+      "label": "Corporate Facts & Reports",
+      "href": "/who-we-are/corporate-facts-reports.html"
+    },
+    {
+      "label": "Ethics & Integrity",
+      "href": "/who-we-are/ethics-and-integrity.html"
+    },
+    {
+      "label": "One CenTeam",
+      "href": "/who-we-are/one-centeam.html"
+    },
+    {
+      "label": "Centene Foundation",
+      "href": "/who-we-are/centene-foundation.html"
+    },
+    {
+      "label": "Accreditations",
+      "href": "/who-we-are/accreditations.html"
+    },
+    {
+      "label": "Awards",
+      "href": "/who-we-are/awards.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.centene.com/us/en"
+    },
+    {
+      "label": "Investors",
+      "href": "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA."
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "NCQA Accredited Markets",
+      "href": null
+    },
+    {
+      "label": "Specialty PharmacyExternal Link",
+      "href": "https://accreditnet.urac.org/directory/#/accreditation/SPP-258/info"
+    },
+    {
+      "label": "Pharmacy Services - Drug Therapy Management, Opioid StewardshipExternal Link",
+      "href": "https://accreditnet.urac.org/directory/#/accreditation/PSA010002/info"
+    },
+    {
+      "label": "visit CAQHExternal Link",
+      "href": "https://www.caqh.org/core/core-certification"
+    },
+    {
+      "label": "PA Health & Wellness Recognized Among Top 14 Medicaid Health Plans in the Nation by NCQAExternal Link",
+      "href": "https://investors.centene.com/2025-09-18-PA-Health-Wellness-Recognized-Among-Top-14-Medicaid-Health-Plans-in-the-Nation-by-NCQA"
+    },
+    {
+      "label": "Health Net Only Health Plan in United States to Receive \"Health Equity Accreditation Plus\" Across All Lines of Business for 2024External Link",
+      "href": "https://investors.centene.com/2024-10-17-Health-Net-Only-Health-Plan-in-United-States-to-Receive-Health-Equity-Accreditation-Plus-Across-All-Lines-of-Business-for-2024"
+    },
+    {
+      "label": "Healthcare Quality",
+      "href": "/why-were-different/corporate-sustainability/empowering-health/healthcare-quality.html"
+    },
+    {
+      "label": "Empowering Health",
+      "href": "/why-were-different/corporate-sustainability/empowering-health.html"
+    },
+    {
+      "label": "Our Mission",
+      "href": "/who-we-are/our-mission.html"
+    },
+    {
+      "label": "Awards",
+      "href": "/who-we-are/awards.html"
+    },
+    {
+      "label": "HEALTHCARE IS BEST DELIVERED LOCALLY",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY",
+      "href": "/why-were-different/corporate-sustainability.html"
+    },
+    {
+      "label": "Who We Are",
+      "href": "/who-we-are.html"
+    },
+    {
+      "label": "Why We're Different",
+      "href": "/why-were-different.html"
+    },
+    {
+      "label": "Products & Services",
+      "href": "/products-and-services.html"
+    },
+    {
+      "label": "CareersExternal Link",
+      "href": "https://jobs.centene.com/us/en/"
+    },
+    {
+      "label": "InvestorsExternal Link",
+      "href": "https://investors.centene.com"
+    },
+    {
+      "label": "News",
+      "href": "/news.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact.html"
+    },
+    {
+      "label": "Equal Opportunity EmployerExternal Link",
+      "href": "https://jobs.centene.com/us/en/life-at-centene/applicant-resources"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms-conditions.html"
+    },
+    {
+      "label": "Purchase Order Terms & Conditions",
+      "href": "/purchase-order-terms-conditions.html"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map.html"
+    }
+  ],
+  "links": [
+    "https://www.centene.com/who-we-are/accreditations.html#main",
+    "https://www.centene.com/",
+    "https://www.centene.com/contact.html",
+    "https://www.centene.com/who-we-are.html",
+    "https://www.centene.com/who-we-are/our-mission.html",
+    "https://www.centene.com/who-we-are/history.html",
+    "https://www.centene.com/who-we-are/board-of-directors.html",
+    "https://www.centene.com/who-we-are/capabilities.html",
+    "https://www.centene.com/who-we-are/subsidiaries.html",
+    "https://www.centene.com/who-we-are/corporate-facts-reports.html",
+    "https://www.centene.com/who-we-are/ethics-and-integrity.html",
+    "https://www.centene.com/who-we-are/one-centeam.html",
+    "https://www.centene.com/who-we-are/one-centeam/people-with-disabilities.html",
+    "https://www.centene.com/who-we-are/one-centeam/serving-the-military-community.html",
+    "https://www.centene.com/who-we-are/one-centeam/employee-networks.html",
+    "https://www.centene.com/who-we-are/one-centeam/attracting-top-talent.html",
+    "https://www.centene.com/who-we-are/centene-foundation.html",
+    "https://www.centene.com/who-we-are/centene-foundation/impact.html",
+    "https://www.centene.com/who-we-are/centene-foundation/becoming-a-partner.html",
+    "https://www.centene.com/who-we-are/centene-foundation/featured-partnerships.html",
+    "https://www.centene.com/who-we-are/accreditations.html",
+    "https://www.centene.com/who-we-are/awards.html",
+    "https://www.centene.com/why-were-different.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/empowering-health.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthier-communities.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/healthy-environment.html",
+    "https://www.centene.com/why-were-different/corporate-sustainability/business-accountability.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/healthcare-providers-partners.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/impacting-lives.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/centene-suppliers.html",
+    "https://www.centene.com/why-were-different/strategic-partnerships/economic-impact.html",
+    "https://www.centene.com/why-were-different/improving-outcomes.html",
+    "https://www.centene.com/why-were-different/healthcare-fraud-waste-abuse-oversight.html",
+    "https://www.centene.com/products-and-services.html",
+    "https://www.centene.com/products-and-services/medicaid.html",
+    "https://www.centene.com/products-and-services/medicaid/long-term-services-and-supports.html",
+    "https://www.centene.com/products-and-services/medicaid/foster-care.html",
+    "https://www.centene.com/products-and-services/medicare.html",
+    "https://www.centene.com/products-and-services/marketplace.html",
+    "https://www.centene.com/products-and-services/marketplace/ichra-ambetter-health-solutions.html",
+    "https://www.centene.com/products-and-services/whole-health-solutions.html",
+    "https://www.centene.com/products-and-services/browse-by-state.html",
+    "https://jobs.centene.com/us/en",
+    "https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA.",
+    "https://www.centene.com/news.html",
+    "https://accreditnet.urac.org/directory/#/accreditation/SPP-258/info",
+    "https://accreditnet.urac.org/directory/#/accreditation/PSA010002/info",
+    "https://www.caqh.org/core/core-certification",
+    "https://investors.centene.com/2025-09-18-PA-Health-Wellness-Recognized-Among-Top-14-Medicaid-Health-Plans-in-the-Nation-by-NCQA",
+    "https://investors.centene.com/2024-10-17-Health-Net-Only-Health-Plan-in-United-States-to-Receive-Health-Equity-Accreditation-Plus-Across-All-Lines-of-Business-for-2024",
+    "https://www.centene.com/why-were-different/corporate-sustainability/empowering-health/healthcare-quality.html",
+    "https://jobs.centene.com/us/en/",
+    "https://investors.centene.com/",
+    "https://jobs.centene.com/us/en/life-at-centene/applicant-resources",
+    "https://www.centene.com/privacy-policy.html",
+    "https://www.centene.com/terms-conditions.html",
+    "https://www.centene.com/purchase-order-terms-conditions.html",
+    "https://www.centene.com/accessibility.html",
+    "https://www.centene.com/site-map.html",
+    "https://www.linkedin.com/company/centene-corporation",
+    "https://www.facebook.com/CenteneCorporation",
+    "https://x.com/Centene",
+    "https://www.youtube.com/user/CenteneCorp"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Logo: go to Centene homepage",
+        "w": 222,
+        "h": 55
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQAHPAccredited.jpg",
+        "alt": "NCQA Accredited - Health Plan",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQAHealthOutcomes.jpg",
+        "alt": "NCQA Accredited - Health Outcomes",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQACommunityFocusedCare.jpg",
+        "alt": "NCQA Accredited - Community-Focused Care",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQA-LTSS-distinction-logo.jpg",
+        "alt": "NCQA Accredited - LTSS",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQAUM_3yrs.jpg",
+        "alt": "NCQA Accredited - Utilization Management 3 years",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQA-MBHO-accredited-logo.jpg",
+        "alt": "NCQA Accredited - Managed Behavioral Health Organization",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/NCQA_CVO.jpg",
+        "alt": "NCQA Accredited - Credentialing Verifications Organization",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/physical_health_acc.jpg",
+        "alt": "NCQA Accredited - Health Equity Accreditation",
+        "w": 200,
+        "h": 188
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/urac-accreditation-seal.png",
+        "alt": "URAC Specialty Pharmacy Accredited Seal",
+        "w": 170,
+        "h": 176
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/urac-accreditation-seal.png",
+        "alt": "URAC Pharmacy Services Accredited Seal",
+        "w": 170,
+        "h": 176
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/CAQH_CORE_certified.jpg",
+        "alt": "CAQH-CORE_Cert-Seals_digital-rgb",
+        "w": 180,
+        "h": 249
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/investor_images/i-medical2.jpg",
+        "alt": "PA Health & Wellness Recognized Among Top 14 Medicaid Health Plans in the Nation by NCQA",
+        "w": 700,
+        "h": 470
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/investor_images/i-medical.jpg",
+        "alt": "Health Net Only Health Plan in United States to Receive \"Health Equity Accreditation Plus\" Across All Lines of Business for 2024",
+        "w": 700,
+        "h": 470
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      },
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png",
+        "alt": "Logo: go to Centene homepage",
+        "w": 270,
+        "h": 66
+      }
+    ],
+    "allImgCount": 17,
+    "cssBackgrounds": [
+      "https://www.centene.com/content/dam/centenedotcom/images/Our%20Mission%20Test%20banner%20no_copy.png"
+    ],
+    "modals": [
+      "DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=xx2i5zf6qim6",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 9,
+    "mainTextLen": 8031,
+    "realImageCount": 17,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/who-we-are-accreditations-html.png"
+}

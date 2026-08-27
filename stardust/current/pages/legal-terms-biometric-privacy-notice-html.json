@@ -1,0 +1,92 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-27T13:13:51.724Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "legal-terms-biometric-privacy-notice-html",
+  "url": "https://www.centene.com/legal/terms/Biometric-Privacy-Notice.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-27T13:13:51.724Z",
+  "finalUrl": "https://www.centene.com/legal/terms/Biometric-Privacy-Notice.html",
+  "title": "Biometric Privacy Notice",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [
+    "The Company uses third-party facial recognition software (“Software”) in connection with biometric authentication technology for identity verification, fraud prevention, pre-employment hiring, and employee onboarding purposes (the “Biometric Use Purpose”). Company may collect other personal information, such as name, location, and contact information to assist with these activities.",
+    "When you use the Software, the Company, its vendor(s), and/or the licensor(s) of the biometric authentication technology collect, use, and store your Biometric Information, such as a scan of your face geometry, retina, or iris , to verify your identity, verify authenticity, and/or detect fraud.",
+    "The Company will disclose your Biometric Information to its third-party facial recognition software vendor(s) perform the Biometric Use Purpose. The Company, its vendor(s), and/or the licensor(s) of the biometric authentication technology will not disclose, redisclose, or otherwise disseminate your Biometric Information unless permitted by law.",
+    "The Company, its vendor(s), and/or the licensor(s) of the biometric authentication technology will not sell, lease, trade, or otherwise profit from your Biometric Information; however, the Company’s vendor(s) and/or the licensor(s) of the biometric authentication technology may be paid for products or services used by the Company that utilize such Biometric Information.",
+    "Biometric Information will be stored, transmitted, and protected using a reasonable standard of care for the Company’s industry, in a manner that is the same as or more protective than the manner in which the Company stores, transmits, and protects other confidential and sensitive information in its possession.",
+    "The Company will retain your Biometric Information only until, and will direct its vendor(s) which use the biometric authentication technology and/or the licensor(s) of the biometric authentication technology to permanently destroy such information when, the first of the following occurs:",
+    "1. The date upon which the Biometric Use Purpose has been satisfied;",
+    "2. 24 months after your last interaction with the Company; or",
+    "3. The earliest reasonably feasible date, and no more than 45 days after the Company determines that storage of such Biometric Information is no longer necessary, adequate, or relevant to the express processing purpose identified by an annual review conducted by the Company. The Company may extend this 45-day period by up to an additional 45 days if reasonably necessary.",
+    "In the event of a data security incident that may compromise the security of Biometric Information, the Company will promptly investigate the incident and take appropriate measures to mitigate any potential harm. The Company will notify affected individuals in accordance with applicable law.",
+    "A copy of this Notice is made publicly available online at https://centene.com/legal/terms/biometric-privacy-notice.html. The Company will update this Notice if it begins to collect or use Biometric Information for any additional purposes. The Company reserves the right to amend this Notice at any time.",
+    "By signing a document making reference to this notice by its Internet address (URL), an individual acknowledges that they have been advised and understands that the Company, its vendor(s), and/or the licensor(s) of the biometric authentication technology may collect, retain, and use Biometric Information for the purpose of verifying the identity of and detecting fraud among Company’s job applicants, employees, and independent contractors. The individual understands that they are free to decline to provide Biometric Information to the Company, its vendor(s), and/or the licensor(s) of the biometric authentication technology without any adverse employment action. The individual may revoke this consent at any time by notifying the Company in writing.",
+    "Last updated: 2025-11-12"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Decline",
+      "href": null
+    },
+    {
+      "label": "Accept",
+      "href": null
+    },
+    {
+      "label": "Cookie Preferences Icon Cookie Preferences",
+      "href": null
+    }
+  ],
+  "links": [],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg",
+        "alt": "Centene Corporation logo",
+        "w": 222,
+        "h": 55
+      }
+    ],
+    "allImgCount": 1,
+    "cssBackgrounds": [],
+    "modals": [
+      "DeclineAcceptCookie Preferences Icon Cookie Preferences"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf0M08pAAAAAMiwtg31cvwyLTNHQenGLwr-93Rx&co=aHR0cHM6Ly93d3cuY2VudGVuZS5jb206NDQz&hl=en&v=GY0lZUzQQgeA0wDxVI-SQEZw&size=invisible&anchor-ms=20000&execute-ms=30000&cb=a0hva7wk19e5",
+        "title": "reCAPTCHA"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\""
+  },
+  "_signals": {
+    "filteredInterstitials": 2,
+    "distinctHeadings": 0,
+    "mainTextLen": 5239,
+    "realImageCount": 1,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/legal-terms-biometric-privacy-notice-html.png"
+}
