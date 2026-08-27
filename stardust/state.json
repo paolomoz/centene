@@ -1072,9 +1072,9 @@
       "slug": "products-and-services-html",
       "url": "https://www.centene.com/products-and-services.html",
       "type": "pillar",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/products-and-services-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/pillar-proposed.html",
       "migratedPath": null
     },
     {

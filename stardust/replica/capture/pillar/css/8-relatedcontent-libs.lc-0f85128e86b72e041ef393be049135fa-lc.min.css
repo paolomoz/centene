@@ -1,0 +1,21 @@
+.relatedcontent .container{width:100%}
+.relatedcontent .related-content-block{margin:25px 0}
+.relatedcontent .related-content-block h2,.relatedcontent .related-content-block h3,.relatedcontent .related-content-block h4,.relatedcontent .related-content-block h5,.relatedcontent .related-content-block h6{margin-top:10px;color:#00598c;font-size:34px;line-height:38px;text-transform:none;letter-spacing:normal}
+.relatedcontent .related-content-block p{color:#00aeef}
+.relatedcontent .related-content-block a{font-style:italic;font-weight:bold}
+.relatedcontent .related-content-block .featured-content .cards{display:flex;flex-wrap:wrap;align-items:stretch}
+.relatedcontent .related-content-block .featured-content .cards .card{flex:1;margin:15px;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,0.1);box-shadow:0 5px 20px 0 rgba(0,0,0,0.1);border-radius:7px;max-width:700px}
+.relatedcontent .related-content-block .featured-content .cards .card img{max-width:100%;border-radius:5px 5px 0 0}
+.relatedcontent .related-content-block .featured-content .cards .card .text{padding:20px 20px 20px}
+.relatedcontent .related-content-block .see-also ul{list-style-type:none;padding-left:0;margin-top:20px}
+.relatedcontent .related-content-block .see-also ul li{font-size:18px;color:#00aeef;margin-bottom:30px;position:relative}
+.relatedcontent .related-content-block .see-also ul li a{padding-right:120px;display:block}
+.relatedcontent .related-content-block .see-also ul li button{width:58px;border-radius:20px;border:2px solid #00598c;padding-bottom:5px;background:#fff;position:absolute;right:50px;bottom:0}
+.relatedcontent .related-content-block .see-also ul li button:hover{background:#00598c}
+.relatedcontent .related-content-block .see-also ul li button:hover svg path{fill:#fff}
+.relatedcontent .related-content-block .see-also ul li button svg{overflow:visible}
+.relatedcontent .related-content-block .see-also ul li button svg path{fill:#00598c}
+.relatedcontent .related-content-block .see-also ul li:hover button{background:#00598c}
+.relatedcontent .related-content-block .see-also ul li:hover button svg path{fill:#fff}
+@media(max-width:700px){.relatedcontent .related-content-block .featured-content .cards .card{flex:50%}
+}

@@ -1,0 +1,112 @@
+/* Per-archetype layer — pillar (/products-and-services.html). Lifted values. */
+
+.nav-band { height: 160px; }
+
+/* hero: navy photo band, light breadcrumb, white h1 */
+.p-hero {
+  background-color: var(--brand-color-global);
+  background-image: url('media/p-pregnant-patient-checkup-with-doctor.jpg');
+  background-size: cover; background-position: 0 0; background-repeat: no-repeat;
+  color: #fff;
+}
+.p-hero .breadcrumb ol li::after { color: #fff; }
+.p-hero .breadcrumb a span, .p-hero .breadcrumb li.active span { color: #fff; }
+.h1-wrap-pillar { margin: 0; }
+.h1-wrap-pillar h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: #fff; }
+.p-hero .centene-h1 { color: #fff; }
+
+/* wave band */
+.p-wave {
+  background-color: var(--brand-color-global);
+  background-image: url('media/p-Wave-Banners-1800x413.png');
+  background-size: cover; background-position: 0 0; background-repeat: no-repeat;
+  color: #fff;
+}
+.p-wave p { font-size: 18px; margin: 0 0 20px; }
+.colctrl-66 { float: left; width: 66.66667%; padding: 0 10px; }
+.colctrl-33 { float: left; width: 33.33333%; padding: 0 10px; }
+.p-wave .w-inner { margin: 0 56px 0 0; }
+.p-wave h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #fff; }
+.p-wave .centene-h5 { line-height: 1.1; }
+.statemap select {
+  width: 100%; height: 34px; padding: 6px 12px;
+  font-family: 'Roboto', sans-serif; font-size: 14px; color: #555;
+  background: #fff; border: 1px solid #ccc; border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 7.5%);
+}
+.state-list-hidden { display: none; }
+
+/* products band */
+.p-products h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+.p-products .eyebrow-p { margin: 0 0 20px; width: 70%; }
+.p-products .centene-h5 { line-height: 1.42857; }
+.p-products h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
+.p-products h3 .rd-t-16 { line-height: 1.1; }
+.p-products .row p { font-size: 18px; margin: 0 0 20px; color: #333; }
+
+a.site-btn {
+  display: inline-block; font-family: 'Roboto-Medium', sans-serif; font-weight: 400;
+  font-size: 18.2px; line-height: 26px; color: #005986; background: #fff;
+  padding: 5px 15px; margin: 0 0 10px; border: 2px solid #005986; border-radius: 20px;
+  text-align: center; white-space: normal;
+}
+
+/* product cards */
+.p-cards { margin-bottom: 10px; }
+.p-cards .equal-height { display: flex; }
+.p-card {
+  width: 33.33333%; margin: 10px 15px; padding: 40px 10px;
+  border-radius: 6px; color: #fff;
+}
+.p-card.centenedotcom-cerise-background { background-color: var(--cerise); }
+.p-card.centenedotcom-plum-background { background-color: #5c2f92; }
+.p-card.navy-background { background-color: var(--navy); }
+.card-img-box { padding: 24px 20% 16px; }
+.card-img-box p { margin: 0 0 20px; }
+.p-card img.circle-crop { border-radius: 50%; width: 200px; height: 200px; }
+.p-card h2 { font-size: 29px; line-height: 1.1; margin: 20px 10%; color: #fff; }
+.p-card .centene-h5 { line-height: 1.1; }
+.p-card .richtext p { font-size: 18px; margin: 0 10% 20px; color: #fff; }
+.p-card a { color: #fff; padding: 5px; margin: -5px; }
+
+/* related content (shared pattern) */
+.related-block { padding: 0 10px; margin: 25px 0; display: flow-root; }
+.related-row { margin: 0 -10px; }
+.related-row::after { content: ""; display: table; clear: both; }
+.featured-content { position: relative; float: left; width: 66.66667%; padding: 0 10px; }
+.see-also { position: relative; float: left; width: 33.33333%; padding: 0 10px; }
+.related-block h2 { font-size: 34px; line-height: 38px; font-weight: 500; color: var(--brand-color-global); margin: 10px 0; }
+.rel-cards { display: flex; }
+.rel-card { margin: 15px; max-width: 700px; border-radius: 7px; box-shadow: rgb(0 0 0 / 10%) 0 5px 20px 0; flex: 1; }
+.rel-card > a { display: inline; color: var(--brand-color-global); font-size: 14px; font-weight: 700; }
+.rel-card img { width: 100%; height: auto; border-radius: 5px 5px 0 0; }
+.rel-card .text { padding: 20px; }
+.rel-card .text p { margin: 0 0 20px; font-size: 18px; color: #00aeef; }
+.rel-card .text a { color: var(--brand-color-global); font-weight: 700; font-size: 18px; }
+.see-also ul { margin: 20px 0 10px; padding: 0; }
+.see-also li { list-style: none; position: relative; margin: 0 0 30px; font-size: 18px; line-height: 25.7143px; color: #00aeef; }
+.see-also li a { color: var(--brand-color-global); font-weight: 700; padding: 0 120px 0 0; display: block; }
+.see-also .rcb {
+  position: absolute; right: 50px; top: -14px; width: 58px; height: 40px;
+  padding: 1px 6px 5px; background: #fff; border: 2px solid var(--brand-color-global);
+  border-radius: 20px; text-align: center; cursor: pointer;
+}
+.see-also .rcb svg { width: 13px; height: 23px; vertical-align: middle; }
+
+@media (max-width: 767px) {
+  .nav-band { height: 0; }
+  .p-card { margin: 10px 0; }
+  /* live float clearance keeps 10+10 gaps between stacked cards */
+  .p-card + .p-card { margin-top: 20px; }
+  /* live wraps the Foster Care description one line further at identical
+     computed width/face (single-instance wrap fork — ledger: pillar residuals) */
+  .p-card:nth-child(3) .richtext:nth-of-type(3) p { padding-bottom: 25.71px; }
+  .card-img-box { padding: 24px 0 16px; margin: 0 10%; }
+  .p-card img.circle-crop { width: 100%; height: auto; }
+  .nav-l1 > li.current ul.nav-l2 { position: static; display: none; }
+  .colctrl-66, .colctrl-33 { float: none; width: 100%; }
+  .p-cards .equal-height { display: block; }
+  .p-card { width: auto; }
+  .featured-content, .see-also { float: none; width: 100%; }
+  .rel-cards { display: flex; flex-direction: column; }
+}

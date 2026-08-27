@@ -286,6 +286,49 @@
         "lift text fields truncate at 200 chars — always pull long strings from the page JSON body",
         "Press Releases heading uses the br-BEFORE-text idiom like h1s"
       ]
+    },
+    "pillar": {
+      "prototype": "stardust/prototypes/pillar-proposed.html",
+      "against": "https://www.centene.com/products-and-services.html",
+      "regime": "prototype",
+      "siblings": 4,
+      "breakpoints": {
+        "360": {
+          "iterations": "3 (+1 accounted: a leaked eyebrow selector regressed round 2 — self-inflicted, not measurement)",
+          "pixelPct": 1.75,
+          "heightDelta": 0,
+          "structuralRed": 0,
+          "pass": true
+        },
+        "1440": {
+          "iterations": 3,
+          "pixelPct": 1.11,
+          "heightDelta": 0,
+          "structuralRed": 0,
+          "pass": true
+        }
+      },
+      "newModules": [
+        "pillar hero (navy photo band + light breadcrumb + white h1)",
+        "wave band (tagline + intro + Browse-by-State selector w/ hidden 51-state list)",
+        "product columns (h3 + desc + site-btn pill)",
+        "colored product cards (circle-crop images, 10% inner margins)",
+        "marginBottom band variant"
+      ],
+      "residuals": [
+        {
+          "where": "Foster Care card desc @360",
+          "cause": "live wraps one line further at identical computed width/face (single-instance wrap fork); pinned via padding-bottom 25.71px",
+          "flaggedFor": "none"
+        }
+      ],
+      "notes": [
+        "eyebrow paragraph is width:70% at ALL breakpoints (806px @1440, 201px @360)",
+        "wave-band keeps its 56px right text margin at mobile",
+        "stacked cards keep 10+10 gaps at mobile (clearance)",
+        "card inner content rides margin: 0 10%; more-padding box: 24px 20% 16px @desktop, 24px 0 16px + 10% margins @mobile",
+        "RWE-10 confirmed: a byte-identical pixel count after a fix = no-op selector"
+      ]
     }
   }
 }

@@ -1,0 +1,7 @@
+.breadcrumb{padding:8px 0 8px 0}
+.breadcrumb ol{padding:0;margin:0;list-style:none}
+.breadcrumb ol li{display:inline}
+.breadcrumb ol li.cmp-breadcrumb__item:after{content:'>';color:#000}
+.breadcrumb ol li.cmp-breadcrumb__item--active::after{content:none}
+.breadcrumb .light li a,.breadcrumb .light li span,.breadcrumb .light li.cmp-breadcrumb__item:after{color:#fff}
+.breadcrumb .dark li a,.breadcrumb .dark li span,.breadcrumb .dark li.cmp-breadcrumb__item:after{color:#000}

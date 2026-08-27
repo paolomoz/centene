@@ -1,0 +1,18 @@
+div.backgroundcolorbox  [@0,92,360,245 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.background-color-box.centenedotcom-sky-background  [@0,92,360,245 | Roboto 14px/20px w400 | c:rgb(0, 0, 0) | bg:rgb(0, 174, 239) | bgi:url("https://www.centene.com/content/dam/centenedotcom/images/Our%20Mission%20Test%20banner%20no_copy.png") | p:25px 36px 20px]
+    div  [@36,117,288,200 | Roboto 14px/20px w400 | c:rgb(0, 0, 0)]
+      div.breadcrumb  [@36,117,288,36 | Roboto 14px/20px w700 | c:rgb(0, 0, 0) | p:8px 0px | m:0px 0px 20px | r:4px]
+        nav#breadcrumb-43a99e1c2c.cmp-breadcrumb.dark  [@36,125,288,20 | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+          ol.cmp-breadcrumb__list  [@36,125,288,20 | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+            li.cmp-breadcrumb__item  [@36,127,48,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+              a.cmp-breadcrumb__item-link href=/  [@36,127,41,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                span  [@36,127,38,16 | inline | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+                  «Home»
+              meta  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w700 | c:rgb(0, 0, 0)]
+      div.richtext  [@36,173,288,144 | Roboto 14px/20px w400 | c:rgb(0, 0, 0)]
+        div.clearfix.en  [@36,173,288,144 | Roboto 14px/20px w400 | c:rgb(0, 0, 0)]
+          div.clearfix  [@36,173,288,0 | Roboto 14px/20px w400 | c:rgb(0, 0, 0)]
+          div  [@36,193,216,114 | Roboto 14px/20px w400 | c:rgb(0, 0, 0)]
+            h1  [@36,193,216,114 | Roboto 32px/48px w500 | c:rgb(0, 89, 134) | m:20px 0px 10px | bor:0px none rgb(0, 89, 134)]
+              span.centene-h1  [@36,182,196,126 | inline | Roboto-Light 60px/48px w300 | c:rgb(0, 89, 134) | m:20px 0px | bor:0px none rgb(0, 89, 134)]
+                «Privacy Policy»

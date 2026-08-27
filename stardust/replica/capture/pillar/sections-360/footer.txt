@@ -1,0 +1,92 @@
+footer#centene-footer  [@0,6279,360,1138 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bg:rgb(0, 89, 140) | p:56px 24.5px | bor:0px none rgb(255, 255, 255)]
+  div.container  [@25,6335,311,1026 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+    div.row  [@25,6335,311,1026 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+      div#footer-left.col-xs-24.col-sm-12  [@25,6335,311,520 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | m:0px 0px 21px | bor:0px none rgb(255, 255, 255)]
+        div.row  [@25,6335,311,66 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.col-xs-12  [@25,6335,156,66 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            a.abr-logo href=/  [@35,6335,136,66 | inline | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+              img.xs-hide src=https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png alt="Logo: go to Centene homepage"  [@0,0,0,0 | HIDDEN | none | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+              img.xs-only src=https://www.centene.com/content/dam/centenedotcom/images/Centene%20Corp%20Reverse-small.png alt="Logo: go to Centene homepage"  [@35,6335,270,66 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+        div.row  [@25,6401,311,454 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.col-xs-24  [@25,6401,311,454 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            div.row  [@25,6401,311,454 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+              div.col-xs-24  [@25,6401,311,454 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+                div.rd-footerrichtext  [@35,6401,291,444 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  p  [@35,6401,291,143 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                    span.centene-h4  [@35,6404,290,136 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                      i  [@35,6404,290,100 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                        «Transforming the health of the communities we serve, one person at a time.»
+                        br  [@264,6476,0,29 | inline | Roboto-Italic 25px/35.7143px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  p  [@35,6554,291,46 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                    span.centene-h5  [@35,6555,247,42 | inline | Roboto-Bold 16px/22.8571px w700 uppercase | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                      a href=/who-we-are.html  [@35,6555,247,42 | inline | Roboto-Bold 16px/22.8571px w700 uppercase | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                        «HEALTHCARE IS BEST DELIVERED LOCALLY»
+                  p  [@35,6610,291,60 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                    «Our uniquely local approach allows us to help members access quality-focused, culturally sensitive healthcare services.»
+                  p  [@35,6680,291,20 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                  p  [@35,6710,291,46 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                    span.centene-h5  [@35,6711,221,42 | inline | Roboto-Bold 16px/22.8571px w700 uppercase | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                      a href=/why-were-different/corporate-sustainability.html  [@35,6711,221,42 | inline | Roboto-Bold 16px/22.8571px w700 uppercase | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                        «CENTENE IS COMMITTED TO CORPORATE SUSTAINABILITY»
+                  p  [@35,6766,291,80 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                    «The health of individuals drives our focus on the environment, removing social barriers to health and prioritizing responsible corporate governance.»
+      div#footer-right.col-xs-24.col-sm-10.col-sm-offset-2  [@25,6877,311,485 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+        div.row  [@25,6877,311,126 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.left-border.col-xs-24  [@25,6877,311,126 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            nav.footer-nav.footer-link-information  [@35,6877,291,105 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 21px | bor:0px none rgb(255, 255, 255)]
+              a href=/who-we-are.html  [@35,6877,96,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | p:0px 8px 0px 0px | m:0px 8px 16px 0px]
+                «Who We Are»
+              a href=/why-were-different.html  [@142,6877,148,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | p:0px 8px 0px 0px | m:0px 8px 16px 0px]
+                «Why We're Different»
+              a href=/products-and-services.html  [@35,6912,151,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | p:0px 8px 0px 0px | m:0px 8px 16px 0px]
+                «Products & Services»
+              a href=https://jobs.centene.com/us/en/  [@198,6912,85,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | p:0px 8px 0px 0px | m:0px 8px 16px 0px]
+                «Careers»
+                i.link-external.fa.fa-external-link  [@257,6913,16,16 | inline-block | "Font Awesome 6 Free" 16px/16px w900 capitalize | c:rgb(255, 255, 255) | m:0px 0px 0px 4.8px | bor:0px none rgb(255, 255, 255)]
+                span.sr-only  [@272,6911,1,1 | absolute | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | m:-1px | bor:0px none rgb(255, 255, 255)]
+                  «External Link»
+              a href=https://investors.centene.com  [@35,6947,95,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | p:0px 8px 0px 0px | m:0px 8px 16px 0px]
+                «Investors»
+                i.link-external.fa.fa-external-link  [@105,6948,16,16 | inline-block | "Font Awesome 6 Free" 16px/16px w900 capitalize | c:rgb(255, 255, 255) | m:0px 0px 0px 4.8px | bor:0px none rgb(255, 255, 255)]
+                span.sr-only  [@120,6946,1,1 | absolute | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | m:-1px | bor:0px none rgb(255, 255, 255)]
+                  «External Link»
+              a href=/news.html  [@142,6947,40,19 | inline-block | Roboto-Regular 16px/normal w400 capitalize | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «News»
+        div.row  [@25,7003,311,269 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.col-xs-24  [@25,7003,311,269 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            nav.footer-nav.footer-link-information  [@35,7003,291,248 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 21px | bor:0px none rgb(255, 255, 255)]
+              a href=/contact.html  [@35,7003,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Contact»
+              a href=https://jobs.centene.com/us/en/life-at-centene/applicant-resources  [@35,7038,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Equal Opportunity Employer»
+                i.link-external.fa.fa-external-link  [@283,7039,16,16 | inline-block | "Font Awesome 6 Free" 16px/16px w900 uppercase | c:rgb(255, 255, 255) | m:0px 0px 0px 4.8px | bor:0px none rgb(255, 255, 255)]
+                span.sr-only  [@298,7037,1,1 | absolute | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:-1px | bor:0px none rgb(255, 255, 255)]
+                  «External Link»
+              a href=/privacy-policy.html  [@35,7073,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Privacy Policy»
+              a href=/terms-conditions.html  [@35,7108,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Terms & Conditions»
+              a href=/purchase-order-terms-conditions.html  [@35,7143,291,38 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Purchase Order Terms & Conditions»
+              a href=/accessibility.html  [@35,7197,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Accessibility»
+              a href=/site-map.html  [@35,7232,291,19 | Roboto-Regular 16px/normal w400 uppercase | c:rgb(255, 255, 255) | m:0px 0px 16px | bor:0px none rgb(255, 255, 255)]
+                «Site Map»
+        div.row  [@25,7272,311,60 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.col-xs-24  [@25,7272,311,60 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            div.ambettersocial.white  [@35,7272,291,60 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+              div.topFooterBold  [@35,7272,291,0 | Roboto-Bold 16px/16px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+              div.socialWrap  [@35,7272,291,60 | Arial 48px/60px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                a href=https://www.linkedin.com/company/centene-corporation  [@35,7275,55,53 | inline | Arial 48px/60px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  em.fa-brands.fa-linkedin  [@35,7276,42,48 | inline-block | "Font Awesome 6 Brands" 48px/48px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                a href=https://www.facebook.com/CenteneCorporation  [@90,7275,55,53 | inline | Arial 48px/60px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  em.fa-brands.fa-facebook-square  [@90,7276,42,48 | inline-block | "Font Awesome 6 Brands" 48px/48px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                a href=https://x.com/Centene  [@145,7275,55,53 | inline | Arial 48px/60px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  em.fa-brands.fa-square-x-twitter  [@145,7276,42,48 | inline-block | "Font Awesome 6 Brands" 48px/48px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                a href=https://www.youtube.com/user/CenteneCorp  [@201,7275,42,53 | inline | Arial 48px/60px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+                  em.fa-brands.fa-youtube-square  [@201,7276,42,48 | inline-block | "Font Awesome 6 Brands" 48px/48px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+        div.row  [@25,7332,311,30 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px -10px | bor:0px none rgb(255, 255, 255)]
+          div.col-xs-24  [@25,7332,311,30 | relative | Arial 14px/20px w400 | c:rgb(255, 255, 255) | p:0px 10px | bor:0px none rgb(255, 255, 255)]
+            div.copyright  [@35,7332,291,20 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | bor:0px none rgb(255, 255, 255)]
+              p  [@35,7332,291,20 | Arial 14px/20px w400 | c:rgb(255, 255, 255) | m:0px 0px 10px | bor:0px none rgb(255, 255, 255)]
+                «© Copyright 2026 Centene Corporation»

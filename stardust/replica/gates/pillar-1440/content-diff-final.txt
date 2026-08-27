@@ -1,0 +1,7 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 207 text nodes — 2 headings, 3 eyebrows, 126 CTAs, 76 body; 9 img
+  build: 206 text nodes — 2 headings, 3 eyebrows, 126 CTAs, 75 body; 7 img
+
+Findings: 1 (0 structural 🔴)
+  🟡 MISSING BODY: source body "// fires onChange of the dropdownOnly and onClic"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.

@@ -1,0 +1,775 @@
+div.backgroundcolorbox  [@0,333,1440,13572 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.background-color-box.white-background  [@0,333,1440,13572 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:25px 144px 20px | bor:0px none rgb(51, 51, 51)]
+    div  [@144,358,1152,13527 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@144,358,1152,46 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix  [@144,358,1152,46 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,358,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,358,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «LAST UPDATED: February 21, 2025»
+      div.richtext  [@144,404,1152,13481 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,404,1152,13481 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,404,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,404,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          p  [@144,449,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «1.»
+            a href=#section1  [@158,446,213,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Sources of Personal Data»
+          p  [@144,495,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «2.»
+            a href=#section2  [@158,492,285,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Types of Personal Data We Collect»
+          p  [@144,541,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «3.»
+            a href=#section3  [@158,538,228,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «How We Use Personal Data»
+          p  [@144,587,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «4.»
+            a href=#section4  [@158,584,266,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «How We Disclose Personal Data»
+          p  [@144,632,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «5.»
+            a href=#section5  [@158,629,341,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Cookies and Other Tracking Technologies»
+          p  [@144,678,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «6.»
+            a href=#section6  [@158,675,123,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Other Choices»
+          p  [@144,724,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «7.»
+            a href=#section7  [@158,721,273,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Data Security and Data Retention»
+          p  [@144,769,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «8.»
+            a href=#section8  [@158,766,149,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Children's Privacy»
+          p  [@144,815,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «9.»
+            a href=#section9  [@158,812,122,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «External Links»
+          p  [@144,861,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «10.»
+            a href=#section10  [@168,858,171,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Contact Information»
+          p  [@144,906,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «11.»
+            a href=#section11  [@168,903,605,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Supplemental Information for Residents of California and Other U.S. States»
+          p  [@144,952,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «12.»
+            a href=#section12  [@168,949,232,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Disclosure of Personal Data»
+          p  [@144,998,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          p  [@144,1044,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Centene, together with its subsidiaries and affiliates (collectively, "Company" "us," "we," or "our") is committed to protecting the privacy of Personal Data (i.e., information reasonably related to a»
+          p  [@144,1166,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Please read this Privacy Notice carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice»
+          p  [@144,1289,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «This Privacy Notice applies to information we collect about individual consumers, such as general website visitors (“Individuals”), as well as information we collect about the personnel of our busines»
+            b  [@144,1291,60,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «Scope:»
+          ul  [@167,1386,1129,87 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+            li  [@167,1386,1129,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Information about our own employees, contractors, agents, or job applicants collected in the employment-related context.»
+            li  [@167,1417,1129,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Protected health information subject to the Health Insurance Portability and Accountability Act (“HIPAA”). In such cases, we are bound by more stringent legal and contractual obligations.»
+          p  [@144,1483,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Whenever you interact with us on behalf of another individual or entity, such as if you refer a friend to us, you must obtain their consent (or have the legal authority without consent) to share their»
+          p  [@144,1555,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may update this Privacy Notice from time to time. Any updated Privacy Notice will be effective when posted. If required by law, we will contact you directly to provide you with an updated Privacy N»
+            b  [@144,1557,76,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «Changes:»
+          p  [@144,1678,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section1  [@144,1723,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «1. Sources of Personal Data»
+          p  [@144,1775,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We collect Personal Data about you from the following sources:»
+          p  [@184,1821,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «. We may collect Personal Data you provide to us directly, such as when you contact us through our Digital Properties, submit orders, complete questionnaires or surveys, or sign up for newsletters thr»
+            b  [@184,1823,160,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Directly from you»
+          p  [@184,1892,1112,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «. We automatically collect information in order to provide you with access to our Digital Properties. Further, we may automatically collect information or inferences about you, such as through cookies»
+            b  [@184,1894,532,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Data collected automatically and through tracking technologies»
+          p  [@184,2015,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «. We may collect Personal Data from third parties, such as service and content providers, our affiliated companies and subsidiaries, business partners, data brokers, referral partners, social media co»
+            b  [@184,2017,166,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «C. From third parties»
+          p  [@184,2087,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «. We may collect Personal Data about you from publicly available sources, such as from information you may have posted on public profiles and websites.»
+            b  [@184,2089,275,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «D. From publicly available sources»
+          p  [@144,2158,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may combine information that we receive from the various sources described in this Privacy Notice, including third party sources, and use or disclose the combined information for the purposes ident»
+          p  [@144,2229,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section2  [@144,2275,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «2. Types of Personal Data We Collect»
+          p  [@144,2327,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may collect the following types of Personal Data about you. Except as otherwise specified, we may collect this Personal Data from both Individuals and Business Contacts:»
+          p  [@184,2398,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «such as your name, email address, physical address, telephone number, business contact information, and device identifiers (e.g., cookie IDs, device IDs, operating system and browser information, and »
+            b  [@184,2400,109,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Identifiers,»
+          p  [@184,2470,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «about you, such as the content, timing and method of communications you have with us, such as online chats, calls, and emails; and information you share with or upload to our Digital Properties.»
+            b  [@184,2472,92,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Records»
+          p  [@184,2541,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as age (including birthdates), gender, and marital status.»
+            b  [@184,2543,228,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «C. Demographic information»
+          p  [@184,2587,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as information about services you or your employer has purchased.»
+            b  [@184,2589,217,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «D. Commercial information»
+          p  [@184,2633,1112,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as your browsing history, search history, preference information (including marketing preferences), account settings (including any default preferences), and other information regarding your in»
+            b  [@184,2635,469,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «E. Internet or other electronic network activity information»
+          p  [@184,2755,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as your location as derived from your IP address.»
+            b  [@184,2757,256,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «F. Non-precise geolocation data»
+          p  [@184,2801,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as photographs.»
+            b  [@184,2803,455,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «G. Audio, electronic, visual, or other sensory information»
+          p  [@184,2847,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «(for Business Contacts), such as job title; organization; professional licenses, credentials, or affiliations; and other professional information.»
+            b  [@184,2849,413,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «H. Professional or employment-related information»
+          p  [@184,2918,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «drawn from any of the information we collect about your preferences or behavior, including to assess the level of interest in our services based on frequency of visits.»
+            b  [@184,2920,101,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «I. Inferences»
+          p  [@184,2990,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, including information about your health.»
+            b  [@184,2992,212,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «J. Sensitive Personal Data»
+          p  [@144,3035,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section3  [@144,3081,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «3. How We Use Personal Data»
+          p  [@144,3133,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may use Personal Data for the following purposes:»
+          p  [@184,3179,1112,129 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as maintaining our Digital Properties and making other services available to you; registering, verifying, and maintaining your account with us; providing and delivering the services you request»
+            b  [@184,3181,436,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. To provide our Digital Properties and other services»
+          p  [@184,3327,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as day-to-day operation of our business; maintaining internal business records, such as accounting, document management and similar activities; enforcing our policies and rules; management repo»
+            b  [@184,3329,302,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. For our internal business purposes»
+          p  [@184,3424,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as improving our Digital Properties or other services; creating new Digital Properties or other services; evaluating the effectiveness of our advertising or marketing efforts; and debugging and»
+            b  [@184,3426,513,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «C. For our internal research and product improvement purposes»
+          p  [@184,3521,1112,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, safety or security reasons, such as complying with legal, reporting, and similar requirements; investigating and responding to claims against us, our personnel, and our customers; for the establishm»
+            b  [@184,3523,90,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «D. For legal»
+          p  [@184,3644,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as if we acquire assets of another business, or sell or transfer all or a portion of our business or assets, including through a sale in connection with bankruptcy and other forms of corporate »
+            b  [@184,3646,15,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «E.»
+            b  [@204,3646,341,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «In connection with a corporate transaction»
+          p  [@184,3716,1112,129 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as marketing our products or services or those of our affiliates, business partners, or other third parties. For example, we may use Personal Data we collect to personalize advertising to you (»
+            b  [@184,3718,13,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «F.»
+            b  [@201,3718,315,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «For marketing and targeted advertising»
+          p  [@144,3864,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may use anonymized, de-identified, or aggregated information for any purpose permitted by law.»
+          p  [@144,3910,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section4  [@144,3955,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «4. How We Disclose Personal Data»
+          p  [@144,4007,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may disclose Personal Data to third parties, including the categories of recipients described below:»
+          p  [@184,4053,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, including parent entities, corporate affiliates, subsidiaries, business units, and other companies that share common ownership.»
+            b  [@184,4055,232,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Affiliates and subsidiaries»
+          p  [@184,4124,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «that work on our behalf to provide the products and services you request or support our relationship with you, such as IT providers, internet service providers, web hosting providers, data analytics p»
+            b  [@184,4126,162,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Service providers»
+          p  [@184,4222,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as accountants, lawyers, financial advisors, and audit firms.»
+            b  [@184,4224,223,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «C. Professional consultants»
+          p  [@184,4267,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as shipping companies and logistics providers.»
+            b  [@184,4269,480,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «D. Vendors necessary to complete transactions you request»
+          p  [@184,4313,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «such as when we share information to comply with law or legal requirements; to enforce or apply our Terms and Conditions and other agreements or policies; and to protect our, our customers’, or third »
+            b  [@184,4315,827,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «E. Law enforcement, government agencies, and other recipients for legal, security, or safety purposes,»
+          p  [@184,4410,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as if we acquire assets of another entity, or sell or transfer all or a portion of our business or assets, including through a sale in connection with bankruptcy and other forms of corporate ch»
+            b  [@184,4412,472,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «F. Other entities in connection with a corporate transaction»
+          p  [@184,4482,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «that may use Personal Data for their own purposes, such as:»
+            b  [@184,4484,18,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «G.»
+            b  [@206,4484,147,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «Business partners»
+          ul  [@224,4527,1072,149 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 80px | bor:0px none rgb(51, 51, 51)]
+            li  [@224,4527,1072,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Our customers;»
+            li  [@224,4558,1072,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Advertisers, ad platforms and networks, and social media platforms;»
+            li  [@224,4589,1072,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies);»
+            li  [@224,4619,1072,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «Commercial data partners to whom we make information available for their own marketing purposes; and Partners who work with us on promotional opportunities, including co-branded products and services.»
+          p  [@184,4686,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «Where recipients use your Personal Data for their own purposes independently from us, we are not responsible for their privacy practices or Personal Data processing policies. You should consult the pr»
+          p  [@184,4757,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «, such as when you have an opportunity to make comments regarding us or our products that we may share with the public, including comments on our blog posts and reviews on our product pages. Any Perso»
+            b  [@184,4759,107,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «H. The public»
+          p  [@184,4854,1112,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «.»
+            b  [@184,4856,453,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «I. Entities to which you have consented to the disclosure»
+          p  [@144,4900,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section5  [@144,4946,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «5. Cookies and Other Tracking Technologies»
+          p  [@144,4998,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Our Digital Properties and authorized third parties use cookies and other tracking technologies to collect information about you, your device, and how you interact with our Digital Properties. This se»
+          ul  [@184,5069,1112,92 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 40px | bor:0px none rgb(51, 51, 51)]
+            li  [@184,5069,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «The types of tracking technologies we use and the purposes for which we use them;»
+            li  [@184,5100,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «The types of information we collect using these technologies;»
+            li  [@184,5130,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «How we disclose or make information available to others and choices you may have regarding these technologies.»
+          p  [@144,5171,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,5173,434,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Types of cookies and tracking technologies we use»
+          p  [@144,5217,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We and the third parties that we authorize may use the following tracking technologies:»
+          ul  [@184,5262,1112,251 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 40px | bor:0px none rgb(51, 51, 51)]
+            li  [@184,5262,1112,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «which are a type of technology that install a small amount of information on a user's computer or other device when they visit a website. Some cookies exist only during a single session and some are p»
+              b  [@209,5264,70,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Cookies,»
+            li  [@184,5319,1112,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «which are types of code or transparent graphics. In addition to the uses described below, these technologies provide analytical information about the user experience and help us customize our marketin»
+              b  [@209,5321,251,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Pixels, web beacons, and tags,»
+            li  [@184,5401,1112,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «which record your interactions with our Digital Properties, such as how you move throughout our Digital Properties and engage with our webforms. In addition to the uses described below, this informati»
+              b  [@209,5403,167,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Session replay tools,»
+            li  [@184,5483,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «which allow us to build and integrate custom apps and experiences on our Digital Properties.»
+              b  [@209,5485,237,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Embedded scripts and SDKs,»
+          p  [@144,5524,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,5526,333,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Purposes for using these technologies»
+          p  [@144,5569,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We and authorized third parties use these technologies for purposes including:»
+          ul  [@184,5615,1112,308 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 40px | bor:0px none rgb(51, 51, 51)]
+            li  [@184,5615,1112,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «, such as remembering language preferences and pages you have viewed in order to enhance and personalize your experience when you visit our Digital Properties;»
+              b  [@209,5617,126,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Personalization»
+            li  [@184,5672,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «, such as maintaining and improving the performance of our Digital Properties;»
+              b  [@209,5674,190,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Improving performance»
+            li  [@184,5702,1112,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «, such as analyzing how our websites are used. For example, we use Google Analytics to help us improve the user experience. Google Analytics may use cookies and other tracking technologies to perform »
+              b  [@209,5704,75,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Analytics»
+              a href=http://www.google.com/policies/privacy/partners  [@433,5751,380,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+                «www.google.com/policies/privacy/partners»
+                i.link-external.fa.fa-external-link  [@791,5757,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+                span.sr-only  [@808,5753,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                  «External Link»
+            li  [@184,5784,1112,108 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «, such as conducting advertising and content personalization on our Digital Properties and those of third parties; tracking activity over time and across properties to develop a profile of your intere»
+              b  [@209,5786,93,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Advertising»
+            li  [@184,5892,1112,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+              «, such as preventing fraud and malicious behavior.»
+              b  [@209,5894,67,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Security»
+          p  [@144,5933,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,5935,195,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «C. Information collected»
+          p  [@144,5979,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «These tracking technologies collect data about you and your device, such as IP address, cookie ID, device ID, Ad ID, your approximate location based on IP address, operating system, device type, brows»
+          p  [@144,6076,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,6078,275,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «D. Disclosures of your information»
+          p  [@144,6121,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We may disclose information to third parties or allow third parties to directly collect information using these technologies on our Digital Properties, such as social media companies, advertising netw»
+          p  [@144,6219,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,6221,124,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «E. Your choices»
+          p  [@144,6264,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Some of the third parties we work with participate with the Digital Advertising Alliance ("DAA") and Network Advertising Initiative ("NAI"). The DAA and NAI provide mechanisms for you to opt out of in»
+            a href=http://www.aboutads.info/choices/  [@139,6313,314,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «http://www.aboutads.info/choices/»
+              i.link-external.fa.fa-external-link  [@430,6319,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@447,6315,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+            a href=https://optout.networkadvertising.org/  [@482,6313,340,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «https://optout.networkadvertising.org/»
+              i.link-external.fa.fa-external-link  [@799,6319,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@816,6315,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+          p  [@144,6387,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «You can also refuse or delete cookies using your browser settings. If you refuse or delete cookies, some of our Digital Properties’ functionality may be impaired. Please refer to your browser’s Help i»
+          p  [@144,6510,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Some browsers have incorporated Do Not Track (“DNT”) preferences.  At this time, we do not honor Do Not Track signals.»
+          p  [@144,6556,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section6  [@144,6601,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «6. Other Choices»
+          p  [@144,6653,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «In addition to the choices related to cookies described above, you may exercise the following choices about how we use your Personal Data:»
+          p  [@184,6699,1112,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «We may send you emails about our products or services or other marketing emails from time to time. You can unsubscribe from these emails by clicking the unsubscribe link in the email. We may continue »
+            b  [@184,6701,225,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Marketing Email Opt-out:»
+          p  [@184,6796,1112,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 40px | bor:0px none rgb(51, 51, 51)]
+            «Our Digital Properties may include mobile applications. If you download a mobile application from us, you may be able to adjust the personal information we collect through the application, including a»
+            b  [@184,6798,127,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Mobile Apps:»
+          p  [@224,6867,1072,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 80px | bor:0px none rgb(51, 51, 51)]
+            «Our mobile applications may collect location information. You may opt-out of sharing location information by adjusting the location settings on your mobile device. We may otherwise still collect infor»
+            b  [@224,6869,189,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «i. Location Information:»
+          p  [@224,6965,1072,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 80px | bor:0px none rgb(51, 51, 51)]
+            «Our mobile applications may offer automatic or “push” notifications. You may opt-out of push notifications by adjusting your device settings.»
+            b  [@224,6967,174,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «ii. Push Notifications:»
+          p  [@144,7036,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section7  [@144,7082,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «7. Data Security and Data Retention»
+          p  [@144,7134,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Although we maintain reasonable security safeguards, no security measures or communications over the Internet can be 100% secure, and we cannot guarantee the security of your information.»
+          p  [@144,7205,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained in the Digital Properties.»
+          p  [@144,7276,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Digital Properties, you are responsibl»
+          p  [@144,7348,1152,180 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Your Personal Data will be retained as long as necessary to fulfill the purposes we have outlined above unless we are required to do otherwise by applicable law. This includes retaining your Personal »
+          p  [@144,7548,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section8  [@144,7593,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «8. Children's Privacy»
+          p  [@144,7645,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Our Digital Properties are intended for individuals 18 years of age and older. The Digital Properties are not directed at, marketed to, nor intended for, children under 18 years of age. As a general r»
+          p  [@144,7768,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section9  [@144,7814,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «9. External Links»
+          p  [@144,7866,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Our Digital Properties may contain links to external sites or other online services that we do not control, including those embedded in third party advertisements or sponsor information. We are not re»
+          p  [@144,7963,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section10  [@144,8008,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «10. Contact Information»
+          p  [@144,8060,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «If you have questions regarding this Privacy Notice, please contact us at:»
+            a href=mailto:privacy@centene.com  [@720,8057,187,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «privacy@centene.com»
+          p  [@144,8106,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section11  [@144,8152,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «11. Supplemental Information for Residents of California and Other U.S. States»
+          p  [@144,8204,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,8206,181,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «A. Data Subject Rights»
+          p  [@144,8249,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «If you live in California, you may have certain rights regarding Personal Data:»
+          ul  [@167,8295,1129,226 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+            li  [@207,8295,1089,108 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | m:0px 0px 0px 40px | bor:0px none rgb(51, 51, 51)]
+              «. You have the right to request information about the categories of Personal Data we have collected about you, the categories of sources from which we collected the Personal Data, the purposes for col»
+              b  [@232,8297,113,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Right to Know»
+            li  [@207,8403,1089,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | m:0px 0px 0px 40px | bor:0px none rgb(51, 51, 51)]
+              «. You have the right to request that we delete Personal Data that we have collected from you.»
+              b  [@232,8405,119,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Right to Delete»
+            li  [@207,8434,1089,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | m:0px 0px 0px 40px | bor:0px none rgb(51, 51, 51)]
+              «. You have the right to request that we correct inaccurate Personal Data that we maintain about you.»
+              b  [@232,8436,128,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Right to Correct»
+            li  [@207,8464,1089,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | m:0px 0px 0px 40px | bor:0px none rgb(51, 51, 51)]
+              «. You have the right to opt out of the sale of your Personal Data or the sharing of your Personal Data for targeted advertising.»
+              b  [@232,8466,502,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Right to Opt Out of Sales and Sharing for Targeted Advertising»
+          p  [@144,8531,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «You may exercise the rights available to you via our webform at or by calling us 1 (800) 522-0088.»
+            a href=https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html  [@646,8528,586,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html»
+              i.link-external.fa.fa-external-link  [@1208,8534,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@1225,8530,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+          p  [@144,8602,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «In order to fully exercise the Right to Opt Out of Sales and Sharing for Targeted Advertising, you must undertake both of the following steps:»
+          ol  [@184,8648,1112,159 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:0px 0px 0px 40px | m:0px 0px 10px 40px | bor:0px none rgb(51, 51, 51)]
+            li  [@224,8648,1072,66 | list-item | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:5px 0px 10px 15px | bor:0px none rgb(51, 51, 51)]
+              span.rd-t-18-standard  [@239,8655,851,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Submit a Right to Opt Out of Sales and Sharing for Targeted Advertising request through on our webform at»
+                a href=https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html.  [@234,8675,590,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+                  «https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html.»
+                  i.link-external.fa.fa-external-link  [@801,8681,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+                  span.sr-only  [@818,8677,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                    «External Link»
+            li  [@224,8714,1072,92 | list-item | relative | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:5px 0px 10px 15px | bor:0px none rgb(51, 51, 51)]
+              span.rd-t-18-standard  [@239,8721,1031,72 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                «Disable the use of cookies and other tracking technologies in the preference center. You must complete this step on each of our websites from each browser and on each device that you use. These steps »
+          p  [@241,8816,1055,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 97px | bor:0px none rgb(51, 51, 51)]
+            «a. If you block cookies, we will be unable to comply with your request to opt out of sales and sharing for targeted advertising with respect to device data that we automatically collect and disclose t»
+          p  [@241,8913,1055,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px 97px | bor:0px none rgb(51, 51, 51)]
+            «b. If you clear cookies, you will need to disable the use of cookies and tracking technologies in the preference center again on each browser on each device where you have cleared cookies.»
+          p  [@144,8985,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «To the extent required by law, we will honor opt-out preference signals sent in a format commonly used and recognized by businesses, such as an HTTP header field or JavaScript object. We will process »
+          p  [@144,9056,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «We will not discriminate against you for exercising your privacy rights.»
+          p  [@144,9102,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Verification: In order to process rights requests, we may need to obtain information to locate you in our records or verify your identity depending on the nature of the request. In most cases we will »
+          p  [@144,9225,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Authorized Agents: Authorized agents may exercise rights on behalf of you by submitting a request via and indicating that they are submitting the request as an agent. We may require the agent to demon»
+            a href=https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html  [@139,9247,586,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html»
+              i.link-external.fa.fa-external-link  [@702,9253,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@719,9249,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+          p  [@144,9348,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Nevada Residents: Individuals may contact us at to inquire about their right to opt out of the sale of your Personal Data.»
+            a href=mailto:privacy@centene.com  [@530,9345,187,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «privacy@centene.com»
+          p  [@144,9393,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            b  [@144,9395,340,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «B. Additional Data Processing Disclosures»
+          p  [@144,9439,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «In addition to the disclosures above, this section provides supplemental information about how we process Personal Data.»
+          p  [@144,9485,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          h2#section12  [@144,9530,1152,32 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            «12. Disclosure of Personal Data»
+          p  [@144,9582,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Although we have not "sold" Personal Data for money in the past 12 months, we engage in routine practices with our Digital Properties involving third parties that could be considered a sale of Persona»
+          p  [@144,9679,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Below please find a chart detailing the categories of Personal Data we collected and with whom it was sold, shared, or disclosed for a business purpose in the past 12 months.»
+          table  [@144,9751,1152,3833 | table | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px | bor:2px solid rgb(0, 89, 140)]
+            tbody  [@145,9752,1150,3831 | table-row-group | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+              tr  [@145,9752,1150,108 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,9752,274,108 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  i  [@161,9787,227,42 | inline | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    b  [@161,9787,227,42 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                      span.rd-t-18-standard  [@161,9783,227,47 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        «Categories of Personal Data We Collect»
+                  br  [@252,9812,0,16 | inline | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                td  [@419,9752,402,108 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  b  [@435,9774,345,67 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    i  [@435,9774,345,67 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                      span.rd-t-18-standard  [@435,9770,345,72 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        «Categories of Third Parties With Whom We Disclose Personal Data for a Business Purpose»
+                td  [@822,9752,473,108 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  b  [@838,9787,431,42 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    i  [@838,9787,431,42 | inline | Roboto 14px/20px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                      span.rd-t-18-standard  [@838,9783,431,47 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        «Categories of Third Parties to Whom Personal Data is Sold or Shared for Targeted Advertising»
+              tr  [@145,9860,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,9860,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  span.rd-t-18-standard  [@161,10041,192,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Identifiers (Section 2.A)»
+                td  [@419,9860,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@458,9875,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,9875,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,9906,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,9936,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,9967,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,10023,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,10106,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,10162,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,9860,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@861,9895,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,9895,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,9952,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,10034,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes >»
+                    li  [@861,10116,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+                      br  [@957,10169,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              tr  [@145,10243,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,10243,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  p  [@161,10399,242,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                    «Records about you (Section 2.B)»
+                td  [@419,10243,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@458,10258,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,10258,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,10289,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,10320,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,10350,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,10407,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,10489,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,10545,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,10243,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@861,10279,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,10279,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,10335,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,10417,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,10499,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,10627,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,10627,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  span.rd-t-18-standard  [@161,10795,204,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Demographic information (Section 2.C)»
+                td  [@419,10627,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@458,10642,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,10642,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,10672,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,10703,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,10734,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,10790,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,10872,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,10929,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,10627,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@861,10662,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,10662,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,10719,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,10801,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,10883,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,11010,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,11010,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  span.rd-t-18-standard  [@161,11178,194,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Commercial information (Section 2.D)»
+                td  [@419,11010,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@458,11025,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,11025,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,11056,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,11087,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,11117,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,11174,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,11256,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,11312,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,11010,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@861,11046,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,11046,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,11102,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,11184,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,11266,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,11394,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,11394,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  span.rd-t-18-standard  [@161,11562,237,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Internet or other electronic network activity (Section 2.E)»
+                td  [@419,11394,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@458,11409,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,11409,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,11439,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,11470,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,11501,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,11557,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,11639,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,11696,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,11394,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@861,11429,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,11429,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,11485,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,11567,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,11650,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,11777,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,11777,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  span.rd-t-18-standard  [@161,11945,207,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Geolocation data (Section 2.F)»
+                td  [@419,11777,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@458,11792,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,11792,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,11823,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,11853,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,11884,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,11941,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,12023,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,12079,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,11777,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@861,11812,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,11812,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,11869,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,11951,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,12033,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,12161,1150,327 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,12161,274,327 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  span.rd-t-18-standard  [@161,12287,212,72 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Audio, electronic, visual, or other sensory information (Section 2.G)»
+                td  [@419,12161,402,327 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@458,12176,347,287 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,12176,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,12206,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,12237,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,12268,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,12350,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,12406,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,12161,473,327 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@861,12304,418,31 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,12304,418,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Not sold or shared»
+              tr  [@145,12488,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,12488,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  span.rd-t-18-standard  [@161,12643,230,72 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Professional or employment-related information (Section 2.H)»
+                td  [@419,12488,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@458,12503,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,12503,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,12533,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,12564,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,12595,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,12651,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,12733,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,12790,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,12488,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@861,12523,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,12523,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,12579,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,12661,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,12744,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,12871,1150,383 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,12871,274,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  span.rd-t-18-standard  [@161,13052,190,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Inferences (Section 2.I)»
+                td  [@419,12871,402,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@458,12886,347,343 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,12886,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,12917,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,12947,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,12978,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Vendors necessary to complete transactions you request»
+                    li  [@458,13034,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,13117,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,13173,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,12871,473,383 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:15px]
+                  ul  [@861,12906,418,303 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,12906,418,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Advertisers, ad platforms and networks, and social media platforms»
+                    li  [@861,12963,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Third parties whose cookies and tracking tools we use as described in Section 5 (Cookies and Other Tracking Technologies)»
+                    li  [@861,13045,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Commercial data partners to whom we make information available for their own marketing purposes»
+                    li  [@861,13127,418,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Partners who work with us on promotional opportunities, including co-branded products and services»
+              tr  [@145,13254,1150,328 | table-row | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(0, 89, 140)]
+                td  [@145,13254,274,328 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  span.rd-t-18-standard  [@161,13394,204,47 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Sensitive personal information (Section 2.J)»
+                td  [@419,13254,402,328 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@458,13269,347,287 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@458,13269,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Affiliates and subsidiaries»
+                    li  [@458,13300,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Service providers»
+                    li  [@458,13331,347,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Professional consultants»
+                    li  [@458,13362,347,82 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Law enforcement, government, agencies, and other recipients for legal, security, or safety purposes»
+                    li  [@458,13444,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Other entities in connection with a corporate transaction»
+                    li  [@458,13500,347,56 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Entities to which you have consented to the disclosure»
+                td  [@822,13254,473,328 | table-cell | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(229, 245, 255) | p:15px]
+                  ul  [@861,13398,418,31 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                    li  [@861,13398,418,31 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                      «Not sold or shared»
+          p  [@144,13593,1152,129 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «: We only use and disclose Sensitive Personal Information for the following purposes: (i) performing services or providing goods reasonably expected by an average person; (ii) detecting security incid»
+            b  [@144,13595,250,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «Sensitive Personal Information»
+          p  [@144,13742,1152,77 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «: California's "Shine the Light" law (Civil Code Section § 1798.83) permits California residents to request certain information regarding our disclosure of personal information to third parties for th»
+            b  [@144,13744,205,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «California Shine the Light»
+            a href=mailto:privacy@healthnet.com  [@275,13790,198,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «privacy@healthnet.com»
+            br  [@473,13795,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,13839,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
