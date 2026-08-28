@@ -310,6 +310,51 @@ main .section.spaced-above {
 .brand-color { color: var(--brand-color); }
 .rd-t-16 { font-size: 16px; }
 
+/* article section (news pages) — default content in the source's
+   news-container geometry; no block (D1) */
+main .section.article { background: #fff; }
+
+main .section.article .default-content-wrapper {
+  max-width: 72%;
+  margin: 0 auto;
+  font-family: 'Roboto-Regular', roboto-fallback, sans-serif;
+  color: #4d4d4d;
+}
+
+main .section.article h1 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--brand-color);
+  margin: 48px 0 0;
+}
+
+/* the date line sits 16px under the title, 48px above the lead image */
+main .section.article h1 + p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 16px 0 48px;
+}
+
+main .section.article .default-content-wrapper p { font-size: 18px; line-height: 24px; margin: 0 0 20px; }
+main .section.article .default-content-wrapper p:has(> picture) { line-height: 0; margin: 0 0 48px; }
+main .section.article .default-content-wrapper p:last-child { margin-bottom: 48px; }
+
+main .section.article .default-content-wrapper ul {
+  padding: 0 0 0 40px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main .section.article .default-content-wrapper a { color: var(--brand-color); }
+main .section.article .default-content-wrapper a img { vertical-align: middle; width: 24px; height: 24px; }
+main .section.article i.link-external { font-size: 18px; line-height: 18px; }
+
+@media (width <= 767px) {
+  main .section.article .default-content-wrapper { max-width: 95%; }
+}
+
 /* pill button (source centenedotcom-site-btn) */
 a.button.pill,
 button.button.pill {

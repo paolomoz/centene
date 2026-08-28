@@ -143,6 +143,29 @@ function decorateButtons(main) {
 }
 
 /**
+ * Appends the source site's external-link glyph + sr-only label to
+ * off-site links in DEFAULT CONTENT (blocks handle their own links —
+ * scoping to the wrapper avoids double icons on cloned block cells).
+ * @param {HTMLElement} main The main container element
+ */
+function decorateExternalLinks(main) {
+  main.querySelectorAll('.default-content-wrapper a[href]').forEach((a) => {
+    try {
+      const url = new URL(a.href, window.location.href);
+      if (/^(jobs|investors)\./.test(url.hostname)
+        || (!/centene\.com$/.test(url.hostname) && !/aem\.(page|live)$/.test(url.hostname) && url.hostname !== 'localhost')) {
+        const i = document.createElement('i');
+        i.className = 'link-external';
+        const sr = document.createElement('span');
+        sr.className = 'sr-only';
+        sr.textContent = 'External Link';
+        a.append(i, sr);
+      }
+    } catch { /* relative = internal */ }
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -153,6 +176,7 @@ export function decorateMain(main) {
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateExternalLinks(main);
 }
 
 /**
