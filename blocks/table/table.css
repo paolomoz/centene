@@ -1,0 +1,9 @@
+/* table — data table block; plain variant lifted from the source legal pages. */
+
+.table table { border-collapse: collapse; width: 100%; }
+.table td { vertical-align: top; }
+
+.table.plain { font-size: 18px; color: #333; }
+.table.plain td { border: 0; padding: 15px; }
+.table.plain p { margin: 0 0 20px; }
+.table.plain strong { font-weight: 700; }

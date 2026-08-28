@@ -355,6 +355,53 @@ main .section.article i.link-external { font-size: 18px; line-height: 18px; }
   main .section.article .default-content-wrapper { max-width: 95%; }
 }
 
+/* legal section (long-form utility pages) — default content in the source's
+   richtext geometry; no block (D1) */
+main .section.legal {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+}
+
+main .section.legal .default-content-wrapper { display: flow-root; }
+main .section.legal p { font-size: 18px; margin: 0 0 20px; }
+main .section.legal a { color: var(--brand-color); padding: 5px; margin: -5px; }
+
+main .section.legal .default-content-wrapper ul {
+  margin: 0 0 10px 23px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+main .section.legal .default-content-wrapper ul li {
+  position: relative;
+  padding: 0 0 5px 25px;
+  list-style: none;
+}
+
+main .section.legal .default-content-wrapper ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-color);
+}
+
+main .section.legal .default-content-wrapper ol {
+  margin: 0 0 10px 40px;
+  padding: 0 0 0 40px;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+main .section.legal .default-content-wrapper ol li { padding: 5px 0 10px 15px; }
+main .section.legal strong { font-weight: 700; }
+main .section.legal h2 { font-size: var(--heading-font-size-xl); margin: 40px 0 20px; color: #333; }
+
 /* pill button (source centenedotcom-site-btn) */
 a.button.pill,
 button.button.pill {
