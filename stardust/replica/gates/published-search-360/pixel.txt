@@ -1,0 +1,7 @@
+A 360x1661  B 360x1660  → compare 360x1660, height delta 1px
+differing pixels: 24604 / 597600 = 4.12%  (threshold 10%) → PASS
+diff image: stardust/replica/gates/published-search-360/diff.png
+  y      0–500: 2.7%
+  y    500–1000: 1.0%
+  y   1000–1500: 5.2%
+  y   1500–1660: 15.0%

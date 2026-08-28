@@ -619,6 +619,27 @@
         "live renders every richtext as a flow-root component: boundary margins DON'T collapse \u2014 merged default content needs `p + h2 { margin-top: 40px }` (and block boundaries already contribute the uncollapsed 20)",
         "panel-tail note ('If you cannot find\u2026') is visible content AFTER the accordion on live \u2014 not part of the collapsed panel"
       ]
-    }
+    },
+    "search": {
+      "page": "/search",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.87%",
+          "delta": 0
+        },
+        "360": {
+          "pixel": "4.12%",
+          "delta": 1
+        }
+      },
+      "newBlocks": [
+        "search (client-side query over /site-index.json; ?q= wired; verified returning results)"
+      ],
+      "notes": [
+        "site-index verified end-to-end (query 'mission' -> /who-we-are/our-mission)"
+      ]
+    },
+    "_status": "COMPLETE \u2014 all 7 interior archetypes converted and published-gate green (2026-08-28)"
   }
 }

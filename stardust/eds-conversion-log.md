@@ -171,3 +171,18 @@ New block: `accordion` (title|body rows, +/− glyph toggle, Glyphicons Halfling
 Key decode: live's every-richtext-is-flow-root means component-boundary margins never collapse; merged
 EDS default content must mirror with `p + h2 { margin-top: 40px }` (block boundaries already supply the
 uncollapsed margin — first h2 after a block reverts to 20).
+
+## search archetype — /search (2026-08-28)
+Published-origin gate PASS on first deploy: 1440 → 1.87% / Δ0 · 360 → 4.12% / Δ1.
+New block: `search` — client-side query over /site-index.json with ?q= wiring; functionally verified
+("mission" → /who-we-are/our-mission). Both query indexes (news-index, site-index) are now live and consumed.
+
+# PHASE 1 COMPLETE (2026-08-28)
+All 7 interior archetypes converted to EDS and green on the published-origin gate:
+content 1.50/2.98 · state 1.25/2.60 · article 1.21/2.83 · listing 1.27/2.05 · pillar 1.23/1.73 ·
+utility 4.03/7.56 (documented residuals) · form 2.35/5.25 · search 1.87/4.12 (1440%/360%).
+Block library: hero-interior (sky/navy/compact/trail/pillar), statement (lede), icon-cards (how/facts),
+video-band, related, product-brand, news-hub, image-tiles, wave-band, product-columns, product-cards,
+table (plain), accordion, search + section styles article/legal/contact + header subnav + footer.
+Next: Phase 2 — stardust:migrate sibling fan-out in waves (content+utility+pillar ~100 → articles+listing 49
+with publisheddate/category from first import → states 51 → forms+search 5).
