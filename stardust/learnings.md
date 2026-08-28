@@ -118,3 +118,9 @@ sessions hitting the same failure is the strongest harvest signal.
 - **Any main-scope decorator in scripts.js also runs on chrome fragments** (`loadFragment` → `decorateMain`),
   so content decoration must be idempotent or scoped away from fragment content — the footer's own externalize
   double-iconed links and wrapped a nav row (+19px, article gate).
+- **davids-model-lint false positive: channel/profile URLs.** `youtube.com/user|channel|c|@` links are
+  navigation targets (a "Videos" tile), not embeddable media — the D1 embed red should exempt them.
+  Patched in the project copy; upstream candidate.
+- **Replicate captured decoration, not the site's own rules.** The live IR press rail is third-party AJAX
+  markup with NO external-link glyphs even though every other investors.* link on the site has one. Blanket
+  externalize() on the rail caused a mobile wrap fork. Capture-state fidelity wins over rule consistency.

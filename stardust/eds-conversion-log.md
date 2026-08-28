@@ -137,3 +137,12 @@ No block: pure default content + section style `article` (D1). scripts.js gains 
 runs `decorateMain` on the footer fragment, so footer links got a second icon and a nav link wrapped (+19);
 (2) date-line margin rule needed `.default-content-wrapper h1 + p` specificity. `publisheddate` meta authored
 per the news-index contract.
+
+## listing archetype — /news (2026-08-28)
+Published-origin gate PASS: 1440 → 1.27% / Δ2 · 360 → 2.05% / Δ0.
+New blocks: `news-hub` (60/40 composition; card grid is INDEX-DRIVEN from /news-index.json filtered
+category=centene:featured with authored-rows fallback until wave 2 populates it — per dynamic-blocks-map) and
+`image-tiles` (color-token link tiles). The query index is verified live (article import appears in
+/news-index.json). Fixes: press-rail links must NOT get external glyphs (live IR markup has none — icon caused
+a +24 wrap fork); tile mobile geometry 122px + 20px margin; lint refined to exempt youtube channel URLs from
+the embed red (false positive on the Videos tile).

@@ -517,6 +517,31 @@
         "date-line rule needed wrapper-level specificity (h1 + p lost to .default-content-wrapper p)",
         "publisheddate authored in metadata block per news-index contract (live page has no date meta)"
       ]
+    },
+    "listing": {
+      "page": "/news",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.27%",
+          "delta": 2
+        },
+        "360": {
+          "pixel": "2.05%",
+          "delta": 0
+        }
+      },
+      "newBlocks": [
+        "news-hub (dynamic cards: /news-index.json category centene:featured, authored fallback until wave 2)",
+        "image-tiles (color-token tiles)"
+      ],
+      "notes": [
+        "news-index.json LIVE and populated by the article import \u2014 index contract verified end-to-end",
+        "press rail links carry NO external glyphs on live (IR AJAX markup) \u2014 externalize() there caused a wrap fork (+24)",
+        "tiles at 360: 122px container + 20px link margin (not 142+0 as prototyped; same pitch, different bottom edge)",
+        "davids-model-lint refined: youtube channel/user URLs exempt from the embed-in-block red (navigation, not media) \u2014 upstream candidate",
+        "h1/h2 authored as real heading tags so the served HTML carries them (SEO), block re-slots at decorate time"
+      ]
     }
   }
 }
