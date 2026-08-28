@@ -409,7 +409,7 @@ main .section.legal p > code:only-child {
   padding: 0;
   border: 0;
 }
-main .section.legal h2 { font-size: var(--heading-font-size-xl); margin: 40px 0 20px; color: #333; }
+main .section.legal h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
 
 /* pill button (source centenedotcom-site-btn) */
 a.button.pill,
