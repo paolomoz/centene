@@ -367,20 +367,20 @@ main .section.legal .default-content-wrapper { display: flow-root; }
 main .section.legal p { font-size: 18px; margin: 0 0 20px; }
 main .section.legal a { color: var(--brand-color); padding: 5px; margin: -5px; }
 
-main .section.legal .default-content-wrapper ul {
+main .section.legal ul {
   margin: 0 0 10px 23px;
   padding: 0;
   font-size: 18px;
   line-height: 25.7143px;
 }
 
-main .section.legal .default-content-wrapper ul li {
+main .section.legal ul li {
   position: relative;
   padding: 0 0 5px 25px;
   list-style: none;
 }
 
-main .section.legal .default-content-wrapper ul li::before {
+main .section.legal ul li::before {
   content: '';
   position: absolute;
   left: 0;
@@ -391,14 +391,14 @@ main .section.legal .default-content-wrapper ul li::before {
   background: var(--brand-color);
 }
 
-main .section.legal .default-content-wrapper ol {
+main .section.legal ol {
   margin: 0 0 10px 40px;
   padding: 0 0 0 40px;
   font-size: 18px;
   line-height: 25.7143px;
 }
 
-main .section.legal .default-content-wrapper ol li { padding: 5px 0 10px 15px; }
+main .section.legal ol li { padding: 5px 0 10px 15px; }
 main .section.legal strong { font-weight: 700; }
 
 /* spacer idiom: the pipeline drops whitespace-only paragraphs, so transported
