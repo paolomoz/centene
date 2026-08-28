@@ -91,10 +91,18 @@
       "slug": "contact-html",
       "url": "https://www.centene.com/contact.html",
       "type": "form",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/contact-html.json",
       "prototypePath": "stardust/prototypes/form-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.586Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "featured-stories-archive-html",
@@ -154,10 +162,18 @@
       "slug": "news-achieving-whole-health-through-behavioral-and-physical-health-html",
       "url": "https://www.centene.com/news/achieving-whole-health-through-behavioral-and-physical-health.html",
       "type": "article",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/news-achieving-whole-health-through-behavioral-and-physical-health-html.json",
       "prototypePath": "stardust/prototypes/article-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "news-addressing-mental-health-needs-across-generations-html",
@@ -388,10 +404,18 @@
       "slug": "news-html",
       "url": "https://www.centene.com/news.html",
       "type": "listing",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/news-html.json",
       "prototypePath": "stardust/prototypes/listing-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "news-increase-access-to-affordable-housing-partnership-mccormack-baron-salazar-html",
@@ -595,19 +619,35 @@
       "slug": "privacy-policy-html",
       "url": "https://www.centene.com/privacy-policy.html",
       "type": "utility",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/privacy-policy-html.json",
       "prototypePath": "stardust/prototypes/utility-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "products-and-services-browse-by-state-alabama-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/alabama.html",
       "type": "state",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-alabama-html.json",
       "prototypePath": "stardust/prototypes/state-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "products-and-services-browse-by-state-alaska-html",
@@ -1072,10 +1112,18 @@
       "slug": "products-and-services-html",
       "url": "https://www.centene.com/products-and-services.html",
       "type": "pillar",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/products-and-services-html.json",
       "prototypePath": "stardust/prototypes/pillar-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "products-and-services-marketplace-html",
@@ -1243,10 +1291,18 @@
       "slug": "search-html",
       "url": "https://www.centene.com/search.html",
       "type": "search",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/search-html.json",
       "prototypePath": "stardust/prototypes/search-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "site-map-html",
@@ -1639,10 +1695,18 @@
       "slug": "who-we-are-our-mission-html",
       "url": "https://www.centene.com/who-we-are/our-mission.html",
       "type": "content",
-      "status": "prototyped",
+      "status": "approved",
       "currentStatePath": "stardust/current/pages/who-we-are-our-mission-html.json",
       "prototypePath": "stardust/prototypes/content-proposed.html",
-      "migratedPath": null
+      "migratedPath": null,
+      "history": [
+        {
+          "event": "approved",
+          "at": "2026-08-28T15:21:18.587Z",
+          "approvedBy": "user",
+          "note": "side-by-side browser validation vs live originals"
+        }
+      ]
     },
     {
       "slug": "who-we-are-our-purpose-html",
