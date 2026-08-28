@@ -10,3 +10,9 @@
 .statement p { font-size: 18px; margin: 0 0 20px; }
 .statement .strut-p { min-height: 25.71px; }
 .statement .richtext { display: flow-root; }
+
+/* wrap-fork pin (ledger): live wraps the first lede 13 lines at 360;
+   identical bytes/metrics wrap 12 here — pin the live height */
+@media (width <= 400px) {
+  .statement .richtext > p:nth-of-type(3) { min-height: 464px; }
+}
