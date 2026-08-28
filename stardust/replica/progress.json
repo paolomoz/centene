@@ -466,6 +466,36 @@
         "picture descender: line-height 0 must sit on the LINE-BOX CONTAINER (the p), or make the media chain display:block; lh0 on an inline anchor does NOT remove the parent div strut",
         "statement wrap-fork pin: first lede min-height 464px at <=400 (live 13 lines vs 12 at identical bytes/metrics)"
       ]
+    },
+    "state": {
+      "page": "/products-and-services/browse-by-state/alabama",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.25%",
+          "delta": 0
+        },
+        "360": {
+          "pixel": "2.60%",
+          "delta": 1
+        }
+      },
+      "newBlocks": [
+        "product-brand (renamed from brand-band: header template class collision)"
+      ],
+      "variants": [
+        "statement lede",
+        "hero-interior trail",
+        "icon-cards facts"
+      ],
+      "notes": [
+        "BLOCK-NAME COLLISION: a block named brand-band leaks its CSS into the header's internal .brand-band class \u2014 block names must not collide with template chrome classes (renamed product-brand)",
+        "cmp-image needs flow-root: img bottom margin (27) collapsed with .image wrapper margin (20) -> -20 per band",
+        "trail h1 extra line = 57px (60px glyph box beats the 48px line-height)",
+        "facts footnote: trailing <br> renders NO extra line box; only the 2 struts (91.42px)",
+        "breadcrumb needs inter-item whitespace text nodes or long crumbs don't wrap at 360 like live",
+        "statement wrap-fork pin re-scoped to section style class pin-lede-13 (leaked into the lede variant's trailing strut: +438px)"
+      ]
     }
   }
 }

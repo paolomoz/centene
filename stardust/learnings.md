@@ -103,3 +103,15 @@ sessions hitting the same failure is the strongest harvest signal.
 - **Wrap-fork pins recur on the published origin even when the prototype matched.** Byte-identical text at
   identical metrics wrapped 13 lines on live vs 12 on EDS (360). Same ledger remedy (min-height pin, scoped to
   the gate width) — expect roughly one per text-heavy archetype at mobile.
+- **Block names must not collide with template chrome classes.** A block named `brand-band` global-loads
+  `.brand-band { padding: 25px 10% ... }` on any page using it — and the header template (lifted from the
+  source site) also uses `.brand-band` internally → the header logo band inherited block padding + list-dot
+  styles. Deploy should lint new block names against class names used in header/footer/template CSS before
+  scaffolding. (Field cost: one full gate iteration.)
+- **Instance-specific wrap-fork pins must ride section-metadata style classes, not block-type selectors.**
+  The our-mission pin (`.statement .richtext > p:nth-of-type(3)`) silently hit the state page's lede variant
+  trailing strut (+438px). Pins are per-INSTANCE facts; scope them to an authored section style class.
+- **AEM classic `.cmp-image` wrappers need flow-root in recreations** — image margins (27px bottom) collapse
+  through unstyled wrapper divs and swallow the wrapper's own margin.
+- **Breadcrumbs built element-by-element need explicit inter-item whitespace** (live markup newlines = one
+  space per gap); without it long crumbs stay on one line at 360 while live wraps to two.

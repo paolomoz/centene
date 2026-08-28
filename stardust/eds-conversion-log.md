@@ -117,3 +117,15 @@ not design (interior live pages end at the footer; home re-gate 2.62% with expec
 on related the first attempt put it on the inline `<a>` (no-op, the card div's strut survives) → fixed by making
 `a`/`picture`/`img` display:block; (4) statement wrap-fork pin: live wraps the first lede 13 lines at 360 vs our 12
 at byte-identical text/metrics → `min-height: 464px` @ ≤400px (ledger pattern).
+
+## state archetype — /products-and-services/browse-by-state/alabama (2026-08-28)
+Published-origin gate PASS: 1440 → 1.25% / Δ0 · 360 → 2.60% / Δ1.
+New block: `product-brand` (h2 + logo card w/ shadow + description + learn-more + bullet list; variants
+`struts`, `ambetter` wrap-fork pin). Reused: hero-interior (+`trail` variant: 57px trailing h1 line),
+statement (+`lede` variant), icon-cards `facts` (+91.42px footnote strut padding).
+Fix chain: (1) **block-name collision** — block `brand-band` leaked `padding: 25px 10%` and ul-dot styles into
+the header's internal `.brand-band` class → renamed `product-brand`; (2) statement wrap-fork pin had leaked into
+the lede variant's trailing strut (+438px @360) → re-scoped to section style class `pin-lede-13` on our-mission;
+(3) `.cmp-image` flow-root (img 27px bottom margin collapsed with wrapper's 20px → −20/band);
+(4) breadcrumb inter-item whitespace text nodes (live wraps the crumb to 2 lines at 360);
+(5) facts footnote: trailing `<br>` renders no line box — struts only (91.42 not 114.28).
