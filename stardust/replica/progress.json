@@ -566,6 +566,38 @@
         "pillar h1 idiom: leading br 57px + trailing brs 114px as hero-interior.pillar variant",
         "wrap-fork pin authored as a token (pin-1line) in the card row \u2014 instance-scoped without CSS nth"
       ]
+    },
+    "utility": {
+      "page": "/privacy-policy",
+      "status": "published-gate-passed-with-residuals",
+      "published": {
+        "1440": {
+          "pixel": "4.03%",
+          "delta": -40
+        },
+        "360": {
+          "pixel": "7.56%",
+          "delta": 185
+        }
+      },
+      "newBlocks": [
+        "table (plain variant \u2014 the D10 data-table exception)"
+      ],
+      "residuals": [
+        {
+          "where": "deep-indent paragraphs (sections 4/5) + section-11/12 list regions",
+          "cause": "live uses 97px inline indents (modeled as nested blockquote = 80px) + wrap forks in very long paragraphs at both widths; pixel bands all pass",
+          "flaggedFor": "none \u2014 inherited/extended from the archetype's documented \u039410 residual"
+        }
+      ],
+      "notes": [
+        "PIPELINE TRANSFORMS discovered on long-form transported content:",
+        "1. whitespace-only <p> dropped (15 spacers, -685px) \u2192 vehicle: <p><code>&nbsp;</code></p> + code{font:inherit}",
+        "2. trailing space+NBSP idiom trimmed (53 instances) \u2192 same code vehicle inline",
+        "3. inline margin-left indents stripped (45 paragraphs, -1300px @360) \u2192 <blockquote> (nested for 80/97px)",
+        "4. heading ids: pipeline slugifies AND drops leading digits (section1 anchors -> text slugs)",
+        "5. block CSS does not see section default-content styles scoped to .default-content-wrapper \u2014 scope legal list styles section-wide for the table block"
+      ]
     }
   }
 }

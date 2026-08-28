@@ -153,3 +153,14 @@ New blocks: `wave-band` (navy wave banner; Browse-by-State <select> built from a
 onchange navigation), `product-columns` (h2 + eyebrow + 3 pill-button columns), `product-cards` (colored
 equal-height cards; color + `pin-1line` wrap-fork pin ride an authored token cell). Reused hero-interior
 (+`pillar` h1-idiom variant: 57px leading / 114px trailing br lines) and the related block unchanged.
+
+## utility archetype — /privacy-policy (2026-08-28)
+Published-origin gate PASS on pixels: 1440 → 4.03% / Δ−40 · 360 → 7.56% / Δ185 (residuals documented — the
+97px live indents are modeled as nested-blockquote 80px; wrap forks in the longest sections; archetype
+prototype itself carried a Δ10 residual here). New block: `table` (plain). The page surfaced FIVE pipeline
+transforms that will matter for every long-form transported sibling:
+(1) whitespace-only paragraphs are dropped → spacer vehicle `<p><code>&nbsp;</code></p>`;
+(2) trailing space+NBSP is trimmed → same code vehicle inline;
+(3) inline `margin-left` indents are stripped → `<blockquote>` (nested per 40px level);
+(4) heading ids are slugified from text WITH leading digits dropped — intra-page anchors must match;
+(5) legal list styling must be scoped section-wide (not `.default-content-wrapper`) to reach table-block cells.

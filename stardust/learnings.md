@@ -124,3 +124,9 @@ sessions hitting the same failure is the strongest harvest signal.
 - **Replicate captured decoration, not the site's own rules.** The live IR press rail is third-party AJAX
   markup with NO external-link glyphs even though every other investors.* link on the site has one. Blanket
   externalize() on the rail caused a mobile wrap fork. Capture-state fidelity wins over rule consistency.
+- **Long-form transported content meets the pipeline: 5 recurring transforms** (see eds-conversion-log
+  § utility): whitespace-p drop, trailing-NBSP trim, inline-indent strip, heading-id slugification
+  (leading digits dropped), and wrapper-scoped section styles not reaching block cells. Each has a stable
+  authoring vehicle (`<p><code>&nbsp;</code></p>`, inline `<code>&nbsp;</code>`, `<blockquote>` nesting,
+  text-slug anchors, section-wide scoping). Candidate for a migrate-importer transform table — the SAME
+  transforms will hit all ~100 sibling content/utility pages.
