@@ -35,8 +35,9 @@
 /* variants */
 
 /* trail: the source h1 carries a trailing <br>+space+NBSP (AEM richtext
-   idiom) rendering one extra 48px line box */
-.hero-interior.trail h1 { padding-bottom: 48px; }
+   idiom) rendering one extra 57px line box (60px glyph box beats the 48px
+   line-height) */
+.hero-interior.trail h1 { padding-bottom: 57px; }
 
 .hero-interior.compact .h1-wrap { margin: 0; }
 .hero-interior.compact h1,

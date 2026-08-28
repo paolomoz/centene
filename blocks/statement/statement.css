@@ -11,8 +11,9 @@
 .statement .strut-p { min-height: 25.71px; }
 .statement .richtext { display: flow-root; }
 
-/* wrap-fork pin (ledger): live wraps the first lede 13 lines at 360;
-   identical bytes/metrics wrap 12 here — pin the live height */
+/* wrap-fork pin (ledger): live wraps our-mission's first lede 13 lines at
+   360; identical bytes/metrics wrap 12 here — pin rides the section style
+   class `pin-lede-13` (instance-scoped, authored in section metadata) */
 @media (width <= 400px) {
-  .statement .richtext > p:nth-of-type(3) { min-height: 464px; }
+  .section.pin-lede-13 .statement .richtext > p:nth-of-type(3) { min-height: 464px; }
 }
