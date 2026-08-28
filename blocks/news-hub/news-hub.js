@@ -203,7 +203,8 @@ export default async function decorate(block) {
     d.textContent = item.date;
     const e = document.createElement('p');
     e.className = 'event';
-    e.append(externalize(item.link.cloneNode(true)));
+    // the source rail is IR-feed markup with NO external-link glyphs — replicate as captured
+    e.append(item.link.cloneNode(true));
     list.append(d, e);
   });
 

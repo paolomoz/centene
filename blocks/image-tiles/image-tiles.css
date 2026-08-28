@@ -60,6 +60,7 @@
 
 @media (width <= 767px) {
   .image-tiles .image-link-tile { float: none; width: 100%; }
-  .image-tiles .img-container { height: 142px; }
-  .image-tiles .image-link-tile a { margin: 0; }
+
+  /* live mobile: 122px tile + the 20px link margin (same 142 pitch) */
+  .image-tiles .img-container { height: 122px; }
 }
