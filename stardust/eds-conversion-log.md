@@ -164,3 +164,10 @@ transforms that will matter for every long-form transported sibling:
 (3) inline `margin-left` indents are stripped → `<blockquote>` (nested per 40px level);
 (4) heading ids are slugified from text WITH leading digits dropped — intra-page anchors must match;
 (5) legal list styling must be scoped section-wide (not `.default-content-wrapper`) to reach table-block cells.
+
+## form archetype — /contact (2026-08-28)
+Published-origin gate PASS: 1440 → 2.35% / Δ−2 · 360 → 5.25% / Δ2.
+New block: `accordion` (title|body rows, +/− glyph toggle, Glyphicons Halflings self-hosted).
+Key decode: live's every-richtext-is-flow-root means component-boundary margins never collapse; merged
+EDS default content must mirror with `p + h2 { margin-top: 40px }` (block boundaries already supply the
+uncollapsed margin — first h2 after a block reverts to 20).

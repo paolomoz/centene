@@ -130,3 +130,7 @@ sessions hitting the same failure is the strongest harvest signal.
   authoring vehicle (`<p><code>&nbsp;</code></p>`, inline `<code>&nbsp;</code>`, `<blockquote>` nesting,
   text-slug anchors, section-wide scoping). Candidate for a migrate-importer transform table — the SAME
   transforms will hit all ~100 sibling content/utility pages.
+- **Margin-collapse parity for merged default content.** AEM-classic pages wrap every richtext in a
+  flow-root component, so 20px+20px boundaries render 40px. EDS merges consecutive richtexts into ONE
+  default-content wrapper where those margins collapse to 20px. Mirror with `p + h2 { margin-top: 40px }`
+  per interior section style; block boundaries keep the native 20.

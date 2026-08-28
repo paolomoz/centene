@@ -598,6 +598,27 @@
         "4. heading ids: pipeline slugifies AND drops leading digits (section1 anchors -> text slugs)",
         "5. block CSS does not see section default-content styles scoped to .default-content-wrapper \u2014 scope legal list styles section-wide for the table block"
       ]
+    },
+    "form": {
+      "page": "/contact",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "2.35%",
+          "delta": -2
+        },
+        "360": {
+          "pixel": "5.25%",
+          "delta": 2
+        }
+      },
+      "newBlocks": [
+        "accordion (panel toggle, glyphicons face)"
+      ],
+      "notes": [
+        "live renders every richtext as a flow-root component: boundary margins DON'T collapse \u2014 merged default content needs `p + h2 { margin-top: 40px }` (and block boundaries already contribute the uncollapsed 20)",
+        "panel-tail note ('If you cannot find\u2026') is visible content AFTER the accordion on live \u2014 not part of the collapsed panel"
+      ]
     }
   }
 }
