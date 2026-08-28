@@ -1,0 +1,8 @@
+A 1440x2106  B 1440x1946  → compare 1440x1946, height delta 160px
+  ⚠ height delta 160px — overlap-crop hides the tail; fix heights before trusting the %
+differing pixels: 306131 / 2802240 = 10.92%  (threshold 10%) → FAIL
+diff image: stardust/replica/gates/published-form-1440/diff.png
+  y      0–500: 1.4%
+  y    500–1000: 3.9%
+  y   1000–1500: 21.2%  ◄◄ hot band
+  y   1500–1946: 18.0%  ◄◄ hot band
