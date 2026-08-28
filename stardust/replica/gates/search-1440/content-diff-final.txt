@@ -1,0 +1,6 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 72 text nodes — 1 headings, 0 eyebrows, 61 CTAs, 10 body; 4 img
+  build: 72 text nodes — 1 headings, 0 eyebrows, 61 CTAs, 10 body; 2 img
+
+Findings: none — content + roles match

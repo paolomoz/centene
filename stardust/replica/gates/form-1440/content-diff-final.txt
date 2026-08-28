@@ -1,0 +1,8 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 148 text nodes — 0 headings, 0 eyebrows, 67 CTAs, 81 body; 4 img
+  build: 148 text nodes — 0 headings, 0 eyebrows, 67 CTAs, 81 body; 2 img
+
+Findings: 2 (1 structural 🔴)
+  🔴 MISSING CTA: source cta "Request Investor MaterialsExternal Link" → https://investors.centene.com/information-request has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build cta "Request Investor Materials" has no source source — Unexpected node with no source.

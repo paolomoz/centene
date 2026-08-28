@@ -1,0 +1,2 @@
+div.spinner-container  [@208,344,1025,0 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div#spinner.search-spinner  [@208,344,1025,0 | absolute | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]

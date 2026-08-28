@@ -1,0 +1,11 @@
+.top-cookie-banner{display:none;background-color:#595959;text-align:center}
+.top-cookie-banner .content{padding:10px}
+.top-cookie-banner .content p{color:#fff;text-align:center;margin:0 auto;display:inline}
+.top-cookie-banner .content p a{color:#fff;text-decoration:underline}
+.top-cookie-banner .content p a:hover{font-weight:bold}
+.top-cookie-banner .content button{background-color:#fff;cursor:pointer;margin-left:5px;padding:3px 7px;color:#000;border-radius:3px;border:0;font-size:.75em}
+.top-cookie-banner .content button:hover{background-color:#f4f4f4}
+.has-cookie .top-cookie-banner{display:block}
+@media(max-width:767px){.top-cookie-banner .content p{display:block}
+.top-cookie-banner .content button{padding:13px 100px;margin:10px 0 10px 0}
+}

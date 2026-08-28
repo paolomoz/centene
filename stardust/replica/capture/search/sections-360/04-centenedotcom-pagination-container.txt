@@ -1,0 +1,3 @@
+div.centenedotcom-pagination-container  [@20,422,320,0 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  nav  [@20,422,320,0 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+    ul.centenedotcom-search-pagination  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px 0px 10px | bor:0px none rgb(88, 89, 91)]

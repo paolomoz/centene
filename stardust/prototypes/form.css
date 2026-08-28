@@ -1,0 +1,27 @@
+/* Per-archetype layer — form/contact pages. Lifted values. */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.woff2') format('woff2');
+  font-display: block;
+}
+
+.accordion { display: flow-root; }
+.accordion-wrapper { padding: 7px; }
+.accordion .panel { background: #fff; border-radius: 4px; }
+.accordion .panel h2 { font-size: 18.2px; line-height: 1.1; margin: 0; color: #333; }
+.accordion button.panel-heading {
+  display: inline-block; width: 100%; text-align: left; position: relative;
+  padding: 10px 15px; background: #fff; border: 0; cursor: pointer;
+  font-size: 18.2px; line-height: 1.1; font-weight: 500; color: #333;
+}
+.accordion .panel-title { font-size: 16px; line-height: 1.1; font-weight: 500; }
+.accordion .glyphicon {
+  position: absolute; right: 15px; top: 13px;
+  font-family: 'Glyphicons Halflings', sans-serif; font-style: normal;
+  font-size: 18.2px; line-height: 1; color: var(--brand-color-global);
+}
+.accordion .glyphicon-plus-sign::before { content: '\2b1e'; content: '\e081'; }
+.accordion .panel-collapse { display: none; }
+.accordion .panel-collapse.in { display: block; }
+.accordion .panel-body { padding: 15px; margin: 3px 0 0; border: 1px solid var(--light-gray); background: #fff; }

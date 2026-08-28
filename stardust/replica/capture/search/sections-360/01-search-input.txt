@@ -1,0 +1,11 @@
+div.search-input  [@20,230,320,121 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.row  [@10,230,340,121 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | m:0px -10px | bor:0px none rgb(88, 89, 91)]
+    div.col-xs-24.col-lg-16  [@10,230,340,60 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 10px | bor:0px none rgb(88, 89, 91)]
+      label.sr-only  [@19,229,1,1 | absolute | Roboto 14px/20px w700 | c:rgb(88, 89, 91) | m:-1px | mw:100% | bor:0px none rgb(88, 89, 91)]
+        «Search»
+      input#search-page.search-page.form-control  [@20,240,320,40 | inline-block | Arial 17.5px/25px w400 ls:0.7px | c:rgb(110, 110, 110) | bg:rgb(255, 255, 255) | p:6px 15px | m:10px 0px | r:17px | bor:1px solid rgb(88, 89, 91) | sh:rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset]
+    div.col-xs-24.col-lg-8  [@10,290,340,60 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 10px | bor:0px none rgb(88, 89, 91)]
+      button#search-button.btn.btn-default.centenedotcom-site-btn  [@20,300,90,40 | Roboto-Medium 18.2px/26px w400 | c:rgb(0, 89, 134) | bg:rgb(255, 255, 255) | p:5px 15px | m:10px 0px | r:20px | bor:2px solid rgb(0, 89, 134) | ta:center]
+        «Search»
+    div.col-xs-12  [@10,350,170,1 | relative | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | p:0px 10px | bor:0px none rgb(88, 89, 91)]
+      h3.search-count  [@0,0,0,0 | HIDDEN | none | Roboto 19.25px/21.175px w500 | c:rgb(0, 89, 140) | m:20px 0px 10px | bor:0px none rgb(0, 89, 140)]

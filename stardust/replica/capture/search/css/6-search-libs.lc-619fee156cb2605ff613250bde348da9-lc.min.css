@@ -1,0 +1,21 @@
+.centenedotcom-search{margin-top:70px}
+.centenedotcom-search h1{width:100%}
+.centenedotcom-search .search-input input[type=search]{border-radius:17px;display:inline-block;font-size:1.25em;font-style:italic;color:#6e6e6e;padding:6px 15px;height:40px;letter-spacing:.04em;text-indent:10px;width:100%;margin:10px 0;border-color:#58595b}
+.centenedotcom-search .search-input .btn-default{margin:10px 0 10px 0}
+.centenedotcom-search .search-input h3{font-size:1.3750em}
+.centenedotcom-search .search-result{border-bottom:1px solid #58595b !important}
+.centenedotcom-search .search-result h2{font-style:italic}
+.centenedotcom-search .search-result p{color:#333}
+.centenedotcom-search .search-result a.block-anchor{display:inline-block;color:#00598c;font-style:italic;font-size:1.25em}
+.centenedotcom-search .search-result a.block-anchor:hover{background:0;text-decoration:underline}
+.centenedotcom-search .search-result:last-child{margin-bottom:20px}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination{padding-left:0}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li{display:inline;margin-right:20px}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li a{font-size:1.375em}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li.num a{color:#6e6e6e}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li.active a{color:#00598c;text-decoration:underline;font-weight:bold}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li button{width:58px;border-radius:20px;border:2px solid #00598c;padding-bottom:5px;background:#fff}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li button:hover{background:#00598c}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li button:hover svg path{fill:#fff}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li button svg{overflow:visible}
+.centenedotcom-search .centenedotcom-pagination-container .centenedotcom-search-pagination li button svg path{fill:#00598c}

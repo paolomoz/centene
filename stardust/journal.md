@@ -80,3 +80,22 @@ Artifacts: stardust/migration-plan.md (the plan), dynamic-blocks-map.md
 helix-query.yaml (news-index, site-index), DESIGN.json modules[] (16).
 Next: confirm plan → archetype prototypes (content, state, article,
 listing, pillar, utility, form, search) via replica recreation + gate.
+
+## 2026-08-28 — archetype prototyping phase complete (8/8 gated)
+
+All planned archetypes recreated and gated against their live pages
+(prototype regime, 1440+360): content 0.89/2.60, state 0.77/2.01,
+article 0.92/2.71, listing 1.28/3.78, pillar 1.11/1.75, utility 2.69
+(Δ10 documented residual)/5.31, form 1.98/4.68, search 1.36/3.87.
+Every archetype's content-diff ended clean (multiple at literally
+"Findings: none").
+
+Method notes: cumulative canon (canon.css + interior.css) held across all
+archetypes; long-form pages (privacy, contact) used live-static content
+transport (importer-equivalent) inside authored wrappers with the live
+runtime's external-link decoration replicated; the recurring AEM byte
+idioms (br-before-text h1s, br+NBSP trailing lines, clearance-blocked
+margin collapse, %-margins inside cards, eyebrow width:70%) are all
+catalogued in progress.json per archetype for the migrate phase.
+
+Next: stardust:migrate (sibling fan-out per archetype) after plan review.

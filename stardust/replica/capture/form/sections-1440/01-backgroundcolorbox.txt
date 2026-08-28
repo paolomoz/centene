@@ -1,0 +1,217 @@
+div.backgroundcolorbox  [@0,333,1440,1230 | Roboto 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  div.background-color-box.white-background  [@0,333,1440,1230 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:25px 144px 20px | bor:0px none rgb(51, 51, 51)]
+    div  [@144,358,1152,1185 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@144,358,1152,246 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,358,1152,246 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,358,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          h2  [@144,378,1152,37 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h3  [@144,376,340,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@144,376,340,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Centene Headquarters»
+          p  [@144,435,1152,103 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «Centene Corporation Centene Plaza 7700 Forsyth Boulevard St. Louis, MO 63105»
+            br  [@309,437,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+            br  [@259,463,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+            br  [@333,489,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,558,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@144,604,1152,149 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,604,1152,149 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,604,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          h2  [@144,624,1152,37 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h3  [@144,622,762,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@144,622,762,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Member and Provider Benefit Information Inquiries»
+          p  [@144,681,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «For all benefits, eligibility, and authorization information please click on the drop-down menu below to view the Centene health plan phone directory.»
+      div.accordion  [@144,753,1152,56 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div  [@144,753,1152,56 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.theme_default.accordion-wrapper  [@144,753,1152,56 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | p:7px | bor:0px none rgb(51, 51, 51)]
+            div.panel  [@151,760,1138,42 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | r:4px | bor:0px none rgb(51, 51, 51)]
+              h2  [@151,760,1138,42 | Roboto 18.2px/20.02px w500 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                button.panel-heading.collapsed  [@151,760,1138,42 | inline-block | Roboto 18.2px/20.02px w500 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:10px 15px]
+                  span.panel-title  [@166,773,264,19 | inline | Roboto 16px/17.6px w500 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    «Centene Health Plan Phone Directory»
+                  span.glyphicon.glyphicon-plus-sign  [@1256,773,18,18 | relative | "Glyphicons Halflings" 18.2px/18.2px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+              div#732802.panel-collapse.collapse  [@0,0,0,0 | HIDDEN | none | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                div.panel-body  [@0,0,0,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bg:rgb(255, 255, 255) | p:15px | m:3px 0px 0px | bor:1px solid rgb(220, 221, 222)]
+                  div  [@0,0,0,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                    div.richtext  [@0,0,0,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                      div.clearfix.en  [@0,0,0,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        div.clearfix  [@0,0,0,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Ambetter Health Plans:»
+                          br  [@0,0,0,0 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        ul  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 10px 23px | bor:0px none rgb(51, 51, 51)]
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Alabama (800) 442-1623»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Arizona (888) 926-5057»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Arkansas (877) 617-0390»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «California (844) 463-8188»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Florida (877) 687-1169»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Georgia (877) 687-1180»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Illinois (855) 745-5507»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Indiana (877) 687-1182»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Iowa (833) 919-3213»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Kansas (844) 518-9505»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Kentucky (833) 705-2175»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Louisiana (833) 635-0450»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Michigan (833) 993-2426»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Mississippi (877) 687-1187»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Missouri (855) 650-3789»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Nebraska (833) 890-0329»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Nevada (866) 263-8134»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «New Hampshire (844) 265-1278»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «New Jersey (844) 606-1926»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «New Mexico (833) 945-2029»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «New York (888) 343-3547»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «North Carolina (833) 863-1310»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Ohio (877) 687-1189»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Oklahoma (833) 492-0679»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Pennsylvania (833) 510-4727»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «South Carolina (833) 270-5443»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Tennessee (833) 709-4735»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Texas (877) 687-1196»
+                          li  [@0,0,0,0 | list-item | relative | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | p:0px 0px 5px 25px | bor:0px none rgb(51, 51, 51)]
+                            «Washington (877) 687-1197»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(866) 796-0542»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Arizona Complete Health»
+                          br  [@0,0,0,0 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(866) 246-4358»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Buckeye Health Plan»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(877) 658-0305»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «California Health and Wellness»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(800) 522-0088»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «HealthNet CA»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(833) 404-1061»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Iowa Total Care»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(866) 606-3700»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Meridian IL»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(888) 437-0606»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Meridian MI»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(844) 626-6813»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «PA Health and Wellness»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(866) 874-0633»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Peach State Medicaid»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(877) 725-7748»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Peach State Medicare»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(844) 366-2880»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Silver Summit Medicare/Medicaid»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(866) 796-0530»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Sunshine Health Medicaid/Medicare»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(800) 783-5386»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Superior/Star Plus Medicaid»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(833) 444-9088»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Wellcare»
+                        p  [@0,0,0,0 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+                          «(844) 543-8996»
+                          b  [@0,0,0,0 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+                            «Westernsky Community Care Medicaid/Medicare»
+      div.richtext  [@144,809,1152,163 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,809,1152,163 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,809,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,809,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «If you cannot find the health plan you are looking for in the phone directory provided above, you can obtain its contact information by visiting the health plan's website.»
+          p  [@144,880,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            a href=/products-and-services/browse-by-state.html  [@139,877,310,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Browse Centene health plans by state»
+          p  [@144,926,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@144,972,1152,260 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,972,1152,260 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,972,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          h2  [@144,992,1152,37 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h3  [@144,990,288,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@144,990,288,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Corporate Inquiries»
+          p  [@144,1049,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «For corporate inquiries only, please contact us at 314-725-4477.»
+          p  [@144,1095,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            a href=https://investors.centene.com/information-request  [@139,1092,247,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Request Investor Materials»
+              i.link-external.fa.fa-external-link  [@363,1098,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@380,1094,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+            br  [@381,1097,0,21 | inline | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          p  [@144,1140,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            a href=/media-contact.html  [@139,1137,133,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «Media Inquiries»
+          p  [@144,1186,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+      div.richtext  [@144,1232,1152,312 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+        div.clearfix.en  [@144,1232,1152,312 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          div.clearfix  [@144,1232,1152,0 | Roboto 14px/20px w400 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+          h2  [@144,1252,1152,37 | Roboto 29px/31.9px w500 | c:rgb(51, 51, 51) | m:20px 0px | bor:0px none rgb(51, 51, 51)]
+            span.centene-h3  [@144,1250,369,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(51, 51, 51) | m:22px 0px | bor:0px none rgb(51, 51, 51)]
+              span.brand-color  [@144,1250,369,40 | inline | Roboto-Regular 34px/37.4px w400 | c:rgb(0, 89, 140) | bor:0px none rgb(0, 89, 140)]
+                «Employment Verification»
+          p  [@144,1309,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «If you are a current or former Centene employee and need to verify employment, please contact our third-party vendor, , at to obtain verification.»
+            b  [@1084,1311,163,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «Thomas & Company»
+            a href=https://tncverify.com/  [@139,1332,141,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «tncverify.com»
+              i.link-external.fa.fa-external-link  [@257,1338,18,18 | inline-block | "Font Awesome 6 Free" 18px/18px w900 | c:rgb(0, 89, 140) | m:0px 0px 0px 5.4px | bor:0px none rgb(0, 89, 140)]
+              span.sr-only  [@274,1334,1,1 | absolute | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | m:-1px | bor:0px none rgb(0, 89, 140)]
+                «External Link»
+          p  [@144,1381,1152,51 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+            «The Company Code for Centene companies is: . Questions should be directed to or 800-791-8943.»
+            b  [@518,1383,56,21 | inline | Roboto 18px/25.7143px w700 | c:rgb(51, 51, 51) | bor:0px none rgb(51, 51, 51)]
+              «CENTE»
+            a href=mailto:verifications@thomas-and-company.com  [@836,1378,337,31 | inline | Roboto 18px/25.7143px w400 | c:rgb(0, 89, 140) | p:5px | m:-5px | bor:0px none rgb(0, 89, 140)]
+              «verifications@thomas-and-company.com»
+          p  [@144,1452,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]
+          p  [@144,1498,1152,26 | Roboto 18px/25.7143px w400 | c:rgb(51, 51, 51) | m:0px 0px 20px | bor:0px none rgb(51, 51, 51)]

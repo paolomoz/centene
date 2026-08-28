@@ -1,0 +1,19 @@
+.accordion-wrapper{padding:.5em}
+.accordion-wrapper .panel{margin:0;border:0;box-shadow:none}
+.accordion-wrapper .panel>h2,.accordion-wrapper .panel>h3,.accordion-wrapper .panel>h4,.accordion-wrapper .panel>h5,.accordion-wrapper .panel>h6{margin:0;font-size:1.3em}
+.accordion-wrapper .panel-heading{width:100%;text-align:left;border-top:2px solid var(--brand-color-global);border-right:0;border-bottom:0;border-left:0;border-radius:0;background:#fff;transition:background-color .3s ease}
+.accordion-wrapper .panel-heading:hover{background:var(--brand-color-light-global)}
+.accordion-wrapper .panel-heading.collapsed{border-color:#dcddde}
+.accordion-wrapper .panel-heading.collapsed .glyphicon::before{content:"\e081" !important}
+.accordion-wrapper .panel-heading .glyphicon{float:right;color:var(--brand-color-global)}
+.accordion-wrapper .panel-heading .glyphicon::before{content:"\e082" !important}
+.accordion-wrapper .panel-body{margin-top:3px;border:1px solid #dcddde;background-color:#fff}
+.theme_medicaid.accordion-wrapper{padding-top:0;padding-bottom:0}
+.theme_medicaid.accordion-wrapper .panel-heading{text-align:left;border-top:1px solid #bbb;border-bottom:1px solid #bbb;width:100%;background:transparent;color:#107ba4;padding:15px 10px;transition:background-color .5s ease}
+.theme_medicaid.accordion-wrapper .panel-heading:hover{background-color:#ececec;color:#333}
+.theme_medicaid.accordion-wrapper .panel-heading.collapsed{color:#333}
+.theme_medicaid.accordion-wrapper .panel-heading.collapsed .glyphicon::before{content:"\e080" !important}
+.theme_medicaid.accordion-wrapper .panel-heading .glyphicon{float:right;font-size:12px;margin-top:5px;color:#004880}
+.theme_medicaid.accordion-wrapper .panel-heading .glyphicon::before{content:"\e114" !important}
+.theme_medicaid.accordion-wrapper .panel-body{border:0;border-bottom:1px solid #ddd}
+.theme_medicaid.accordion-wrapper .panel-body p{color:#333}

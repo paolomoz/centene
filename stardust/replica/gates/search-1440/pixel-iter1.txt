@@ -1,0 +1,7 @@
+A 1440x1033  B 1440x1053  → compare 1440x1033, height delta -20px
+  ⚠ height delta -20px — overlap-crop hides the tail; fix heights before trusting the %
+differing pixels: 86695 / 1487520 = 5.83%  (threshold 10%) → PASS
+diff image: stardust/replica/gates/search-1440/diff-iter1.png
+  y      0–500: 3.4%
+  y    500–1000: 8.5%
+  y   1000–1033: 2.6%

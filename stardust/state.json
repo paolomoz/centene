@@ -91,9 +91,9 @@
       "slug": "contact-html",
       "url": "https://www.centene.com/contact.html",
       "type": "form",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/contact-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/form-proposed.html",
       "migratedPath": null
     },
     {
@@ -1243,9 +1243,9 @@
       "slug": "search-html",
       "url": "https://www.centene.com/search.html",
       "type": "search",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/search-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/search-proposed.html",
       "migratedPath": null
     },
     {

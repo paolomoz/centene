@@ -1,0 +1,237 @@
+header  [@0,0,1440,145 | Arial 14px/20px w400 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+  nav#centene-nav-main-wrapper.clearfix  [@0,0,1440,145 | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | bor:0px none rgb(88, 89, 91)]
+    div  [@0,0,1440,91 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91)]
+      div.container-fluid  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | p:0px 10px | bor:0px none rgb(88, 89, 91)]
+        div.row  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | m:0px -10px | bor:0px none rgb(88, 89, 91)]
+          div.clearfix  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+          div.clearfix  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+      div.universal-banner  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+        div#universalBanner  [@0,0,1440,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+      div#centene-nav-main.clearfix  [@135,0,1170,90 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | p:0px 15px | m:0px 135px | bor:0px none rgb(88, 89, 91)]
+        div.navbar-header.clearfix  [@150,0,1140,90 | flex | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | mw:100% | bor:0px none rgb(88, 89, 91) | jc:center]
+          div.container-fluid.navbar-brand-wrapper  [@150,0,356,90 | flex | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | mw:32% | ai:center]
+            button.navbarToggle-centeneDotCom.navbar-toggle  [@0,0,0,0 | HIDDEN | none | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | m:8px 0px | r:4px | bor:0px none rgb(88, 89, 91) | ta:center]
+              span.sr-only  [@0,0,0,0 | absolute | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | m:-1px | bor:0px none rgb(88, 89, 91) | ta:center]
+                «Toggle navigation»
+              span.icon-bar  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | r:1px | bor:0px none rgb(88, 89, 91) | ta:center]
+              span.icon-bar  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | m:4px 0px 0px | r:1px | bor:0px none rgb(88, 89, 91) | ta:center]
+              span.icon-bar  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | m:4px 0px 0px | r:1px | bor:0px none rgb(88, 89, 91) | ta:center]
+            a.abr-logo href=/  [@150,18,222,55 | Roboto-Italic 14px/20px w700 | c:rgb(0, 109, 193) | bor:0px none rgb(0, 109, 193)]
+              img.xs-hide src=https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg alt="Logo: go to Centene homepage"  [@150,18,222,55 | inline | Roboto-Italic 14px/20px w700 | c:rgb(0, 109, 193) | bor:0px none rgb(0, 109, 193)]
+              img.xs-only src=https://www.centene.com/content/dam/centenedotcom/logos/centene_logo_2023.jpg alt="Logo: go to Centene homepage"  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(0, 109, 193) | bor:0px none rgb(0, 109, 193)]
+          div.container-fluid.navbar-search-wrapper  [@506,0,506,90 | flex | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | mw:100% | jc:space-around | ai:center]
+            form.search-form  [@578,27,362,36 | relative | Roboto-Italic 14px/20px w700 | c:rgb(110, 110, 110) | bor:0px none rgb(110, 110, 110)]
+              input#search-box-top.form-control.search-box-top-centeneDotCom  [@588,27,362,36 | inline-block | Roboto-Italic 12px/17.1429px w700 ls:0.48px | c:rgb(85, 85, 85) | bg:rgb(255, 255, 255) | p:6px 12px | m:0px 0px 0px 10px | r:17px | bor:1px solid rgb(204, 204, 204) | sh:rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset]
+              button.button-search-centeneDotCom.btn  [@903,33,26,24 | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-search.svg") | p:6px 12px | r:4px | bor:1px solid rgba(0, 0, 0, 0) | ta:center]
+                «Search»
+            button.navbarToggle-centeneDotCom.navbar-toggle  [@0,0,0,0 | HIDDEN | none | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | m:8px 0px | r:4px | bor:0px none rgb(88, 89, 91) | ta:center]
+              span.sr-only  [@0,0,0,0 | absolute | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | m:-1px | bor:0px none rgb(88, 89, 91) | ta:center]
+                «Toggle navigation»
+              span.x-bar  [@0,0,0,0 | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91) | ta:center]
+              span.x-bar  [@0,0,0,0 | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91) | ta:center]
+          div.link-wrapper.upper  [@1012,0,278,90 | flex | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | mw:25% | bor:0px none rgb(88, 89, 91) | jc:space-around | ai:center]
+            div.topmenu  [@1089,16,124,57 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              ul  [@1089,16,124,47 | inline-flex | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | p:0px 0px 0px 40px | m:0px 0px 10px | bor:0px none rgb(88, 89, 91)]
+                li.hidden-xs  [@1129,16,84,47 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  a href=/contact.html  [@1129,16,84,47 | inline-block | Roboto 12px/17.1429px w700 uppercase | c:rgb(110, 110, 110) | p:15px | bor:0px none rgb(110, 110, 110)]
+                    «Contact»
+    div.clearfix  [@0,91,1440,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+      div#navbar.navbar-open.clearfix  [@135,91,1170,54 | relative | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | p:0px 15px | m:0px 135px | mw:100% | bor:0px none rgb(88, 89, 91)]
+        ul.nav-layer-first.list-unstyled  [@150,91,1140,54 | inline-flex | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(255, 255, 255) | bor:0px none rgb(88, 89, 91) | jc:center]
+          li  [@150,91,176,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@150,91,176,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.has-children.sub-item href=/who-we-are.html  [@150,91,100,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px 15px 15px 0px]
+                «Who We Are»
+              button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-gray.svg") | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+              ul#nav-target-2.nav-layer-second.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91)]
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/our-mission.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Our Mission»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/history.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «History»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/board-of-directors.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Board of Directors»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/capabilities.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Capabilities»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/subsidiaries.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Subsidiaries»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/corporate-facts-reports.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Corporate Facts & Reports»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/ethics-and-integrity.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Ethics & Integrity»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/who-we-are/one-centeam.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «One CenTeam»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-2-8.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/one-centeam/people-with-disabilities.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «People with Disabilities»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/one-centeam/serving-the-military-community.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Serving the Military Community»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/one-centeam/employee-networks.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Employee Networks»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/one-centeam/attracting-top-talent.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Attracting Top Talent»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/who-we-are/centene-foundation.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Centene Foundation»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-2-9.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/centene-foundation/impact.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Impact»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/centene-foundation/becoming-a-partner.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Becoming a Partner»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/who-we-are/centene-foundation/featured-partnerships.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Featured Partnerships»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/accreditations.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Accreditations»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/who-we-are/awards.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Awards»
+          li  [@326,91,242,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@326,91,242,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.has-children.sub-item href=/why-were-different.html  [@326,91,166,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px]
+                «Why We're Different»
+              button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-gray.svg") | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+              ul#nav-target-3.nav-layer-second.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91)]
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/why-were-different/corporate-sustainability.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Corporate Sustainability»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-3-1.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/corporate-sustainability/empowering-health.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Empowering Health»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/corporate-sustainability/healthier-communities.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Healthier Communities»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/corporate-sustainability/healthy-environment.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Healthy Environment»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/corporate-sustainability/business-accountability.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Business Accountability»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/why-were-different/strategic-partnerships.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Strategic Partnerships»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-3-2.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/strategic-partnerships/healthcare-providers-partners.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Providers & Healthcare Partners»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/strategic-partnerships/impacting-lives.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Impacting Lives»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/strategic-partnerships/centene-suppliers.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Our Suppliers»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/why-were-different/strategic-partnerships/economic-impact.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Economic Impact»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/why-were-different/improving-outcomes.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Improving Outcomes»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/why-were-different/healthcare-fraud-waste-abuse-oversight.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Combating Fraud, Waste and Abuse»
+                    ul#nav-target-3-4.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+          li  [@568,91,246,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@568,91,246,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.has-children.sub-item href=/products-and-services.html  [@568,91,170,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px]
+                «Products & Services»
+              button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-gray.svg") | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+              ul#nav-target-4.nav-layer-second.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91)]
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/products-and-services/medicaid.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Medicaid»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-4-1.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/products-and-services/medicaid/long-term-services-and-supports.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Long-Term Services & Supports»
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/products-and-services/medicaid/foster-care.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «Foster Care»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/products-and-services/medicare.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Medicare»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.has-children.sub-item href=/products-and-services/marketplace.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Health Insurance Marketplace»
+                    button.btn.nav-dropdown-btn.collapsed  [@0,0,0,0 | HIDDEN | none | absolute | Roboto-Italic 0px/0px w400 | c:rgba(0, 0, 0, 0) | bgi:url("https://www.centene.com/etc.clientlibs/centene/clientlibs/clientlibs-main/resources/images/icon-dropdown-white.svg" | p:6px 12px | r:4px | bor:0px none rgba(0, 0, 0, 0) | ta:center]
+                    ul#nav-target-4-3.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+                      li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                        div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                          a.sub-item href=/products-and-services/marketplace/ichra-ambetter-health-solutions.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(0, 89, 140) | p:15px]
+                            «ICHRA»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/products-and-services/whole-health-solutions.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Whole Health Solutions»
+                li  [@0,0,0,0 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                  div.control-wrapper  [@0,0,0,0 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+                    a.sub-item href=/products-and-services/browse-by-state.html  [@0,0,0,0 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(255, 255, 255) | p:15px]
+                      «Browse by State»
+                    ul#nav-target-4-5.nav-layer-third.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(250, 250, 250) | bor:0px none rgb(88, 89, 91)]
+          li  [@814,91,160,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@814,91,160,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.sub-item href=https://jobs.centene.com/us/en  [@814,91,84,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px]
+                «Careers»
+          li  [@974,91,170,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@974,91,170,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.sub-item href=https://investors.centene.com/?_gl=1*gstf37*_ga*MTE4ODk5OTYwOS4xNjc1NjkyODkx*_ga_HQB3VPSXQE*MTY5NDIwMTQxNC45OC4xLjE2OTQyMDM1MzguMC4wLjA.  [@974,91,94,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px]
+                «Investors»
+          li  [@1145,91,145,54 | list-item | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+            div.control-wrapper  [@1145,91,145,54 | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bor:0px none rgb(88, 89, 91)]
+              a.first-lvl-link.sub-item href=/news.html  [@1145,91,69,54 | inline-block | relative | Roboto-Italic 16px/22.8571px w700 | c:rgb(110, 110, 110) | p:15px]
+                «News»
+              ul#nav-target-8.nav-layer-second.list-unstyled.collapse  [@0,0,0,0 | HIDDEN | none | Roboto-Italic 14px/20px w700 | c:rgb(88, 89, 91) | bg:rgb(0, 89, 140) | bor:0px none rgb(88, 89, 91)]
