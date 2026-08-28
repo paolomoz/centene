@@ -1,0 +1,45 @@
+/* hero-interior — interior hero band; geometry lifted from the source site. */
+
+.hero-interior {
+  padding: 25px 10% 20px;
+  display: flow-root;
+  background-color: var(--sky);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.hero-interior .breadcrumb {
+  padding: 8px 0;
+  margin: 0 0 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-interior .breadcrumb ol { padding: 0; margin: 0; list-style: none; }
+.hero-interior .breadcrumb ol li { display: inline; }
+.hero-interior .breadcrumb ol li::after { content: '>'; color: #000; padding-left: 3px; }
+.hero-interior .breadcrumb ol li.active::after,
+.hero-interior .breadcrumb ol li:last-child:not(.active)::after { content: none; }
+.hero-interior .breadcrumb a { color: var(--brand-color); }
+.hero-interior .breadcrumb a span,
+.hero-interior .breadcrumb li.active span { color: #000; }
+
+.hero-interior .h1-wrap { margin: 0 0 150px; }
+.hero-interior h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: var(--h1-blue); }
+.hero-interior .centene-h1 { color: var(--h1-blue); }
+
+/* variants */
+.hero-interior.compact .h1-wrap { margin: 0; }
+.hero-interior.compact h1,
+.hero-interior.compact .centene-h1 { color: var(--brand-btn); }
+
+.hero-interior.navy { background-color: var(--brand-color); color: #fff; }
+.hero-interior.navy .breadcrumb ol li::after,
+.hero-interior.navy .breadcrumb a span,
+.hero-interior.navy .breadcrumb li.active span { color: #fff; }
+.hero-interior.navy h1,
+.hero-interior.navy .centene-h1 { color: #fff; }
+.hero-interior.navy .h1-wrap { margin: 0; }

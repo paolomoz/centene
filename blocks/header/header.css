@@ -177,6 +177,63 @@ header .nav-l3 a {
 
 header .nav-l3 a { color: var(--brand-color); }
 
+/* interior pages: band flow-height rides the same server-rendered section
+   class that drives the body nav-height reservation (CLS-safe, no JS sizing) */
+body:has(main .section.subnav-1) header .nav-band { height: 107px; }
+body:has(main .section.subnav-2) header .nav-band { height: 160px; }
+body:has(main .section.subnav-3) header .nav-band { height: 213px; }
+
+@media (width <= 767px) {
+  body:has(main .section.subnav-1) header .nav-band,
+  body:has(main .section.subnav-2) header .nav-band,
+  body:has(main .section.subnav-3) header .nav-band { height: auto; }
+}
+
+/* interior pages: persistent open submenu band (current section) */
+header .nav-l1 > li.current { position: static; }
+header .nav-l1 > li.current > .control-wrapper { position: static; }
+
+header .nav-l1 > li.current ul.nav-l2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 54px;
+  background: var(--brand-color);
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+}
+
+header .nav-l1 > li.current ul.nav-l2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  background: var(--brand-color);
+  z-index: -1;
+}
+
+header .nav-l1 > li.current ul.nav-l2 a.active-page { text-decoration: underline; }
+header .nav-l1 > li.current ul.nav-l2 > li { list-style: none; max-width: 25%; flex: 0 0 25%; }
+
+header .nav-l1 > li.current ul.nav-l2 > li > .control-wrapper > a {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  font-family: var(--italic-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+header .nav-l1 > li.current ul.nav-l2 ul.nav-l3 { display: none; }
+header .nav-l1 > li.current ul.nav-l2 .dropdown-btn { display: none; }
+
 header .nav-toggle-x .x-bar {
   display: block;
   width: 21px;
@@ -276,4 +333,5 @@ header .nav-toggle-x .x-bar {
   header ul.nav-l2 .dropdown-btn { background-image: url('/img/centene/icon-dropdown-white.svg'); }
   header ul.nav-l2.submenu-open,
   header ul.nav-l3.submenu-open { display: block; }
+  header .nav-l1 > li.current ul.nav-l2 { position: static; display: none; }
 }

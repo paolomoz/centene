@@ -67,3 +67,14 @@
   font-display: block;
   src: url('../fonts/fa-brands-400.woff2') format('woff2');
 }
+
+/* the source declares Roboto-Light for h1 spans but ships no file for it —
+   the live site renders the stack fallback; we mirror the same stack with
+   the 300-weight face available for browsers that resolve it */
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('../fonts/roboto-medium.woff2') format('woff2');
+}

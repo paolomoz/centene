@@ -1,0 +1,12 @@
+/* statement — typography band; values lifted from the source site. */
+
+.statement {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.statement p { font-size: 18px; margin: 0 0 20px; }
+.statement .strut-p { min-height: 25.71px; }
+.statement .richtext { display: flow-root; }

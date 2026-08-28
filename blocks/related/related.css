@@ -1,0 +1,73 @@
+/* related — Related News cards + See Also rail; lifted values. */
+
+.related {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.related .related-block { padding: 0 10px; margin: 25px 0; display: flow-root; }
+.related .related-row { margin: 0 -10px; }
+.related .related-row::after { content: ""; display: table; clear: both; }
+.related .featured-content { position: relative; float: left; width: 66.66667%; padding: 0 10px; }
+.related .see-also { position: relative; float: left; width: 33.33333%; padding: 0 10px; }
+
+.related h2 {
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--brand-color);
+  margin: 10px 0;
+}
+
+.related .rel-cards { display: flex; }
+
+.related .rel-card {
+  margin: 15px;
+  max-width: 700px;
+  border-radius: 7px;
+  box-shadow: rgb(0 0 0 / 10%) 0 5px 20px 0;
+  flex: 1;
+}
+
+.related .rel-card > a { display: inline; color: var(--brand-color); font-size: 14px; font-weight: 700; }
+.related .rel-card img { width: 100%; height: auto; border-radius: 5px 5px 0 0; }
+.related .rel-card .text { padding: 20px; }
+.related .rel-card .text p { margin: 0 0 20px; font-size: 18px; color: var(--sky); }
+.related .rel-card .text a { color: var(--brand-color); font-weight: 700; font-size: 18px; }
+
+.related .see-also ul { margin: 20px 0 10px; padding: 0; }
+
+.related .see-also li {
+  list-style: none;
+  position: relative;
+  margin: 0 0 30px;
+  font-size: 18px;
+  line-height: 25.7143px;
+  color: var(--sky);
+}
+
+.related .see-also li a { color: var(--brand-color); font-weight: 700; padding: 0 120px 0 0; display: block; }
+
+.related .see-also .rcb {
+  position: absolute;
+  right: 50px;
+  top: -14px;
+  width: 58px;
+  height: 40px;
+  padding: 1px 6px 5px;
+  background: #fff;
+  border: 2px solid var(--brand-color);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.related .see-also .rcb svg { width: 13px; height: 23px; vertical-align: middle; }
+
+@media (width <= 767px) {
+  .related .featured-content,
+  .related .see-also { float: none; width: 100%; }
+  .related .rel-cards { display: flex; flex-direction: column; }
+}

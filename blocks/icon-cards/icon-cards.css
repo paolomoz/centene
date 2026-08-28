@@ -1,0 +1,31 @@
+/* icon-cards — 3-up icon card band; values lifted from the source site. */
+
+.icon-cards {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.icon-cards .richtext { display: flow-root; }
+.icon-cards .rt-indent { margin-left: 96px; }
+.icon-cards h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+.icon-cards .centene-h2 { color: var(--brand-color); }
+.icon-cards .link-line { margin: 40px 0 20px; font-size: 18px; }
+.icon-cards .link-line a { color: var(--brand-color); padding: 5px; margin: -5px; }
+.icon-cards i.link-external { font-size: 18px; line-height: 18px; }
+.icon-cards p { font-size: 18px; margin: 0 0 20px; }
+
+.icon-cards .ic-grid { margin: 0 -10px; }
+.icon-cards .ic-grid::after { content: ""; display: table; clear: both; }
+.icon-cards .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
+.icon-cards .icon-card img { width: 145px; height: 145px; }
+.icon-cards .icon-card b { font-weight: 700; }
+
+/* the source band ends with two struts (how variant) */
+.icon-cards.how { padding-bottom: 112px; }
+
+@media (width <= 767px) {
+  .icon-cards .colctrl-40 { float: none; width: 100%; }
+  .icon-cards .rt-indent { margin-left: 24px; }
+}

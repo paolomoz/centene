@@ -1,8 +1,18 @@
 # Learnings ledger — centene.com replica + deploy (2026-08-26/27)
 
-Status: pending harvest. Items marked ⇄ RWE-N independently recurred in the
-rwe.com session (`/Users/paolo/stardust/2026-08/rwe/rwe/stardust/learnings.md`)
-— two sessions hitting the same failure is the strongest harvest signal.
+Status: HARVESTED 2026-08-28 into adobe/skills stardust 0.18.3 (branch
+`harvest-rwe-centene`, per the improvement plan
+`plugins/stardust/notes/improvement-plan-2026-08-rwe-centene.md`): items 1
+(gate.sh identity assertion + port-verify doc lines), 2 (crawl.mjs consent
+text-match fallback), 3 (live-embed residual class), 4 (crawl.mjs favicon
+capture in all modes + loud deploy skip), 5 (AEM-classic byte patterns,
+recreation-procedure), 6 (flow-root clearfix containment, both docs), 7
+(deploy border-box #106), 8 (rendition-width background rule #110), 9
+(`<picture>` descender #111), 10 (whitespace-only content #112), 11
+(flow-root mobile override #113), 12 (wrapper-reset specificity #114).
+Items marked ⇄ RWE-N independently recurred in the rwe.com session
+(`/Users/paolo/stardust/2026-08/rwe/rwe/stardust/learnings.md`) — two
+sessions hitting the same failure is the strongest harvest signal.
 
 ## Recurred across sessions (harvest first)
 

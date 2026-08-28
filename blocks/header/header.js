@@ -108,7 +108,34 @@ export default async function decorate(block) {
     toolsUl.append(li);
   });
 
-  if (sourceUl) wrapper.querySelector('#navbar').append(buildNavList(sourceUl, 1));
+  if (sourceUl) {
+    const navList = buildNavList(sourceUl, 1);
+    // interior pages: the current section's submenu renders as a persistent
+    // open band under the nav row (source-site behavior). Current section =
+    // first path segment match against the l1 link pathnames.
+    const seg = window.location.pathname.split('/').filter(Boolean)[0];
+    if (seg) {
+      [...navList.children].forEach((li) => {
+        const a = li.querySelector('a.l1-link');
+        if (!a) return;
+        try {
+          const linkSeg = new URL(a.href, window.location.href).pathname.split('/').filter(Boolean)[0];
+          if (linkSeg && linkSeg.replace(/\.html$/, '') === seg && li.querySelector('ul.nav-l2')) {
+            li.classList.add('current');
+            // mark the active page inside the band
+            const path = window.location.pathname.replace(/\.html$/, '');
+            li.querySelectorAll('ul.nav-l2 a').forEach((sub) => {
+              try {
+                const p = new URL(sub.href, window.location.href).pathname.replace(/\.html$/, '');
+                if (p === path) sub.classList.add('active-page');
+              } catch { /* ignore */ }
+            });
+          }
+        } catch { /* ignore */ }
+      });
+    }
+    wrapper.querySelector('#navbar').append(navList);
+  }
 
   const toggleDrawer = (force) => {
     const open = force !== undefined ? force : !wrapper.classList.contains('drawer-open');

@@ -30,6 +30,10 @@
   --card-border: #949494;
   --card-border-hover: #4c8fb6;
   --card-meta: #4d4d4d;
+  --sky: #00aeef;
+  --plum: #5c2f92;
+  --brand-btn: #005986;
+  --h1-blue: #00548c;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -57,10 +61,20 @@
   --nav-height: 145px;
 }
 
+/* interior pages carry a subnav band under the nav row; the hero section's
+   server-rendered metadata class drives the taller reservation (CLS-safe) */
+body:has(main .section.subnav-1) { --nav-height: 198px; }
+body:has(main .section.subnav-2) { --nav-height: 251px; }
+body:has(main .section.subnav-3) { --nav-height: 304px; }
+
 @media (width <= 767px) {
   :root {
     --nav-height: 92px;
   }
+
+  body:has(main .section.subnav-1),
+  body:has(main .section.subnav-2),
+  body:has(main .section.subnav-3) { --nav-height: 92px; }
 }
 
 /* fallback font (stock boilerplate calibration for Roboto) */
@@ -284,4 +298,32 @@ main .section:empty {
    full-bleed sections ride section margins, not authorable content */
 main .section.spaced-above {
   margin-top: var(--spacer-band);
+}
+
+/* interior type system (source site's centene-h* spans; DA strips class
+   spans from content, so block decorate() re-applies these classes) */
+.centene-h1 { font-family: 'Roboto-Light', roboto, sans-serif; font-size: 60px; line-height: 48px; font-weight: 300; }
+.centene-h2 { font-family: 'Roboto-Regular', roboto-fallback, sans-serif; font-size: 45px; font-weight: 400; }
+.centene-h3 { font-family: 'Roboto-Regular', roboto-fallback, sans-serif; font-size: 34px; font-weight: 400; }
+.centene-h4 { font-family: 'Roboto-Italic', roboto-fallback, sans-serif; font-size: 25px; font-weight: 400; }
+.centene-h5 { font-family: 'Roboto-Bold', roboto-fallback, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; }
+.brand-color { color: var(--brand-color); }
+.rd-t-16 { font-size: 16px; }
+
+/* pill button (source centenedotcom-site-btn) */
+a.button.pill,
+button.button.pill {
+  display: inline-block;
+  width: auto;
+  font-family: 'Roboto-Medium', roboto-fallback, sans-serif;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 26px;
+  color: var(--brand-btn);
+  background: #fff;
+  padding: 5px 15px;
+  margin: 0 0 10px;
+  border: 2px solid var(--brand-btn);
+  border-radius: 20px;
+  white-space: normal;
 }
