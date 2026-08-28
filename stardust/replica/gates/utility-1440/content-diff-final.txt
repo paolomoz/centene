@@ -1,0 +1,18 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 391 text nodes — 12 headings, 0 eyebrows, 83 CTAs, 296 body; 4 img
+  build: 391 text nodes — 12 headings, 0 eyebrows, 83 CTAs, 296 body; 2 img
+
+Findings: 12 (6 structural 🔴)
+  🔴 MISSING CTA: source cta "www.google.com/policies/privacy/partnersExternal" → http://www.google.com/policies/privacy/partners has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "http://www.aboutads.info/choices/External Link" → http://www.aboutads.info/choices/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "https://optout.networkadvertising.org/External L" → https://optout.networkadvertising.org/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "https://www.healthnet.com/content/healthnet/en_u" → https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "https://www.healthnet.com/content/healthnet/en_u" → https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html. has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "https://www.healthnet.com/content/healthnet/en_u" → https://www.healthnet.com/content/healthnet/en_us/ccpa-form.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build cta "www.google.com/policies/privacy/partners" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "http://www.aboutads.info/choices/" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "https://optout.networkadvertising.org/" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "https://www.healthnet.com/content/healthnet/en_u" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "https://www.healthnet.com/content/healthnet/en_u" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "https://www.healthnet.com/content/healthnet/en_u" has no source source — Unexpected node with no source.

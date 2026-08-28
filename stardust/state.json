@@ -595,9 +595,9 @@
       "slug": "privacy-policy-html",
       "url": "https://www.centene.com/privacy-policy.html",
       "type": "utility",
-      "status": "extracted",
+      "status": "prototyped",
       "currentStatePath": "stardust/current/pages/privacy-policy-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/utility-proposed.html",
       "migratedPath": null
     },
     {

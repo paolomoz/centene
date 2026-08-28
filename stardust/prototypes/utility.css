@@ -1,0 +1,21 @@
+/* Per-archetype layer — utility (long-form legal pages). Lifted values. */
+
+.u-h1-wrap { margin: 0; }
+.u-h1-wrap h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: #005986; }
+[data-section="hero-utility"] .centene-h1 { color: #005986; }
+
+.u-body { color: #333; }
+.u-body p { font-size: 18px; margin: 0 0 20px; }
+.u-body a { color: var(--brand-color-global); padding: 5px; margin: -5px; }
+.u-body ul { margin: 0 0 10px 23px; padding: 0; font-size: 18px; line-height: 25.7143px; }
+.u-body ul li { position: relative; padding: 0 0 5px 25px; list-style: none; }
+.u-body ul li::before {
+  content: ''; position: absolute; left: 0; top: 9px;
+  width: 12px; height: 12px; border-radius: 50%; background: var(--brand-color-global);
+}
+.u-body ol { margin: 0 0 10px 40px; padding: 0 0 0 40px; font-size: 18px; line-height: 25.7143px; }
+.u-body ol li { padding: 5px 0 10px 15px; }
+.u-body table { border-collapse: collapse; font-size: 18px; width: 100%; }
+.u-body td, .u-body th { border: 0; padding: 15px; vertical-align: top; }
+.u-body b, .u-body strong { font-weight: 700; }
+.u-body .clearfix { display: flow-root; }

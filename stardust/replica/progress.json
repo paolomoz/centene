@@ -329,6 +329,45 @@
         "card inner content rides margin: 0 10%; more-padding box: 24px 20% 16px @desktop, 24px 0 16px + 10% margins @mobile",
         "RWE-10 confirmed: a byte-identical pixel count after a fix = no-op selector"
       ]
+    },
+    "utility": {
+      "prototype": "stardust/prototypes/utility-proposed.html",
+      "against": "https://www.centene.com/privacy-policy.html",
+      "regime": "prototype",
+      "siblings": 12,
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "pixelPct": 5.32,
+          "heightDelta": 3,
+          "structuralRed": 0,
+          "pass": true
+        },
+        "1440": {
+          "iterations": "4 (round 4 = single-value ol fix after localization)",
+          "pixelPct": 2.74,
+          "heightDelta": 10,
+          "structuralRed": 0,
+          "pass": "pass-with-residual"
+        }
+      },
+      "residuals": [
+        {
+          "where": "1440, inside section-12 post-table list region",
+          "cause": "10px cumulative; every #section anchor Δ0-1, table byte-exact, footer gap exact — sub-block wrap fork(s) in the tail lists",
+          "flaggedFor": "none (0.07% of page height)"
+        }
+      ],
+      "newModules": [
+        "utility hero (compact, no 150px h1 margin, h1 #005986)",
+        "long-form legal richtext transported from live static HTML (importer-equivalent)",
+        "rights table (full-width, td padding 15/no borders)",
+        "ol idiom: li padding 5px 0 10px 15px"
+      ],
+      "notes": [
+        "content region transported mechanically from live static HTML — same path migrate importer will use",
+        "anchor-id diffing (#section1..12) is the fast inner loop for long-form pages"
+      ]
     }
   }
 }
