@@ -107,3 +107,13 @@ Pipeline lessons this run:
    soft at full-bleed widths. Rewrite the width param to 2000 (media_ URLs
    accept any width). <picture>-rendered images are unaffected (the 2000w
    source wins on desktop). Post-fix 1440 gate: 3.63% → 2.63%.
+
+## content archetype — /who-we-are/our-mission (2026-08-28)
+Published-origin gate PASS: 1440 → 1.50% / Δ−1 · 360 → 2.98% / Δ0.
+Fix chain from anchor diffs: (1) hero-interior `.richtext { display: flow-root }` (h1 top-margin collapse, −20);
+(2) footer `.doc-tail` removed site-wide — the 20px band was the live HOME capture's dismissed-consent residue,
+not design (interior live pages end at the footer; home re-gate 2.62% with expected Δ21);
+(3) picture-descender: `line-height: 0` belongs on the line-box CONTAINER — on icon-cards it was the `<p>` (worked);
+on related the first attempt put it on the inline `<a>` (no-op, the card div's strut survives) → fixed by making
+`a`/`picture`/`img` display:block; (4) statement wrap-fork pin: live wraps the first lede 13 lines at 360 vs our 12
+at byte-identical text/metrics → `min-height: 464px` @ ≤400px (ledger pattern).

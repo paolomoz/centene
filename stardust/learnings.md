@@ -88,3 +88,18 @@ sessions hitting the same failure is the strongest harvest signal.
   warning before the site-wide rollout adds more variants.
 - RWE-8 (whitespace-join classifier on JS-built DOM): all centene blocks are
   `append()`-built; round-trips passed here but the false-red class is live.
+
+## 2026-08-28 — published gate, content archetype (post-HARVEST candidates)
+- **line-height:0 descender fix must target the line-box container.** Putting `line-height: 0` on an inline
+  child (the `<a>` wrapping the picture) is a no-op — the strut belongs to the block container generating the
+  line box. Either put lh0 on the `<p>`/div container, or make the whole media chain (`a`, `picture`, `img`)
+  `display: block`. First attempt on the related block was a silent no-op (RWE-10 flavor: verify the fix moved
+  the number, not that the CSS shipped).
+- **Chrome artifacts in a live capture can masquerade as design.** The home page's 20px white tail below the
+  footer was residue of the dismissed consent banner in the capture, replicated as a `.doc-tail` element and then
+  wrongly shipped site-wide (interior live pages have no tail → +20 on every interior gate). Rule: before
+  replicating a band that only appears on ONE captured page, check whether a dismissed overlay/consent widget
+  explains it.
+- **Wrap-fork pins recur on the published origin even when the prototype matched.** Byte-identical text at
+  identical metrics wrapped 13 lines on live vs 12 on EDS (360). Same ledger remedy (min-height pin, scoped to
+  the gate width) — expect roughly one per text-heavy archetype at mobile.

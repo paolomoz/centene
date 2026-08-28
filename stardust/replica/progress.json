@@ -20,14 +20,14 @@
       "justified": [
         {
           "probe": "content",
-          "flag": "🟡 MISSING BODY ×2 (inline script text)",
+          "flag": "\ud83d\udfe1 MISSING BODY \u00d72 (inline script text)",
           "why": "same as 1440",
           "permanent": true
         }
       ],
       "residuals": [
         {
-          "band": "y 11000–11500",
+          "band": "y 11000\u201311500",
           "pct": 7.8,
           "cause": "footer content sits ~1px lower than live (fractional line-height rounding accumulation); thin 16px white-on-navy text double-prints at 1px offset",
           "flaggedFor": "none"
@@ -35,7 +35,7 @@
       ],
       "captureState": [
         {
-          "what": "member/serving image keeps live's 87px left margin at 360 and overflows the viewport right edge — replicated as captured",
+          "what": "member/serving image keeps live's 87px left margin at 360 and overflows the viewport right edge \u2014 replicated as captured",
           "where": "sec3"
         }
       ]
@@ -44,7 +44,7 @@
       "iterations": 3,
       "instrumentInvalidatedRuns": [
         "content-diff run 1 measured a stale localhost:8791 server serving another project's prototype (RWE); server killed, run excluded",
-        "pixel iter1 (32.35%) measured the live consent banner repeated at all 7 chunk seams — stitch-shot's default dismissal does not match centene's cookieconsent widget; fixed with --consent 'a.cc-btn.cc-dismiss', run excluded"
+        "pixel iter1 (32.35%) measured the live consent banner repeated at all 7 chunk seams \u2014 stitch-shot's default dismissal does not match centene's cookieconsent widget; fixed with --consent 'a.cc-btn.cc-dismiss', run excluded"
       ],
       "result": {
         "structuralRed": 0,
@@ -56,21 +56,21 @@
       "justified": [
         {
           "probe": "content",
-          "flag": "🟡 MISSING BODY ×2 (inline script text)",
+          "flag": "\ud83d\udfe1 MISSING BODY \u00d72 (inline script text)",
           "why": "live page carries analytics/lazyload inline <script> text inside <main>; non-visible tooling code, not content",
           "permanent": true
         },
         {
           "probe": "visual",
-          "flag": "STRETCHED IMAGE ×3 (news cards)",
+          "flag": "STRETCHED IMAGE \u00d73 (news cards)",
           "why": "mirrors live: the live site cover-crops 950x600 story images into 16:9 card boxes (live renders 362x204 identically)",
           "permanent": true
         }
       ],
       "residuals": [
         {
-          "band": "y 4500–5000",
-          "pct": "≈3-5 (was 8.8 pre-hero-fix)",
+          "band": "y 4500\u20135000",
+          "pct": "\u22483-5 (was 8.8 pre-hero-fix)",
           "cause": "anti-aliasing/blend noise on translucent 90whitebox card over lake photo; crops visually identical",
           "flaggedFor": "none"
         }
@@ -91,7 +91,7 @@
     {
       "surface": "desktop nav",
       "probed": "hover on first-lvl link: submenu stays display:none on live; link underlines only",
-      "implemented": "canon a:hover underline (no submenu JS at desktop — matches live)"
+      "implemented": "canon a:hover underline (no submenu JS at desktop \u2014 matches live)"
     },
     {
       "surface": "mobile drawer",
@@ -133,13 +133,13 @@
       }
     },
     "cls": 0.0009,
-    "contentDiff": "advisory: 8/8 content CTAs matched; 62 reds are the documented chrome-scope asymmetry (live nests header/footer inside main, EDS does not) — chrome verified directly: 46 header links, 20 footer links, search, 4 social glyphs",
+    "contentDiff": "advisory: 8/8 content CTAs matched; 62 reds are the documented chrome-scope asymmetry (live nests header/footer inside main, EDS does not) \u2014 chrome verified directly: 46 header links, 20 footer links, search, 4 social glyphs",
     "deliveredChecks": ".plain.html: 1 h1, 10/10 img+alt, 0 about:error; computed-style guard: all blocks loaded, flex computes, 0 pageerrors, 0 broken imgs",
     "fixRounds": [
       "global box-sizing border-box missing (columns wrapped: cards 2+1, features stacked, footer wrapped)",
       "feature imgs pinned 450px (pipeline strips authored dims) + picture baseline descender zeroed",
       "footer: over-specific wrapper reset dropped; tagline trailing line + spacer gap modeled in CSS (pipeline strips br/nbsp-only content); inner row -10px margins; mobile flow-root margin containment",
-      "background-layer blocks (hero/panel/careers) copied the pipeline fallback <img src> — the 750px rendition — into their CSS background; rewritten to the 2000px rendition (cards were unaffected: their <picture> already picks the 2000w source)"
+      "background-layer blocks (hero/panel/careers) copied the pipeline fallback <img src> \u2014 the 750px rendition \u2014 into their CSS background; rewritten to the 2000px rendition (cards were unaffected: their <picture> already picks the 2000w source)"
     ]
   },
   "archetypes": {
@@ -167,13 +167,13 @@
       "newModules": [
         "subnav-band (open nav-layer-second, full-bleed navy, 4-col grid)",
         "breadcrumb (> separators)",
-        "sky hero band + centene-h1 (Roboto-Light stack renders fallback — live has no @font-face for it, mirrored)",
+        "sky hero band + centene-h1 (Roboto-Light stack renders fallback \u2014 live has no @font-face for it, mirrored)",
         "statement typography (centene-h2/h3/h4 span system)",
         "icon-cards 3-col",
         "related-content (news cards + see-also chevron rail)"
       ],
       "notes": [
-        "live empty <p><span></span> keeps a 25.7px strut — pinned via min-height",
+        "live empty <p><span></span> keeps a 25.7px strut \u2014 pinned via min-height",
         "mobile keeps 24px rt-indent; related cards flex-column at mobile; related-block needs flow-root margin containment"
       ]
     },
@@ -237,7 +237,7 @@
           "pass": true
         }
       },
-      "contentDiff": "Findings: none — content + roles match",
+      "contentDiff": "Findings: none \u2014 content + roles match",
       "newModules": [
         "article body (news-container 72%/95%, title+date header, inline PDF + external links)"
       ],
@@ -270,20 +270,20 @@
       "newModules": [
         "featured-story hero (748px img + linked h2 + teaser)",
         "news card grid 9-up wrapping",
-        "press-release rail (IR live-data embed FROZEN at capture — permanent residual class)",
+        "press-release rail (IR live-data embed FROZEN at capture \u2014 permanent residual class)",
         "site-btn (Roboto-Medium pill, #005986)",
         "image-link tiles (colored, 142px @360, no tile margins @360)"
       ],
       "residuals": [
         {
           "where": "press-release rail",
-          "cause": "external IR feed — nondeterministic live data frozen at capture time",
+          "cause": "external IR feed \u2014 nondeterministic live data frozen at capture time",
           "flaggedFor": "delivery (Tier-3 static per dynamic-blocks-map)"
         }
       ],
       "notes": [
         "breadcrumb clearance: live float layout prevents sibling margin collapse before featurednews (40px gap, not 20)",
-        "lift text fields truncate at 200 chars — always pull long strings from the page JSON body",
+        "lift text fields truncate at 200 chars \u2014 always pull long strings from the page JSON body",
         "Press Releases heading uses the br-BEFORE-text idiom like h1s"
       ]
     },
@@ -294,7 +294,7 @@
       "siblings": 4,
       "breakpoints": {
         "360": {
-          "iterations": "3 (+1 accounted: a leaked eyebrow selector regressed round 2 — self-inflicted, not measurement)",
+          "iterations": "3 (+1 accounted: a leaked eyebrow selector regressed round 2 \u2014 self-inflicted, not measurement)",
           "pixelPct": 1.75,
           "heightDelta": 0,
           "structuralRed": 0,
@@ -354,7 +354,7 @@
       "residuals": [
         {
           "where": "1440, inside section-12 post-table list region",
-          "cause": "10px cumulative; every #section anchor Δ0-1, table byte-exact, footer gap exact — sub-block wrap fork(s) in the tail lists",
+          "cause": "10px cumulative; every #section anchor \u03940-1, table byte-exact, footer gap exact \u2014 sub-block wrap fork(s) in the tail lists",
           "flaggedFor": "none (0.07% of page height)"
         }
       ],
@@ -365,10 +365,10 @@
         "ol idiom: li padding 5px 0 10px 15px"
       ],
       "notes": [
-        "content region transported mechanically from live static HTML — same path migrate importer will use",
+        "content region transported mechanically from live static HTML \u2014 same path migrate importer will use",
         "anchor-id diffing (#section1..12) is the fast inner loop for long-form pages"
       ],
-      "contentDiff": "Findings: none — 391/391 nodes matched (after replicating the live runtime external-link icon decoration in the transported markup)"
+      "contentDiff": "Findings: none \u2014 391/391 nodes matched (after replicating the live runtime external-link icon decoration in the transported markup)"
     },
     "form": {
       "prototype": "stardust/prototypes/form-proposed.html",
@@ -397,7 +397,7 @@
         "contact-info transported region"
       ],
       "notes": [
-        "contact.html carries no visible form element — the form work in the plan applies to the foster-care contact sibling; reCAPTCHA is the global framework",
+        "contact.html carries no visible form element \u2014 the form work in the plan applies to the foster-care contact sibling; reCAPTCHA is the global framework",
         "live runtime treats jobs./investors. subdomains as external for icon decoration"
       ]
     },
@@ -435,15 +435,37 @@
   "archetypePhase": {
     "completedAt": "2026-08-28T00:37:03.565Z",
     "summary": {
-      "landing": "pilot — deployed, published-origin 2.63%/2.97%",
+      "landing": "pilot \u2014 deployed, published-origin 2.63%/2.97%",
       "content": "0.89% / 2.60% (84 siblings)",
       "state": "0.77% / 2.01% (51)",
       "article": "0.92% / 2.71% (47)",
       "listing": "1.28% / 3.78% (2)",
       "pillar": "1.11% / 1.75% (4)",
-      "utility": "2.69% Δ10-residual / 5.31% (12)",
+      "utility": "2.69% \u039410-residual / 5.31% (12)",
       "form": "1.98% / 4.68% (4)",
       "search": "1.36% / 3.87% (1)"
+    }
+  },
+  "phase1": {
+    "content": {
+      "page": "/who-we-are/our-mission",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.50%",
+          "delta": -1
+        },
+        "360": {
+          "pixel": "2.98%",
+          "delta": 0
+        }
+      },
+      "notes": [
+        "doc-tail removed site-wide (home live capture's consent residue, not design; home re-gate 2.62% with expected Delta 21)",
+        "hero-interior .richtext flow-root contains h1 top margin (-20)",
+        "picture descender: line-height 0 must sit on the LINE-BOX CONTAINER (the p), or make the media chain display:block; lh0 on an inline anchor does NOT remove the parent div strut",
+        "statement wrap-fork pin: first lede min-height 464px at <=400 (live 13 lines vs 12 at identical bytes/metrics)"
+      ]
     }
   }
 }
