@@ -401,6 +401,12 @@ main .section.legal ol {
 main .section.legal ol li { padding: 5px 0 10px 15px; }
 main .section.legal strong { font-weight: 700; }
 
+/* AEM richtext 40px indent (inline style on live) rides <blockquote> */
+main .section.legal blockquote {
+  margin: 0 0 20px 40px;
+  font-size: 18px;
+}
+
 /* spacer idiom: the pipeline drops whitespace-only paragraphs, so transported
    legal spacers ride <p><code>&nbsp;</code></p>; render as plain text */
 main .section.legal code,
