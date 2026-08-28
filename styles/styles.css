@@ -441,6 +441,11 @@ main .section.contact h2 {
 
 main .section.contact strong { font-weight: 700; }
 
+/* live renders each richtext as a flow-root component, so the 20px margins
+   at component boundaries do NOT collapse — mirror with 40px above an h2
+   that follows content in the same wrapper */
+main .section.contact .default-content-wrapper p + h2 { margin-top: 40px; }
+
 main .section.contact code {
   font: inherit;
   background: none;
