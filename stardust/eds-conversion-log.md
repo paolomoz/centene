@@ -129,3 +129,11 @@ the lede variant's trailing strut (+438px @360) → re-scoped to section style c
 (3) `.cmp-image` flow-root (img 27px bottom margin collapsed with wrapper's 20px → −20/band);
 (4) breadcrumb inter-item whitespace text nodes (live wraps the crumb to 2 lines at 360);
 (5) facts footnote: trailing `<br>` renders no line box — struts only (91.42 not 114.28).
+
+## article archetype — /news/achieving-whole-health-… (2026-08-28)
+Published-origin gate PASS: 1440 → 1.21% / Δ0 · 360 → 2.83% / Δ0.
+No block: pure default content + section style `article` (D1). scripts.js gains `decorateExternalLinks`
+(default-content scope). Fixes: (1) idempotency guard on ALL external-link decoration — `loadFragment`
+runs `decorateMain` on the footer fragment, so footer links got a second icon and a nav link wrapped (+19);
+(2) date-line margin rule needed `.default-content-wrapper h1 + p` specificity. `publisheddate` meta authored
+per the news-index contract.

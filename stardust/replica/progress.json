@@ -496,6 +496,27 @@
         "breadcrumb needs inter-item whitespace text nodes or long crumbs don't wrap at 360 like live",
         "statement wrap-fork pin re-scoped to section style class pin-lede-13 (leaked into the lede variant's trailing strut: +438px)"
       ]
+    },
+    "article": {
+      "page": "/news/achieving-whole-health-through-behavioral-and-physical-health",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.21%",
+          "delta": 0
+        },
+        "360": {
+          "pixel": "2.83%",
+          "delta": 0
+        }
+      },
+      "newBlocks": [],
+      "notes": [
+        "modeled as DEFAULT CONTENT with section style `article` (D1) \u2014 no block",
+        "decorateExternalLinks added to scripts.js for default-content links; must be idempotent \u2014 loadFragment runs decorateMain on chrome fragments, footer got double icons (+19 wrap)",
+        "date-line rule needed wrapper-level specificity (h1 + p lost to .default-content-wrapper p)",
+        "publisheddate authored in metadata block per news-index contract (live page has no date meta)"
+      ]
     }
   }
 }

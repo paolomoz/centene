@@ -115,3 +115,6 @@ sessions hitting the same failure is the strongest harvest signal.
   through unstyled wrapper divs and swallow the wrapper's own margin.
 - **Breadcrumbs built element-by-element need explicit inter-item whitespace** (live markup newlines = one
   space per gap); without it long crumbs stay on one line at 360 while live wraps to two.
+- **Any main-scope decorator in scripts.js also runs on chrome fragments** (`loadFragment` → `decorateMain`),
+  so content decoration must be idempotent or scoped away from fragment content — the footer's own externalize
+  double-iconed links and wrapped a nav row (+19px, article gate).
