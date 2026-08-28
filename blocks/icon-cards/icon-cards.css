@@ -26,6 +26,10 @@
 /* the source band ends with two struts (how variant) */
 .icon-cards.how { padding-bottom: 112px; }
 
+/* facts variant: the italic footnote line carries a trailing <br> plus two
+   struts in the source (22.86 + 2×45.71) */
+.icon-cards.facts .icon-card p:has(i) { padding-bottom: 114.28px; }
+
 @media (width <= 767px) {
   .icon-cards .colctrl-40 { float: none; width: 100%; }
   .icon-cards .rt-indent { margin-left: 24px; }

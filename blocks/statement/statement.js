@@ -10,6 +10,9 @@
  */
 export default async function decorate(block) {
   const rows = [...block.children];
+  // `lede` variant (state pages): every row is a centene-h4 lede and the
+  // band closes with a trailing strut (source: strut + h4 + strut)
+  const isLede = block.classList.contains('lede');
   const out = document.createElement('div');
   out.className = 'richtext';
 
@@ -23,7 +26,7 @@ export default async function decorate(block) {
     const p = document.createElement('p');
     const outer = document.createElement('span');
     const inner = document.createElement('span');
-    if (i === 0) {
+    if (i === 0 && !isLede) {
       outer.className = 'brand-color';
       inner.className = 'centene-h3';
       inner.textContent = text;
@@ -37,6 +40,12 @@ export default async function decorate(block) {
     p.append(outer);
     out.append(p);
   });
+
+  if (isLede) {
+    const tail = document.createElement('p');
+    tail.className = 'strut-p';
+    out.append(tail);
+  }
 
   block.replaceChildren(out);
 }

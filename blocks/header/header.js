@@ -127,7 +127,9 @@ export default async function decorate(block) {
             li.querySelectorAll('ul.nav-l2 a').forEach((sub) => {
               try {
                 const p = new URL(sub.href, window.location.href).pathname.replace(/\.html$/, '');
-                if (p === path) sub.classList.add('active-page');
+                // exact page OR ancestor section (live underlines the parent
+                // sub-link on deeper pages, e.g. browse-by-state on /…/alabama)
+                if (p === path || path.startsWith(`${p}/`)) sub.classList.add('active-page');
               } catch { /* ignore */ }
             });
           }

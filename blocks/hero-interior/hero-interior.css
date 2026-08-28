@@ -33,6 +33,11 @@
 .hero-interior .centene-h1 { color: var(--h1-blue); }
 
 /* variants */
+
+/* trail: the source h1 carries a trailing <br>+space+NBSP (AEM richtext
+   idiom) rendering one extra 48px line box */
+.hero-interior.trail h1 { padding-bottom: 48px; }
+
 .hero-interior.compact .h1-wrap { margin: 0; }
 .hero-interior.compact h1,
 .hero-interior.compact .centene-h1 { color: var(--brand-btn); }
