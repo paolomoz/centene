@@ -146,3 +146,10 @@ category=centene:featured with authored-rows fallback until wave 2 populates it 
 /news-index.json). Fixes: press-rail links must NOT get external glyphs (live IR markup has none — icon caused
 a +24 wrap fork); tile mobile geometry 122px + 20px margin; lint refined to exempt youtube channel URLs from
 the embed red (false positive on the Videos tile).
+
+## pillar archetype — /products-and-services (2026-08-28)
+Published-origin gate PASS on first deploy: 1440 → 1.23% / Δ0 · 360 → 1.73% / Δ0.
+New blocks: `wave-band` (navy wave banner; Browse-by-State <select> built from an authored 51-link list,
+onchange navigation), `product-columns` (h2 + eyebrow + 3 pill-button columns), `product-cards` (colored
+equal-height cards; color + `pin-1line` wrap-fork pin ride an authored token cell). Reused hero-interior
+(+`pillar` h1-idiom variant: 57px leading / 114px trailing br lines) and the related block unchanged.

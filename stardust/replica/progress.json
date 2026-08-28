@@ -542,6 +542,30 @@
         "davids-model-lint refined: youtube channel/user URLs exempt from the embed-in-block red (navigation, not media) \u2014 upstream candidate",
         "h1/h2 authored as real heading tags so the served HTML carries them (SEO), block re-slots at decorate time"
       ]
+    },
+    "pillar": {
+      "page": "/products-and-services",
+      "status": "published-gate-passed",
+      "published": {
+        "1440": {
+          "pixel": "1.23%",
+          "delta": 0
+        },
+        "360": {
+          "pixel": "1.73%",
+          "delta": 0
+        }
+      },
+      "newBlocks": [
+        "wave-band (state selector from authored link list)",
+        "product-columns",
+        "product-cards (color tokens + pin-1line token)"
+      ],
+      "notes": [
+        "passed both breakpoints on first deploy \u2014 pattern library (byte idioms, flow-root containment, token variants) now covers the recurring geometry",
+        "pillar h1 idiom: leading br 57px + trailing brs 114px as hero-interior.pillar variant",
+        "wrap-fork pin authored as a token (pin-1line) in the card row \u2014 instance-scoped without CSS nth"
+      ]
     }
   }
 }
