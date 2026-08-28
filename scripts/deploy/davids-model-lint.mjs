@@ -34,6 +34,8 @@ import path from 'path';
 const WRAPPER_BLOCK_NAMES = new Set(['text', 'heading', 'title', 'image']);
 const KEY_VALUE_BLOCKS = new Set(['metadata', 'section-metadata']);
 const EMBED_HOST = /(youtube\.com|youtu\.be|vimeo\.com|player\.|\/embed\/)/i;
+// channel/profile URLs are navigation targets, not embeddable media
+const CHANNEL_URL = /youtube\.com\/(user|channel|c)\/|youtube\.com\/@/i;
 // Default-content-expressible tags: what a prose section can carry natively.
 const PROSE_TAGS = new Set(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'a', 'ul', 'ol', 'li', 'picture', 'img', 'source', 'strong', 'em', 'code', 'br', 'hr']);
 
@@ -152,7 +154,7 @@ function lintBlock(file, section, block, name, flag) {
       if (!isKeyValue) {
         const links = [...cell.inner.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)];
         const text = stripTags(cell.inner);
-        if (links.length === 1 && EMBED_HOST.test(links[0][1]) && text === stripTags(links[0][2])) {
+        if (links.length === 1 && EMBED_HOST.test(links[0][1]) && !CHANNEL_URL.test(links[0][1]) && text === stripTags(links[0][2])) {
           flag('🔴', 'D1', `${where}: embed/video URL authored inside a block — author it as a plain link in default content and auto-block it in scripts.js buildAutoBlocks()`);
         }
       }

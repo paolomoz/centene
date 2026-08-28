@@ -1,0 +1,65 @@
+/* image-tiles — colored link tiles; values lifted from the source site. */
+
+.image-tiles {
+  padding: 0 calc(10% + 20px) 20px;
+  background: #fff;
+  display: flow-root;
+}
+
+.image-tiles .tiles-row { margin: 0 -10px; }
+.image-tiles .tiles-row::after { content: ""; display: table; clear: both; }
+
+.image-tiles .image-link-tile {
+  float: left;
+  width: 33.33333%;
+  padding: 0 10px;
+  position: relative;
+}
+
+.image-tiles .image-link-tile a { display: block; margin: 0 0 20px; }
+.image-tiles .image-link-tile a:hover { text-decoration: none; }
+.image-tiles .img-container { position: relative; height: 245px; border-radius: 5px; }
+.image-tiles .tile-leaf { background-color: var(--leaf); }
+.image-tiles .tile-sky { background-color: var(--sky); }
+.image-tiles .tile-plum { background-color: var(--plum); }
+.image-tiles .tile-carrot { background-color: #cc401d; }
+.image-tiles .tile-cerise { background-color: var(--cerise); }
+
+.image-tiles .title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 66.66667%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+.image-tiles .short-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 58px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.image-tiles .arrow {
+  position: absolute;
+  left: 16px;
+  top: 5px;
+  width: 21px;
+  height: 21px;
+  padding: 5px;
+}
+
+.image-tiles .arrow svg { width: 13px; height: 23px; display: block; margin: 0 auto; }
+
+@media (width <= 767px) {
+  .image-tiles .image-link-tile { float: none; width: 100%; }
+  .image-tiles .img-container { height: 142px; }
+  .image-tiles .image-link-tile a { margin: 0; }
+}
