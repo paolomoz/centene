@@ -400,6 +400,15 @@ main .section.legal .default-content-wrapper ol {
 
 main .section.legal .default-content-wrapper ol li { padding: 5px 0 10px 15px; }
 main .section.legal strong { font-weight: 700; }
+
+/* spacer idiom: the pipeline drops whitespace-only paragraphs, so transported
+   legal spacers ride <p><code>&nbsp;</code></p>; render as plain text */
+main .section.legal p > code:only-child {
+  font: inherit;
+  background: none;
+  padding: 0;
+  border: 0;
+}
 main .section.legal h2 { font-size: var(--heading-font-size-xl); margin: 40px 0 20px; color: #333; }
 
 /* pill button (source centenedotcom-site-btn) */
