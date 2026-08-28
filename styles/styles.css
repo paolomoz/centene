@@ -403,7 +403,8 @@ main .section.legal strong { font-weight: 700; }
 
 /* spacer idiom: the pipeline drops whitespace-only paragraphs, so transported
    legal spacers ride <p><code>&nbsp;</code></p>; render as plain text */
-main .section.legal p > code:only-child {
+main .section.legal code,
+main .section.legal .table code {
   font: inherit;
   background: none;
   padding: 0;
