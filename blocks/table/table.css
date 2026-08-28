@@ -4,7 +4,7 @@
 .table td { vertical-align: top; }
 
 .table.plain { font-size: 18px; color: #333; }
-.table.plain td { border: 0; padding: 15px 15px 40px; }
+.table.plain td { border: 0; padding: 15px; }
 .table.plain td p { margin: 0; }
 .table.plain p { margin: 0 0 20px; }
 .table.plain strong { font-weight: 700; }
