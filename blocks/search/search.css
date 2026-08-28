@@ -1,0 +1,73 @@
+/* search — site search page; values lifted from the source site. */
+
+.search {
+  max-width: 1160px;
+  margin: 0 auto;
+  min-height: 345px;
+  padding-top: 50px;
+  display: flow-root;
+}
+
+.search .s-col { width: 91.66667%; margin: 0 auto; padding: 0 10px; }
+
+.search h1.search-term-display {
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 20px 0;
+  color: var(--brand-color);
+  font-weight: 500;
+}
+
+.search .s-row { margin: 0 -10px; }
+.search .s-row::after { content: ""; display: table; clear: both; }
+.search .s-input-col { position: relative; float: left; width: 66.66667%; padding: 0 10px; }
+.search .s-btn-col { position: relative; float: left; width: 33.33333%; padding: 0 10px; }
+.search .s-count-col { position: relative; float: left; width: 50%; padding: 0 10px; }
+
+.search input.search-page {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 6px 15px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 17.5px;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+  color: var(--nav-link);
+  background: #fff;
+  border: 1px solid var(--text-color);
+  border-radius: 17px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 7.5%);
+}
+
+.search button.site-btn {
+  display: inline-block;
+  font-family: 'Roboto-Medium', roboto-fallback, sans-serif;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 26px;
+  color: var(--brand-btn);
+  background: #fff;
+  padding: 5px 15px;
+  margin: 10px 0;
+  border: 2px solid var(--brand-btn);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search .hidden-el { display: none; }
+.search .spinner-container { position: relative; }
+.search .search-spinner { position: absolute; }
+.search #search-results p { font-size: 18px; margin: 0 0 20px; color: #333; }
+.search .search-result h3 { font-size: 23px; line-height: 32px; margin: 10px 0 0; }
+.search .search-result a { color: var(--brand-color); }
+
+@media (width <= 767px) {
+  .search .s-input-col,
+  .search .s-btn-col,
+  .search .s-count-col { float: none; width: 100%; }
+
+  .search { min-height: 430px; }
+}
