@@ -446,6 +446,10 @@ main .section.contact strong { font-weight: 700; }
    that follows content in the same wrapper */
 main .section.contact .default-content-wrapper p + h2 { margin-top: 40px; }
 
+/* the block boundary already contributes the uncollapsed margin */
+main .section.contact .accordion-wrapper { margin-top: -20px; }
+main .section.contact .accordion-wrapper + .default-content-wrapper h2:first-of-type { margin-top: 20px; }
+
 main .section.contact code {
   font: inherit;
   background: none;
