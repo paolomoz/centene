@@ -31,7 +31,7 @@
   flex: 1;
 }
 
-.related .rel-card > a { display: inline; color: var(--brand-color); font-size: 14px; font-weight: 700; }
+.related .rel-card > a { display: inline; color: var(--brand-color); font-size: 14px; font-weight: 700; line-height: 0; }
 .related .rel-card img { width: 100%; height: auto; border-radius: 5px 5px 0 0; }
 .related .rel-card .text { padding: 20px; }
 .related .rel-card .text p { margin: 0 0 20px; font-size: 18px; color: var(--sky); }

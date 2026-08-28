@@ -114,9 +114,7 @@ export default async function decorate(block) {
   const copy = root.querySelector('.copyright');
   if (copySec) copySec.querySelectorAll('p').forEach((p) => copy.append(p.cloneNode(true)));
 
-  // 20px white tail below the footer (source document's trailing band)
-  const tail = document.createElement('div');
-  tail.className = 'doc-tail';
-
-  block.replaceChildren(root, tail);
+  // (the 20px tail once appended here replicated the live HOME page's
+  // dismissed-consent residue — an artifact, not design; dropped site-wide)
+  block.replaceChildren(root);
 }

@@ -27,6 +27,7 @@
 .hero-interior .breadcrumb a span,
 .hero-interior .breadcrumb li.active span { color: #000; }
 
+.hero-interior .richtext { display: flow-root; }
 .hero-interior .h1-wrap { margin: 0 0 150px; }
 .hero-interior h1 { font-size: 32px; line-height: 1.5; margin: 20px 0 10px; color: var(--h1-blue); }
 .hero-interior .centene-h1 { color: var(--h1-blue); }
