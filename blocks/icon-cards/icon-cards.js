@@ -8,6 +8,7 @@
  * Head is collected whole (#56); cards classified by content (#48).
  */
 function externalize(a) {
+  if (a.querySelector('i.link-external')) return a;
   try {
     const url = new URL(a.href, window.location.href);
     if (/^(jobs|investors)\./.test(url.hostname)

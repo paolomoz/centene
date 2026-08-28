@@ -8,6 +8,7 @@
  *   2. three cells: logo image | description + learn-more link paragraphs | bullet list
  */
 function externalize(a) {
+  if (a.querySelector('i.link-external')) return a;
   try {
     const url = new URL(a.href, window.location.href);
     if (/^(jobs|investors)\./.test(url.hostname)

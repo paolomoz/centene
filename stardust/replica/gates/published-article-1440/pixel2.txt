@@ -1,0 +1,7 @@
+A 1440x1841  B 1440x1841  → compare 1440x1841, height delta 0px
+differing pixels: 32181 / 2651040 = 1.21%  (threshold 10%) → PASS
+diff image: stardust/replica/gates/published-article-1440/diff2.png
+  y      0–500: 0.9%
+  y    500–1000: 0.2%
+  y   1000–1500: 1.8%
+  y   1500–1841: 2.3%

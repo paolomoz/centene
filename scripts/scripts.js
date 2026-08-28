@@ -150,6 +150,7 @@ function decorateButtons(main) {
  */
 function decorateExternalLinks(main) {
   main.querySelectorAll('.default-content-wrapper a[href]').forEach((a) => {
+    if (a.querySelector('i.link-external')) return;
     try {
       const url = new URL(a.href, window.location.href);
       if (/^(jobs|investors)\./.test(url.hostname)

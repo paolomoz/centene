@@ -30,6 +30,7 @@ function isExternal(a) {
 }
 
 function externalize(a) {
+  if (a.querySelector('i.link-external')) return a;
   if (isExternal(a)) {
     const i = document.createElement('i');
     i.className = 'link-external';
