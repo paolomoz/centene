@@ -16,7 +16,7 @@
 .brand-band .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
 
 .brand-band .image { margin: 0 0 20px; }
-.brand-band .cmp-image { line-height: 0; }
+.brand-band .cmp-image { display: flow-root; line-height: 0; }
 
 .brand-band img.box-shadow {
   display: block;
