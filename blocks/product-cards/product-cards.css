@@ -1,0 +1,53 @@
+/* product-cards — colored equal-height cards; values lifted from the source site. */
+
+.product-cards {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  margin-bottom: 10px;
+  display: flow-root;
+}
+
+.product-cards .equal-height { display: flex; }
+
+.product-cards .p-card {
+  width: 33.33333%;
+  margin: 10px 15px;
+  padding: 40px 10px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.product-cards .bg-cerise { background-color: var(--cerise); }
+.product-cards .bg-plum { background-color: var(--plum); }
+.product-cards .bg-navy { background-color: var(--navy); }
+.product-cards .bg-sky { background-color: var(--sky); }
+.product-cards .bg-leaf { background-color: var(--leaf); }
+
+.product-cards .card-img-box { padding: 24px 20% 16px; }
+.product-cards .card-img-box p { margin: 0 0 20px; line-height: 0; }
+.product-cards img.circle-crop { border-radius: 50%; width: 200px; height: 200px; }
+
+.product-cards .p-card h2 {
+  font-size: 29px;
+  line-height: 1.1;
+  margin: 20px 10%;
+  color: #fff;
+}
+
+.product-cards .p-card .centene-h5 { line-height: 1.1; }
+.product-cards .p-card .richtext p { font-size: 18px; margin: 0 10% 20px; color: #fff; }
+.product-cards .p-card a { color: #fff; padding: 5px; margin: -5px; }
+
+@media (width <= 767px) {
+  .product-cards .equal-height { display: block; }
+  .product-cards .p-card { width: auto; margin: 10px 0; }
+
+  /* live float clearance keeps 10+10 gaps between stacked cards */
+  .product-cards .p-card + .p-card { margin-top: 20px; }
+  .product-cards .card-img-box { padding: 24px 0 16px; margin: 0 10%; }
+  .product-cards img.circle-crop { width: 100%; height: auto; }
+
+  /* ledger wrap-fork pin: authored token `pin-1line` */
+  .product-cards .p-card.pin-1line .card-desc p { padding-bottom: 25.71px; }
+}

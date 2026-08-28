@@ -1,0 +1,40 @@
+/* product-columns — pillar product overview; values lifted from the source site. */
+
+.product-columns {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.product-columns .richtext { display: flow-root; }
+.product-columns h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+.product-columns .centene-h2 { color: var(--brand-color); }
+.product-columns .eyebrow-p { margin: 0 0 20px; width: 70%; font-size: 18px; }
+.product-columns .eyebrow-p .centene-h5 { line-height: 1.42857; }
+.product-columns h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
+.product-columns h3 .rd-t-16 { line-height: 1.1; }
+.product-columns .pc-grid { margin: 0 -10px; }
+.product-columns .pc-grid::after { content: ""; display: table; clear: both; }
+.product-columns .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
+.product-columns .pc-grid p { font-size: 18px; margin: 0 0 20px; color: #333; }
+
+.product-columns a.site-btn {
+  display: inline-block;
+  font-family: 'Roboto-Medium', roboto-fallback, sans-serif;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 26px;
+  color: var(--brand-btn);
+  background: #fff;
+  padding: 5px 15px;
+  margin: 0 0 10px;
+  border: 2px solid var(--brand-btn);
+  border-radius: 20px;
+  text-align: center;
+  white-space: normal;
+}
+
+@media (width <= 767px) {
+  .product-columns .colctrl-40 { float: none; width: 100%; }
+}

@@ -1,0 +1,45 @@
+/* wave-band — navy wave banner; values lifted from the source site. */
+
+.wave-band {
+  padding: 25px 10% 20px;
+  background-color: var(--brand-color);
+  background-image: url('/img/centene/p-wave-banners-1800x413.png');
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flow-root;
+}
+
+.wave-band .richtext { display: flow-root; }
+.wave-band .wb-row { margin: 0 -10px; }
+.wave-band .wb-row::after { content: ""; display: table; clear: both; }
+.wave-band .colctrl-66 { float: left; width: 66.66667%; padding: 0 10px; }
+.wave-band .colctrl-33 { float: left; width: 33.33333%; padding: 0 10px; }
+
+.wave-band p { font-size: 18px; margin: 0 0 20px; }
+.wave-band .w-inner { margin: 0 56px 0 0; }
+
+/* the source tagline leads with a <br> (idiom): one extra 35.7px line box */
+.wave-band .lead-br { display: block; padding-top: 35.71px; }
+
+.wave-band h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #fff; }
+.wave-band .centene-h5 { line-height: 1.1; }
+
+.wave-band .statemap select {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-family: roboto, roboto-fallback, sans-serif;
+  font-size: 14px;
+  color: #555;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 7.5%);
+}
+
+@media (width <= 767px) {
+  .wave-band .colctrl-66,
+  .wave-band .colctrl-33 { float: none; width: 100%; }
+}

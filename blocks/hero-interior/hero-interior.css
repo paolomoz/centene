@@ -43,6 +43,10 @@
 .hero-interior.compact h1,
 .hero-interior.compact .centene-h1 { color: var(--brand-btn); }
 
+/* pillar h1 idiom: leading <br> + trailing <br><br>+NBSP (one 57px line
+   above, two below) */
+.hero-interior.pillar h1 { padding-top: 57px; padding-bottom: 114px; }
+
 .hero-interior.navy { background-color: var(--brand-color); color: #fff; }
 .hero-interior.navy .breadcrumb ol li::after,
 .hero-interior.navy .breadcrumb a span,
