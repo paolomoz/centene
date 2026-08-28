@@ -1,0 +1,58 @@
+/* product-brand — state-page product-brand band; values lifted from the source site. */
+
+.product-brand {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.product-brand .richtext { display: flow-root; }
+.product-brand h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; }
+.product-brand p { font-size: 18px; margin: 0 0 20px; }
+
+.product-brand .bb-row { margin: 0 -10px; }
+.product-brand .bb-row::after { content: ""; display: table; clear: both; }
+.product-brand .colctrl-40 { float: left; width: 33.33333%; padding: 0 10px; }
+
+.product-brand .image { margin: 0 0 20px; }
+.product-brand .cmp-image { display: flow-root; line-height: 0; }
+
+.product-brand img.box-shadow {
+  display: block;
+  width: 329px;
+  height: 219px;
+  margin: 16px 21px 27px;
+  box-shadow: rgb(0 0 0 / 10%) 0 5px 20px 0;
+}
+
+.product-brand .learn-more a { color: var(--brand-color); padding: 5px; margin: -5px; font-size: 16px; }
+.product-brand .learn-more b { font-weight: 700; }
+.product-brand i.link-external { font-size: 16px; line-height: 16px; }
+
+.product-brand ul { margin: 0 0 10px 23px; padding: 0; font-size: 18px; line-height: 25.7143px; }
+.product-brand ul li { position: relative; padding: 0 0 5px 25px; list-style: none; }
+
+.product-brand ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-color);
+}
+
+/* struts variant: the source follows the learn-more line with two struts
+   (2 × 45.71px) */
+.product-brand.struts .learn-more { padding-bottom: 91.42px; }
+
+@media (width <= 767px) {
+  .product-brand .colctrl-40 { float: none; width: 100%; }
+  .product-brand img.box-shadow { width: calc(100% - 42px); height: auto; }
+
+  /* ambetter wrap-fork pin (ledger: state archetype residual) — live wraps
+     the description 6 lines vs our 5 at identical metrics */
+  .product-brand.ambetter .bb-desc p { min-height: 154px; }
+}

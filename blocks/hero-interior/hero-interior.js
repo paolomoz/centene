@@ -31,6 +31,7 @@ export default async function decorate(block) {
       span.textContent = a.textContent.trim();
       link.append(span);
       li.append(link);
+      if (ol.children.length) ol.append(document.createTextNode(' '));
       ol.append(li);
     });
     // trailing plain text = the active crumb
@@ -45,6 +46,7 @@ export default async function decorate(block) {
       const span = document.createElement('span');
       span.textContent = tail;
       li.append(span);
+      if (ol.children.length) ol.append(document.createTextNode(' '));
       ol.append(li);
     }
   }

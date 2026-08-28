@@ -1,5 +1,5 @@
 /**
- * brand-band — state-page product-brand band (template-slotted replica).
+ * product-brand — state-page product-brand band (template-slotted replica).
  * Variants: `struts` (two source struts after the learn-more line — wellcare),
  * `ambetter` (mobile wrap-fork pin, see CSS).
  *
