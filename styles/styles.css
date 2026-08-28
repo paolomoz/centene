@@ -418,6 +418,38 @@ main .section.legal .table code {
 }
 main .section.legal h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
 
+/* contact section (form archetype) — default content; h2s in the
+   centene-h3 brand face */
+main .section.contact {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+}
+
+main .section.contact .default-content-wrapper { display: flow-root; }
+main .section.contact p { font-size: 18px; margin: 0 0 20px; }
+main .section.contact a { color: var(--brand-color); padding: 5px; margin: -5px; }
+
+main .section.contact h2 {
+  font-family: 'Roboto-Regular', roboto-fallback, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 20px 0;
+  color: var(--brand-color);
+}
+
+main .section.contact strong { font-weight: 700; }
+
+main .section.contact code {
+  font: inherit;
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
+main .section.contact i.link-external { font-size: 18px; line-height: 18px; }
+
 /* pill button (source centenedotcom-site-btn) */
 a.button.pill,
 button.button.pill {

@@ -1,0 +1,75 @@
+/* accordion — collapsible panels; values lifted from the source site. */
+
+.accordion { display: flow-root; }
+.accordion .accordion-inner { padding: 7px; }
+.accordion .panel { background: #fff; border-radius: 4px; }
+.accordion .panel h2 { font-size: 18.2px; line-height: 1.1; margin: 0; color: #333; }
+
+.accordion button.panel-heading {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  padding: 10px 15px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 18.2px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #333;
+}
+
+.accordion .panel-title { font-size: 16px; line-height: 1.1; font-weight: 500; }
+
+.accordion .glyphicon {
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-family: 'Glyphicons Halflings', sans-serif;
+  font-style: normal;
+  font-size: 18.2px;
+  line-height: 1;
+  color: var(--brand-color);
+}
+
+.accordion .glyphicon-plus-sign::before { content: '\e081'; }
+.accordion .glyphicon-minus-sign::before { content: '\e082'; }
+.accordion .panel-collapse { display: none; }
+.accordion .panel-collapse.in { display: block; }
+
+.accordion .panel-body {
+  padding: 15px;
+  margin: 3px 0 0;
+  border: 1px solid var(--light-color);
+  background: #fff;
+  font-size: 18px;
+  color: #333;
+}
+
+.accordion .panel-body p { font-size: 18px; margin: 0 0 20px; }
+.accordion .panel-body strong { font-weight: 700; }
+
+.accordion .panel-body ul {
+  margin: 0 0 10px 23px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+.accordion .panel-body ul li {
+  position: relative;
+  padding: 0 0 5px 25px;
+  list-style: none;
+}
+
+.accordion .panel-body ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-color);
+}
