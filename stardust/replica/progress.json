@@ -338,14 +338,14 @@
       "breakpoints": {
         "360": {
           "iterations": 2,
-          "pixelPct": 5.32,
+          "pixelPct": 5.31,
           "heightDelta": 3,
           "structuralRed": 0,
           "pass": true
         },
         "1440": {
           "iterations": "4 (round 4 = single-value ol fix after localization)",
-          "pixelPct": 2.74,
+          "pixelPct": 2.69,
           "heightDelta": 10,
           "structuralRed": 0,
           "pass": "pass-with-residual"
@@ -367,7 +367,8 @@
       "notes": [
         "content region transported mechanically from live static HTML — same path migrate importer will use",
         "anchor-id diffing (#section1..12) is the fast inner loop for long-form pages"
-      ]
+      ],
+      "contentDiff": "Findings: none — 391/391 nodes matched (after replicating the live runtime external-link icon decoration in the transported markup)"
     }
   }
 }
