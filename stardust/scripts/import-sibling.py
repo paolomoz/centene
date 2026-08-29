@@ -53,6 +53,11 @@ try:
     NEWSFEED = json.load(open(os.path.join(ROOT, 'stardust/import-newsfeed.json')))
 except Exception:
     NEWSFEED = {}
+try:
+    _arch = json.load(open(os.path.join(ROOT, 'stardust/import-archive.json')))
+    FEATURED = {a['href'].replace('.html', '') for a in _arch if a.get('href')}
+except Exception:
+    FEATURED = set()
 
 HEAD_TMPL = '''<body>
   <header></header>
@@ -139,6 +144,8 @@ def rewrite_href(href):
     path = u.path
     if path.endswith('.html'): path = path[:-5]
     if not path: return href
+    path = re.sub(r'[_]+', '-', path)
+    path = re.sub(r'-{2,}', '-', path)
     return path + (('#' + u.fragment) if u.fragment else '')
 
 # ------------------------------------------------------------ text transform
@@ -457,7 +464,17 @@ def build_page(page):
         desc_html = '\n'.join(clean_rich(art[a2:b2]) for a2, b2, _ in descm)
         parts = [f'<h1>{H.escape(h1t)}</h1>']
         if datem: parts.append(f'<p>{H.escape(datem.group(1).strip())}</p>')
-        if imgm: parts.append(f'<p><img src="{register_media(imgm.group(1))}" alt="{H.escape(H.unescape(imgm.group(2) or ""))}"></p>')
+        img_url = register_media(imgm.group(1)) if imgm else ''
+        if imgm: parts.append(f'<p><img src="{img_url}" alt="{H.escape(H.unescape(imgm.group(2) or ""))}"></p>')
+        # news metadata contract (Tier 2 — must ride the FIRST import)
+        if page['path'].startswith('/news/'):
+            extra = ''
+            if datem: extra += f'\n        <div><div>publisheddate</div><div>{H.escape(datem.group(1).strip())}</div></div>'
+            if page['path'] in FEATURED: extra += '\n        <div><div>category</div><div>centene:featured</div></div>'
+            # no explicit image metadata: the pipeline's default og:image is the
+            # first content image, rewritten to the public media bus (a raw
+            # content.da.live URL 401s for anonymous browsers)
+            page['_meta_extra'] = extra
         if desc_html: parts.append(desc_html)
         body_html = '\n'.join(parts)
         sections.append(f'''    <div>
@@ -504,6 +521,9 @@ def build_page(page):
         elif cls == 'richtext':
             pending_default.append(comp)
         elif cls == 'columncontrol':
+            if 'id="news-results"' in comp or 'class="newsfeed' in comp:
+                handle('newsfeed', comp, band)
+                return
             flush(band); s = emit_cols(comp)
             if s: sections.append(s)
         elif cls in ('accordion', 'accordiongroup'):
@@ -530,6 +550,15 @@ def build_page(page):
             pending_default.append(f'<div>{emit_image(comp)}</div>')
         elif cls == 'newsfeed':
             flush(band)
+            if page['path'] == '/featured-stories-archive':
+                rows = []
+                for card in _arch[:12]:
+                    img = f'<img src="{register_media(card["img"])}" alt="">' if card.get('img') else ''
+                    rows.append([img, f'<h3><a href="{rewrite_href(card["href"])}">{H.escape(card["title"])}</a></h3>', H.escape(card.get('date', ''))])
+                sections.append(emit_block_rows('news-archive', rows))
+                report['deviations'].append({'page': page['path'], 'kind': 'newsfeed->news-archive',
+                                             'note': 'index-driven archive grid (12/page pagination), 12 harvested fallback rows'})
+                return
             feed = NEWSFEED.get(page['slug'], [])
             if feed:
                 rows = []
@@ -578,6 +607,8 @@ def build_page(page):
   <footer></footer>
 </body>
 '''
+    if page.get('_meta_extra'):
+        doc = doc.replace('</div></div>\n      </div>', '</div></div>' + page['_meta_extra'] + '\n      </div>', 1)
     # exactly one h1 per page: demote any later h1 to h2
     seen = [0]
     def demote(m):
@@ -601,13 +632,15 @@ REDIRECT_STUBS = {'investors-html', 'who-we-are-accreditations-awards-html',
                   'who-we-are-diversity-equity-and-inclusion-html', 'who-we-are-our-purpose-html'}
 
 def main():
-    pages = [p for p in json.load(open('/tmp/wave1.json')) if p['slug'] not in REDIRECT_STUBS]
+    manifest = os.environ.get('IMPORT_MANIFEST', '/tmp/wave1.json')
+    pages = [p for p in json.load(open(manifest)) if p['slug'] not in REDIRECT_STUBS]
     args = sys.argv[1:]
     if args and args[0] != '--all':
         pages = [p for p in pages if p['slug'] in args]
     done = failed = 0
     for p in pages:
         p['path'] = urllib.parse.urlparse(p['url']).path.replace('.html', '').lower()
+        p['path'] = re.sub(r'-{2,}', '-', re.sub(r'[_]+', '-', p['path']))
         cache = f"{CACHE}/{p['slug']}.html"
         if not os.path.exists(cache) or os.path.getsize(cache) < 5000:
             report['pages'].append({'slug': p['slug'], 'status': 'skip-nocache'}); continue

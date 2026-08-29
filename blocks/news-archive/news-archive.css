@@ -1,0 +1,93 @@
+/* news-archive — featured-stories archive grid; card pattern shared with news-hub. */
+
+.news-archive {
+  padding: 0 10% 20px;
+  background: #fff;
+  color: #333;
+  display: flow-root;
+}
+
+.news-archive .news-grid { display: flex; flex-wrap: wrap; margin: 20px -10px 0; }
+.news-archive .news-col { position: relative; width: 33.33333%; padding: 0 10px; margin: 0 0 30px; }
+
+.news-archive .column-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 3px 6px 0 rgb(26 26 26 / 12%), 0 0 1px 0 rgb(26 26 26 / 8%);
+  transition: border-color 0.2s;
+}
+
+.news-archive .column-box:hover,
+.news-archive .column-box:focus-within { border: 1px solid var(--card-border-hover); }
+.news-archive .column-box > a { display: block; overflow: hidden; }
+.news-archive .column-box > a:hover { text-decoration: none; }
+
+.news-archive .news-card-image {
+  width: 100%;
+  aspect-ratio: 1.77777778;
+  background: #e0e0e0;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-archive .news-card-image img,
+.news-archive .news-card-image picture { width: 100%; height: 100%; object-fit: cover; }
+.news-archive .news-card-image picture img { width: 100%; height: 100%; object-fit: cover; }
+
+.news-archive h3.news-card-title {
+  font-size: 23px;
+  line-height: 32px;
+  color: var(--brand-color);
+  text-decoration: underline;
+  padding: 8px 16px 4px;
+  margin: 0;
+}
+
+.news-archive .news-card-content {
+  padding: 0 16px 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.news-archive .search-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  list-style: none;
+  margin: 10px 0 20px;
+  padding: 0;
+}
+
+.news-archive .search-pagination button {
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--brand-color);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.news-archive .search-pagination .active button {
+  background: var(--brand-color);
+  color: #fff;
+  border-color: var(--brand-color);
+}
+
+.news-archive .hidden-el { display: none; }
+
+@media (width <= 767px) {
+  .news-archive .news-col { width: 100%; }
+}
