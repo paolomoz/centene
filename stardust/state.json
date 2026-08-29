@@ -108,7 +108,7 @@
       "slug": "featured-stories-archive-html",
       "url": "https://www.centene.com/featured-stories-archive.html",
       "type": "listing",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/featured-stories-archive-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -154,7 +154,7 @@
       "slug": "media-contact-html",
       "url": "https://www.centene.com/media-contact.html",
       "type": "form",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/media-contact-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -180,7 +180,7 @@
       "slug": "news-addressing-mental-health-needs-across-generations-html",
       "url": "https://www.centene.com/news/addressing-mental-health-needs-across-generations.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-addressing-mental-health-needs-across-generations-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -189,7 +189,7 @@
       "slug": "news-advocating-for-the-mental-health-of-medicare-recipients-html",
       "url": "https://www.centene.com/news/advocating-for-the-mental-health-of-medicare-recipients.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-advocating-for-the-mental-health-of-medicare-recipients-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -198,7 +198,7 @@
       "slug": "news-ahip-partnerships-prior-authorization-progress-html",
       "url": "https://www.centene.com/news/ahip-partnerships-prior-authorization_progress.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-ahip-partnerships-prior-authorization-progress-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -207,7 +207,7 @@
       "slug": "news-ahip-partnerships-transforming-prior-authorization-html",
       "url": "https://www.centene.com/news/ahip-partnerships-transforming-prior-authorization.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-ahip-partnerships-transforming-prior-authorization-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -216,7 +216,7 @@
       "slug": "news-black-maternal-health-week-html",
       "url": "https://www.centene.com/news/black-maternal-health-week.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-black-maternal-health-week-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -225,7 +225,7 @@
       "slug": "news-celebrating-centene-forty-years-of-impact-innovation-html",
       "url": "https://www.centene.com/news/celebrating-centene--forty-years-of-impact-innovation.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-celebrating-centene-forty-years-of-impact-innovation-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -234,7 +234,7 @@
       "slug": "news-centene-celebrates-national-nurses-week-html",
       "url": "https://www.centene.com/news/centene-celebrates-national-nurses-week.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-celebrates-national-nurses-week-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -243,7 +243,7 @@
       "slug": "news-centene-efforts-to-combat-the-maternal-health-crisis-html",
       "url": "https://www.centene.com/news/centene-efforts-to-combat-the-maternal-health-crisis.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-efforts-to-combat-the-maternal-health-crisis-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -252,7 +252,7 @@
       "slug": "news-centene-foster-care-centers-of-excellence-support-children-html",
       "url": "https://www.centene.com/news/centene-foster-care-centers-of-excellence-support-children.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-foster-care-centers-of-excellence-support-children-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -261,7 +261,7 @@
       "slug": "news-centene-foundation-little-bit-foundation-st-louis-citysc-pfhof-partnership-html",
       "url": "https://www.centene.com/news/centene-foundation-little-bit-foundation-st-louis-citysc-pfhof-partnership.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-foundation-little-bit-foundation-st-louis-citysc-pfhof-partnership-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -270,7 +270,7 @@
       "slug": "news-centene-foundation-wellcare-of-north-carolina-invest-new-family-justice-center-html",
       "url": "https://www.centene.com/news/centene-foundation-wellcare-of-north-carolina-invest-new-family-justice-center.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-foundation-wellcare-of-north-carolina-invest-new-family-justice-center-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -279,7 +279,7 @@
       "slug": "news-centene-joins-pro-football-hall-of-fame-for-military-salute-html",
       "url": "https://www.centene.com/news/centene-joins-pro-football-hall-of-fame-for-military-salute.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-joins-pro-football-hall-of-fame-for-military-salute-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -288,7 +288,7 @@
       "slug": "news-centene-nurse-advice-line-24-7-support-nurses-week-html",
       "url": "https://www.centene.com/news/centene-nurse-advice-line-24-7-support-nurses-week.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-nurse-advice-line-24-7-support-nurses-week-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -297,7 +297,7 @@
       "slug": "news-centene-supports-equitable-cancer-care-at-nmqf-summit-html",
       "url": "https://www.centene.com/news/centene-supports-equitable-cancer-care-at-nmqf-summit.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-supports-equitable-cancer-care-at-nmqf-summit-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -306,7 +306,7 @@
       "slug": "news-centene-virginia-total-care-youth-summits-pro-football-hall-of-fame-html",
       "url": "https://www.centene.com/news/centene-virginia-total-care-youth-summits-pro-football-hall-of-fame.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-centene-virginia-total-care-youth-summits-pro-football-hall-of-fame-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -315,7 +315,7 @@
       "slug": "news-chief-health-officer-continuous-medicaid-enrollment-children-html",
       "url": "https://www.centene.com/news/chief-health-officer-continuous-medicaid-enrollment-children.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-chief-health-officer-continuous-medicaid-enrollment-children-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -324,7 +324,7 @@
       "slug": "news-community-health-center-brings-new-chapter-healing-hope-uvalde-html",
       "url": "https://www.centene.com/news/community-health-center-brings-new-chapter-healing-hope-uvalde.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-community-health-center-brings-new-chapter-healing-hope-uvalde-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -333,7 +333,7 @@
       "slug": "news-continuing-mlk-legacy-through-the-centene-value-of-service-html",
       "url": "https://www.centene.com/news/continuing-mlk-legacy-through-the-centene-value-of-service.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-continuing-mlk-legacy-through-the-centene-value-of-service-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -342,7 +342,7 @@
       "slug": "news-dementia-care-for-members-and-caregivers-html",
       "url": "https://www.centene.com/news/dementia-care-for-members-and-caregivers.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-dementia-care-for-members-and-caregivers-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -351,7 +351,7 @@
       "slug": "news-employee-dedication-provider-collaboration-power-behavioral-health-treatment-success-html",
       "url": "https://www.centene.com/news/employee-dedication-provider-collaboration-power-behavioral-health-treatment-success.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-employee-dedication-provider-collaboration-power-behavioral-health-treatment-success-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -360,7 +360,7 @@
       "slug": "news-ensuring-medical-eligibility-redetermination-process-html",
       "url": "https://www.centene.com/news/ensuring-medical-eligibility-redetermination-process.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-ensuring-medical-eligibility-redetermination-process-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -369,7 +369,7 @@
       "slug": "news-fluvention-family-focused-flu-prevention-html",
       "url": "https://www.centene.com/news/fluvention-family-focused-flu-prevention.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-fluvention-family-focused-flu-prevention-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -378,7 +378,7 @@
       "slug": "news-food-is-medicine-a-strategic-solution-for-better-health-outcomes-html",
       "url": "https://www.centene.com/news/food-is-medicine-a-strategic-solution-for-better-health-outcomes.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-food-is-medicine-a-strategic-solution-for-better-health-outcomes-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -387,7 +387,7 @@
       "slug": "news-food-is-medicine-centene-improves-care-html",
       "url": "https://www.centene.com/news/food-is-medicine-centene-improves-care.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-food-is-medicine-centene-improves-care-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -396,7 +396,7 @@
       "slug": "news-how-community-health-centers-expand-access-to-care-html",
       "url": "https://www.centene.com/news/how-community-health-centers-expand-access-to-care.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-how-community-health-centers-expand-access-to-care-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -422,7 +422,7 @@
       "slug": "news-increase-access-to-affordable-housing-partnership-mccormack-baron-salazar-html",
       "url": "https://www.centene.com/news/increase-access-to-affordable-housing-partnership-mccormack-baron-salazar.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-increase-access-to-affordable-housing-partnership-mccormack-baron-salazar-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -431,7 +431,7 @@
       "slug": "news-iowa-total-care-and-the-centene-foundation-support-housing-command-center-html",
       "url": "https://www.centene.com/news/iowa-total-care-and-the-centene-foundation-support-housing-command-center.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-iowa-total-care-and-the-centene-foundation-support-housing-command-center-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -440,7 +440,7 @@
       "slug": "news-mets-program-behavioral-healthcare-coordination-html",
       "url": "https://www.centene.com/news/mets-program-behavioral-healthcare-coordination.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-mets-program-behavioral-healthcare-coordination-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -449,7 +449,7 @@
       "slug": "news-milken-health-summit-2025-sarah-london-access-to-healthcare-html",
       "url": "https://www.centene.com/news/milken-health-summit-2025-sarah-london-access-to-healthcare.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-milken-health-summit-2025-sarah-london-access-to-healthcare-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -458,7 +458,7 @@
       "slug": "news-national-birth-defects-awareness-month-centenes-commitment-html",
       "url": "https://www.centene.com/news/national-birth-defects-awareness-month-centenes-commitment.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-national-birth-defects-awareness-month-centenes-commitment-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -467,7 +467,7 @@
       "slug": "news-national-rural-health-day-addressing-needs-of-under-resourced-co-html",
       "url": "https://www.centene.com/news/national-rural-health-day-addressing-needs-of-under-resourced-co.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-national-rural-health-day-addressing-needs-of-under-resourced-co-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -476,7 +476,7 @@
       "slug": "news-neonatal-center-of-excellence-transforms-health-html",
       "url": "https://www.centene.com/news/neonatal-center-of-excellence-transforms-health.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-neonatal-center-of-excellence-transforms-health-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -485,7 +485,7 @@
       "slug": "news-one-centeam-culture-drives-impact-html",
       "url": "https://www.centene.com/news/one-centeam-culture-drives-impact.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-one-centeam-culture-drives-impact-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -494,7 +494,7 @@
       "slug": "news-policy-recommendation-cms-nutrition-access-medicare-members-html",
       "url": "https://www.centene.com/news/policy-recommendation-cms-nutrition-access-medicare-members.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-policy-recommendation-cms-nutrition-access-medicare-members-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -503,7 +503,7 @@
       "slug": "news-prior-authorization-advancing-standardization-ahip-html",
       "url": "https://www.centene.com/news/prior-authorization-advancing-standardization-ahip.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-prior-authorization-advancing-standardization-ahip-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -512,7 +512,7 @@
       "slug": "news-provider-collaboration-delivers-behavioral-health-treatment-success-html",
       "url": "https://www.centene.com/news/provider-collaboration-delivers-behavioral-health-treatment-success.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-provider-collaboration-delivers-behavioral-health-treatment-success-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -521,7 +521,7 @@
       "slug": "news-recognizing-diabetes-awareness-month-helping-members-html",
       "url": "https://www.centene.com/news/recognizing-diabetes-awareness-month-helping-members.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-recognizing-diabetes-awareness-month-helping-members-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -530,7 +530,7 @@
       "slug": "news-reducing-risk-of-heart-disease-among-members-with-whole-person-care-html",
       "url": "https://www.centene.com/news/reducing-risk-of-heart-disease-among-members-with-whole-person-care.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-reducing-risk-of-heart-disease-among-members-with-whole-person-care-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -539,7 +539,7 @@
       "slug": "news-spotlighting-our-commitment-to-an-inclusive-workplace-on-national-html",
       "url": "https://www.centene.com/news/spotlighting-our-commitment-to-an-inclusive-workplace-on-national.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-spotlighting-our-commitment-to-an-inclusive-workplace-on-national-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -548,7 +548,7 @@
       "slug": "news-standing-with-rural-communities-improve-health-access-html",
       "url": "https://www.centene.com/news/standing-with-rural-communities-improve-health-access.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-standing-with-rural-communities-improve-health-access-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -557,7 +557,7 @@
       "slug": "news-start-smart-maternity-and-child-health-program-html",
       "url": "https://www.centene.com/news/start-smart-maternity-and-child-health-program.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-start-smart-maternity-and-child-health-program-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -566,7 +566,7 @@
       "slug": "news-suicide-prevention-program-save-lives-through-data-access-connection-html",
       "url": "https://www.centene.com/news/suicide-prevention-program-save-lives-through-data-access-connection.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-suicide-prevention-program-save-lives-through-data-access-connection-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -575,7 +575,7 @@
       "slug": "news-supporting-healthy-aging-through-whole-health-solutions-html",
       "url": "https://www.centene.com/news/supporting-healthy-aging-through-whole-health-solutions.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-supporting-healthy-aging-through-whole-health-solutions-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -584,7 +584,7 @@
       "slug": "news-supporting-members-through-holistic-pregnancy-care-html",
       "url": "https://www.centene.com/news/supporting-members-through-holistic-pregnancy-care.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-supporting-members-through-holistic-pregnancy-care-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -593,7 +593,7 @@
       "slug": "news-sysc-washington-seahawks-mental-health-summit-html",
       "url": "https://www.centene.com/news/sysc-washington-seahawks-mental-health-summit.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-sysc-washington-seahawks-mental-health-summit-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -602,7 +602,7 @@
       "slug": "news-what-is-ichra-flexible-healthcare-coverage-html",
       "url": "https://www.centene.com/news/what-is-ichra-flexible-healthcare-coverage.html",
       "type": "article",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/news-what-is-ichra-flexible-healthcare-coverage-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -654,7 +654,7 @@
       "slug": "products-and-services-browse-by-state-alaska-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/alaska.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-alaska-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -663,7 +663,7 @@
       "slug": "products-and-services-browse-by-state-arizona-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/arizona.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-arizona-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -672,7 +672,7 @@
       "slug": "products-and-services-browse-by-state-arkansas-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/arkansas.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-arkansas-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -681,7 +681,7 @@
       "slug": "products-and-services-browse-by-state-california-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/california.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-california-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -690,7 +690,7 @@
       "slug": "products-and-services-browse-by-state-colorado-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/colorado.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-colorado-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -699,7 +699,7 @@
       "slug": "products-and-services-browse-by-state-connecticut-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/connecticut.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-connecticut-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -708,7 +708,7 @@
       "slug": "products-and-services-browse-by-state-delaware-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/delaware.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-delaware-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -717,7 +717,7 @@
       "slug": "products-and-services-browse-by-state-district-of-columbia-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/district-of-columbia.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-district-of-columbia-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -726,7 +726,7 @@
       "slug": "products-and-services-browse-by-state-florida-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/florida.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-florida-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -735,7 +735,7 @@
       "slug": "products-and-services-browse-by-state-georgia-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/georgia.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-georgia-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -744,7 +744,7 @@
       "slug": "products-and-services-browse-by-state-hawaii-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/hawaii.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-hawaii-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -762,7 +762,7 @@
       "slug": "products-and-services-browse-by-state-idaho-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/idaho.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-idaho-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -771,7 +771,7 @@
       "slug": "products-and-services-browse-by-state-illinois-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/illinois.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-illinois-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -780,7 +780,7 @@
       "slug": "products-and-services-browse-by-state-indiana-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/indiana.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-indiana-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -789,7 +789,7 @@
       "slug": "products-and-services-browse-by-state-iowa-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/iowa.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-iowa-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -798,7 +798,7 @@
       "slug": "products-and-services-browse-by-state-kansas-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/kansas.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-kansas-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -807,7 +807,7 @@
       "slug": "products-and-services-browse-by-state-kentucky-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/kentucky.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-kentucky-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -816,7 +816,7 @@
       "slug": "products-and-services-browse-by-state-louisiana-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/louisiana.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-louisiana-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -825,7 +825,7 @@
       "slug": "products-and-services-browse-by-state-maine-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/maine.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-maine-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -834,7 +834,7 @@
       "slug": "products-and-services-browse-by-state-maryland-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/maryland.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-maryland-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -843,7 +843,7 @@
       "slug": "products-and-services-browse-by-state-massachusetts-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/massachusetts.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-massachusetts-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -852,7 +852,7 @@
       "slug": "products-and-services-browse-by-state-michigan-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/michigan.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-michigan-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -861,7 +861,7 @@
       "slug": "products-and-services-browse-by-state-minnesota-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/minnesota.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-minnesota-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -870,7 +870,7 @@
       "slug": "products-and-services-browse-by-state-mississippi-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/mississippi.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-mississippi-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -879,7 +879,7 @@
       "slug": "products-and-services-browse-by-state-missouri-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/missouri.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-missouri-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -888,7 +888,7 @@
       "slug": "products-and-services-browse-by-state-montana-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/montana.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-montana-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -897,7 +897,7 @@
       "slug": "products-and-services-browse-by-state-nebraska-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/nebraska.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-nebraska-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -906,7 +906,7 @@
       "slug": "products-and-services-browse-by-state-nevada-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/nevada.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-nevada-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -915,7 +915,7 @@
       "slug": "products-and-services-browse-by-state-new-hampshire-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/new-hampshire.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-new-hampshire-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -924,7 +924,7 @@
       "slug": "products-and-services-browse-by-state-new-jersey-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/new-jersey.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-new-jersey-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -933,7 +933,7 @@
       "slug": "products-and-services-browse-by-state-new-mexico-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/new-mexico.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-new-mexico-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -942,7 +942,7 @@
       "slug": "products-and-services-browse-by-state-new-york-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/new-york.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-new-york-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -951,7 +951,7 @@
       "slug": "products-and-services-browse-by-state-north-carolina-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/north-carolina.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-north-carolina-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -960,7 +960,7 @@
       "slug": "products-and-services-browse-by-state-north-dakota-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/north-dakota.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-north-dakota-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -969,7 +969,7 @@
       "slug": "products-and-services-browse-by-state-ohio-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/ohio.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-ohio-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -978,7 +978,7 @@
       "slug": "products-and-services-browse-by-state-oklahoma-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/oklahoma.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-oklahoma-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -987,7 +987,7 @@
       "slug": "products-and-services-browse-by-state-oregon-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/oregon.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-oregon-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -996,7 +996,7 @@
       "slug": "products-and-services-browse-by-state-pennsylvania-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/pennsylvania.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-pennsylvania-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1005,7 +1005,7 @@
       "slug": "products-and-services-browse-by-state-rhode-island-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/rhode-island.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-rhode-island-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1014,7 +1014,7 @@
       "slug": "products-and-services-browse-by-state-south-carolina-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/south-carolina.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-south-carolina-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1023,7 +1023,7 @@
       "slug": "products-and-services-browse-by-state-south-dakota-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/south-dakota.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-south-dakota-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1032,7 +1032,7 @@
       "slug": "products-and-services-browse-by-state-tennessee-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/tennessee.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-tennessee-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1041,7 +1041,7 @@
       "slug": "products-and-services-browse-by-state-texas-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/texas.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-texas-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1050,7 +1050,7 @@
       "slug": "products-and-services-browse-by-state-utah-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/utah.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-utah-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1059,7 +1059,7 @@
       "slug": "products-and-services-browse-by-state-vermont-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/vermont.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-vermont-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1068,7 +1068,7 @@
       "slug": "products-and-services-browse-by-state-virginia-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/virginia.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-virginia-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1077,7 +1077,7 @@
       "slug": "products-and-services-browse-by-state-washington-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/washington.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-washington-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1086,7 +1086,7 @@
       "slug": "products-and-services-browse-by-state-west-virginia-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/west-virginia.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-west-virginia-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1095,7 +1095,7 @@
       "slug": "products-and-services-browse-by-state-wisconsin-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/wisconsin.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-wisconsin-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1104,7 +1104,7 @@
       "slug": "products-and-services-browse-by-state-wyoming-html",
       "url": "https://www.centene.com/products-and-services/browse-by-state/wyoming.html",
       "type": "state",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-browse-by-state-wyoming-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1148,7 +1148,7 @@
       "slug": "products-and-services-medicaid-foster-care-contact-html",
       "url": "https://www.centene.com/products-and-services/medicaid/foster-care/contact.html",
       "type": "form",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-medicaid-foster-care-contact-html.json",
       "prototypePath": null,
       "migratedPath": null
@@ -1157,7 +1157,7 @@
       "slug": "products-and-services-medicaid-foster-care-contact-thankyou-html",
       "url": "https://www.centene.com/products-and-services/medicaid/foster-care/contact-thankyou.html",
       "type": "form",
-      "status": "extracted",
+      "status": "migrated",
       "currentStatePath": "stardust/current/pages/products-and-services-medicaid-foster-care-contact-thankyou-html.json",
       "prototypePath": null,
       "migratedPath": null

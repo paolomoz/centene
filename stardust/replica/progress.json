@@ -673,6 +673,37 @@
         "legal + statements render empty on live -> chrome-only pages",
         "ichra coverage map SVG 146KB > DA 40KB limit -> rasterized to PNG 2560x1440"
       ]
-    }
+    },
+    "wave2": {
+      "status": "deployed",
+      "pages": 47,
+      "notes": [
+        "46 articles (news-item template) + featured-stories-archive",
+        "metadata contract live: publisheddate on 47, category centene:featured on 42 (from the harvested archive set)",
+        "news-index populated -> /news grid and the new news-archive block are INDEX-DRIVEN (verified: 9 cards + 12/page x 4 pages, 0 broken)",
+        "og:image must come from the pipeline default (first content image -> public media bus); explicit content.da.live URLs 401 for anonymous browsers",
+        "DA slug rules: underscores and double hyphens rejected at preview -> normalized (2 redirects recorded)"
+      ]
+    },
+    "wave3": {
+      "status": "deployed",
+      "pages": 50,
+      "notes": [
+        "dedicated state builder clones the gated alabama archetype authoring (hero trail + statement lede + icon-cards facts + product-brand bands)",
+        "brand bands split per centene-h2 (some states pack several brands in one bgbox)",
+        "state intro paragraphs captured (texas et al.); texas spot: doc within 2.6% of live",
+        "product-brand supports multi-logo image cells"
+      ]
+    },
+    "wave4": {
+      "status": "deployed",
+      "pages": 3,
+      "notes": [
+        "form block live on foster-care/contact (Name/Email/Comments, POST to the authored endpoint)",
+        "BLOCKERS for client: submission endpoint + reCAPTCHA site key (form posts to the live AEM URL until decided)",
+        "media-contact + contact-thankyou are plain content (generic importer)"
+      ]
+    },
+    "_status": "PHASE 2 COMPLETE \u2014 201/206 pages migrated, 5 redirect stubs recorded (2026-08-29)"
   }
 }

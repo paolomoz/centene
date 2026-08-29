@@ -199,3 +199,20 @@ runtime smoke on 8-page sample clean; text-coverage spot-checks; anchor spot-che
 Importer decodes worth keeping: scripts/comments must be stripped before balanced-div walks; pipeline strips
 <br> inside headings (emit as spacer-p vehicle); DA rejects SVGs > 40KB (rasterize); extension-less CDN
 renditions need hashed names; centene-hN spans map to heading levels with the <hN><strong> display convention.
+
+# PHASE 2 — WAVES 2–4 (2026-08-29)
+**Wave 2 (47):** 46 articles + featured-stories-archive. The Tier-2 metadata contract shipped with the first
+import (publisheddate ×47, category centene:featured ×42 from the harvested archive set). The news-index is now
+populated and BOTH listing surfaces are index-driven: the /news grid flipped automatically (fallback logic) and
+the new `news-archive` block paginates 42 featured stories 12/page. Decodes: og:image must be pipeline-default
+(explicit content.da.live URLs 401 for anonymous readers); DA slugs reject underscores/double hyphens (2 paths
+normalized + recorded as redirects).
+**Wave 3 (50):** dedicated state builder clones the gated alabama archetype authoring exactly (hero trail +
+statement lede + icon-cards facts + product-brand). Brand bands split per centene-h2; state intro paragraphs
+captured; product-brand handles multi-logo cells. Texas spot-check within 2.6% of live.
+**Wave 4 (3):** `form` block (label|type|name|required rows + authored endpoint) live on foster-care/contact;
+media-contact and thank-you as plain content. Client blockers stand: form endpoint + reCAPTCHA key, Adobe
+Launch property, careers stub, IR feed licensing.
+
+# MIGRATION CONTENT-COMPLETE: 201/206 pages live on EDS; 5 source URLs are redirect stubs for rollout config.
+Full-inventory sweep: 201/201 migrated paths return 200 on main--centene--paolomoz.aem.live.
