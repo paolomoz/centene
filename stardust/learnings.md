@@ -134,3 +134,14 @@ sessions hitting the same failure is the strongest harvest signal.
   flow-root component, so 20px+20px boundaries render 40px. EDS merges consecutive richtexts into ONE
   default-content wrapper where those margins collapse to 20px. Mirror with `p + h2 { margin-top: 40px }`
   per interior section style; block boundaries keep the native 20.
+
+## 2026-08-29 — wave-1 sibling importer
+- **Push the code before measuring the content.** 92 pages deployed against uncommitted block CSS produced a
+  phantom -638px fidelity gap; the deploy contract's computed-style check exists precisely to catch this — run
+  it per BATCH, not just per archetype.
+- **The pipeline strips <br> inside headings** — the AEM lead-br idiom must ride spacer paragraphs
+  (`<p><code>&nbsp;</code></p>`) emitted around the heading at import time.
+- **DA image validation: SVG > 40KB is rejected at preview (409 AEM_BACKEND_FETCH_FAILED**, naming the image
+  index) — even for cross-origin srcs. Rasterize to PNG at import.
+- **Balanced-div walkers must strip <script>/<style>/comments first** — embedded '<div' tokens silently swallow
+  sibling components (cost: four columncontrols of logos).

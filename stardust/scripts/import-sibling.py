@@ -152,9 +152,19 @@ def clean_rich(x, in_block=False):
         wrapper = m.group(1)
         lvl = m.group(2)
         body = m.group(3)
-        if wrapper == 'h1' or lvl == '1': return f'<h1>{body}</h1>'
-        if lvl in ('2', '3'): return f'<h{lvl}><strong>{body}</strong></h{lvl}>'
-        return f'<h{lvl}>{body}</h{lvl}>'
+        # the pipeline strips <br> inside headings — emit the source's
+        # leading/trailing br lines as spacer paragraphs around the heading
+        pre = post = ''
+        b2 = body
+        while re.match(r'\s*<br\s*/?>', b2):
+            pre += '<p><code>&nbsp;</code></p>'
+            b2 = re.sub(r'^\s*<br\s*/?>', '', b2, count=1)
+        while re.search(r'<br\s*/?>(?:\s|&nbsp;|\xa0)*$', b2):
+            post += '<p><code>&nbsp;</code></p>'
+            b2 = re.sub(r'<br\s*/?>(?:\s|&nbsp;|\xa0)*$', '', b2, count=1)
+        if wrapper == 'h1' or lvl == '1': return f'{pre}<h1>{b2}</h1>{post}'
+        if lvl in ('2', '3'): return f'{pre}<h{lvl}><strong>{b2}</strong></h{lvl}>{post}'
+        return f'{pre}<h{lvl}>{b2}</h{lvl}>{post}'
     x = re.sub(r'<(p|h[1-6])[^>]*>\s*(?:<span class="brand-color">\s*)?<span class="centene-h([1-5])[^"]*">(.*?)</span>\s*(?:</span>\s*)?</\1>',
                head_map, x, flags=re.S)
     # indent paragraphs -> blockquote (before attr strip)

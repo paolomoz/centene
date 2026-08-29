@@ -186,3 +186,16 @@ video-band, related, product-brand, news-hub, image-tiles, wave-band, product-co
 table (plain), accordion, search + section styles article/legal/contact + header subnav + footer.
 Next: Phase 2 — stardust:migrate sibling fan-out in waves (content+utility+pillar ~100 → articles+listing 49
 with publisheddate/category from first import → states 51 → forms+search 5).
+
+# PHASE 2 — WAVE 1 (content + utility + pillar siblings) — 2026-08-29
+92 pages imported and LIVE (81 content, 9 utility, 2 pillar; 5 live URLs are redirect stubs recorded for
+rollout's redirect config). Importer: `stardust/scripts/import-sibling.py` — transforms cached live AEM-grid
+pages into EDS content via the Phase-1 vocabulary (hero-interior/statement/cols/accordion/related/video-band/
+image-text/image-tiles/state-select + rt section transform table). 290 media assets bundled to DA.
+New blocks: `cols`, `state-select`, `image-text`; image-tiles gained photo tiles; video-band gained navy.
+Verification: David's-Model lint 0 red across the tree; 92/92 delivered-plain checks (1 h1, 0 about:error);
+runtime smoke on 8-page sample clean; text-coverage spot-checks; anchor spot-check on history Δ-132/4823
+(timeline trailing-spacer residual, logged).
+Importer decodes worth keeping: scripts/comments must be stripped before balanced-div walks; pipeline strips
+<br> inside headings (emit as spacer-p vehicle); DA rejects SVGs > 40KB (rasterize); extension-less CDN
+renditions need hashed names; centene-hN spans map to heading levels with the <hN><strong> display convention.

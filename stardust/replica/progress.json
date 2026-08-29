@@ -641,5 +641,38 @@
       ]
     },
     "_status": "COMPLETE \u2014 all 7 interior archetypes converted and published-gate green (2026-08-28)"
+  },
+  "phase2": {
+    "wave1": {
+      "status": "deployed",
+      "pages": 92,
+      "types": {
+        "content": 81,
+        "utility": 9,
+        "pillar": 2
+      },
+      "mediaBundled": 290,
+      "verification": {
+        "davidsModelLint": "0 red / 184 yellow (accepted patterns)",
+        "plainCheck": "92/92 delivered, 1 h1, 0 about:error",
+        "runtimeSmoke": "8-page sample: all blocks loaded, 0 pageerrors, 0 broken images",
+        "textCoverage": "8-word-chunk coverage spot-checked on outliers; boundary chunks only",
+        "anchorSpot": "who-we-are/history 1440: doc within \u0394-132/4823 (timeline-band trailing spacers residual)"
+      },
+      "redirectStubs": {
+        "investors-html": "https://investors.centene.com/",
+        "who-we-are-accreditations-awards-html": "/who-we-are/awards",
+        "who-we-are-centene-foundation-become-a-partner-html": "/who-we-are/centene-foundation/becoming-a-partner",
+        "who-we-are-diversity-equity-and-inclusion-html": "/who-we-are/one-centeam",
+        "who-we-are-our-purpose-html": "/who-we-are/our-mission"
+      },
+      "deviations": [
+        "statemap -> select dropdown (desktop US map deferred; Tier-3 recorded)",
+        "newsfeed on featured-partnerships hub -> 18 static-authored cards (dynamic phase-2 candidate)",
+        "cardtabs (centene-foundation) + topheaderbanner render EMPTY on live origin -> replicated as captured",
+        "legal + statements render empty on live -> chrome-only pages",
+        "ichra coverage map SVG 146KB > DA 40KB limit -> rasterized to PNG 2560x1440"
+      ]
+    }
   }
 }
