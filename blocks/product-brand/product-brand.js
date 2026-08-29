@@ -55,19 +55,22 @@ export default async function decorate(block) {
       const img = cell.querySelector('picture, img');
       const list = cell.querySelector('ul, ol');
       if (img) {
-        const wrap = document.createElement('div');
-        wrap.className = 'image';
-        const cmp = document.createElement('div');
-        cmp.className = 'cmp-image';
-        const media2 = img.cloneNode(true);
-        const raw = media2.tagName === 'IMG' ? media2 : media2.querySelector('img');
-        if (raw) {
-          raw.classList.add('box-shadow');
-          raw.setAttribute('loading', 'lazy');
-        }
-        cmp.append(media2);
-        wrap.append(cmp);
-        col.append(wrap);
+        cell.querySelectorAll('picture, img').forEach((media0) => {
+          if (media0.tagName === 'IMG' && media0.closest('picture')) return;
+          const wrap = document.createElement('div');
+          wrap.className = 'image';
+          const cmp = document.createElement('div');
+          cmp.className = 'cmp-image';
+          const media2 = media0.cloneNode(true);
+          const raw = media2.tagName === 'IMG' ? media2 : media2.querySelector('img');
+          if (raw) {
+            raw.classList.add('box-shadow');
+            raw.setAttribute('loading', 'lazy');
+          }
+          cmp.append(media2);
+          wrap.append(cmp);
+          col.append(wrap);
+        });
       } else if (list) {
         const rt = document.createElement('div');
         rt.className = 'richtext bb-list';

@@ -1,45 +1,72 @@
 {
  "pages": [
   {
-   "slug": "featured-stories-archive-html",
-   "path": "/featured-stories-archive",
+   "slug": "media-contact-html",
+   "path": "/media-contact",
    "status": "written",
-   "out": "content/featured-stories-archive.html",
+   "out": "content/media-contact.html",
    "live": {
     "h": 1,
-    "p": 0,
+    "p": 6,
+    "li": 0,
+    "img": 0,
+    "a": 1
+   },
+   "mine": {
+    "h": 1,
+    "p": 6,
+    "li": 0,
+    "img": 1,
+    "a": 2
+   }
+  },
+  {
+   "slug": "products-and-services-medicaid-foster-care-contact-html",
+   "path": "/products-and-services/medicaid/foster-care/contact",
+   "status": "written",
+   "out": "content/products-and-services/medicaid/foster-care/contact.html",
+   "live": {
+    "h": 1,
+    "p": 3,
     "li": 0,
     "img": 0,
     "a": 0
    },
    "mine": {
-    "h": 13,
-    "p": 0,
+    "h": 1,
+    "p": 3,
     "li": 0,
-    "img": 13,
-    "a": 13
+    "img": 1,
+    "a": 4
+   }
+  },
+  {
+   "slug": "products-and-services-medicaid-foster-care-contact-thankyou-html",
+   "path": "/products-and-services/medicaid/foster-care/contact-thankyou",
+   "status": "written",
+   "out": "content/products-and-services/medicaid/foster-care/contact-thankyou.html",
+   "live": {
+    "h": 1,
+    "p": 4,
+    "li": 3,
+    "img": 0,
+    "a": 3
+   },
+   "mine": {
+    "h": 1,
+    "p": 4,
+    "li": 3,
+    "img": 1,
+    "a": 7
    }
   }
  ],
- "media": {
-  "doctor-mom-daughter-visit.jpg": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/doctor-mom-daughter-visit.jpg",
-  "food-basket-produce.jpg": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/food-basket-produce.jpg",
-  "mom-on-laptop-child-nearby.jpg": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/mom-on-laptop-child-nearby.jpg",
-  "care-manager-with-child-toys-assessment.jpg": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/care-manager-with-child-toys-assessment.jpg",
-  "woman-holding-child.jpg": "https://www.centene.com/content/dam/centenedotcom/images/woman-holding-child.jpg",
-  "woman-selecting-produce-farmers-market.jpg": "https://www.centene.com/content/dam/centenedotcom/images/featured-stories/woman-selecting-produce-farmers-market.jpg",
-  "woman-desktop-small-hirez.jpg": "https://www.centene.com/content/dam/centenedotcom/images/woman-desktop-small-hirez.jpg",
-  "priorauth-graphic-v2.jpg": "https://www.centene.com/content/dam/centenedotcom/images/priorauth_graphic_v2.jpg",
-  "black-mother-baby.jpg": "https://www.centene.com/content/dam/centenedotcom/images/black-mother-baby.jpg",
-  "ahip2.jpg": "https://www.centene.com/content/dam/centenedotcom/images/ahip2.jpg",
-  "doctor-child-well-visit.jpg": "https://www.centene.com/content/dam/centenedotcom/images/doctor-child-well-visit.jpg",
-  "one-centeam.jpg": "https://www.centene.com/content/dam/centenedotcom/images/one-centeam.jpg"
- },
+ "media": {},
  "deviations": [
   {
-   "page": "/featured-stories-archive",
-   "kind": "newsfeed->news-archive",
-   "note": "index-driven archive grid (12/page pagination), 12 harvested fallback rows"
+   "page": "/products-and-services/medicaid/foster-care/contact",
+   "kind": "unhandled:container",
+   "note": "component dropped \u2014 needs follow-up"
   }
  ]
 }
