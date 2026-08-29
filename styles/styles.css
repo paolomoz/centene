@@ -459,6 +459,120 @@ main .section.contact code {
 
 main .section.contact i.link-external { font-size: 18px; line-height: 18px; }
 
+/* rt section (sibling interior richtext) — the transport superset: legal
+   list/spacer/indent vehicles + the centene type ramp mapped to heading
+   levels (hN > strong:only-child = the brand display variant) */
+main .section.rt {
+  padding: 25px 10% 20px;
+  background: #fff;
+  color: #333;
+}
+
+main .section.rt.band-sky { background: var(--sky); color: #000; }
+main .section.rt.band-navy { background: var(--brand-color); color: #fff; }
+main .section.rt.band-gray { background: #ececec; }
+main .section.rt .default-content-wrapper { display: flow-root; }
+main .section.rt p { font-size: 18px; margin: 0 0 20px; }
+main .section.rt a { color: var(--brand-color); padding: 5px; margin: -5px; }
+main .section.rt.band-navy a { color: #fff; text-decoration: underline; }
+main .section.rt strong { font-weight: 700; }
+main .section.rt h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
+main .section.rt h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
+
+main .section.rt h2 > strong:only-child {
+  font-family: 'Roboto-Regular', roboto-fallback, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: var(--brand-color);
+}
+
+main .section.rt h3 > strong:only-child {
+  font-family: 'Roboto-Regular', roboto-fallback, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--brand-color);
+}
+
+main .section.rt h4 {
+  font-family: 'Roboto-Italic', roboto-fallback, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: var(--line-height);
+  margin: 0 0 20px;
+  color: var(--brand-color);
+}
+
+main .section.rt h5 {
+  font-family: 'Roboto-Bold', roboto-fallback, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: var(--line-height);
+  margin: 0 0 20px;
+  color: var(--brand-color);
+}
+
+main .section.rt.band-navy h2,
+main .section.rt.band-navy h3,
+main .section.rt.band-navy h4,
+main .section.rt.band-navy h5,
+main .section.rt.band-navy h2 > strong:only-child,
+main .section.rt.band-navy h3 > strong:only-child { color: #fff; }
+
+main .section.rt ul {
+  margin: 0 0 10px 23px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+main .section.rt ul li {
+  position: relative;
+  padding: 0 0 5px 25px;
+  list-style: none;
+}
+
+main .section.rt ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-color);
+}
+
+main .section.rt ol {
+  margin: 0 0 10px 40px;
+  padding: 0 0 0 40px;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+main .section.rt ol li { padding: 5px 0 10px 15px; }
+main .section.rt blockquote { margin: 0 0 20px 40px; font-size: 18px; }
+
+main .section.rt code {
+  font: inherit;
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
+main .section.rt .default-content-wrapper p + h2,
+main .section.rt .default-content-wrapper p + h3 { margin-top: 40px; }
+main .section.rt .default-content-wrapper p:has(> picture) { line-height: 0; }
+main .section.rt i.link-external { font-size: 18px; line-height: 18px; }
+
+/* standalone CTA buttons in transported content render as the source's
+   auto-width brand button, not the full-width pilot button */
+main .section.rt a.button {
+  display: inline-block;
+  width: auto;
+  padding: 6px 12px;
+}
+
 /* pill button (source centenedotcom-site-btn) */
 a.button.pill,
 button.button.pill {

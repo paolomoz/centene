@@ -16,6 +16,7 @@ export default async function decorate(block) {
   rows.forEach((row) => {
     const link = row.querySelector('a');
     if (!link) return;
+    const img = row.querySelector('picture img, img');
     const token = [...row.children].map((c) => c.textContent.trim().toLowerCase()).find((t) => COLORS.includes(t)) || 'sky';
     const tile = document.createElement('div');
     tile.className = 'image-link-tile';
@@ -23,7 +24,8 @@ export default async function decorate(block) {
     a.href = link.href;
     a.setAttribute('aria-label', link.textContent.trim());
     const box = document.createElement('div');
-    box.className = `img-container tile-${token}`;
+    box.className = img ? 'img-container tile-photo' : `img-container tile-${token}`;
+    if (img) box.style.backgroundImage = `url("${(img.currentSrc || img.src).replace(/width=\d+/, 'width=2000')}")`;
     const content = document.createElement('div');
     content.className = 'tile-content';
     const title = document.createElement('p');

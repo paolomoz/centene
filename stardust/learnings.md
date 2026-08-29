@@ -1,7 +1,7 @@
 # Learnings ledger — centene.com replica + deploy (2026-08-26/27)
 
-Status: HARVESTED 2026-08-28 into adobe/skills stardust 0.18.3 (branch
-`harvest-rwe-centene`, per the improvement plan
+Status: HARVESTED 2026-08-28 into adobe/skills stardust 0.18.3 (merged to
+main 2026-08-29, PR adobe/skills#313, per the improvement plan
 `plugins/stardust/notes/improvement-plan-2026-08-rwe-centene.md`): items 1
 (gate.sh identity assertion + port-verify doc lines), 2 (crawl.mjs consent
 text-match fallback), 3 (live-embed residual class), 4 (crawl.mjs favicon

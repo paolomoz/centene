@@ -1,0 +1,32 @@
+/* image-text — photo + lede band; values lifted from the source site. */
+
+.image-text {
+  background-color: var(--brand-color);
+  color: #fff;
+  display: flow-root;
+}
+
+.image-text.sky { background-color: var(--sky); }
+.image-text.plum { background-color: var(--plum); }
+.image-text.leaf { background-color: var(--leaf); }
+.image-text.cerise { background-color: var(--cerise); }
+.image-text.carrot { background-color: #cc401d; }
+.image-text.white { background-color: #fff; color: #333; }
+
+.image-text .imagetext-row { display: flex; align-items: stretch; }
+.image-text .featured-image { flex: 0 0 45.8333%; line-height: 0; }
+.image-text .featured-image img { width: 100%; height: 100%; object-fit: cover; }
+.image-text .featured-text { flex: 1; display: flex; align-items: center; padding: 25px 5%; }
+.image-text .featured-text p { font-size: 18px; margin: 0 0 20px; }
+
+.image-text .centene-h4 {
+  font-family: 'Roboto-Italic', roboto-fallback, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.image-text a { color: #fff; text-decoration: underline; }
+
+@media (width <= 767px) {
+  .image-text .imagetext-row { display: block; }
+}

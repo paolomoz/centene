@@ -1,0 +1,64 @@
+/* cols — generic multi-column band; values lifted from the source site. */
+
+.cols {
+  padding: 0 10px;
+  background: transparent;
+  color: #333;
+  display: flow-root;
+}
+
+.cols .cc-row { margin: 0 -10px; }
+.cols .cc-row::after { content: ""; display: table; clear: both; }
+.cols .cc-col { float: left; padding: 0 10px; }
+.cols .colctrl-40 { width: 33.33333%; }
+.cols .colctrl-50 { width: 50%; }
+.cols .colctrl-66 { width: 66.66667%; }
+.cols .colctrl-33 { width: 33.33333%; }
+.cols .colctrl-100 { width: 100%; float: none; }
+
+/* source columns carry rd-t-16 body copy */
+.cols p { font-size: 16px; line-height: 22.8571px; margin: 0 0 20px; }
+.cols h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
+.cols h3 > strong:only-child { font-family: 'Roboto-Regular', roboto-fallback, sans-serif; font-size: 34px; font-weight: 400; color: var(--brand-color); }
+.cols h4 { font-family: 'Roboto-Italic', roboto-fallback, sans-serif; font-size: 25px; font-weight: 400; line-height: var(--line-height); margin: 0 0 20px; color: var(--brand-color); }
+.cols h5 { font-family: 'Roboto-Bold', roboto-fallback, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; line-height: var(--line-height); margin: 0 0 20px; color: var(--brand-color); }
+.cols a { color: var(--brand-color); }
+.cols img { max-width: 100%; height: auto; }
+.cols p:has(> picture) { line-height: 0; }
+
+.cols ul { margin: 0 0 10px 23px; padding: 0; font-size: 16px; line-height: 22.8571px; }
+.cols ul li { position: relative; padding: 0 0 5px 25px; list-style: none; }
+
+.cols ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--brand-color);
+}
+
+/* pill CTA (source site-btn inside columns) */
+.cols a.button,
+.cols a.button.primary {
+  display: inline-block;
+  width: auto;
+  font-family: 'Roboto-Medium', roboto-fallback, sans-serif;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 26px;
+  color: var(--brand-btn);
+  background: #fff;
+  padding: 5px 15px;
+  margin: 0 0 10px;
+  border: 2px solid var(--brand-btn);
+  border-radius: 20px;
+  text-align: center;
+  white-space: normal;
+}
+
+@media (width <= 767px) {
+  .cols .cc-col { float: none; width: 100%; }
+}

@@ -24,6 +24,7 @@
 .image-tiles .tile-plum { background-color: var(--plum); }
 .image-tiles .tile-carrot { background-color: #cc401d; }
 .image-tiles .tile-cerise { background-color: var(--cerise); }
+.image-tiles .tile-photo { background-size: cover; background-position: center; }
 
 .image-tiles .title {
   position: absolute;
