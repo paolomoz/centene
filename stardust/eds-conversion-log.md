@@ -240,3 +240,9 @@ Full-inventory sweep: 201/201 migrated paths return 200 on main--centene--paolom
    (h2 + description + `Visit "Title"` + hairline) with "Showing X - Y of N results" and 10/page pagination.
    Counts now run HIGHER than live's engine (full-page text is a superset) — the earlier missing-results
    gap is closed from the other side.
+
+## accordion container fix (2026-08-31)
+Imported accordion sections were full-bleed (x=7 vs live x=151): the importer emitted them without a
+container style. Accordions now carry `style: rt` (plus band when nested) — the 10% container + the block's
+7px inner padding lands panels at exactly the live geometry (x=151, w=1138 @1440). 7 pages redeployed.
+(Also re-confirmed the deploy trap: `grep -rl pattern content/` emits `content//…` → double-slash PUT 400s.)

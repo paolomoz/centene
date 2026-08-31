@@ -272,12 +272,13 @@ def emit_default(content_html, band=None):
 {body}
     </div>''')
 
-def emit_block_rows(name, rows, variants='', band=None):
+def emit_block_rows(name, rows, variants='', band=None, style=None):
     cls = name + (f' {variants}' if variants else '')
+    stylestr = style or (f'band-{band}' if band else None)
     sm = (f'''      <div class="section-metadata">
-        <div><div>style</div><div>band-{band}</div></div>
+        <div><div>style</div><div>{stylestr}</div></div>
       </div>
-''') if band else ''
+''') if stylestr else ''
     rh = '\n'.join('        <div>' + ''.join(f'<div>{c}</div>' for c in r) + '</div>' for r in rows)
     return (f'''    <div>
 {sm}      <div class="{cls}">
@@ -319,7 +320,7 @@ def emit_cols(comp, band=None):
     rows=[r+['']*(w-len(r)) for r in rows]
     return emit_block_rows('cols', rows, band=band)
 
-def emit_accordion(comp):
+def emit_accordion(comp, band=None):
     rows = []
     titles = re.findall(r'panel-title">\s*([^<]+)', comp)
     bodies = []
@@ -334,7 +335,8 @@ def emit_accordion(comp):
     for t, b in zip(titles, bodies):
         rows.append([H.escape(t.strip()), b])
     if not rows: return ''
-    return emit_block_rows('accordion', rows)
+    style = 'rt' + (f', band-{band}' if band else '')
+    return emit_block_rows('accordion', rows, style=style)
 
 def emit_related(comp):
     rows = []
@@ -558,7 +560,7 @@ def build_page(page):
             flush(band); s = emit_cols(comp, band)
             if s: sections.append(s)
         elif cls in ('accordion', 'accordiongroup'):
-            flush(band); s = emit_accordion(comp)
+            flush(band); s = emit_accordion(comp, band)
             if s: sections.append(s)
         elif cls in ('relatedcontent', 'relatednews'):
             flush(band); s = emit_related(comp)
