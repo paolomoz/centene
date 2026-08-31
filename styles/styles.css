@@ -338,6 +338,13 @@ main .section.article .default-content-wrapper h1 + p {
 
 main .section.article .default-content-wrapper p { font-size: 18px; line-height: 24px; margin: 0 0 20px; }
 main .section.article .default-content-wrapper p:has(> picture) { line-height: 0; margin: 0 0 48px; }
+
+/* definite inline size so the attr aspect-ratio reserves the box (CLS) —
+   source leads render at 950px on this container */
+main .section.article .default-content-wrapper h1 + p + p > picture img {
+  width: 100%;
+  max-width: 950px;
+}
 main .section.article .default-content-wrapper p:last-child { margin-bottom: 48px; }
 
 main .section.article .default-content-wrapper ul {
