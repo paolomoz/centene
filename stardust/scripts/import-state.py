@@ -51,7 +51,7 @@ def build_state(page):
         name = H.unescape(re.sub(r'<[^>]+>', '', a.group(2) if a else li)).strip()
         if a: crumbs.append((a.group(1), name))
         elif name: active = name
-    crumb = ' '.join(f'<a href="https://www.centene.com{rewrite_href(h)}">{H.escape(n)}</a>' if not h.startswith('http') else f'<a href="{h}">{H.escape(n)}</a>' for h, n in crumbs)
+    crumb = ' '.join(f'<a href="{rewrite_href(h)}">{H.escape(n)}</a>' for h, n in crumbs)
     if active: crumb += f' {H.escape(active)}'
     secs.append(f'''    <div>
       <div class="section-metadata">

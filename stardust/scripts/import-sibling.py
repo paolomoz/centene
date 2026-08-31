@@ -257,8 +257,7 @@ def emit_hero(comp, page, stray_crumb=None):
             name = H.unescape(re.sub(r'<[^>]+>', '', a.group(2) if a else li)).strip()
             if a: crumbs.append((rewrite_href(a.group(1)), name))
             elif name: active = name
-    crumb_html = ' '.join(f'<a href="{("https://www.centene.com" + h + ".html") if h == "/" or not h.startswith("http") and False else h}">{H.escape(n)}</a>' for h, n in crumbs)
-    crumb_html = ' '.join(f'<a href="{h if h.startswith("http") else ("https://www.centene.com" + (h if h != "/" else "/"))}">{H.escape(n)}</a>' for h, n in crumbs)
+    crumb_html = ' '.join(f'<a href="{h}">{H.escape(n)}</a>' for h, n in crumbs)
     if active: crumb_html += f' {H.escape(active)}'
     cls = 'hero-interior' + (f' {variants}' if variants else '')
     style = subnav_style(page['path'])
