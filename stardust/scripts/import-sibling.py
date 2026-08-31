@@ -39,6 +39,17 @@ LIVE = 'https://www.centene.com'
 os.makedirs(MEDIA, exist_ok=True)
 
 SUBNAV = {'who-we-are': 'subnav-3', 'products-and-services': 'subnav-2', 'why-were-different': 'subnav-1'}
+# l2 sections that carry a third-level nav (their pages get the l3 strip row)
+L3_PARENTS = {'one-centeam', 'centene-foundation', 'corporate-sustainability',
+              'strategic-partnerships', 'medicaid', 'marketplace'}
+
+def subnav_style(path):
+    parts = [x for x in path.strip('/').split('/') if x]
+    style = SUBNAV.get(parts[0] if parts else '')
+    if not style: return None
+    if len(parts) >= 2 and parts[1] in L3_PARENTS:
+        style += ', l3row'
+    return style
 BG = {'centenedotcom-sky-background': 'sky', 'white-background': None, 'light-gray-background': 'gray',
       'centenedotcom-navy-background': 'blue', 'navy-background': 'navy',
       'centenedotcom-plum-background': 'plum', 'centenedotcom-leaf-background': 'leaf',
@@ -250,8 +261,7 @@ def emit_hero(comp, page, stray_crumb=None):
     crumb_html = ' '.join(f'<a href="{h if h.startswith("http") else ("https://www.centene.com" + (h if h != "/" else "/"))}">{H.escape(n)}</a>' for h, n in crumbs)
     if active: crumb_html += f' {H.escape(active)}'
     cls = 'hero-interior' + (f' {variants}' if variants else '')
-    seg = page['path'].strip('/').split('/')[0]
-    style = SUBNAV.get(seg)
+    style = subnav_style(page['path'])
     sm = (f'      <div class="section-metadata">\n        <div><div>style</div><div>{style}</div></div>\n      </div>\n') if style else ''
     return (f'''    <div>
 {sm}      <div class="{cls}">

@@ -182,11 +182,16 @@ header .nav-l3 a { color: var(--brand-color); }
 body:has(main .section.subnav-1) header .nav-band { height: 107px; }
 body:has(main .section.subnav-2) header .nav-band { height: 160px; }
 body:has(main .section.subnav-3) header .nav-band { height: 213px; }
+body:has(main .section.l3row):has(main .section.subnav-1) header .nav-band { height: 160px; }
+body:has(main .section.l3row):has(main .section.subnav-2) header .nav-band { height: 213px; }
+body:has(main .section.l3row):has(main .section.subnav-3) header .nav-band { height: 266px; }
 
 @media (width <= 767px) {
   body:has(main .section.subnav-1) header .nav-band,
   body:has(main .section.subnav-2) header .nav-band,
   body:has(main .section.subnav-3) header .nav-band { height: auto; }
+
+  header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 { position: static; display: none; }
 }
 
 /* interior pages: persistent open submenu band (current section) */
@@ -233,6 +238,58 @@ header .nav-l1 > li.current ul.nav-l2 > li > .control-wrapper > a {
 
 header .nav-l1 > li.current ul.nav-l2 ul.nav-l3 { display: none; }
 header .nav-l1 > li.current ul.nav-l2 .dropdown-btn { display: none; }
+
+/* third-level strip: the current l2 item's children on a light band below
+   the navy l2 band (rides the same server-rendered l3row section class) */
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 { position: static; }
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 > .control-wrapper { position: static; }
+
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+}
+
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  background: #fafafa;
+  z-index: -1;
+}
+
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 > li {
+  list-style: none;
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 a {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  font-family: var(--italic-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--brand-color);
+}
+
+header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 a.active-page { text-decoration: underline; }
+
+/* strip position = below the l2 band (54 + rows x 53) */
+body:has(main .section.subnav-1) header li.current-l2 ul.nav-l3 { top: 107px; }
+body:has(main .section.subnav-2) header li.current-l2 ul.nav-l3 { top: 160px; }
+body:has(main .section.subnav-3) header li.current-l2 ul.nav-l3 { top: 213px; }
 
 header .nav-toggle-x .x-bar {
   display: block;

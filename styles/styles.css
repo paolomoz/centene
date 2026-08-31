@@ -66,6 +66,9 @@
 body:has(main .section.subnav-1) { --nav-height: 198px; }
 body:has(main .section.subnav-2) { --nav-height: 251px; }
 body:has(main .section.subnav-3) { --nav-height: 304px; }
+body:has(main .section.l3row):has(main .section.subnav-1) { --nav-height: 251px; }
+body:has(main .section.l3row):has(main .section.subnav-2) { --nav-height: 304px; }
+body:has(main .section.l3row):has(main .section.subnav-3) { --nav-height: 357px; }
 
 @media (width <= 767px) {
   :root {
@@ -74,7 +77,8 @@ body:has(main .section.subnav-3) { --nav-height: 304px; }
 
   body:has(main .section.subnav-1),
   body:has(main .section.subnav-2),
-  body:has(main .section.subnav-3) { --nav-height: 92px; }
+  body:has(main .section.subnav-3),
+  body:has(main .section.l3row) { --nav-height: 92px; }
 }
 
 /* fallback font (stock boilerplate calibration for Roboto) */

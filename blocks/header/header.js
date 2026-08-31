@@ -140,6 +140,23 @@ export default async function decorate(block) {
                 if (p === path || path.startsWith(`${p}/`)) sub.classList.add('active-page');
               } catch { /* ignore */ }
             });
+            // third-level strip: the current l2 item's nav-l3 renders as a
+            // persistent white band under the l2 band (source-site behavior)
+            li.querySelectorAll('ul.nav-l2 > li').forEach((l2li) => {
+              const a2 = l2li.querySelector(':scope > .control-wrapper > a');
+              const l3 = l2li.querySelector('ul.nav-l3');
+              if (!a2 || !l3 || !l3.children.length) return;
+              try {
+                const p2 = new URL(a2.href, window.location.href).pathname.replace(/\.html$/, '');
+                if (p2 === path || path.startsWith(`${p2}/`)) {
+                  l2li.classList.add('current-l2');
+                  l3.querySelectorAll('a').forEach((sub3) => {
+                    const p3 = new URL(sub3.href, window.location.href).pathname.replace(/\.html$/, '');
+                    if (p3 === path || path.startsWith(`${p3}/`)) sub3.classList.add('active-page');
+                  });
+                }
+              } catch { /* ignore */ }
+            });
           }
         } catch { /* ignore */ }
       });
