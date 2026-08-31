@@ -246,3 +246,13 @@ Imported accordion sections were full-bleed (x=7 vs live x=151): the importer em
 container style. Accordions now carry `style: rt` (plus band when nested) — the 10% container + the block's
 7px inner padding lands panels at exactly the live geometry (x=151, w=1138 @1440). 7 pages redeployed.
 (Also re-confirmed the deploy trap: `grep -rl pattern content/` emits `content//…` → double-slash PUT 400s.)
+
+## third-level nav strip + article-page reservation (2026-08-31)
+Two coupled gaps on section-child pages (foundation/one-centeam/sustainability/partnerships/medicaid/
+marketplace families): (1) the live header renders the current l2 item's nav-l3 as a persistent white strip
+under the navy band — implemented as `li.current-l2` in header.js with band-relative offsets (the strip's
+containing block is the ABSOLUTE l2 band, so top = band height 53/106/159, not navbar-relative); reservation
+tier `l3row` adds 53px per subnav level (who-we-are+l3 = 357px, matching live). (2) Article-branch imports
+(partnership pages) carried no subnav style at all, so the open band overlapped the page title — the article
+section now emits `article, subnav-N, l3row`. Verified within 1px of live on all three subnav tiers
+(h1 y 405/352/405 = live).
