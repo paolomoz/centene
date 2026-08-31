@@ -108,6 +108,7 @@
 
 .news-hub #news-list p.event a {
   font-family: var(--bold-font-family);
+  font-style: italic;
   font-weight: 400;
   color: var(--brand-color);
 }

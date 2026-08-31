@@ -40,11 +40,11 @@ os.makedirs(MEDIA, exist_ok=True)
 
 SUBNAV = {'who-we-are': 'subnav-3', 'products-and-services': 'subnav-2', 'why-were-different': 'subnav-1'}
 BG = {'centenedotcom-sky-background': 'sky', 'white-background': None, 'light-gray-background': 'gray',
-      'centenedotcom-navy-background': 'navy', 'navy-background': 'navy',
+      'centenedotcom-navy-background': 'blue', 'navy-background': 'navy',
       'centenedotcom-plum-background': 'plum', 'centenedotcom-leaf-background': 'leaf',
       'centenedotcom-cerise-background': 'cerise', 'centenedotcom-carrot-background': 'carrot',
-      'grape-background': 'plum', 'celticblue-background': 'navy', 'hngreen-background': 'leaf',
-      'brand-background': 'navy', 'brand-background-light': 'sky',
+      'grape-background': 'plum', 'celticblue-background': 'blue', 'hngreen-background': 'leaf',
+      'brand-background': 'blue', 'brand-background-light': 'sky',
       'background-color-box-more-padding': None}
 TILE_COLORS = ['leaf', 'sky', 'plum', 'carrot', 'cerise', 'navy']
 
@@ -189,8 +189,14 @@ def clean_rich(x, in_block=False):
     x = re.sub(r'<em class="link-external[^>]*>\s*</em>', '', x)
     x = re.sub(r'<span class="sr-only">External Link</span>', '', x)
     x = re.sub(r'<span[^>]*>', '', x); x = x.replace('</span>', '')
-    # strip attrs
-    x = re.sub(r'\s(style|class|id|lang|xml:lang|target|rel|data-[a-z-]+|aria-[a-z-]+|itemscope|itemtype|itemprop|width|height|align|valign|border|cellpadding|cellspacing|title|name|hspace|vspace)="[^"]*"', '', x)
+    # strip attrs — but keep img width/height (authored display size; also CLS)
+    def keep_img_dims(m):
+        tag = m.group(0)
+        tag = re.sub(r'\s(style|class|id|lang|xml:lang|target|rel|data-[a-z-]+|aria-[a-z-]+|title|align|hspace|vspace)="[^"]*"', '', tag)
+        return tag
+    x = re.sub(r'<img[^>]*>', keep_img_dims, x)
+    x = re.sub(r'<(?!img)([a-zA-Z0-9]+)((?:\s+[a-zA-Z:_-]+="[^"]*")*)\s*(/?)>',
+               lambda m: '<' + m.group(1) + re.sub(r'\s(style|class|id|lang|xml:lang|target|rel|data-[a-z-]+|aria-[a-z-]+|itemscope|itemtype|itemprop|width|height|align|valign|border|cellpadding|cellspacing|title|name|hspace|vspace)="[^"]*"', '', m.group(2)) + (' /' if m.group(3) else '') + '>', x)
     x = x.replace('<br />', '<br>').replace('\xa0', '&nbsp;')
     # rewrite hrefs + srcs
     x = re.sub(r'href="([^"]+)"', lambda m: f'href="{rewrite_href(m.group(1))}"', x)
@@ -252,7 +258,7 @@ def emit_hero(comp, page, stray_crumb=None):
 def emit_default(content_html, band=None):
     body = clean_rich(content_html)
     if not body: return ''
-    style = 'rt' + (f' band-{band}' if band else '')
+    style = 'rt' + (f', band-{band}' if band else '')
     return (f'''    <div>
       <div class="section-metadata">
         <div><div>style</div><div>{style}</div></div>
@@ -260,11 +266,15 @@ def emit_default(content_html, band=None):
 {body}
     </div>''')
 
-def emit_block_rows(name, rows, variants=''):
+def emit_block_rows(name, rows, variants='', band=None):
     cls = name + (f' {variants}' if variants else '')
+    sm = (f'''      <div class="section-metadata">
+        <div><div>style</div><div>band-{band}</div></div>
+      </div>
+''') if band else ''
     rh = '\n'.join('        <div>' + ''.join(f'<div>{c}</div>' for c in r) + '</div>' for r in rows)
     return (f'''    <div>
-      <div class="{cls}">
+{sm}      <div class="{cls}">
 {rh}
       </div>
     </div>''')
@@ -285,7 +295,7 @@ def scan_divs(src, pattern):
         i=j
     return out
 
-def emit_cols(comp):
+def emit_cols(comp, band=None):
     rows=[]
     row_spans = scan_divs(comp, r'<div class="(?:row|equalHeight)[^"]*"[^>]*>')
     if not row_spans:
@@ -301,7 +311,7 @@ def emit_cols(comp):
     # equal row widths per block (D3): pad ragged rows
     w=max(len(r) for r in rows)
     rows=[r+['']*(w-len(r)) for r in rows]
-    return emit_block_rows('cols', rows)
+    return emit_block_rows('cols', rows, band=band)
 
 def emit_accordion(comp):
     rows = []
@@ -355,10 +365,13 @@ def emit_youtube(comp, band=None):
     url = m.group(1) or m.group(2)
     t = re.search(r'title="([^"]*)"', comp)
     label = H.escape(H.unescape(t.group(1))) if t else 'Video'
-    v = 'video-band' + (f' {band}' if band in ('sky', 'navy') else '')
+    sm = (f'''      <div class="section-metadata">
+        <div><div>style</div><div>band-{band}</div></div>
+      </div>
+''') if band else ''
     return (f'''    <div>
-      <p><a href="{H.escape(url)}">{label}</a></p>
-      <div class="{v}"><div><div></div></div></div>
+{sm}      <p><a href="{H.escape(url)}">{label}</a></p>
+      <div class="video-band"><div><div></div></div></div>
     </div>''')
 
 def emit_imagewithtext(comp):
@@ -536,7 +549,7 @@ def build_page(page):
             if 'id="news-results"' in comp or 'class="newsfeed' in comp:
                 handle('newsfeed', comp, band)
                 return
-            flush(band); s = emit_cols(comp)
+            flush(band); s = emit_cols(comp, band)
             if s: sections.append(s)
         elif cls in ('accordion', 'accordiongroup'):
             flush(band); s = emit_accordion(comp)

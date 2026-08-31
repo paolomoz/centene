@@ -2,7 +2,7 @@
 
 .video-band {
   padding: 25px 10% 20px;
-  background-color: var(--sky);
+  
   color: #000;
   display: flow-root;
 }
@@ -22,3 +22,5 @@
 }
 
 .video-band.navy { background-color: var(--brand-color); }
+
+.video-band.sky { background-color: var(--sky); }

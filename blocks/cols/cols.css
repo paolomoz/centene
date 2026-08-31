@@ -1,11 +1,21 @@
 /* cols — generic multi-column band; values lifted from the source site. */
 
 .cols {
-  padding: 0 10px;
+  padding: 0 10%;
   background: transparent;
-  color: #333;
+  color: inherit;
   display: flow-root;
 }
+
+/* bold-only stat/label lines carry the source's brand color (band sections
+   override to white via the band typography rules) */
+.cols p > strong:only-child { color: var(--brand-color); }
+
+main .section.band-blue .cols p > strong:only-child,
+main .section.band-navy .cols p > strong:only-child,
+main .section.band-plum .cols p > strong:only-child,
+main .section.band-leaf .cols p > strong:only-child,
+main .section.band-cerise .cols p > strong:only-child { color: #fff; }
 
 .cols .cc-row { margin: 0 -10px; }
 .cols .cc-row::after { content: ""; display: table; clear: both; }
@@ -18,7 +28,7 @@
 
 /* source columns carry rd-t-16 body copy */
 .cols p { font-size: 16px; line-height: 22.8571px; margin: 0 0 20px; }
-.cols h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
+.cols h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: inherit; }
 .cols h3 > strong:only-child { font-family: 'Roboto-Regular', roboto-fallback, sans-serif; font-size: 34px; font-weight: 400; color: var(--brand-color); }
 .cols h4 { font-family: 'Roboto-Italic', roboto-fallback, sans-serif; font-size: 25px; font-weight: 400; line-height: var(--line-height); margin: 0 0 20px; color: var(--brand-color); }
 .cols h5 { font-family: 'Roboto-Bold', roboto-fallback, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; line-height: var(--line-height); margin: 0 0 20px; color: var(--brand-color); }

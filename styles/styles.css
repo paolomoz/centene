@@ -494,13 +494,38 @@ main .section.rt {
   color: #333;
 }
 
-main .section.rt.band-sky { background: var(--sky); color: #000; }
-main .section.rt.band-navy { background: var(--brand-color); color: #fff; }
-main .section.rt.band-gray { background: #ececec; }
+/* colored band sections (source backgroundcolorbox palettes) — carried by
+   any section (rt default content AND nested blocks inside a band) */
+main .section.band-sky { background: var(--sky); color: #000; }
+main .section.band-blue { background: var(--brand-color); color: #fff; }
+main .section.band-navy { background: var(--navy); color: #fff; }
+main .section.band-plum { background: var(--plum); color: #fff; }
+main .section.band-leaf { background: var(--leaf); color: #fff; }
+main .section.band-cerise { background: var(--cerise); color: #fff; }
+main .section.band-carrot { background: #cc401d; color: #fff; }
+main .section.band-gray { background: #ececec; }
+
+main .section.band-blue h2, main .section.band-blue h3, main .section.band-blue h4, main .section.band-blue h5,
+main .section.band-navy h2, main .section.band-navy h3, main .section.band-navy h4, main .section.band-navy h5,
+main .section.band-plum h2, main .section.band-plum h3, main .section.band-plum h4, main .section.band-plum h5,
+main .section.band-leaf h2, main .section.band-leaf h3, main .section.band-leaf h4, main .section.band-leaf h5,
+main .section.band-cerise h2, main .section.band-cerise h3, main .section.band-cerise h4, main .section.band-cerise h5,
+main .section.band-carrot h2, main .section.band-carrot h3, main .section.band-carrot h4, main .section.band-carrot h5 { color: #fff; }
+
+main .section.band-blue h2 > strong:only-child, main .section.band-blue h3 > strong:only-child,
+main .section.band-navy h2 > strong:only-child, main .section.band-navy h3 > strong:only-child,
+main .section.band-plum h2 > strong:only-child, main .section.band-plum h3 > strong:only-child,
+main .section.band-leaf h2 > strong:only-child, main .section.band-leaf h3 > strong:only-child,
+main .section.band-cerise h2 > strong:only-child, main .section.band-cerise h3 > strong:only-child { color: #fff; }
+
+main .section.band-blue a, main .section.band-navy a, main .section.band-plum a,
+main .section.band-leaf a, main .section.band-cerise a, main .section.band-carrot a {
+  color: #fff;
+  text-decoration: underline;
+}
 main .section.rt .default-content-wrapper { display: flow-root; }
 main .section.rt p { font-size: 18px; margin: 0 0 20px; }
 main .section.rt a { color: var(--brand-color); padding: 5px; margin: -5px; }
-main .section.rt.band-navy a { color: #fff; text-decoration: underline; }
 main .section.rt strong { font-weight: 700; }
 main .section.rt h2 { font-size: 29px; line-height: 1.1; margin: 20px 0; color: #333; }
 main .section.rt h3 { font-size: 23px; line-height: 1.1; margin: 20px 0 10px; color: #333; }
@@ -592,11 +617,23 @@ main .section.rt .default-content-wrapper p:has(> picture) { line-height: 0; }
 main .section.rt i.link-external { font-size: 18px; line-height: 18px; }
 
 /* standalone CTA buttons in transported content render as the source's
-   auto-width brand button, not the full-width pilot button */
-main .section.rt a.button {
+   site pill (centenedotcom-site-btn) */
+main .section.rt a.button,
+main .section.rt a.button.primary {
   display: inline-block;
   width: auto;
-  padding: 6px 12px;
+  font-family: 'Roboto-Medium', roboto-fallback, sans-serif;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 26px;
+  color: var(--brand-btn);
+  background: #fff;
+  padding: 5px 15px;
+  margin: 0 0 10px;
+  border: 2px solid var(--brand-btn);
+  border-radius: 20px;
+  text-align: center;
+  white-space: normal;
 }
 
 /* pill button (source centenedotcom-site-btn) */
