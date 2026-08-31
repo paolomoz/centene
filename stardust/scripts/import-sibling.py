@@ -516,9 +516,11 @@ def build_page(page):
         body_html = re.sub(r'<p><em>(<img[^>]*>)</em></p>',
                            r'<div class="portrait"><div><div>\1</div></div></div>', body_html)
 
+        sn = subnav_style(page['path'])
+        art_style = 'article' + (f', {sn}' if sn else '')
         sections.append(f'''    <div>
       <div class="section-metadata">
-        <div><div>style</div><div>article</div></div>
+        <div><div>style</div><div>{art_style}</div></div>
       </div>
 {body_html}
     </div>''')

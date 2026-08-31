@@ -286,10 +286,11 @@ header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 a {
 
 header .nav-l1 > li.current ul.nav-l2 > li.current-l2 ul.nav-l3 a.active-page { text-decoration: underline; }
 
-/* strip position = below the l2 band (54 + rows x 53) */
-body:has(main .section.subnav-1) header li.current-l2 ul.nav-l3 { top: 107px; }
-body:has(main .section.subnav-2) header li.current-l2 ul.nav-l3 { top: 160px; }
-body:has(main .section.subnav-3) header li.current-l2 ul.nav-l3 { top: 213px; }
+/* strip position: the containing block is the ABSOLUTE l2 band, so the
+   offset is the band's own height (rows x 53) */
+body:has(main .section.subnav-1) header li.current-l2 ul.nav-l3 { top: 53px; }
+body:has(main .section.subnav-2) header li.current-l2 ul.nav-l3 { top: 106px; }
+body:has(main .section.subnav-3) header li.current-l2 ul.nav-l3 { top: 159px; }
 
 header .nav-toggle-x .x-bar {
   display: block;
