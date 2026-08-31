@@ -192,6 +192,12 @@ def clean_rich(x, in_block=False):
     # strip attrs — but keep img width/height (authored display size; also CLS)
     def keep_img_dims(m):
         tag = m.group(0)
+        w = re.search(r'width="(\d+)"', tag)
+        s = re.search(r'src="([^"]+)"', tag)
+        if w and s:
+            name = media_name(s.group(1))
+            prev = report.setdefault('mediaWidths', {}).get(name)
+            report['mediaWidths'][name] = min(int(w.group(1)), prev) if prev else int(w.group(1))
         tag = re.sub(r'\s(style|class|id|lang|xml:lang|target|rel|data-[a-z-]+|aria-[a-z-]+|title|align|hspace|vspace)="[^"]*"', '', tag)
         return tag
     x = re.sub(r'<img[^>]*>', keep_img_dims, x)

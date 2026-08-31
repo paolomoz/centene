@@ -45,3 +45,6 @@ indices:
       image:
         select: head > meta[property="og:image"]
         value: attribute(el, "content")
+      text:
+        select: main
+        value: words(textContent(el), 0, 5000)

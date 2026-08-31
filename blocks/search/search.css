@@ -58,11 +58,52 @@
 }
 
 .search .hidden-el { display: none; }
+.search .search-count { font-size: 19.25px; font-weight: 500; color: var(--brand-color); margin: 10px 0; }
+
+/* result items — source design: h2 + description + Visit anchor, hairline rule */
+.search .search-result {
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 10px;
+}
+
+.search .search-result h2 {
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--brand-color);
+  margin: 20px 0 10px;
+}
+
+.search .search-result p { font-size: 18px; color: #333; margin: 0 0 20px; }
+.search .search-result a.block-anchor { font-size: 17.5px; color: var(--brand-color); }
+
+.search .search-pagination {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.search .search-pagination button {
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--brand-color);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search .search-pagination .active button {
+  background: var(--brand-color);
+  color: #fff;
+  border-color: var(--brand-color);
+}
 .search .spinner-container { position: relative; }
 .search .search-spinner { position: absolute; }
 .search #search-results p { font-size: 18px; margin: 0 0 20px; color: #333; }
-.search .search-result h3 { font-size: 23px; line-height: 32px; margin: 10px 0 0; }
-.search .search-result a { color: var(--brand-color); }
 
 @media (width <= 767px) {
   .search .s-input-col,
