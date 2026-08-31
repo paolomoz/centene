@@ -3,10 +3,11 @@
 .portrait-wrapper {
   float: right;
   margin: 20px 0 20px 30px;
-  max-width: 220px;
+  width: 220px;
 }
 
-.portrait img { max-width: 220px; height: auto; display: block; }
+/* definite width + intrinsic attrs reserve the box before load (CLS) */
+.portrait img { width: 220px; height: auto; display: block; }
 .portrait p { margin: 0; line-height: 0; }
 
 @media (width <= 767px) {
