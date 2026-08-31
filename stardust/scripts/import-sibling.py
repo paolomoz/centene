@@ -480,6 +480,10 @@ def build_page(page):
             page['_meta_extra'] = extra
         if desc_html: parts.append(desc_html)
         body_html = '\n'.join(parts)
+        # floated portraits become a portrait BLOCK (the pipeline unwraps <em>
+        # around pictures, so an inline vehicle cannot survive)
+        body_html = re.sub(r'<p><em>(<img[^>]*>)</em></p>',
+                           r'<div class="portrait"><div><div>\1</div></div></div>', body_html)
 
         sections.append(f'''    <div>
       <div class="section-metadata">

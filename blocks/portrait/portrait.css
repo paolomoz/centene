@@ -1,0 +1,14 @@
+/* portrait — floated inline portrait; geometry lifted from the source news pages. */
+
+.portrait-wrapper {
+  float: right;
+  margin: 20px 0 20px 30px;
+  max-width: 220px;
+}
+
+.portrait img { max-width: 220px; height: auto; display: block; }
+.portrait p { margin: 0; line-height: 0; }
+
+@media (width <= 767px) {
+  .portrait-wrapper { float: none; margin: 20px auto; }
+}
