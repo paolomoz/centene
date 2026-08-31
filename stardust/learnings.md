@@ -145,3 +145,15 @@ sessions hitting the same failure is the strongest harvest signal.
   index) — even for cross-origin srcs. Rasterize to PNG at import.
 - **Balanced-div walkers must strip <script>/<style>/comments first** — embedded '<div' tokens silently swallow
   sibling components (cost: four columncontrols of logos).
+
+## 2026-08-31 — phase 3 (rollout + QA)
+- **The pipeline unwraps `<em>`/`<strong>` around pictures** — inline vehicles cannot carry image styling
+  intent. Floated/constrained figures need a BLOCK (a 6-line `portrait` block did it).
+- **`main img { width: auto }` defeats attr-based CLS reservation.** Width/height attrs only reserve the box
+  when the inline size is definite; boilerplate-style `width: auto` leaves a 0-height placeholder. One scoped
+  `width: 100%` on lead images took article CLS from 0.134 to 0.0002. Deploy's CWV gate should assert this
+  per template.
+- **QA link audits catch inventory gaps**: one live-200 page (doctors-day article) was never discovered by
+  extract's crawl — linked only from two listing surfaces. A link-audit pass belongs in rollout, not just QA.
+- **redirects.json needs BOTH extensionless and `.html` source rows** during re-platforms — old-world inbound
+  links carry `.html`.

@@ -705,5 +705,22 @@
       ]
     },
     "_status": "PHASE 2 COMPLETE \u2014 201/206 pages migrated, 5 redirect stubs recorded (2026-08-29)"
+  },
+  "phase3": {
+    "status": "COMPLETE (2026-08-31)",
+    "report": "stardust/qa/report.md",
+    "rollout": [
+      "redirects.json 16 rows verified 301",
+      "sitemap.xml live",
+      "header search -> /search verified",
+      "mock form submit -> thank-you verified",
+      "no analytics per decision"
+    ],
+    "qa": [
+      "runtime sweep 201/201 clean",
+      "link audit: 5 fixed, 1 gap imported (202 pages), 8 source-broken documented",
+      "CWV green on 6 templates (CLS <= 0.001, LCP <= 1.3s)",
+      "article CLS fix 0.134 -> 0.0002"
+    ]
   }
 }
