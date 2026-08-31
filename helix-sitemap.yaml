@@ -1,0 +1,6 @@
+version: 1
+
+sitemaps:
+  default:
+    source: /site-index.json
+    destination: /sitemap.xml

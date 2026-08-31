@@ -74,7 +74,7 @@ export default async function decorate(block) {
           <a class="abr-logo" href="/"></a>
         </div>
         <div class="search-wrap">
-          <form class="search-form" action="https://www.centene.com/search-results.html" role="search">
+          <form class="search-form" action="/search" role="search">
             <input id="search-box-top" placeholder="Search" type="search" name="q" aria-label="search">
             <button class="search-btn" type="submit">Search</button>
           </form>

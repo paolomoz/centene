@@ -48,6 +48,19 @@ export default async function decorate(block) {
     form.append(wrap);
   });
 
+  // internal (same-origin) action = mock submit: validate, then navigate to
+  // the authored target (thank-you page). A real endpoint is a content-only
+  // swap: author the external endpoint URL in the action row.
+  const aHost = new URL(action, window.location.href).hostname;
+  const internal = actionLink && (aHost === window.location.hostname || /aem\.(page|live)$/.test(aHost) || aHost === 'localhost');
+  if (internal) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (form.checkValidity()) window.location.href = new URL(action, window.location.href).pathname;
+      else form.reportValidity();
+    });
+  }
+
   const btnWrap = document.createElement('div');
   btnWrap.className = 'form-actions';
   const btn = document.createElement('button');
