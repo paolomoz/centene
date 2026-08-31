@@ -30,14 +30,15 @@ function render(root, items, q, page) {
   slice.forEach((it) => {
     const wrap = document.createElement('div');
     wrap.className = 'search-result';
+    const title = (it.title || it.path).split('|')[0].trim();
     const h2 = document.createElement('h2');
-    h2.textContent = it.title || it.path;
+    h2.textContent = title;
     const p = document.createElement('p');
     p.textContent = it.description || (it.text ? `${it.text.split(' ').slice(0, 30).join(' ')}…` : '');
     const a = document.createElement('a');
     a.className = 'block-anchor';
     a.href = it.path;
-    a.textContent = `Visit "${it.title || it.path}"`;
+    a.textContent = `Visit "${title}"`;
     wrap.append(h2, p, a);
     resultsEl.append(wrap);
   });

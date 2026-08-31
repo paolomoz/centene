@@ -216,3 +216,27 @@ Launch property, careers stub, IR feed licensing.
 
 # MIGRATION CONTENT-COMPLETE: 201/206 pages live on EDS; 5 source URLs are redirect stubs for rollout config.
 Full-inventory sweep: 201/201 migrated paths return 200 on main--centene--paolomoz.aem.live.
+
+# POST-QA FIX ROUND (user visual QA, 2026-08-31)
+1. **Chrome links localized** — `localizeHref()` in scripts.js: source-domain (centene.com) URLs become
+   origin-relative at decorate time in header/footer/breadcrumbs/news-hub (authored content stays fully
+   qualified per D4). Careers/Investors stay external; the header's external-link glyphs (a fragment-decoration
+   leak — live header has none) are stripped.
+2. **Colored-band system repaired (general):** section-metadata style values must be COMMA-separated
+   (`rt, band-navy`) — space-separated values collapse into one class and silently kill every band.
+   Nested blocks (cols/video-band/etc.) inside a source band now carry the band style on their own section.
+   Live's two navies split: `centenedotcom-navy` = brand blue #00598c, `navy-background` = indigo #262768.
+   video-band base is transparent (section paints; sky/navy variants kept for the gated pilot pages).
+   Band typography: white headings/links on colored bands.
+3. **Authored image widths (general):** the pipeline replaces width attrs with intrinsic dims, so display
+   size must equal intrinsic — 42 media files resized to their authored widths (127px stat icons, 65px
+   checkmarks, etc.) and cache-busted (?rev=2; the media cache keys by source URL and won't refetch).
+4. **cols block:** 10% container padding; brand-colored bold stat labels.
+5. **CTA pills:** transported `button` components render as the source site pill.
+6. **/news press rail:** italic (live is faux-italic Roboto-Bold).
+7. **Roboto Light 300 self-hosted** — centene-h1 heroes now render truly light (media-contact et al.).
+8. **Search rebuilt to live design + full text:** site-index gained a `text` field (words(textContent(main)));
+   matching covers title/description/full text with title-first ranking; results render the live pattern
+   (h2 + description + `Visit "Title"` + hairline) with "Showing X - Y of N results" and 10/page pagination.
+   Counts now run HIGHER than live's engine (full-page text is a superset) — the earlier missing-results
+   gap is closed from the other side.
