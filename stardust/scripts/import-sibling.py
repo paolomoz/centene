@@ -153,7 +153,7 @@ def rewrite_href(href):
     u = urllib.parse.urlparse(href)
     if u.netloc and 'www.centene.com' not in u.netloc: return href
     path = u.path
-    if path.endswith('.html'): path = path[:-5]
+    while path.endswith('.html'): path = path[:-5]  # source pages carry .html.html typos
     if not path: return href
     path = re.sub(r'[_]+', '-', path)
     path = re.sub(r'-{2,}', '-', path)

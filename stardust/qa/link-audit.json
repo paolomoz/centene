@@ -1,13 +1,6 @@
 {
- "targets": 204,
+ "targets": 203,
  "broken": [
-  {
-   "target": "/media-contact.html",
-   "code": "404",
-   "refs": [
-    "/contact"
-   ]
-  },
   {
    "target": "/news/celebrating-centene-forty-years-of-impact-innovation.html",
    "code": "404",
@@ -16,25 +9,17 @@
    ]
   },
   {
+   "target": "/news/creating-young-women-choosing-action-program-with-ywca-usa",
+   "code": "404",
+   "refs": [
+    "/news/achieving-whole-health-through-behavioral-and-physical-health"
+   ]
+  },
+  {
    "target": "/news/honoring-dr-martin-luther-king-jr-through-service",
    "code": "404",
    "refs": [
     "/who-we-are/ethics-and-integrity"
-   ]
-  },
-  {
-   "target": "/news/https:/www.centene.com/news/fluvention-family-focused-flu-prevention",
-   "code": "404",
-   "refs": [
-    "/why-were-different/corporate-sustainability/empowering-health/healthcare-quality"
-   ]
-  },
-  {
-   "target": "/news/national-doctors-day-centene-thank-you",
-   "code": "404",
-   "refs": [
-    "/featured-stories-archive",
-    "/site-map"
    ]
   },
   {
@@ -70,13 +55,6 @@
    "code": "404",
    "refs": [
     "/who-we-are"
-   ]
-  },
-  {
-   "target": "/products-and-services/browse-by-state.html",
-   "code": "404",
-   "refs": [
-    "/contact"
    ]
   },
   {
