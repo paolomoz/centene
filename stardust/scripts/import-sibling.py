@@ -152,6 +152,9 @@ def rewrite_href(href):
 def clean_rich(x, in_block=False):
     """The Phase-1 transform table, applied to a richtext fragment."""
     x = re.sub(r'<link[^>]*>|<script.*?</script>|<style.*?</style>', '', x, flags=re.S)
+    # centered/floated portrait construct -> <em> vehicle
+    x = re.sub(r'<center>\s*(<img[^>]*>)\s*</center>', r'<p><em>\1</em></p>', x, flags=re.S)
+    x = re.sub(r'</?center>', '', x)
     x = re.sub(r'</?div[^>]*>', '', x)
     # heading-level mapping BEFORE span unwrap
     # p/h wrapping a centene-hN span -> heading level N (display convention)
@@ -477,6 +480,7 @@ def build_page(page):
             page['_meta_extra'] = extra
         if desc_html: parts.append(desc_html)
         body_html = '\n'.join(parts)
+
         sections.append(f'''    <div>
       <div class="section-metadata">
         <div><div>style</div><div>article</div></div>
@@ -484,6 +488,10 @@ def build_page(page):
 {body_html}
     </div>''')
         state['hero_done'] = True
+        rc = scan_divs(region, r'<div class="relatedcontent[^"]*"[^>]*>')
+        for a3, b3, _ in rc:
+            s3 = emit_related(region[a3:b3])
+            if s3: sections.append(s3)
 
     def flush(band=None):
         if pending_default:

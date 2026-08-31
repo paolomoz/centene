@@ -348,6 +348,25 @@ main .section.article .default-content-wrapper ul {
 }
 
 main .section.article .default-content-wrapper a { color: var(--brand-color); }
+
+main .section.article .default-content-wrapper h2 {
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  color: var(--brand-color);
+}
+
+/* floated inline portrait (source: float-right div + inline max-width) rides <em> */
+main .section.article .default-content-wrapper p em img { max-width: 220px; height: auto; }
+
+main .section.article .default-content-wrapper p:has(> em > picture),
+main .section.article .default-content-wrapper p:has(> em > img) {
+  float: right;
+  margin: 20px 0 20px 30px;
+  line-height: 0;
+  max-width: 220px;
+}
 main .section.article .default-content-wrapper a img { vertical-align: middle; width: 24px; height: 24px; }
 main .section.article i.link-external { font-size: 18px; line-height: 18px; }
 
