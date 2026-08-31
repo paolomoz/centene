@@ -8,6 +8,8 @@
  *   2. breadcrumb: links, then the current page name as trailing plain text
  *   3. heading — the page's single <h1>
  */
+import { localizeHref } from '../../scripts/scripts.js';
+
 function hiRes(src) {
   return src.replace(/width=\d+/, 'width=2000');
 }
@@ -26,7 +28,7 @@ export default async function decorate(block) {
     crumbRow.querySelectorAll('a').forEach((a) => {
       const li = document.createElement('li');
       const link = document.createElement('a');
-      link.href = a.href;
+      link.href = localizeHref(a.href);
       const span = document.createElement('span');
       span.textContent = a.textContent.trim();
       link.append(span);

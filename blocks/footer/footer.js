@@ -1,4 +1,5 @@
 import { getMetadata } from '../../scripts/aem.js';
+import { localizeHref } from '../../scripts/scripts.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 /**
@@ -85,13 +86,21 @@ export default async function decorate(block) {
   // 2. rich text (tagline italic + uppercase link rows + statements)
   const rich = root.querySelector('.f-richtext');
   if (richSec) {
-    richSec.querySelectorAll('p').forEach((p) => rich.append(p.cloneNode(true)));
+    richSec.querySelectorAll('p').forEach((p) => {
+      const clone = p.cloneNode(true);
+      clone.querySelectorAll('a').forEach((a) => { a.href = localizeHref(a.href); });
+      rich.append(clone);
+    });
   }
 
   // 3-4. navs
   const fill = (sec, navEl) => {
     if (!sec) return;
-    sec.querySelectorAll('a').forEach((a) => navEl.append(externalize(a.cloneNode(true))));
+    sec.querySelectorAll('a').forEach((a) => {
+      const link = a.cloneNode(true);
+      link.href = localizeHref(link.href);
+      navEl.append(externalize(link));
+    });
   };
   fill(topNavSec, root.querySelector('.f-top'));
   fill(listNavSec, root.querySelector('.f-list'));

@@ -17,6 +17,8 @@
  * yields at least as many entries as the authored fallback rows it renders
  * from the index, otherwise the authored rows ship (pre-wave-2 state).
  */
+import { localizeHref } from '../../scripts/scripts.js';
+
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 function formatDate(raw) {
@@ -125,7 +127,7 @@ export default async function decorate(block) {
     slots.crumbs.links.forEach((a) => {
       const li = document.createElement('li');
       const link = document.createElement('a');
-      link.href = a.href;
+      link.href = localizeHref(a.href);
       const span = document.createElement('span');
       span.textContent = a.textContent.trim();
       link.append(span);

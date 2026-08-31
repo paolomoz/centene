@@ -167,6 +167,25 @@ function decorateExternalLinks(main) {
 }
 
 /**
+ * Rewrites source-site (centene.com) URLs to origin-relative paths so
+ * navigation stays on the serving domain (aem.page / aem.live / prod).
+ * Authored content keeps fully-qualified URLs (D4); code extracts pathnames.
+ * Subdomains (jobs., investors.) stay absolute/external.
+ * @param {string} href The authored href
+ * @returns {string} The localized href
+ */
+export function localizeHref(href) {
+  try {
+    const u = new URL(href, window.location.href);
+    if (/^(www\.)?centene\.com$/.test(u.hostname)) {
+      const p = u.pathname.replace(/\.html$/, '').replace(/_+/g, '-').replace(/-{2,}/g, '-');
+      return (p || '/') + u.search + u.hash;
+    }
+  } catch { /* malformed — leave as authored */ }
+  return href;
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */

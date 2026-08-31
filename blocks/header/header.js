@@ -1,4 +1,5 @@
 import { getMetadata } from '../../scripts/aem.js';
+import { localizeHref } from '../../scripts/scripts.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 /**
@@ -25,6 +26,10 @@ function buildNavList(sourceUl, level) {
     if (a) {
       const link = a.cloneNode(true);
       link.className = level === 1 ? 'l1-link' : '';
+      link.href = localizeHref(link.href);
+      // live header nav carries NO external-link glyphs (fragment decoration
+      // side-effect) — external targets (jobs., investors.) stay external
+      link.querySelectorAll('i.link-external, .sr-only').forEach((n) => n.remove());
       wrap.append(link);
     }
     if (sub) {
@@ -104,7 +109,10 @@ export default async function decorate(block) {
   const toolsUl = wrapper.querySelector('.topmenu ul');
   toolLinks.forEach((a) => {
     const li = document.createElement('li');
-    li.append(a.cloneNode(true));
+    const link = a.cloneNode(true);
+    link.href = localizeHref(link.href);
+    link.querySelectorAll('i.link-external, .sr-only').forEach((n) => n.remove());
+    li.append(link);
     toolsUl.append(li);
   });
 
